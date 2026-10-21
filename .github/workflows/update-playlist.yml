@@ -1,0 +1,101 @@
+name: Update Mega IPTV Playlist
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 */6 * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Build merged playlist
+        shell: python
+        run: |
+          import urllib.request
+          from pathlib import Path
+
+          sources = [
+              ("IPTV-ORG WORLD", "https://iptv-org.github.io/iptv/index.m3u"),
+              ("FREE-TV", "https://raw.githubusercontent.com/Free-TV/IPTV/master/playlist.m3u8"),
+              ("PUBLIC-IPTV", "https://raw.githubusercontent.com/freecasthub/public-iptv/main/playlist.m3u"),
+              ("GEORGIA EXTRA", "https://raw.githubusercontent.com/AnikuHere/geo-iptv/main/georgia_channels.m3u"),
+              ("FAST TV EXTRA", "https://raw.githubusercontent.com/RW1986/IPTV/main/lineup.m3u8"),
+          ]
+
+          def download(url):
+              req = urllib.request.Request(
+                  url,
+                  headers={"User-Agent": "Mozilla/5.0 MegaIPTVBuilder/1.0"},
+              )
+              with urllib.request.urlopen(req, timeout=45) as r:
+                  return r.read().decode("utf-8", errors="replace")
+
+          seen = set()
+          out = ["#EXTM3U"]
+          total = 0
+
+          for name, url in sources:
+              print(f"Downloading {name}: {url}")
+              try:
+                  text = download(url)
+              except Exception as e:
+                  print(f"WARNING: could not load {name}: {e}")
+                  continue
+
+              pending = []
+              in_entry = False
+              added = 0
+
+              for raw in text.splitlines():
+                  line = raw.strip()
+                  if not line:
+                      continue
+
+                  if line.upper().startswith("#EXTINF"):
+                      pending = [line]
+                      in_entry = True
+                      continue
+
+                  if in_entry and line.startswith("#"):
+                      pending.append(line)
+                      continue
+
+                  if in_entry and not line.startswith("#"):
+                      stream_url = line
+                      if stream_url.lower().startswith(("http://", "https://", "rtmp://", "rtsp://")):
+                          if stream_url not in seen:
+                              seen.add(stream_url)
+                              out.extend(pending)
+                              out.append(stream_url)
+                              added += 1
+                              total += 1
+                      pending = []
+                      in_entry = False
+
+              print(f"Added {added} unique streams from {name}")
+
+          Path("ALL_TV_PLUS_SPORTS.m3u").write_text(
+              "\n".join(out) + "\n",
+              encoding="utf-8",
+          )
+          print(f"Total unique streams: {total}")
+
+      - name: Commit updated playlist
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add ALL_TV_PLUS_SPORTS.m3u
+          if git diff --cached --quiet; then
+            echo "No playlist changes."
+          else
+            git commit -m "Auto-update IPTV playlist"
+            git push
+          fi
