@@ -1,4 +1,4 @@
-name: Update Mega IPTV Playlist
+name: Update Mega IPTV Playlist V2
 
 on:
   workflow_dispatch:
@@ -11,52 +11,83 @@ permissions:
 jobs:
   build:
     runs-on: ubuntu-latest
+    timeout-minutes: 15
 
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Build merged playlist
+      - name: Build V2 merged playlist
         shell: python
         run: |
+          import time
           import urllib.request
           from pathlib import Path
 
           sources = [
+              # Keep everything from V1
               ("IPTV-ORG WORLD", "https://iptv-org.github.io/iptv/index.m3u"),
               ("FREE-TV", "https://raw.githubusercontent.com/Free-TV/IPTV/master/playlist.m3u8"),
               ("PUBLIC-IPTV", "https://raw.githubusercontent.com/freecasthub/public-iptv/main/playlist.m3u"),
               ("GEORGIA EXTRA", "https://raw.githubusercontent.com/AnikuHere/geo-iptv/main/georgia_channels.m3u"),
               ("FAST TV EXTRA", "https://raw.githubusercontent.com/RW1986/IPTV/main/lineup.m3u8"),
+
+              # Extra free/public FAST sources
+              ("PLUTO TV GLOBAL", "https://raw.githubusercontent.com/BuddyChewChew/app-m3u-generator/main/playlists/plutotv_all.m3u"),
+              ("PLEX TV GLOBAL", "https://raw.githubusercontent.com/BuddyChewChew/app-m3u-generator/main/playlists/plex_all.m3u"),
+              ("SAMSUNG TV PLUS GLOBAL", "https://raw.githubusercontent.com/BuddyChewChew/app-m3u-generator/main/playlists/samsungtvplus_all.m3u"),
+              ("ROKU CHANNEL", "https://raw.githubusercontent.com/BuddyChewChew/app-m3u-generator/main/playlists/roku_all.m3u"),
+              ("TUBI LIVE TV", "https://raw.githubusercontent.com/BuddyChewChew/app-m3u-generator/main/playlists/tubi_all.m3u"),
+              ("XUMO FAST", "https://raw.githubusercontent.com/BuddyChewChew/xumo-playlist-generator/refs/heads/main/playlists/xumo_playlist.m3u"),
+              ("LOCAL NOW", "https://www.apsattv.com/localnow.m3u"),
           ]
 
-          def download(url):
-              req = urllib.request.Request(
-                  url,
-                  headers={"User-Agent": "Mozilla/5.0 MegaIPTVBuilder/1.0"},
-              )
-              with urllib.request.urlopen(req, timeout=45) as r:
-                  return r.read().decode("utf-8", errors="replace")
+          def download(url, tries=3):
+              last_error = None
+              for attempt in range(1, tries + 1):
+                  try:
+                      req = urllib.request.Request(
+                          url,
+                          headers={
+                              "User-Agent": "Mozilla/5.0 MegaIPTVBuilder/2.1",
+                              "Accept": "*/*",
+                          },
+                      )
+                      with urllib.request.urlopen(req, timeout=50) as response:
+                          return response.read().decode("utf-8", errors="replace")
+                  except Exception as exc:
+                      last_error = exc
+                      print(f"Attempt {attempt}/{tries} failed: {url} -> {exc}")
+                      if attempt < tries:
+                          time.sleep(2 * attempt)
+              raise last_error
 
-          seen = set()
-          out = ["#EXTM3U"]
+          seen_urls = set()
+          output = ["#EXTM3U"]
+          report = []
           total = 0
 
           for name, url in sources:
-              print(f"Downloading {name}: {url}")
+              print(f"\n=== {name} ===")
               try:
                   text = download(url)
-              except Exception as e:
-                  print(f"WARNING: could not load {name}: {e}")
+              except Exception as exc:
+                  line = f"{name}: FAILED - {exc}"
+                  print(line)
+                  report.append(line)
                   continue
 
               pending = []
               in_entry = False
               added = 0
+              duplicates = 0
 
               for raw in text.splitlines():
                   line = raw.strip()
                   if not line:
+                      continue
+
+                  if line.upper().startswith("#EXTM3U"):
                       continue
 
                   if line.upper().startswith("#EXTINF"):
@@ -70,30 +101,47 @@ jobs:
 
                   if in_entry and not line.startswith("#"):
                       stream_url = line
-                      if stream_url.lower().startswith(("http://", "https://", "rtmp://", "rtsp://")):
-                          if stream_url not in seen:
-                              seen.add(stream_url)
-                              out.extend(pending)
-                              out.append(stream_url)
+
+                      if stream_url.lower().startswith(
+                          ("http://", "https://", "rtmp://", "rtsp://")
+                      ):
+                          if stream_url not in seen_urls:
+                              seen_urls.add(stream_url)
+                              output.extend(pending)
+                              output.append(stream_url)
                               added += 1
                               total += 1
+                          else:
+                              duplicates += 1
+
                       pending = []
                       in_entry = False
 
-              print(f"Added {added} unique streams from {name}")
+              result = f"{name}: added={added}, duplicate_urls_skipped={duplicates}"
+              print(result)
+              report.append(result)
+
+          if total == 0:
+              raise RuntimeError("No streams were generated. Existing playlist will not be overwritten.")
 
           Path("ALL_TV_PLUS_SPORTS.m3u").write_text(
-              "\n".join(out) + "\n",
+              "\n".join(output) + "\n",
               encoding="utf-8",
           )
-          print(f"Total unique streams: {total}")
+
+          Path("BUILD_REPORT.txt").write_text(
+              "MEGA IPTV V2 BUILD REPORT\n"
+              "=========================\n"
+              + "\n".join(report)
+              + f"\n\nTOTAL UNIQUE STREAM URLS: {total}\n",
+              encoding="utf-8",
+          )
+
+          print(f"\nTOTAL UNIQUE STREAM URLS: {total}")
 
       - name: Commit updated playlist
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add ALL_TV_PLUS_SPORTS.m3u
-          if git diff --cached --quiet; then
-            echo "No playlist changes."
-          else
-            git commit -m "Auto-update IPTV playlist"
+          git add ALL_TV_PLUS_SPORTS.m3u BUILD_REPORT.txt
+          git diff --cached --quiet && echo "No playlist changes." || (git commit -m "Auto-update Mega IPTV V2" && git push)
