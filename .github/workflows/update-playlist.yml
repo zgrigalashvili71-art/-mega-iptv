@@ -97,5 +97,3 @@ jobs:
             echo "No playlist changes."
           else
             git commit -m "Auto-update IPTV playlist"
-            git push
-          fi
