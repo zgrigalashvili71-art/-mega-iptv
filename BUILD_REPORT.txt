@@ -5,12 +5,12 @@ FREE-TV: added=1310, duplicate_urls_skipped=708
 PUBLIC-IPTV: added=32, duplicate_urls_skipped=76
 GEORGIA EXTRA: added=53, duplicate_urls_skipped=17
 FAST TV EXTRA: added=617, duplicate_urls_skipped=1
-PLUTO TV GLOBAL: added=1433, duplicate_urls_skipped=1553
-PLEX TV GLOBAL: added=2872, duplicate_urls_skipped=0
+PLUTO TV GLOBAL: added=1436, duplicate_urls_skipped=1553
+PLEX TV GLOBAL: added=2882, duplicate_urls_skipped=0
 SAMSUNG TV PLUS GLOBAL: added=2653, duplicate_urls_skipped=9
-ROKU CHANNEL: added=260, duplicate_urls_skipped=0
-TUBI LIVE TV: added=181, duplicate_urls_skipped=1
-XUMO FAST: added=434, duplicate_urls_skipped=0
+ROKU CHANNEL: added=261, duplicate_urls_skipped=0
+TUBI LIVE TV: added=180, duplicate_urls_skipped=1
+XUMO FAST: added=436, duplicate_urls_skipped=0
 LOCAL NOW: added=447, duplicate_urls_skipped=0
 
-TOTAL UNIQUE STREAM URLS: 21651
+TOTAL UNIQUE STREAM URLS: 21666
