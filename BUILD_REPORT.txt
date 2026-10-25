@@ -1,16 +1,16 @@
 MEGA IPTV V2 BUILD REPORT
 =========================
-IPTV-ORG WORLD: added=11320, duplicate_urls_skipped=0
-FREE-TV: added=1342, duplicate_urls_skipped=704
+IPTV-ORG WORLD: added=11330, duplicate_urls_skipped=0
+FREE-TV: added=1347, duplicate_urls_skipped=699
 PUBLIC-IPTV: added=32, duplicate_urls_skipped=76
 GEORGIA EXTRA: added=53, duplicate_urls_skipped=17
 FAST TV EXTRA: added=617, duplicate_urls_skipped=1
 PLUTO TV GLOBAL: added=1445, duplicate_urls_skipped=1558
 PLEX TV GLOBAL: added=2882, duplicate_urls_skipped=0
 SAMSUNG TV PLUS GLOBAL: added=2652, duplicate_urls_skipped=10
-ROKU CHANNEL: added=259, duplicate_urls_skipped=0
+ROKU CHANNEL: added=258, duplicate_urls_skipped=1
 TUBI LIVE TV: added=181, duplicate_urls_skipped=1
 XUMO FAST: added=436, duplicate_urls_skipped=0
 LOCAL NOW: added=447, duplicate_urls_skipped=0
 
-TOTAL UNIQUE STREAM URLS: 21666
+TOTAL UNIQUE STREAM URLS: 21680
