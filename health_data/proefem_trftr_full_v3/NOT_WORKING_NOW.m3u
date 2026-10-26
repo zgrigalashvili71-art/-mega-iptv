@@ -372,6 +372,39 @@ https://scr013.b-cdn.net/live/3032.m3u8
 #EXTINF:-1  tvg-id="NBATV.us" tvg-logo="https://picon-13398.kxcdn.com/nbatvus.jpg" group-title="NET ➾ SPORT",NBATV ʜᴅ
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 FMP (m3u-ip.tv 2.2.4)NetSurf/2.0 AppleWebKit/537.36(m3u-ip.tv 2.2.4) Android
 https://scr013.b-cdn.net/live/8888886.m3u8
+#EXTINF: -1 tvg-id="beINSports1.tr"  tvg-logo="https://picon-13398.kxcdn.com/beinsport1hd.jpg" group-title="İNAT_SPORT",BeIN Sport 1
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 FMP (m3u-ip.tv 2.2.4)NetSurf/2.0 AppleWebKit/537.36(m3u-ip.tv 2.2.4) Android
+https://s1.inattvcom300.xyz/cdn/b1.m3u8?|user-agent=Mozilla/5.0 FMP (m3u-ip.tv 2.2.4) samsung F1833B Build/TP1A.280629.015)
+#EXTINF: -1 tvg-id="beINSports2.tr"  tvg-logo="https://picon-13398.kxcdn.com/beinsports2hd.jpg" group-title="İNAT_SPORT",BeIN Sport 2
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 FMP (m3u-ip.tv 2.2.4)NetSurf/2.0 AppleWebKit/537.36(m3u-ip.tv 2.2.4) Android
+https://s1.inattvcom300.xyz/cdn/b2.m3u8?|user-agent=Mozilla/5.0 FMP (m3u-ip.tv 2.2.4) samsung F1833B Build/TP1A.280629.015)
+#EXTINF: -1 tvg-id="beINSports3.tr"  tvg-logo="https://picon-13398.kxcdn.com/beinsports3hd.jpg" group-title="İNAT_SPORT",BeIN Sport 3
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 FMP (m3u-ip.tv 2.2.4)NetSurf/2.0 AppleWebKit/537.36(m3u-ip.tv 2.2.4) Android
+https://s1.inattvcom300.xyz/cdn/b3.m3u8?|user-agent=Mozilla/5.0 FMP (m3u-ip.tv 2.2.4) samsung F1833B Build/TP1A.280629.015)
+#EXTINF: -1 tvg-id="beINSports4.tr"  tvg-logo="https://picon-13398.kxcdn.com/beinsport4hd.jpg" group-title="İNAT_SPORT",BeIN Sport 4
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 FMP (m3u-ip.tv 2.2.4)NetSurf/2.0 AppleWebKit/537.36(m3u-ip.tv 2.2.4) Android
+https://s1.inattvcom300.xyz/cdn/b4.m3u8?|user-agent=Mozilla/5.0 FMP (m3u-ip.tv 2.2.4) samsung F1833B Build/TP1A.280629.015)
+#EXTINF: -1 tvg-id=""  tvg-logo="https://picon-13398.kxcdn.com/tivibusporttr.jpg"group-title="İNAT_SPORT",tivi1
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 FMP (m3u-ip.tv 2.2.4)NetSurf/2.0 AppleWebKit/537.36(m3u-ip.tv 2.2.4) Android
+https://s1.inattvcom300.xyz/cdn/tivi1.m3u8?|user-agent=Mozilla/5.0 FMP (m3u-ip.tv 2.2.4) samsung F1833B Build/TP1A.280629.015)
+#EXTINF: -1 tvg-id="SporSmart.tr"  tvg-logo="https://picon-13398.kxcdn.com/smartspotv.jpg" group-title="İNAT_SPORT",Smart Spor 1
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 FMP (m3u-ip.tv 2.2.4)NetSurf/2.0 AppleWebKit/537.36(m3u-ip.tv 2.2.4) Android
+https://s1.inattvcom300.xyz/cdn/sporsmart.m3u8?|user-agent=Mozilla/5.0 FMP (m3u-ip.tv 2.2.4) samsung F1833B Build/TP1A.280629.015)
+#EXTINF: -1 tvg-id="SporSmart.tr"  tvg-logo="https://picon-13398.kxcdn.com/smartspotv.jpg" group-title="İNAT_SPORT",Smart Spor 2
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 FMP (m3u-ip.tv 2.2.4)NetSurf/2.0 AppleWebKit/537.36(m3u-ip.tv 2.2.4) Android
+https://s1.inattvcom300.xyz/cdn/sporsmart2.m3u8?|user-agent=Mozilla/5.0 FMP (m3u-ip.tv 2.2.4) samsung F1833B Build/TP1A.280629.015)
+#EXTINF: -1 tvg-id="SSport.tr"  tvg-logo="https://picon-13398.kxcdn.com/ssporttr.jpg" group-title="İNAT_SPORT",SaraN Sport 1
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 FMP (m3u-ip.tv 2.2.4)NetSurf/2.0 AppleWebKit/537.36(m3u-ip.tv 2.2.4) Android
+https://s1.inattvcom300.xyz/cdn/ssport.m3u8?|user-agent=Mozilla/5.0 FMP (m3u-ip.tv 2.2.4) samsung F1833B Build/TP1A.280629.015)
+#EXTINF: -1 tvg-id="SSport.tr"  tvg-logo="https://picon-13398.kxcdn.com/ssporttr.jpg" group-title="İNAT_SPORT",SaraN Sport 2
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 FMP (m3u-ip.tv 2.2.4)NetSurf/2.0 AppleWebKit/537.36(m3u-ip.tv 2.2.4) Android
+https://s1.inattvcom300.xyz/cdn/ssport2.m3u8?|user-agent=Mozilla/5.0 FMP (m3u-ip.tv 2.2.4) samsung F1833B Build/TP1A.280629.015)
+#EXTINF: -1 tvg-id="Eurosport1.tr"  tvg-logo="https://picon-13398.kxcdn.com/eurosport1hd.jpg" group-title="İNAT_SPORT",Euro Sport 1
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 FMP (m3u-ip.tv 2.2.4)NetSurf/2.0 AppleWebKit/537.36(m3u-ip.tv 2.2.4) Android
+https://s1.inattvcom300.xyz/cdn/eu1.m3u8?|user-agent=Mozilla/5.0 FMP (m3u-ip.tv 2.2.4) samsung F1833B Build/TP1A.280629.015)
+#EXTINF: -1 tvg-id="Eurosport2.tr"  tvg-logo="https://picon-13398.kxcdn.com/eurosport2hd.jpg" group-title="İNAT_SPORT",Euro Sport 2
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 FMP (m3u-ip.tv 2.2.4)NetSurf/2.0 AppleWebKit/537.36(m3u-ip.tv 2.2.4) Android
+https://s1.inattvcom300.xyz/cdn/eu2.m3u8?|user-agent=Mozilla/5.0 FMP (m3u-ip.tv 2.2.4) samsung F1833B Build/TP1A.280629.015)
 #EXTINF:-1 tvg-id="GOLTV.tr" tvg-name="▬ GOL TV ▬" tvg-logo="https://picon-13398.kxcdn.com/beinmediagroupflag.jpg" group-title="TARAFTARYUM ➾ SPORT",▬ GOL TV ▬
 https://new.cache-stream.workers.dev/stream/qfyam6JjSDE/live.m3u8
 #EXTINF:-1 tvg-id="TRT1.tr"tvg-name="TRT 1 HD" tvg-logo="https://picon-13398.kxcdn.com/trt1hdtr.jpg"tvg-url="" group-title="TARAFTARYUM ➾ SPORT",TRT1 ʜᴅ

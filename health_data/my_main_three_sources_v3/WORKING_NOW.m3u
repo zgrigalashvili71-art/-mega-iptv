@@ -6975,6 +6975,8 @@ https://5e85d90130e77.streamlock.net/6028/6028/playlist.m3u8
 https://srv1.streamingo.pl/memfs/be50f17e-6579-4bdf-86b1-31207aec85b8.m3u8
 #EXTINF:-1 group-title="General" tvg-source="SHAJON Universal",Telewizja Regionalna Zary
 https://tvregfull.mailfull.pl/tvregfull/memfs/e64b3e05-649c-4939-9ff6-584e79285ccd_output_0.m3u8
+#EXTINF:-1 group-title="Entertainment" tvg-source="SHAJON Universal",Telugu One (1080p)
+https://teluguone-yupptv.vgcdn.net/v1/019be9e3f04d1ea55784338b5c3e89/019be9e4474415fc60e93459e1e808/teluguone_2500k.m3u8
 #EXTINF:-1 group-title="General" tvg-source="SHAJON Universal",Television Caribbean (1080p)
 https://live.kingdom-tv.com:3545/stream/play.m3u8
 #EXTINF:-1 group-title="General" tvg-source="SHAJON Universal",Telewizja Lubań (720p) [Not 24/7]

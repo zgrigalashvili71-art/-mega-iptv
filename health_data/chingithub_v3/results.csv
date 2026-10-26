@@ -8,6 +8,7 @@ ESPN,SPORTS,,http://stream.bottledesk.net/6500/index.m3u8,WORKING_NOW,3,2,2,True
 NBA TV,SPORTS,,https://cdn1.ayitistream.com/NBATV/index.m3u8,NOT_WORKING_NOW,3,0,2,False,False,False,False,0.0,404,HTTP 404 hard failure | try 1: probe failed: https://cdn1.ayitistream.com/NBATV/index.m3u8: Server returned 404 Not Found | try 2: probe failed: https://cdn1.ayitistream.com/NBATV/index.m3u8: Server returned 404 Not Found
 Bloomberg TV,24/7 WORLD NEWS,,https://www.bloomberg.com/media-manifest/streams/asia.m3u8,WORKING_NOW,3,2,2,True,True,True,True,14.14,206,2/3 playback checks succeeded
 Bloomberg Originals (1080p),24/7 WORLD NEWS,,https://bloomberg.com/media-manifest/streams/qt.m3u8,WORKING_NOW,3,2,2,True,True,True,True,23.56,206,2/3 playback checks succeeded
+MS NOW,24/7 WORLD NEWS,,https://tvsen6.aynaott.com/msnbc/index.m3u8,WORKING_NOW,3,2,2,True,True,True,True,16.86,206,2/3 playback checks succeeded
 BBC World News (GB),24/7 WORLD NEWS,,https://vs-hls-push-ww-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_news_channel_hd/t=3840/v=pv14/b=5070016/main.m3u8,WORKING_NOW,3,2,2,True,True,True,True,9.36,206,2/3 playback checks succeeded
 DW News,24/7 WORLD NEWS,,https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/stream02/streamPlaylist.m3u8,WORKING_NOW,3,2,2,True,True,True,True,5.98,200,2/3 playback checks succeeded
 France i24 News,24/7 WORLD NEWS,,https://live.france24.com/hls/live/2037218-b/F24_EN_HI_HLS/master_5000.m3u8,WORKING_NOW,3,2,2,True,True,True,True,7.7,200,2/3 playback checks succeeded

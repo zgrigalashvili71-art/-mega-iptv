@@ -608,6 +608,8 @@ https://live-hls-web-aja2-gcp.thehlive.com/AJA2/index.m3u8
 https://live-hls-apps-aja-fa.getaj.net/AJA/01.m3u8
 #EXTINF:-1 tvg-id="AlJazeera.qa@English" tvg-logo="https://i.imgur.com/7bRVpnu.png" group-title="News",Al Jazeera English (1080p)
 https://live-hls-apps-aje-fa.getaj.net/AJE/index.m3u8
+#EXTINF:-1 tvg-id="AlJazeera.qa@EnglishHD" tvg-logo="https://i.imgur.com/7bRVpnu.png" group-title="News",Al Jazeera English HD (576p)
+http://stream.mcquack.net/131/index.m3u8
 #EXTINF:-1 tvg-id="AlJazeeraMubasher24.qa@SD" tvg-logo="https://i.imgur.com/LMCcIZ2.png" group-title="News",Al Jazeera Mubasher 24 (1080p)
 https://live-hls-apps-ajm24-fa.getaj.net/AJM24/index.m3u8
 #EXTINF:-1 tvg-id="AlJazeeraMubasher.qa@SD" tvg-logo="https://i.imgur.com/X80DQvF.png" group-title="News",Al Jazeera Mubasher (1080p)
@@ -755,6 +757,8 @@ https://5aafcc5de91f1.streamlock.net/alkarmatv.com/alkarmaus.smil/playlist.m3u8
 https://live.kwikmotion.com/sbrksakhuzamaradiolive/srpkhuzama/playlist.m3u8
 #EXTINF:-1 tvg-id="AllRealitybyWEtv.us@SD" tvg-logo="https://i.imgur.com/HZTz5HJ.png" group-title="Series",All Reality by WE tv (720p)
 https://jmp2.uk/plu-5e82530945600e0007ca076c.m3u8
+#EXTINF:-1 tvg-id="AllTimeMovies.in@SD" tvg-logo="https://yt3.googleusercontent.com/U4INXhwmEUOABHoemQBpI6C9t4jb9iBmDvZ3ZT3lAb9Au_jVl32NL8XDpy-9cBjRJ2LP69Ovzg=s900-c-k-c0x00ffffff-no-rj" group-title="Movies",All Time Movies (576p)
+https://tvsen6.aynaott.com/a2cKGQtB/index.m3u8
 #EXTINF:-1 tvg-id="AllWeddingsWEtv.us@SD" tvg-logo="https://i.imgur.com/OjLCew5.png" group-title="Series",All Weddings WE tv
 https://amc-allweddings-1-us.xumo.wurl.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="AllehassenChris.de@DACH" tvg-logo="https://images.pluto.tv/channels/622f6e1e2792150007e0b2ff/colorLogoPNG.png" group-title="Comedy",Alle hassen Chris
@@ -1416,6 +1420,8 @@ https://www.btv.ro/hls/banat-tv.m3u8
 http://181.78.106.127:5000/play/ca064/index.m3u8
 #EXTINF:-1 tvg-id="BandungTV.id@SD" tvg-logo="https://i.postimg.cc/JzqSzcj9/200px-Logo-bdg-tv-2016.png" group-title="General",Bandung TV (360p)
 http://202.150.153.254:65500/bandungtvWEBSITE.m3u8
+#EXTINF:-1 tvg-id="BanglaVision.bd@SD" tvg-logo="https://i.imgur.com/nCWgp38.png" group-title="General",Bangla Vision (720p)
+https://tvsen5.aynaott.com/banglavision/index.m3u8
 #EXTINF:-1 tvg-id="BaniVision.do@HD" tvg-logo="https://www.banivision.com/wp-content/uploads/2023/04/Bani-Vision-Favicon.png" group-title="General",Bani Vision (720p) [Not 24/7]
 https://videostream.shockmedia.com.ar/hls/banivision/banivision.m3u8
 #EXTINF:-1 tvg-id="BanjarTV.id@SD" tvg-logo="https://i.imgur.com/TA76a10.png" group-title="Undefined",Banjar TV (720p) [Not 24/7]
@@ -3023,6 +3029,8 @@ http://138.94.3.106:8000/play/a02o/index.m3u8
 https://cloudvideo.servers10.com:8081/latinchaneltv/index.m3u8
 #EXTINF:-1 tvg-id="CNCValledupar.co@SD" tvg-logo="https://i.imgur.com/y5N6PCg.jpg" group-title="General",CNC Valledupar (720p)
 https://live20.bozztv.com/akamaissh101/ssh101/cncvalledupar1/playlist.m3u8
+#EXTINF:-1 tvg-id="CNN.us@SD" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/CNN.png" group-title="News",CNN (720p)
+https://tvsen6.aynaott.com/cnn/index.m3u8
 #EXTINF:-1 tvg-id="CNNBrasil.br@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/CNN_Brasil.svg/960px-CNN_Brasil.svg.png" group-title="News",CNN Brasil (1080p)
 https://d25usgadhphvwi.cloudfront.net/hls/main.m3u8
 #EXTINF:-1 tvg-id="CNNChile.cl@SD" tvg-logo="https://i.imgur.com/t4EXijz.png" group-title="News",CNN Chile (1080p)
@@ -3888,6 +3896,8 @@ https://imob.dunyanews.tv/livehd/ngrp:dunyalivehd_2_all/playlist.m3u8
 https://ukintl.dunyanews.tv/liveuk/ngrp:dunyalive_all/playlist.m3u8
 #EXTINF:-1 tvg-id="Dunyoboylab.uz@SD" tvg-logo="https://i.imgur.com/KArB5U6.png" group-title="General",Dunyo bo'ylab (1080p)
 https://stream8.cinerama.uz/1006/tracks-v1a1/playlist.m3u8
+#EXTINF:-1 tvg-id="DurontoTV.bd@SD" tvg-logo="https://i.imgur.com/gXsddRK.png" group-title="Kids",Duronto TV (720p)
+https://tvsen6.aynaott.com/6xyZ3N4oHv2KBJdB6W4p/index.m3u8
 #EXTINF:-1 tvg-id="DutaTV.id@SD" tvg-logo="https://i.imgur.com/B4JW54M.png" group-title="General",Duta TV (360p) [Not 24/7]
 https://dutatv.siar.us/dutatv/live/playlist.m3u8
 #EXTINF:-1 tvg-id="DVBTV.mm@SD" tvg-logo="https://i.imgur.com/VdezHOv.png" group-title="News",DVB TV (720p) [Geo-blocked]
@@ -4651,6 +4661,10 @@ https://aegis-cloudfront-1.tubi.video/cc394198-7bde-43e8-b186-875bc0eb3037/index
 https://pubads.g.doubleclick.net/ssai/event/1kItNgwtQUe54NjjBiiTGg/master.m3u8
 #EXTINF:-1 tvg-id="Fox.us@WXXVTV" tvg-logo="https://imgx.fubo.tv/station_logos/fox_c.png" group-title="General",Fox (United States) WXXV-TV (720p)
 https://townnews.g-mana.live/media/c8c354e0-672f-4368-a17d-a862ee98af4a/main.m3u8
+#EXTINF:-1 tvg-id="FoxBusinessNetwork.us@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Fox_Business.svg/960px-Fox_Business.svg.png" group-title="Business",Fox Business Network (576p)
+https://tvsen6.aynaott.com/foxbusiness/index.m3u8
+#EXTINF:-1 tvg-id="FoxNewsChannel.us@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Fox_News_Channel_logo.svg/960px-Fox_News_Channel_logo.svg.png" group-title="News",Fox News Channel (1080p)
+https://tvsen6.aynaott.com/foxnews/index.m3u8
 #EXTINF:-1 tvg-id="FoxNewsRadio.us@SD" tvg-logo="https://radio.foxnews.com/wp-content/uploads/2017/10/default_logo-150x150.png" group-title="News",Fox News Radio (720p)
 https://radiovid.foxnews.com/hls/live/661547/RADIOVID/index.m3u8
 #EXTINF:-1 tvg-id="FoxSoul.us@SD" tvg-logo="https://i.imgur.com/YIamDGn.png" group-title="Culture",Fox Soul (1080p)
@@ -4829,6 +4843,8 @@ https://streaming.aurora.enhanced.live/live/mpc/enl0eG1mLmVncmVzcy5mZDJ2eHI=/out
 https://video.uitzending.tv:19360/gigantfm/gigantfm.m3u8
 #EXTINF:-1 tvg-id="Gigavision.bo@SantaCruz" tvg-logo="https://i.imgur.com/fE3BkcT.png" group-title="Undefined",Gigavision (1080p)
 http://158.172.155.130:8000/play/a0e7/index.m3u8
+#EXTINF:-1 tvg-id="GiggleMug.us@SD" tvg-logo="https://i.imgur.com/NbNHJXo.png" group-title="Kids",Giggle Mug (576p)
+https://tvsen6.aynaott.com/ytv/index.m3u8
 #EXTINF:-1 tvg-id="GillettePublicAccessTelevisionChannel189.us@SD" tvg-logo="https://yt3.googleusercontent.com/ytc/AGIKgqMoPQ32FU8R2lR71LXhYrC3tCHfjJEXcm6E9PEO=s176-c-k-c0x00ffffff-no-rj" group-title="Education",Gillette Public Access Television Channel 189
 https://securestream11.champds.com/LIVE/GilletteWYLIVE3/GilletteWYLIVE3.m3u8
 #EXTINF:-1 tvg-id="GillettePublicAccessTelevisionChannel190.us@SD" tvg-logo="https://yt3.googleusercontent.com/ytc/AGIKgqMoPQ32FU8R2lR71LXhYrC3tCHfjJEXcm6E9PEO=s176-c-k-c0x00ffffff-no-rj" group-title="General",Gillette Public Access Television Channel 190
@@ -5593,6 +5609,8 @@ http://23.237.104.106:8080/USA_ION/index.m3u8
 http://stream.ioniantv.gr:8081/ionian/live/playlist.m3u8
 #EXTINF:-1 tvg-id="IQChannel.cr@SD" tvg-logo="https://i.imgur.com/hwuaomt.png" group-title="Music",IQ Channel (720p)
 https://rtmp.info/iqtv/envivo/playlist.m3u8
+#EXTINF:-1 tvg-id="IqraBangla.uk@SD" tvg-logo="https://i.imgur.com/BZBZAeC.png" group-title="Religious",Iqra Bangla (576p)
+https://tvsen3.aynaott.com/EuEy5mBW/index.m3u8
 #EXTINF:-1 tvg-id="IqraaAfricaEurope.sa@SD" tvg-logo="https://i.imgur.com/nUlZvSe.png" group-title="Religious",Iqraa Africa & Europe (1080p)
 https://playlist.fasttvcdn.com/pl/dlkqw1ftuvuuzkcb4pxdcg/Iqraafasttv1/playlist.m3u8
 #EXTINF:-1 tvg-id="IqraaArabic.sa@SD" tvg-logo="https://i.imgur.com/HPVsIa4.png" group-title="Religious",Iqraa Arabic (1080p) [Not 24/7]
@@ -6590,6 +6608,9 @@ https://jmp2.uk/plu-67f7d328efc5473b6b4ac5f4.m3u8
 #EXTINF:-1 tvg-id="M1.hu@HD" tvg-logo="https://i.imgur.com/r4tgKZK.png" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" group-title="News",M1 (Hungary) HD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
 http://88.212.15.17/live/test_m_1_hungary_1200_atk/playlist.m3u8
+#EXTINF:-1 tvg-id="M1.ua@SD" tvg-logo="https://i.imgur.com/wbRdUw8.png" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" group-title="Music",M1 (Ukraine) (1080p)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
+http://stream.mcquack.net/218/index.m3u8
 #EXTINF:-1 tvg-id="M2.hu@SD" tvg-logo="https://i.imgur.com/B0nYT0l.png" group-title="Entertainment",M2 (Hungary) (1080p)
 http://88.212.15.17/live/m2_hun/index.m3u8
 #EXTINF:-1 tvg-id="m2oTV.it@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Radio_m2o_-_Logo_2019.svg/500px-Radio_m2o_-_Logo_2019.svg.png" group-title="Music",m2o TV (1080p)
@@ -6936,6 +6957,8 @@ https://5f22d76e220e1.streamlock.net/medjugorjeitaliatv/medjugorjeitaliatv/playl
 http://15.204.246.24:8080/Mega2HD/index.m3u8
 #EXTINF:-1 tvg-id="Mega.cl@SD" tvg-logo="https://i.imgur.com/RlZfR84.png" group-title="General",Mega (Chile) (1080p)
 http://tr.live.clarovtrcdn.vtrplay.com/megahdchi/vxfmt=dp/playlist.m3u8?device_profile=STB_HLS_VCAS_LIVE_HD
+#EXTINF:-1 tvg-id="Mega.ua@SD" tvg-logo="https://i.imgur.com/Hsr0EvO.png" group-title="Undefined",Mega (Ukraine) (1080p)
+http://stream.mcquack.net/325/index.m3u8
 #EXTINF:-1 tvg-id="MegaCineTV.do@HD" tvg-logo="https://www.vivalivetv.com/public/files/shows/0/1/2893-294x165-FFFFFF.jpg" group-title="Movies",Mega Cine TV (1080p)
 https://cnn.hostlagarto.com/megacinetv/playlist.m3u8
 #EXTINF:-1 tvg-id="MegaFiccion.cl@SD" tvg-logo="https://i.imgur.com/aQdhJie.png" group-title="Series",Mega Ficcion (1080p)
@@ -7011,6 +7034,8 @@ https://video1.earthcam.com/myearthcam/075ff02f78c35af55564cf3af3b3f750.flv/play
 https://tglmp04.akamaized.net/out/v1/898b1cbac7c747e3b1f3deb460e9b67e/manifest.mpd
 #EXTINF:-1 tvg-id="MexiquenseTV.mx@SD" tvg-logo="https://i.imgur.com/iVfzakA.png" group-title="General",Mexiquense TV (720p)
 https://5e50264bd6766.streamlock.net/mexiquense/videomexiquense/playlist.m3u8
+#EXTINF:-1 tvg-id="MezzoLive.fr@SD" tvg-logo="https://i.imgur.com/H9ytKPN.png" group-title="Music",Mezzo Live (1080p)
+http://stream.mcquack.net/276/index.m3u8
 #EXTINF:-1 tvg-id="mfm.lb@HD" tvg-logo="https://www.mtv.com.lb/images/header/mfm-logo.svg" group-title="Music",mfm (1080p)
 https://hms.pfs.gdn/hms/v1/broadcast/hlmvmp2hfriode891/playlist.m3u8
 #EXTINF:-1 tvg-id="Mh1Music.in@SD" tvg-logo="https://dtil.tmsimg.com/assets/s143539_ld_h15_aa.png?lock=720x540" group-title="Music",Mh 1 Music (720p)
@@ -7258,6 +7283,8 @@ https://jmp2.uk/plu-64a3d96f060e830008af6745.m3u8
 https://moviesphereuk-samsunguk.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="Moymir.ru@SD" tvg-logo="https://www.cableman.ru/sites/default/files/MM-TV_logo-1%5B1509%5D.png" group-title="Shop",Moy mir (720p)
 https://moymir.ru/hls/onair.m3u8
+#EXTINF:-1 tvg-id="Moyastikhiya.ru@HD" tvg-logo="https://i.imgur.com/Sl8c9eB.png" group-title="Travel",Moya stikhiya HD (1080p)
+http://stream.mcquack.net/141/index.m3u8
 #EXTINF:-1 tvg-id="MoziPlus.hu@SD" tvg-logo="https://i.imgur.com/LtCnPFJ.png" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" group-title="Movies",Mozi+
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
 http://88.212.15.17/live/mozi_plusz/index.m3u8
@@ -7273,6 +7300,8 @@ https://5bf7b725107e5.streamlock.net/mqtv/mqtv/playlist.m3u8
 https://livestream.telvue.com/madrivervalleytv1/f7b44cfafd5c52223d5498196c8a2e7b.sdp/playlist.m3u8
 #EXTINF:-1 tvg-id="MRVTVChannel45.us@SD" tvg-logo="https://i.imgur.com/QZcENP2.png" group-title="General",MRVTV Channel 45 (720p)
 https://livestream.telvue.com/madrivervalleytv2/f7b44cfafd5c52223d5498196c8a2e7b.sdp/playlist.m3u8
+#EXTINF:-1 tvg-id="MSNOW.us@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/MS_NOW_logo.svg/960px-MS_NOW_logo.svg.png" group-title="News",MS NOW (432p)
+https://tvsen6.aynaott.com/msnbc/index.m3u8
 #EXTINF:-1 tvg-id="MTC.us@SD" tvg-logo="https://i.imgur.com/JxoAR4j.png" group-title="Undefined",MTC
 https://mtchls.wns.live/hls/stream.m3u8
 #EXTINF:-1 tvg-id="MTNATV.cl@SD" tvg-logo="https://i.imgur.com/v7SA92F.png" group-title="Religious",MTNA TV
@@ -7878,6 +7907,8 @@ https://1409502578.rsc.cdn77.org/live/stream-1/chunklist.m3u8
 https://movil.ejeserver.com/live/nextv.m3u8
 #EXTINF:-1 tvg-id="NextHD.py@SD" tvg-logo="https://i.imgur.com/c2rF3SS.png" group-title="Movies;Music",Next HD (480p)
 https://live.enhdtv.com:19360/nexthd/nexthd.m3u8
+#EXTINF:-1 tvg-id="NexusTV.bd@SD" tvg-logo="https://i.imgur.com/XcJZKg4.png" group-title="General",Nexus TV (576p)
+https://tvsen6.aynaott.com/Epm7WrFa/index.m3u8
 #EXTINF:-1 tvg-id="NexxoTV.do@SD" tvg-logo="https://i.imgur.com/2OpCxa6.png" group-title="General",Nexxo TV
 https://5790d294af2dc.streamlock.net/Nexxo/Nexxo/playlist.m3u8
 #EXTINF:-1 tvg-id="NFLChannel.us@SD" tvg-logo="https://i.imgur.com/mPGtwAP.png" group-title="Sports",NFL Channel (720p)
@@ -8165,6 +8196,8 @@ https://cdn15.live-tv.cloud/ua_infinitas_tv/ntn-abr/playlist.m3u8
 https://peqk71plnjy.a.trbcdn.net/livemaster/w4kz7pki62_nts_tv/playlist.m3u8
 #EXTINF:-1 tvg-id="ntv.al@SD" tvg-logo="https://i.imgur.com/gtZLzxq.png" group-title="News",ntv (720p)
 https://protokolldns.xyz/ntv.l.i.v.e5547892023/index.m3u8
+#EXTINF:-1 tvg-id="NTV.bd@SD" tvg-logo="https://i.imgur.com/l75bDTx.png" group-title="General",NTV (Bangladesh) (720p)
+https://tvsen5.aynaott.com/xV4jEKf3D9zc/index.m3u8
 #EXTINF:-1 tvg-id="NTV.br@SD" tvg-logo="https://i.imgur.com/n79nkVC.png" group-title="Entertainment;General",NTV (Brazil) (720p)
 https://cdn.livespanel.com/nossatv/nossatv/playlist.m3u8
 #EXTINF:-1 tvg-id="NTV.ca@CJONDT" tvg-logo="https://i.imgur.com/KQtQg5y.png" group-title="General",NTV (Canada) CJON-DT (480p)
@@ -12601,6 +12634,8 @@ https://tvregfull.mailfull.pl/tvregfull/memfs/e64b3e05-649c-4939-9ff6-584e79285c
 https://srv1.streamingo.pl/memfs/be50f17e-6579-4bdf-86b1-31207aec85b8.m3u8
 #EXTINF:-1 tvg-id="Telplus.ru@SD" tvg-logo="https://i.imgur.com/1zbcZ3p.png" group-title="Undefined",Telplus (360p) [Not 24/7]
 https://streaming.astrakhan.ru/telplushd/playlist.m3u8
+#EXTINF:-1 tvg-id="TeluguOne.in@HD" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/teluguone.png" group-title="Entertainment",Telugu One (1080p)
+https://teluguone-yupptv.vgcdn.net/v1/019be9e3f04d1ea55784338b5c3e89/019be9e4474415fc60e93459e1e808/teluguone_2500k.m3u8
 #EXTINF:-1 tvg-id="TemeculaTV.us@SD" tvg-logo="https://i.imgur.com/El16S4C.png" group-title="Undefined",Temecula TV (1080p)
 https://reflect-temecula.cablecast.tv/live-2/live/stream-1/live.m3u8
 #EXTINF:-1 tvg-id="Tempe11.us@SD" tvg-logo="https://i.imgur.com/KMeHRV3.png" group-title="Undefined",Tempe 11
@@ -16177,6 +16212,8 @@ https://aegis-cloudfront-1.tubi.video/74681dcc-e6d0-4add-ad67-a22ad9c152e6/playl
 https://brlive-lh.akamaihd.net/i/bralpha_germany@119899/master.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/OOB7nrS.png" group-title="Education",Canal Educação
 https://canaleducacao-stream.ebc.com.br/index.m3u8
+#EXTINF:-1 tvg-id="rustavi2" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Rustavi_2_logo.png/250px-Rustavi_2_logo.png" group-title="Georgia (🇬🇪)",Rustavi 2
+https://live8.mar.tv/1/4rd/index.m3u8
 #EXTINF:-1 tvg-id="pirveliarxi_alt" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Pirveli_Arkhi_Logo_2022.svg/250px-Pirveli_Arkhi_Logo_2022.svg.png" group-title="Georgia (🇬🇪)",Pirveli Arxi (Alt)
 http://nue01-edge01.itdc.ge/gpb/mpegts
 #EXTINF:-1 tvg-id="formula_alt" group-title="Georgia (🇬🇪)",Formula (Playlist)
@@ -23303,6 +23340,8 @@ https://dbrb49pjoymg4.cloudfront.net/10001/99951568/hls/playlist.m3u8?ads.xumo_c
 https://live-content.xumo.com/2487/content/XM0X21WJTTV7UL/25746191/master.m3u8
 #EXTINF:-1 tvg-id="99951465" tvg-name="E! Keeping Up" tvg-logo="https://image.xumo.com/v1/channels/channel/99951465/168x168.png?type=color_onBlack" group-title="Reality TV",E! Keeping Up
 https://d4whmvwm0rdvi.cloudfront.net/10007/99951465/hls/master.m3u8?includeAssetTags=true&ads.xumo_channelId=99951465&ads.xumo_streamId=99951465&ads.channelId=99951465&ads.asnw=535279&ads.afid=440667936&ads.sfid=23858577&ads.csid=xumo_web_versantekeepingup_ssai_cro&ads._fw_coppa=0&ads.xumo_contentId=4299&ads.xumo_contentName=VersantEKeepingUp&ads.xumo_providerId=4299&ads.xumo_providerName=VersantEKeepingUp&ads.caid=&ads._fw_is_lat=0&ads._fw_us_privacy=&ads._fw_did=3e1c7035-6848-4761-ad1b-8e5fff54d3af&ads._fw_vcid2=512116:3e1c7035-6848-4761-ad1b-8e5fff54d3af&ads._fw_app_bundle=&ads._fw_app_store_url=&ads._fw_deviceMake=&ads._fw_device_model=&ads._fw_deviceType=3-Connected_TV&ads.appVersion=1.0.0&ads._fw_ifa_type=&ads.appName=xumo&ads._fw_content_category=&ads._fw_content_genre=&ads._fw_content_language=en&ads._fw_content_rating=
+#EXTINF:-1 tvg-id="99951467" tvg-name="Bad Girls Club" tvg-logo="https://image.xumo.com/v1/channels/channel/99951467/168x168.png?type=color_onBlack" group-title="Reality TV",Bad Girls Club
+https://d4whmvwm0rdvi.cloudfront.net/10007/99951467/hls/master.m3u8?includeAssetTags=true&ads.xumo_channelId=99951467&ads.xumo_streamId=99951467&ads.channelId=99951467&ads.asnw=535279&ads.afid=440668005&ads.sfid=23858505&ads.csid=xumo_web_versantbadgirlsclub_ssai_cro&ads._fw_coppa=0&ads._fw_content_category=&ads._fw_content_genre=Reality,Drama,GD,Entertainment,GV,Reality-TV,Reality Shows&ads._fw_content_language=&ads._fw_content_rating=&ads.xumo_contentId=4301&ads.xumo_contentName=VersantBadGirlsClub&ads.xumo_providerId=4301&ads.xumo_providerName=VersantBadGirlsClub&ads.caid=&ads._fw_is_lat=0&ads._fw_us_privacy=&ads._fw_did=b03f04f1-3164-45ee-8f6a-eb9df323cc86&ads._fw_vcid2=512116:b03f04f1-3164-45ee-8f6a-eb9df323cc86&ads._fw_app_bundle=&ads._fw_app_store_url=&ads._fw_deviceMake=&ads._fw_device_model=&ads._fw_deviceType=3-Connected_TV&ads.appVersion=1.0.0&ads._fw_ifa_type=&ads.appName=xumo&ads._fw_content_category=&ads._fw_content_genre=&ads._fw_content_language=en&ads._fw_content_rating=
 #EXTINF:-1 tvg-id="99951242" tvg-name="Bravo Vault" tvg-logo="https://image.xumo.com/v1/channels/channel/99951242/168x168.png?type=color_onBlack" group-title="Reality TV",Bravo Vault
 https://d4whmvwm0rdvi.cloudfront.net/10007/99951242/hls/master.m3u8?includeAssetTags=true&ads.xumo_channelId=99951242&ads.xumo_streamId=99951242&ads.channelId=99951242&ads.asnw=169843&ads.afid=380682251&ads.sfid=19194677&ads.csid=xumo_web_NBCUBravoVault_ssai_cro&ads._fw_coppa=0&ads.xumo_contentId=3934&ads.xumo_contentName=NBCUBravoVault&ads.xumo_providerId=3934&ads.xumo_providerName=NBCUBravoVault&ads.caid=&ads._fw_is_lat=0&ads._fw_us_privacy=&ads._fw_did=507e3e60-1c57-48eb-8bb9-56aabfe34543&ads._fw_vcid2=512116:507e3e60-1c57-48eb-8bb9-56aabfe34543&ads._fw_app_bundle=&ads._fw_app_store_url=&ads._fw_deviceMake=&ads._fw_device_model=&ads._fw_deviceType=3-Connected_TV&ads.appVersion=1.0.0&ads._fw_ifa_type=&ads.appName=xumo&ads._fw_content_category=&ads._fw_content_genre=&ads._fw_content_language=en&ads._fw_content_rating=
 #EXTINF:-1 tvg-id="99951243" tvg-name="Real Housewives Vault" tvg-logo="https://image.xumo.com/v1/channels/channel/99951243/168x168.png?type=color_onBlack" group-title="Reality TV",Real Housewives Vault
@@ -23315,12 +23354,16 @@ https://d10xbgdha1yz8s.cloudfront.net/10001/99951475/hls/playlist.m3u8?includeAs
 https://dbrb49pjoymg4.cloudfront.net/10001/99951484/hls/playlist.m3u8?includeAssetTags=true&ads.xumo_channelId=99951484&ads.xumo_streamId=99951484&ads.channelId=99951484&ads.channelName=AEIceRoadTruckersbyHistory&ads.caid=AEIceRoadTruckersbyHistory&ads.csid=xumo_web_AEIceRoadTruckersbyHistory_ssai&ads.genre=Reality&ads._fw_content_genre=Reality&ads._fw_coppa=0&ads.xumo_contentId=4323&ads.xumo_contentName=AEIceRoadTruckersbyHistory&ads.xumo_providerId=4323&ads.xumo_providerName=AEIceRoadTruckersbyHistory&ads.asnw=&ads.xumo_channelName=AEIceRoadTruckersbyHistory&ads._fw_h_x_country=US&ads._fw_ifa_type=&ads._fw_did=b9fd7da2-adcb-4109-8046-62306c037d39&ads.amznappId=&ads.lat=&ads.lon=&ads.os=&ads.osv=&ads._fw_is_lat=0&ads._fw_us_privacy=&ads._fw_content_category=&ads._fw_content_language=en&ads._fw_content_rating=&ads._fw_deviceMake=GitHubAction&ads._fw_device_model=PythonScript&ads.xumo_platform=web&ads.site_id=&ads.appVersion=1.0.0&ads._fw_app_bundle=web.xumo.com&ads._fw_app_store_url=&ads.appName=xumo
 #EXTINF:-1 tvg-id="99951262" tvg-name="Mayday: Air Disaster" tvg-logo="https://image.xumo.com/v1/channels/channel/99951262/168x168.png?type=color_onBlack" group-title="Reality TV",Mayday: Air Disaster
 https://dbrb49pjoymg4.cloudfront.net/10001/99951262/hls/playlist.m3u8?includeAssetTags=true&ads.xumo_channelId=99951262&ads.xumo_streamId=99951262&ads.channelId=99951262&ads.channelName=CineflixRealDisasterChannel&ads.caid=CineflixRealDisasterChannel&ads.csid=xumo_web_CineflixRealDisasterChannel_ssai&ads.genre=Reality&ads._fw_content_genre=Reality&ads._fw_coppa=0&ads.xumo_contentId=3959&ads.xumo_contentName=CineflixRealDisasterChannel&ads.xumo_providerId=3959&ads.xumo_providerName=CineflixRealDisasterChannel&ads.asnw=&ads.xumo_channelName=CineflixRealDisasterChannel&ads._fw_h_x_country=US&ads._fw_ifa_type=&ads._fw_did=27b30e41-d1f1-486e-a170-003b03acad33&ads.amznappId=&ads.lat=&ads.lon=&ads.os=&ads.osv=&ads._fw_is_lat=0&ads._fw_us_privacy=&ads._fw_content_category=&ads._fw_content_language=en&ads._fw_content_rating=&ads._fw_deviceMake=GitHubAction&ads._fw_device_model=PythonScript&ads.xumo_platform=web&ads.site_id=&ads.appVersion=1.0.0&ads._fw_app_bundle=web.xumo.com&ads._fw_app_store_url=&ads.appName=xumo
+#EXTINF:-1 tvg-id="99991625" tvg-name="All Weddings We TV" tvg-logo="https://image.xumo.com/v1/channels/channel/99991625/168x168.png?type=color_onBlack" group-title="Reality TV",All Weddings We TV
+https://d3pxo1qcgzxtxs.cloudfront.net/10005/99991625/hls/playlist.m3u8?includeAssetTags=true&ads.xumo_channelId=99991625&ads.xumo_streamId=99991625&ads.channelId=99991625&ads.channelName=&ads.csid=xumo_web_amcallweddingswetv_ssai&ads._fw_coppa=0&ads._fw_content_genre=Reality,Drama,GD,Entertainment,GV,Reality-TV,Reality Shows&ads.xumo_contentId=2653&ads.xumo_contentName=amcallweddingswetv&ads.xumo_providerId=2653&ads.xumo_providerName=amcallweddingswetv&ads._fw_is_lat=0&ads._fw_us_privacy=&ads._fw_did=:8e28e78f-c47d-4031-a732-374e6d233221&ads._fw_content_category=&ads._fw_content_language=en&ads._fw_content_rating=&ads._fw_deviceType=3-Connected_TV&ads._fw_deviceMake=GitHubAction&ads._fw_device_model=PythonScript&ads.xumo_platform=web&ads.appVersion=1.0.0&ads._fw_app_bundle=web.xumo.com&ads._fw_app_store_url=&ads._fw_ifa_type=
 #EXTINF:-1 tvg-id="99991681" tvg-name="Hell's Kitchen" tvg-logo="https://image.xumo.com/v1/channels/channel/99991681/168x168.png?type=color_onBlack" group-title="Reality TV",Hell's Kitchen
 https://live-content.xumo.com/260/content/XM0KKEBVIH5SB9/22293113/master.m3u8
 #EXTINF:-1 tvg-id="99951341" tvg-name="Untold Stories of the ER" tvg-logo="https://image.xumo.com/v1/channels/channel/99951341/168x168.png?type=color_onBlack" group-title="Reality TV",Untold Stories of the ER
 https://live-content.xumo.com/260/content/XM0BT4EGT56HTD/28858140/master.m3u8
 #EXTINF:-1 tvg-id="99951338" tvg-name="Rig TV" tvg-logo="https://image.xumo.com/v1/channels/channel/99951338/168x168.png?type=color_onBlack" group-title="Reality TV",Rig TV
 https://dbrb49pjoymg4.cloudfront.net/10001/99951338/hls/playlist.m3u8?includeAssetTags=true&ads.xumo_channelId=99951338&ads.xumo_streamId=99951338&ads.channelId=99951338&ads.channelName=FremantleRigTV&ads.caid=FremantleRigTV&ads.csid=xumo_web_FremantleRigTV_ssai&ads.genre=Reality&ads._fw_content_genre=Reality&ads._fw_coppa=0&ads.xumo_contentId=4082&ads.xumo_contentName=FremantleRigTV&ads.xumo_providerId=4082&ads.xumo_providerName=FremantleRigTV&ads.asnw=&ads.xumo_channelName=FremantleRigTV&ads._fw_h_x_country=US&ads._fw_ifa_type=&ads._fw_did=4bd1813d-0a3b-4a35-8408-f5286492e22f&ads.amznappId=&ads.lat=&ads.lon=&ads.os=&ads.osv=&ads._fw_is_lat=0&ads._fw_us_privacy=&ads._fw_content_category=&ads._fw_content_language=en&ads._fw_content_rating=&ads._fw_deviceMake=GitHubAction&ads._fw_device_model=PythonScript&ads.xumo_platform=web&ads.site_id=&ads.appVersion=1.0.0&ads._fw_app_bundle=web.xumo.com&ads._fw_app_store_url=&ads.appName=xumo
+#EXTINF:-1 tvg-id="99951376" tvg-name="All Reality We TV" tvg-logo="https://image.xumo.com/v1/channels/channel/99951376/168x168.png?type=color_onBlack" group-title="Reality TV",All Reality We TV
+https://d3pxo1qcgzxtxs.cloudfront.net/10005/99951376/hls/playlist.m3u8?includeAssetTags=true&ads.xumo_channelId=99951376&ads.xumo_streamId=99951376&ads.channelId=99951376&ads.channelName=&ads.csid=xumo_web_AMCAllRealityWeTV_ssai&ads._fw_coppa=0&ads._fw_content_genre=Reality,Drama,GD,Entertainment,GV,Reality-TV,Reality Shows&ads.xumo_contentId=4173&ads.xumo_contentName=AMCAllRealityWeTV&ads.xumo_providerId=4173&ads.xumo_providerName=AMCAllRealityWeTV&ads._fw_is_lat=0&ads._fw_us_privacy=&ads._fw_did=:fce8ab6e-a020-4843-9d6f-aa6bf54658ac&ads._fw_content_category=&ads._fw_content_language=en&ads._fw_content_rating=&ads._fw_deviceType=3-Connected_TV&ads._fw_deviceMake=GitHubAction&ads._fw_device_model=PythonScript&ads.xumo_platform=web&ads.appVersion=1.0.0&ads._fw_app_bundle=web.xumo.com&ads._fw_app_store_url=&ads._fw_ifa_type=
 #EXTINF:-1 tvg-id="99951408" tvg-name="The Osbournes" tvg-logo="https://image.xumo.com/v1/channels/channel/99951408/168x168.png?type=color_onBlack" group-title="Reality TV",The Osbournes
 https://live-content.xumo.com/4221/content/XM0KLPK4L49MDT/27722106/master.m3u8
 #EXTINF:-1 tvg-id="99951477" tvg-name="ALLBLK Gems" tvg-logo="https://image.xumo.com/v1/channels/channel/99951477/168x168.png?type=color_onBlack" group-title="Reality TV",ALLBLK Gems

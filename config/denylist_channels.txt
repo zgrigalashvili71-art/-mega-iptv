@@ -1,0 +1,7 @@
+# Channel names that build_all_working_v3.py never publishes, whatever the source.
+# One case-insensitive regular expression per line; "#" starts a comment.
+# Currently EMPTY on purpose: every channel that played is published.
+# Examples (remove the leading "# " to activate):
+# \bsilk\s*(sport|kids|documentary|kino|universal|hollywood|holiwood)\b
+# \bsetanta\b
+# \bregbi\s*tv\b

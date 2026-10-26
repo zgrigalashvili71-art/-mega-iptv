@@ -56,7 +56,7 @@ from pathlib import Path
 
 OUT_BASE = "ALL_WORKING_TV_V3"
 PROTECTED_FILES = {"ALL_TV_PLUS_SPORTS.m3u"}
-MAX_BACKUPS = 15
+MAX_BACKUPS = 1000      # effectively unlimited: every working copy is kept
 MIN_COUNTRY_GROUP = 8   # smaller "International | <Country>" groups fold into "International"
 csv.field_size_limit(min(sys.maxsize, 2**31 - 1))
 
@@ -574,23 +574,23 @@ def policy_check(url: str, meta: M3UEntry | None, denylist: list[str]) -> tuple[
         return "INVALID_URL", "unparseable URL"
     host = (p.hostname or "").lower()
     # denylist first, so a pirate-host URL is always withheld even when malformed
+    host_path = host + p.path.lower()
     for d in denylist:
         # "example.com" matches that domain and its subdomains; a bare word
-        # ("daddylive") matches anywhere in the host name.
-        hit = (host == d or host.endswith("." + d)) if "." in d else d in host
+        # ("daddylive") matches anywhere in the host name; "host/path" matches
+        # that URL prefix (e.g. one tinyurl alias).
+        if "/" in d:
+            hit = host_path.startswith(d)
+        elif "." in d:
+            hit = host == d or host.endswith("." + d)
+        else:
+            hit = d in host
         if hit:
-            return "DENYLIST", f"host matches denylist entry '{d}'"
-    if not u.lower().startswith(("http://", "https://")) or " " in u or '"' in u:
+            return "DENYLIST", f"matches denylist entry '{d}'"
+    if not u.lower().startswith(("http://", "https://")) or '"' in u:
         return "INVALID_URL", "not a plain http(s) URL"
     if not host:
         return "INVALID_URL", "no host"
-    if host in URL_SHORTENERS:
-        return "OTHER", "URL shortener/redirect: real stream server cannot be verified"
-    # live Icecast radio ends in .mp3/.aac too, so only video files and
-    # archive.org downloads count as on-demand files
-    if (re.search(r"\.(?:mp4|mkv|avi|mov|wmv|webm|flv)$", p.path.lower())
-            or host == "archive.org" or host.endswith(".archive.org")):
-        return "OTHER", "single media file (VOD), not a live channel"
     if p.username or p.password:
         return "CREDENTIALS", "username/password embedded in URL"
     qs = urllib.parse.parse_qsl(p.query, keep_blank_values=True)
@@ -611,6 +611,38 @@ def policy_check(url: str, meta: M3UEntry | None, denylist: list[str]) -> tuple[
         if meta.drm_props:
             return "DRM", "KODIPROP DRM licence in source entry"
     return "", ""
+
+
+def is_vod(url: str) -> bool:
+    # live Icecast radio ends in .mp3/.aac too, so only video files and
+    # archive.org downloads count as on-demand files
+    p = urllib.parse.urlsplit(url.lower())
+    host = p.hostname or ""
+    return bool(re.search(r"\.(?:mp4|mkv|avi|mov|wmv|webm|flv)$", p.path)
+                or host == "archive.org" or host.endswith(".archive.org"))
+
+
+def playable_url(url: str) -> str:
+    # a few lists carry raw spaces in query strings; players need them encoded
+    return url.strip().replace(" ", "%20")
+
+
+def load_channel_denylist(path: Path | None) -> list[re.Pattern]:
+    """Channel-name patterns (regex, case-insensitive) that are never published."""
+    out = []
+    if path and path.exists():
+        for line in path.read_text(encoding="utf-8").splitlines():
+            line = line.split("#", 1)[0].strip()
+            if line:
+                out.append(re.compile(line, re.I))
+    return out
+
+
+def name_denied(name: str, patterns: list[re.Pattern]) -> str:
+    for pat in patterns:
+        if pat.search(name or ""):
+            return pat.pattern
+    return ""
 
 
 def is_proxied(url: str) -> bool:
@@ -790,7 +822,7 @@ SPORT_GROUPS = ["Sports", "Football", "Basketball", "Motorsport", "Combat Sports
 GROUP_ORDER = [
     "Georgia", *SPORT_GROUPS, "News", "Movies", "Series", "Entertainment", "Documentary",
     "Kids", "Music", "Lifestyle", "Religious", "Shopping", "FAST TV",
-    "Local / Regional", "Georgia Radio", "Radio",
+    "Local / Regional", "Georgia Radio", "Radio", "On Demand",
 ]
 
 GE_NAMES = ("imedi", "rustavi", "mtavari", "pirveli", "postv", "pos tv", "maestro", "palitra",
@@ -989,7 +1021,7 @@ class Candidate:
     @property
     def secret(self) -> bool:
         """URL must not appear in any public file (credentials, tokens, pirate hosts)."""
-        return self.policy in ("CREDENTIALS", "AUTH_REQUIRED", "DENYLIST", "DRM")
+        return self.policy in ("CREDENTIALS", "AUTH_REQUIRED", "DENYLIST", "DRM", "PAY_CHANNEL")
 
     @property
     def public_url(self) -> str:
@@ -1019,7 +1051,8 @@ def tvgid_quality(t: str) -> int:
     return 1
 
 
-def aggregate_candidate(url: str, obs: list[Obs], denylist: list[str]) -> Candidate:
+def aggregate_candidate(url: str, obs: list[Obs], denylist: list[str],
+                        chan_deny: list[re.Pattern] = ()) -> Candidate:
     c = Candidate(url=url, obs=obs)
     classes = Counter(o.obs_class for o in obs)
     c.folders = sorted({o.folder for o in obs})
@@ -1111,6 +1144,11 @@ def aggregate_candidate(url: str, obs: list[Obs], denylist: list[str]) -> Candid
         c.reject_reason = c.status
 
     pr, detail = policy_check(url, best_meta, denylist)
+    if not pr:
+        # the majority name decides: one mislabelled copy must not sink a channel
+        pat = name_denied(c.display, chan_deny)
+        if pat:
+            pr, detail = "PAY_CHANNEL", f"channel name matches denylist pattern '{pat}'"
     c.policy = pr
     if c.accepted and pr:
         c.accepted = False
@@ -1212,6 +1250,9 @@ def build_channels(accepted: list[Candidate], folder_rel: dict[str, float]) -> l
             [c.tvg_id for c in ch.candidates],
             audio_only=(p.has_audio and not any(c.has_video for c in ch.candidates)),
         )
+        if all(is_vod(c.url) for c in ch.candidates):
+            ch.group = "On Demand"
+            ch.notes.append("single media file (VOD), not a live channel")
         if p.status == "FLAKY":
             ch.notes.append("primary is FLAKY-with-evidence (no HEALTHY copy found)")
         if is_proxied(p.url):
@@ -1295,13 +1336,20 @@ def header_lines(c: Candidate) -> list[str]:
     return out
 
 
-def write_playlist(path: Path, channels: list[Channel]):
+def write_playlist(path: Path, channels: list[Channel], alternates: bool) -> int:
+    """alternates=True: every working stream, the other copies of a channel as
+    "Name (alt 2)", "(alt 3)" ... right under it. False: one entry per channel."""
     lines = [f'#EXTM3U x-tvg-url="{",".join(EPG_URLS)}" url-tvg="{",".join(EPG_URLS)}"']
+    n = 0
     for ch in sorted(channels, key=lambda c: (group_sort_key(c.group), c.display.casefold())):
-        lines.append(extinf_line(ch.display, ch.group, ch.tvg_id, ch.tvg_name, ch.logo))
-        lines.extend(header_lines(ch.primary))
-        lines.append(ch.primary.url)
+        for i, c in enumerate(ch.candidates if alternates else ch.candidates[:1], start=1):
+            name = ch.display if i == 1 else f"{ch.display} (alt {i})"
+            lines.append(extinf_line(name, ch.group, ch.tvg_id, ch.tvg_name, ch.logo))
+            lines.extend(header_lines(c))
+            lines.append(playable_url(c.url))
+            n += 1
     path.write_text("\n".join(lines) + "\n", encoding="utf-8", newline="\n")
+    return n
 
 
 def write_recheck(path: Path, cands: list[Candidate]):
@@ -1310,7 +1358,7 @@ def write_recheck(path: Path, cands: list[Candidate]):
         grp = (c.groups[0] if c.groups else "Recheck")
         lines.append(extinf_line(c.display, grp, c.tvg_id, "", c.logo if good_logo(c.logo) else ""))
         lines.extend(header_lines(c))
-        lines.append(c.url)
+        lines.append(playable_url(c.url))
     path.write_text("\n".join(lines) + "\n", encoding="utf-8", newline="\n")
 
 
@@ -1447,7 +1495,9 @@ def filter_m3u_text(text: str, keep_url) -> str:
             or (b.upper().startswith(("#EXTVLCOPT", "#EXTHTTP"))
                 and ("cookie" in b.lower() or "authorization" in b.lower()))
             for b in block)
-        if keep_url(line) and not secret:
+        extinf = next((b for b in block if b.upper().startswith("#EXTINF")), "")
+        name = split_extinf(extinf)[1] if extinf else ""
+        if keep_url(line, name) and not secret:
             out.extend(block)
             out.append(line)
         block = []
@@ -1456,10 +1506,14 @@ def filter_m3u_text(text: str, keep_url) -> str:
     return "\n".join(out) + "\n"
 
 
-def export_health_data(folders: list[Path], roots: list[Path], dest: Path, denylist: list[str]):
+def export_health_data(folders: list[Path], roots: list[Path], dest: Path, denylist: list[str],
+                       withheld_urls: set[str] = frozenset()):
     """Copy result folders without anything that must not be public: URLs with
-    credentials, private tokens, denylisted hosts, DRM licence lines, cookies."""
-    def keep_url(u: str) -> bool:
+    credentials, private tokens, denylisted hosts, pay channels (withheld_urls,
+    decided by the build), DRM licence lines, cookies."""
+    def keep_url(u: str, name: str = "") -> bool:
+        if u in withheld_urls:
+            return False
         return policy_check(u, None, denylist)[0] in PUBLISHABLE_REASONS
 
     dest.mkdir(parents=True, exist_ok=True)
@@ -1469,7 +1523,7 @@ def export_health_data(folders: list[Path], roots: list[Path], dest: Path, denyl
         target = dest / label
         target.mkdir(parents=True, exist_ok=True)
         rows = read_rows(d)
-        kept = [r for r in rows if keep_url(clean_ws(r.get("url")))]
+        kept = [r for r in rows if keep_url(clean_ws(r.get("url")), clean_ws(r.get("name")))]
         total_in += len(rows)
         total_out += len(kept)
         if rows:
@@ -1487,7 +1541,8 @@ def export_health_data(folders: list[Path], roots: list[Path], dest: Path, denyl
         if hp.exists():
             try:
                 hist = json.loads(hp.read_text(encoding="utf-8-sig"))
-                hist = {u: v for u, v in hist.items() if keep_url(u)}
+                hist = {u: v for u, v in hist.items()
+                        if keep_url(u, (v or {}).get("name", "") if isinstance(v, dict) else "")}
                 (target / "health_history.json").write_text(
                     json.dumps(hist, ensure_ascii=False, indent=1), encoding="utf-8")
             except Exception as ex:
@@ -1519,6 +1574,8 @@ def main():
     ap.add_argument("--output", default=".", help="Where to write the ALL_WORKING_TV_V3* files")
     ap.add_argument("--denylist", default="config/denylist_hosts.txt",
                     help="Extra hosts to never publish (one per line)")
+    ap.add_argument("--channel-denylist", default="config/denylist_channels.txt",
+                    help="Channel-name regex patterns never published (pay channels)")
     ap.add_argument("--smoke", type=int, default=0, help="ffprobe-test N primary URLs at the end")
     ap.add_argument("--min-channels", type=int, default=100,
                     help="Abort without writing if fewer channels than this are found")
@@ -1531,12 +1588,11 @@ def main():
     out = Path(args.output)
     out.mkdir(parents=True, exist_ok=True)
     denylist = load_denylist(Path(args.denylist) if args.denylist else None)
+    chan_deny = load_channel_denylist(Path(args.channel_denylist) if args.channel_denylist else None)
 
     print("Scanning result folders ...")
     export_dir = Path(args.export_health_data) if args.export_health_data else None
     folders = discover_folders(roots, exclude=[export_dir] if export_dir else [])
-    if export_dir:
-        export_health_data(folders, roots, export_dir, denylist)
     all_obs: list[Obs] = []
     folder_info = []
     for d in folders:
@@ -1552,8 +1608,11 @@ def main():
     for o in all_obs:
         by_url[o.url].append(o)
 
-    cands = [aggregate_candidate(u, lst, denylist) for u, lst in by_url.items()]
+    cands = [aggregate_candidate(u, lst, denylist, chan_deny) for u, lst in by_url.items()]
     accepted = [c for c in cands if c.accepted]
+    if export_dir:
+        export_health_data(folders, roots, export_dir, denylist,
+                           {c.url for c in cands if c.secret})
 
     # folder reliability = share of its URLs that ended up accepted
     f_total, f_ok = Counter(), Counter()
@@ -1580,7 +1639,9 @@ def main():
     m3u_path = out / f"{OUT_BASE}.m3u"
     if m3u_path.name in PROTECTED_FILES:
         raise SystemExit("refusing to overwrite a protected file")
-    write_playlist(m3u_path, channels)
+    n_entries = write_playlist(m3u_path, channels, alternates=True)
+    clean_path = out / f"{OUT_BASE}_CLEAN.m3u"
+    write_playlist(clean_path, channels, alternates=False)
 
     def cand_info(c: Candidate) -> dict:
         return {
@@ -1655,7 +1716,7 @@ def main():
     write_recheck(out / f"{OUT_BASE}_RECHECK_RESTRICTED.m3u", restricted)
     write_recheck(out / f"{OUT_BASE}_RECHECK_OFFLINE_NOW.m3u", offline)
 
-    errors = validate_m3u(m3u_path)
+    errors = validate_m3u(m3u_path) + [f"CLEAN: {e}" for e in validate_m3u(clean_path)]
 
     smoke = smoke_test(channels, args.smoke) if args.smoke > 0 else []
     if smoke:
@@ -1709,7 +1770,7 @@ def main():
         L.append(f"  {st:<28} {url_status[st]:>8}")
     L.append("")
     L.append("Policy exclusions (would have played, never published)")
-    for r in ("CREDENTIALS", "AUTH_REQUIRED", "DENYLIST", "INVALID_URL", "DRM", "OTHER"):
+    for r in ("CREDENTIALS", "AUTH_REQUIRED", "DENYLIST", "PAY_CHANNEL", "INVALID_URL", "DRM", "OTHER"):
         n = sum(1 for c in cands if c.reject_reason == r and c.status in ("HEALTHY", "FLAKY"))
         L.append(f"  {r:<28} {n:>8}")
     L.append("")
@@ -1717,6 +1778,8 @@ def main():
     L.append(f"DUPLICATE CHANNELS -> BACKUPS  {dup_channel:>8}")
     L.append(f"DUPLICATES BEYOND BACKUP CAP   {len(overflow):>8}")
     L.append(f"UNIQUE FINAL CHANNELS          {len(channels):>8}")
+    L.append(f"PLAYLIST ENTRIES (main .m3u)   {n_entries:>8}   every working stream; extra copies as 'Name (alt N)'")
+    L.append(f"CLEAN PLAYLIST ENTRIES         {len(channels):>8}   {OUT_BASE}_CLEAN.m3u, one per channel")
     L.append(f"CHANNELS WITH BACKUPS          {with_bk:>8}")
     L.append(f"PRIMARY = HEALTHY              {sum(1 for ch in channels if ch.primary.status == 'HEALTHY'):>8}")
     L.append(f"PRIMARY = FLAKY (evidence)     {sum(1 for ch in channels if ch.primary.status == 'FLAKY'):>8}")
@@ -1766,9 +1829,11 @@ def main():
     L.append("  or FLAKY with real evidence (>=1 successful playback / ffprobe A/V detected)")
     L.append("  and no 404/410/DRM verdict in any other run.")
     L.append("  Never published: DRM, credentials (user/pass, Xtream/Stalker), private or")
-    L.append("  expiring tokens/cookies, denylisted pirate-restream hosts (config/denylist_hosts.txt).")
-    L.append("  Same channel from several sources: best-ranked URL is primary, others are")
-    L.append(f"  ranked backups in {OUT_BASE}_BACKUPS.json (max {MAX_BACKUPS}).")
+    L.append("  expiring tokens/cookies, denylisted pirate-restream hosts (config/denylist_hosts.txt),")
+    L.append("  pay channels by name (config/denylist_channels.txt).")
+    L.append("  Same channel from several sources: best-ranked URL is the main entry; the other")
+    L.append(f"  working copies follow as 'Name (alt N)' and are ranked in {OUT_BASE}_BACKUPS.json.")
+    L.append("  Single media files (VOD) are kept in the 'On Demand' group.")
     L.append("  Results are point-in-time from the tester's PC; streams can change at any time.")
     (out / f"{OUT_BASE}_REPORT.txt").write_text("\n".join(L) + "\n", encoding="utf-8")
 

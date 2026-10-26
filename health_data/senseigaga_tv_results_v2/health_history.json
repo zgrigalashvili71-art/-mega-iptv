@@ -1,4 +1,408 @@
 {
+ "http://158.101.222.193:88/georgia_play.php?id=setanta_sports_plus_georgia": {
+  "name": "GE: Setanta Sports 2 Georgia HD",
+  "group": "1. 🇬🇪 ქართული/Georgian/Грузинский 🇬🇪",
+  "source": "",
+  "total_successes": 2,
+  "total_failures": 0,
+  "consecutive_failures": 0,
+  "recent": [
+   {
+    "time": "2026-10-21T13:38:03+00:00",
+    "status": "FLAKY"
+   },
+   {
+    "time": "2026-10-21T13:40:40+00:00",
+    "status": "FLAKY"
+   }
+  ],
+  "last_success": "2026-10-21T13:40:40+00:00",
+  "last_seen": "2026-10-21T13:40:40+00:00",
+  "last_status": "FLAKY"
+ },
+ "http://158.101.222.193:88/georgia_play.php?id=setanta_georgia": {
+  "name": "GE: Setanta Sports 1 Georgia HD",
+  "group": "1. 🇬🇪 ქართული/Georgian/Грузинский 🇬🇪",
+  "source": "",
+  "total_successes": 3,
+  "total_failures": 0,
+  "consecutive_failures": 0,
+  "recent": [
+   {
+    "time": "2026-10-21T13:38:03+00:00",
+    "status": "FLAKY"
+   },
+   {
+    "time": "2026-10-21T13:40:40+00:00",
+    "status": "FLAKY"
+   },
+   {
+    "time": "2026-10-21T13:43:01+00:00",
+    "status": "FLAKY"
+   }
+  ],
+  "last_success": "2026-10-21T13:43:01+00:00",
+  "last_seen": "2026-10-21T13:43:01+00:00",
+  "last_status": "FLAKY"
+ },
+ "http://158.101.222.193:88/georgia_play.php?id=silksport2": {
+  "name": "GE: Silk Sport 2 HD",
+  "group": "1. 🇬🇪 ქართული/Georgian/Грузинский 🇬🇪",
+  "source": "",
+  "total_successes": 2,
+  "total_failures": 0,
+  "consecutive_failures": 0,
+  "recent": [
+   {
+    "time": "2026-10-21T13:38:23+00:00",
+    "status": "FLAKY"
+   },
+   {
+    "time": "2026-10-21T13:41:18+00:00",
+    "status": "FLAKY"
+   }
+  ],
+  "last_success": "2026-10-21T13:41:18+00:00",
+  "last_seen": "2026-10-21T13:41:18+00:00",
+  "last_status": "FLAKY"
+ },
+ "http://158.101.222.193:88/georgia_play.php?id=silksport3": {
+  "name": "GE: Silk Sport 3 HD",
+  "group": "1. 🇬🇪 ქართული/Georgian/Грузинский 🇬🇪",
+  "source": "",
+  "total_successes": 2,
+  "total_failures": 0,
+  "consecutive_failures": 0,
+  "recent": [
+   {
+    "time": "2026-10-21T13:38:23+00:00",
+    "status": "FLAKY"
+   },
+   {
+    "time": "2026-10-21T13:41:18+00:00",
+    "status": "FLAKY"
+   }
+  ],
+  "last_success": "2026-10-21T13:41:18+00:00",
+  "last_seen": "2026-10-21T13:41:18+00:00",
+  "last_status": "FLAKY"
+ },
+ "http://158.101.222.193:88/georgia_play.php?id=setanta_sports_3": {
+  "name": "GE: Setanta Sports 3 Georgia HD",
+  "group": "1. 🇬🇪 ქართული/Georgian/Грузинский 🇬🇪",
+  "source": "",
+  "total_successes": 3,
+  "total_failures": 0,
+  "consecutive_failures": 0,
+  "recent": [
+   {
+    "time": "2026-10-21T13:38:42+00:00",
+    "status": "FLAKY"
+   },
+   {
+    "time": "2026-10-21T13:40:59+00:00",
+    "status": "FLAKY"
+   },
+   {
+    "time": "2026-10-21T13:43:01+00:00",
+    "status": "FLAKY"
+   }
+  ],
+  "last_success": "2026-10-21T13:43:01+00:00",
+  "last_seen": "2026-10-21T13:43:01+00:00",
+  "last_status": "FLAKY"
+ },
+ "http://158.101.222.193:88/georgia_play.php?id=silksport1": {
+  "name": "GE: Silk Sport 1 HD",
+  "group": "1. 🇬🇪 ქართული/Georgian/Грузинский 🇬🇪",
+  "source": "",
+  "total_successes": 2,
+  "total_failures": 0,
+  "consecutive_failures": 0,
+  "recent": [
+   {
+    "time": "2026-10-21T13:38:42+00:00",
+    "status": "FLAKY"
+   },
+   {
+    "time": "2026-10-21T13:40:59+00:00",
+    "status": "FLAKY"
+   }
+  ],
+  "last_success": "2026-10-21T13:40:59+00:00",
+  "last_seen": "2026-10-21T13:40:59+00:00",
+  "last_status": "FLAKY"
+ },
+ "http://158.101.222.193:88/georgia_play.php?id=eurosport2": {
+  "name": "Eurosport 2 HD",
+  "group": "2. ⚽️ სპორტი/Sport/Спорт ⚽️",
+  "source": "",
+  "total_successes": 2,
+  "total_failures": 0,
+  "consecutive_failures": 0,
+  "recent": [
+   {
+    "time": "2026-10-21T13:39:02+00:00",
+    "status": "FLAKY"
+   },
+   {
+    "time": "2026-10-21T13:42:20+00:00",
+    "status": "FLAKY"
+   }
+  ],
+  "last_success": "2026-10-21T13:42:20+00:00",
+  "last_seen": "2026-10-21T13:42:20+00:00",
+  "last_status": "FLAKY"
+ },
+ "http://158.101.222.193:88/georgia_play.php?id=eurosport": {
+  "name": "Eurosport 1 HD",
+  "group": "2. ⚽️ სპორტი/Sport/Спорт ⚽️",
+  "source": "",
+  "total_successes": 2,
+  "total_failures": 0,
+  "consecutive_failures": 0,
+  "recent": [
+   {
+    "time": "2026-10-21T13:39:02+00:00",
+    "status": "FLAKY"
+   },
+   {
+    "time": "2026-10-21T13:42:20+00:00",
+    "status": "FLAKY"
+   }
+  ],
+  "last_success": "2026-10-21T13:42:20+00:00",
+  "last_seen": "2026-10-21T13:42:20+00:00",
+  "last_status": "FLAKY"
+ },
+ "http://158.101.222.193:88/georgia_play.php?id=boxtv": {
+  "name": "БОКС ТВ",
+  "group": "2. ⚽️ სპორტი/Sport/Спорт ⚽️",
+  "source": "",
+  "total_successes": 1,
+  "total_failures": 0,
+  "consecutive_failures": 0,
+  "recent": [
+   {
+    "time": "2026-10-21T13:39:22+00:00",
+    "status": "FLAKY"
+   }
+  ],
+  "last_success": "2026-10-21T13:39:22+00:00",
+  "last_seen": "2026-10-21T13:39:22+00:00",
+  "last_status": "FLAKY"
+ },
+ "http://158.101.222.193:88/georgia_play.php?id=matchplaneta": {
+  "name": "Матч! Планета",
+  "group": "2. ⚽️ სპორტი/Sport/Спорт ⚽️",
+  "source": "",
+  "total_successes": 1,
+  "total_failures": 0,
+  "consecutive_failures": 0,
+  "recent": [
+   {
+    "time": "2026-10-21T13:39:22+00:00",
+    "status": "FLAKY"
+   }
+  ],
+  "last_success": "2026-10-21T13:39:22+00:00",
+  "last_seen": "2026-10-21T13:39:22+00:00",
+  "last_status": "FLAKY"
+ },
+ "http://158.101.222.193:88/georgia_play.php?id=fightboxhd": {
+  "name": "FightBox HD",
+  "group": "2. ⚽️ სპორტი/Sport/Спорт ⚽️",
+  "source": "",
+  "total_successes": 2,
+  "total_failures": 0,
+  "consecutive_failures": 0,
+  "recent": [
+   {
+    "time": "2026-10-21T13:39:41+00:00",
+    "status": "FLAKY"
+   },
+   {
+    "time": "2026-10-21T13:42:39+00:00",
+    "status": "FLAKY"
+   }
+  ],
+  "last_success": "2026-10-21T13:42:39+00:00",
+  "last_seen": "2026-10-21T13:42:39+00:00",
+  "last_status": "FLAKY"
+ },
+ "http://158.101.222.193:88/georgia_play.php?id=drive": {
+  "name": "Драйв",
+  "group": "2. ⚽️ სპორტი/Sport/Спорт ⚽️",
+  "source": "",
+  "total_successes": 1,
+  "total_failures": 0,
+  "consecutive_failures": 0,
+  "recent": [
+   {
+    "time": "2026-10-21T13:39:41+00:00",
+    "status": "FLAKY"
+   }
+  ],
+  "last_success": "2026-10-21T13:39:41+00:00",
+  "last_seen": "2026-10-21T13:39:41+00:00",
+  "last_status": "FLAKY"
+ },
+ "http://158.101.222.193:88/georgia_play.php?id=khlprime": {
+  "name": "КХЛ Prime HD",
+  "group": "2. ⚽️ სპორტი/Sport/Спорт ⚽️",
+  "source": "",
+  "total_successes": 1,
+  "total_failures": 0,
+  "consecutive_failures": 0,
+  "recent": [
+   {
+    "time": "2026-10-21T13:40:00+00:00",
+    "status": "FLAKY"
+   }
+  ],
+  "last_success": "2026-10-21T13:40:00+00:00",
+  "last_seen": "2026-10-21T13:40:00+00:00",
+  "last_status": "FLAKY"
+ },
+ "http://158.101.222.193:88/georgia_play.php?id=knlsd": {
+  "name": "КХЛ",
+  "group": "2. ⚽️ სპორტი/Sport/Спорт ⚽️",
+  "source": "",
+  "total_successes": 1,
+  "total_failures": 0,
+  "consecutive_failures": 0,
+  "recent": [
+   {
+    "time": "2026-10-21T13:40:01+00:00",
+    "status": "FLAKY"
+   }
+  ],
+  "last_success": "2026-10-21T13:40:01+00:00",
+  "last_seen": "2026-10-21T13:40:01+00:00",
+  "last_status": "FLAKY"
+ },
+ "http://158.101.222.193:88/georgia_play.php?id=viasatsport": {
+  "name": "Viasat Sport",
+  "group": "2. ⚽️ სპორტი/Sport/Спорт ⚽️",
+  "source": "",
+  "total_successes": 2,
+  "total_failures": 0,
+  "consecutive_failures": 0,
+  "recent": [
+   {
+    "time": "2026-10-21T13:40:20+00:00",
+    "status": "FLAKY"
+   },
+   {
+    "time": "2026-10-21T13:42:39+00:00",
+    "status": "FLAKY"
+   }
+  ],
+  "last_success": "2026-10-21T13:42:39+00:00",
+  "last_seen": "2026-10-21T13:42:39+00:00",
+  "last_status": "FLAKY"
+ },
+ "http://158.101.222.193:88/georgia_play.php?id=fastandfunboxhd": {
+  "name": "Fast and FunBox HD",
+  "group": "2. ⚽️ სპორტი/Sport/Спорт ⚽️",
+  "source": "",
+  "total_successes": 1,
+  "total_failures": 0,
+  "consecutive_failures": 0,
+  "recent": [
+   {
+    "time": "2026-10-21T13:40:20+00:00",
+    "status": "FLAKY"
+   }
+  ],
+  "last_success": "2026-10-21T13:40:20+00:00",
+  "last_seen": "2026-10-21T13:40:20+00:00",
+  "last_status": "FLAKY"
+ },
+ "http://158.101.222.193:88/georgia_play.php?id=formula": {
+  "name": "GE: Formula HD",
+  "group": "ტელე არხები",
+  "source": "",
+  "total_successes": 2,
+  "total_failures": 0,
+  "consecutive_failures": 0,
+  "recent": [
+   {
+    "time": "2026-10-21T13:41:37+00:00",
+    "status": "FLAKY"
+   },
+   {
+    "time": "2026-10-21T13:42:45+00:00",
+    "status": "FLAKY"
+   }
+  ],
+  "last_success": "2026-10-21T13:42:45+00:00",
+  "last_seen": "2026-10-21T13:42:45+00:00",
+  "last_status": "FLAKY"
+ },
+ "http://158.101.222.193:88/georgia_play.php?id=formula-new": {
+  "name": "GE: Akhali Formula HD",
+  "group": "ტელე არხები",
+  "source": "",
+  "total_successes": 2,
+  "total_failures": 0,
+  "consecutive_failures": 0,
+  "recent": [
+   {
+    "time": "2026-10-21T13:41:37+00:00",
+    "status": "FLAKY"
+   },
+   {
+    "time": "2026-10-21T13:42:45+00:00",
+    "status": "FLAKY"
+   }
+  ],
+  "last_success": "2026-10-21T13:42:45+00:00",
+  "last_seen": "2026-10-21T13:42:45+00:00",
+  "last_status": "FLAKY"
+ },
+ "http://158.101.222.193:88/georgia_play.php?id=tvsport": {
+  "name": "TV SPORT",
+  "group": "ტელე არხები",
+  "source": "",
+  "total_successes": 2,
+  "total_failures": 0,
+  "consecutive_failures": 0,
+  "recent": [
+   {
+    "time": "2026-10-21T13:41:57+00:00",
+    "status": "FLAKY"
+   },
+   {
+    "time": "2026-10-21T13:42:34+00:00",
+    "status": "FLAKY"
+   }
+  ],
+  "last_success": "2026-10-21T13:42:34+00:00",
+  "last_seen": "2026-10-21T13:42:34+00:00",
+  "last_status": "FLAKY"
+ },
+ "http://158.101.222.193:88/georgia_play.php?id=meore": {
+  "name": "GE: 1 Arkhi Sport HD",
+  "group": "ტელე არხები",
+  "source": "",
+  "total_successes": 2,
+  "total_failures": 0,
+  "consecutive_failures": 0,
+  "recent": [
+   {
+    "time": "2026-10-21T13:41:57+00:00",
+    "status": "FLAKY"
+   },
+   {
+    "time": "2026-10-21T13:42:34+00:00",
+    "status": "FLAKY"
+   }
+  ],
+  "last_success": "2026-10-21T13:42:34+00:00",
+  "last_seen": "2026-10-21T13:42:34+00:00",
+  "last_status": "FLAKY"
+ },
  "http://tinyurl.com/3zje87av/formula-new/tracks-v1a1/index.m3u8": {
   "name": "GE: Akhali Formula HD",
   "group": "MYIPTV ქართული",
@@ -378,6 +782,23 @@
   ],
   "last_success": "2026-10-21T13:43:11+00:00",
   "last_seen": "2026-10-21T13:43:11+00:00",
+  "last_status": "FLAKY"
+ },
+ "https://fl7.moveonjoy.com/FOX_Sports_1/tracks-v1a1/mono.ts.m3u8": {
+  "name": "FOX SPORTS",
+  "group": "MYIPTV სპორტი",
+  "source": "",
+  "total_successes": 1,
+  "total_failures": 0,
+  "consecutive_failures": 0,
+  "recent": [
+   {
+    "time": "2026-10-21T13:43:14+00:00",
+    "status": "FLAKY"
+   }
+  ],
+  "last_success": "2026-10-21T13:43:14+00:00",
+  "last_seen": "2026-10-21T13:43:14+00:00",
   "last_status": "FLAKY"
  },
  "http://213.192.12.185:8082/play/Nova%20Sport%202%20HD.m3u8": {

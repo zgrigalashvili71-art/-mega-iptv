@@ -1,4 +1,76 @@
 #EXTM3U
+#EXTINF:-1 catchup="flussonic" provider="MyVideo" tvg-logo="https://www.myvideo.ge/v3_imgs/tv/tv_setanta_georgia.png?v=1732509566" tvg-name="GE: Setanta Sports 1 Georgia HD" catchup-days="14" group-title="1. 🇬🇪 ქართული/Georgian/Грузинский 🇬🇪",GE: Setanta Sports 1 Georgia HD
+http://158.101.222.193:88/georgia_play.php?id=setanta_georgia
+#EXTINF:-1 catchup="flussonic" provider="MyVideo" tvg-logo="https://www.myvideo.ge/v3_imgs/tv/tv_setanta_sports_plus_georgia.png?v=1732509566" tvg-name="GE: Setanta Sports 2 Georgia HD" catchup-days="14" group-title="1. 🇬🇪 ქართული/Georgian/Грузинский 🇬🇪",GE: Setanta Sports 2 Georgia HD
+http://158.101.222.193:88/georgia_play.php?id=setanta_sports_plus_georgia
+#EXTINF:-1 catchup="flussonic" provider="MyVideo" tvg-logo="https://www.myvideo.ge/v3_imgs/tv/tv_setanta_sports_3.png?v=1732509566" tvg-name="GE: Setanta Sports 3 Georgia HD" catchup-days="14" group-title="1. 🇬🇪 ქართული/Georgian/Грузинский 🇬🇪",GE: Setanta Sports 3 Georgia HD
+http://158.101.222.193:88/georgia_play.php?id=setanta_sports_3
+#EXTINF:-1 catchup="flussonic" provider="MyVideo" tvg-logo="https://www.myvideo.ge/v3_imgs/tv/tv_silksport1.png?v=1732509566" tvg-name="GE: Silk Sport 1 HD" catchup-days="14" group-title="1. 🇬🇪 ქართული/Georgian/Грузинский 🇬🇪",GE: Silk Sport 1 HD
+http://158.101.222.193:88/georgia_play.php?id=silksport1
+#EXTINF:-1 catchup="flussonic" provider="MyVideo" tvg-logo="https://www.myvideo.ge/v3_imgs/tv/tv_silksport2.png?v=1732509566" tvg-name="GE: Silk Sport 2 HD" catchup-days="14" group-title="1. 🇬🇪 ქართული/Georgian/Грузинский 🇬🇪",GE: Silk Sport 2 HD
+http://158.101.222.193:88/georgia_play.php?id=silksport2
+#EXTINF:-1 catchup="flussonic" provider="MyVideo" tvg-logo="https://www.myvideo.ge/v3_imgs/tv/tv_silksport3.png?v=1732509566" tvg-name="GE: Silk Sport 3 HD" catchup-days="14" group-title="1. 🇬🇪 ქართული/Georgian/Грузинский 🇬🇪",GE: Silk Sport 3 HD
+http://158.101.222.193:88/georgia_play.php?id=silksport3
+#EXTINF:-1 catchup="flussonic" provider="MyVideo" tvg-logo="https://www.myvideo.ge/v3_imgs/tv/tv_formula.png?v=1732509566" tvg-name="GE: Formula HD" catchup-days="14" group-title="1. 🇬🇪 ქართული/Georgian/Грузинский 🇬🇪",GE: Formula HD
+http://158.101.222.193:88/georgia_play.php?id=formula
+#EXTINF:-1 catchup="flussonic" provider="MyVideo" tvg-logo="https://www.myvideo.ge/v3_imgs/tv/tv_formula-new.png?v=1732509566" tvg-name="GE: Akhali Formula HD" catchup-days="14" group-title="1. 🇬🇪 ქართული/Georgian/Грузинский 🇬🇪",GE: Akhali Formula HD
+http://158.101.222.193:88/georgia_play.php?id=formula-new
+#EXTINF:-1 catchup="flussonic" provider="MyVideo" tvg-logo="https://www.myvideo.ge/v3_imgs/tv/tv_meore.png?v=1732509566" tvg-name="GE: 1 Arkhi Sport HD" catchup-days="14" group-title="1. 🇬🇪 ქართული/Georgian/Грузинский 🇬🇪",GE: 1 Arkhi Sport HD
+http://158.101.222.193:88/georgia_play.php?id=meore
+#EXTINF:-1 catchup="flussonic" provider="MyVideo" tvg-logo="https://www.myvideo.ge/v3_imgs/tv/tv_tvsport.png?v=1732509566" tvg-name="TV SPORT" catchup-days="14" group-title="1. 🇬🇪 ქართული/Georgian/Грузинский 🇬🇪",TV SPORT
+http://158.101.222.193:88/georgia_play.php?id=tvsport
+#EXTINF:-1 catchup="flussonic" provider="MyVideo" tvg-logo="https://www.myvideo.ge/v3_imgs/tv/tv_eurosport.png?v=1732509566" tvg-name="Eurosport 1 HD" catchup-days="14" group-title="2. ⚽️ სპორტი/Sport/Спорт ⚽️",Eurosport 1 HD
+http://158.101.222.193:88/georgia_play.php?id=eurosport
+#EXTINF:-1 catchup="flussonic" provider="MyVideo" tvg-logo="https://www.myvideo.ge/v3_imgs/tv/tv_eurosport2.png?v=1732509566" tvg-name="Eurosport 2 HD" catchup-days="14" group-title="2. ⚽️ სპორტი/Sport/Спорт ⚽️",Eurosport 2 HD
+http://158.101.222.193:88/georgia_play.php?id=eurosport2
+#EXTINF:-1 catchup="flussonic" provider="MyVideo" tvg-logo="https://www.myvideo.ge/v3_imgs/tv/tv_matchplaneta.png?v=1732509566" tvg-name="Матч! Планета" catchup-days="14" group-title="2. ⚽️ სპორტი/Sport/Спорт ⚽️",Матч! Планета
+http://158.101.222.193:88/georgia_play.php?id=matchplaneta
+#EXTINF:-1 catchup="flussonic" provider="MyVideo" tvg-logo="https://www.myvideo.ge/v3_imgs/tv/tv_boxtv.png?v=1732509566" tvg-name="БОКС ТВ" catchup-days="14" group-title="2. ⚽️ სპორტი/Sport/Спорт ⚽️",БОКС ТВ
+http://158.101.222.193:88/georgia_play.php?id=boxtv
+#EXTINF:-1 catchup="flussonic" provider="MyVideo" tvg-logo="https://www.myvideo.ge/v3_imgs/tv/tv_drive.png?v=1732509566" tvg-name="Драйв" catchup-days="14" group-title="2. ⚽️ სპორტი/Sport/Спорт ⚽️",Драйв
+http://158.101.222.193:88/georgia_play.php?id=drive
+#EXTINF:-1 catchup="flussonic" provider="MyVideo" tvg-logo="https://www.myvideo.ge/v3_imgs/tv/tv_fightboxhd.png?v=1732509566" tvg-name="FightBox HD" catchup-days="14" group-title="2. ⚽️ სპორტი/Sport/Спорт ⚽️",FightBox HD
+http://158.101.222.193:88/georgia_play.php?id=fightboxhd
+#EXTINF:-1 catchup="flussonic" provider="MyVideo" tvg-logo="https://www.myvideo.ge/v3_imgs/tv/tv_khlprime.png?v=1732509566" tvg-name="КХЛ Prime HD" catchup-days="14" group-title="2. ⚽️ სპორტი/Sport/Спорт ⚽️",КХЛ Prime HD
+http://158.101.222.193:88/georgia_play.php?id=khlprime
+#EXTINF:-1 catchup="flussonic" provider="MyVideo" tvg-logo="https://www.myvideo.ge/v3_imgs/tv/tv_knlsd.png?v=1732509566" tvg-name="КХЛ" catchup-days="14" group-title="2. ⚽️ სპორტი/Sport/Спорт ⚽️",КХЛ
+http://158.101.222.193:88/georgia_play.php?id=knlsd
+#EXTINF:-1 catchup="flussonic" provider="MyVideo" tvg-logo="https://www.myvideo.ge/v3_imgs/tv/tv_fastandfunboxhd.png?v=1732509566" tvg-name="Fast and FunBox HD" catchup-days="14" group-title="2. ⚽️ სპორტი/Sport/Спорт ⚽️",Fast and FunBox HD
+http://158.101.222.193:88/georgia_play.php?id=fastandfunboxhd
+#EXTINF:-1 catchup="flussonic" provider="MyVideo" tvg-logo="https://www.myvideo.ge/v3_imgs/tv/tv_viasatsport.png?v=1732509566" tvg-name="Viasat Sport" catchup-days="14" group-title="2. ⚽️ სპორტი/Sport/Спорт ⚽️",Viasat Sport
+http://158.101.222.193:88/georgia_play.php?id=viasatsport
+#EXTINF:-1 catchup="flussonic" provider="MyVideo" tvg-logo="https://www.myvideo.ge/v3_imgs/tv/tv_setanta_georgia.png?v=1732509566" tvg-name="GE: Setanta Sports 1 Georgia HD" catchup-days="14" group-title="ტელე არხები",GE: Setanta Sports 1 Georgia HD
+http://158.101.222.193:88/georgia_play.php?id=setanta_georgia
+#EXTINF:-1 catchup="flussonic" provider="MyVideo" tvg-logo="https://www.myvideo.ge/v3_imgs/tv/tv_setanta_sports_plus_georgia.png?v=1732509566" tvg-name="GE: Setanta Sports 2 Georgia HD" catchup-days="14" group-title="ტელე არხები",GE: Setanta Sports 2 Georgia HD
+http://158.101.222.193:88/georgia_play.php?id=setanta_sports_plus_georgia
+#EXTINF:-1 catchup="flussonic" provider="MyVideo" tvg-logo="https://www.myvideo.ge/v3_imgs/tv/tv_setanta_sports_3.png?v=1732509566" tvg-name="GE: Setanta Sports 3 Georgia HD" catchup-days="14" group-title="ტელე არხები",GE: Setanta Sports 3 Georgia HD
+http://158.101.222.193:88/georgia_play.php?id=setanta_sports_3
+#EXTINF:-1 catchup="flussonic" provider="MyVideo" tvg-logo="https://www.myvideo.ge/v3_imgs/tv/tv_silksport1.png?v=1732509566" tvg-name="GE: Silk Sport 1 HD" catchup-days="14" group-title="ტელე არხები",GE: Silk Sport 1 HD
+http://158.101.222.193:88/georgia_play.php?id=silksport1
+#EXTINF:-1 catchup="flussonic" provider="MyVideo" tvg-logo="https://www.myvideo.ge/v3_imgs/tv/tv_silksport2.png?v=1732509566" tvg-name="GE: Silk Sport 2 HD" catchup-days="14" group-title="ტელე არხები",GE: Silk Sport 2 HD
+http://158.101.222.193:88/georgia_play.php?id=silksport2
+#EXTINF:-1 catchup="flussonic" provider="MyVideo" tvg-logo="https://www.myvideo.ge/v3_imgs/tv/tv_silksport3.png?v=1732509566" tvg-name="GE: Silk Sport 3 HD" catchup-days="14" group-title="ტელე არხები",GE: Silk Sport 3 HD
+http://158.101.222.193:88/georgia_play.php?id=silksport3
+#EXTINF:-1 catchup="flussonic" provider="MyVideo" tvg-logo="https://www.myvideo.ge/v3_imgs/tv/tv_formula.png?v=1732509566" tvg-name="GE: Formula HD" catchup-days="14" group-title="ტელე არხები",GE: Formula HD
+http://158.101.222.193:88/georgia_play.php?id=formula
+#EXTINF:-1 catchup="flussonic" provider="MyVideo" tvg-logo="https://www.myvideo.ge/v3_imgs/tv/tv_formula-new.png?v=1732509566" tvg-name="GE: Akhali Formula HD" catchup-days="14" group-title="ტელე არხები",GE: Akhali Formula HD
+http://158.101.222.193:88/georgia_play.php?id=formula-new
+#EXTINF:-1 catchup="flussonic" provider="MyVideo" tvg-logo="https://www.myvideo.ge/v3_imgs/tv/tv_meore.png?v=1732509566" tvg-name="GE: 1 Arkhi Sport HD" catchup-days="14" group-title="ტელე არხები",GE: 1 Arkhi Sport HD
+http://158.101.222.193:88/georgia_play.php?id=meore
+#EXTINF:-1 catchup="flussonic" provider="MyVideo" tvg-logo="https://www.myvideo.ge/v3_imgs/tv/tv_tvsport.png?v=1732509566" tvg-name="TV SPORT" catchup-days="14" group-title="ტელე არხები",TV SPORT
+http://158.101.222.193:88/georgia_play.php?id=tvsport
+#EXTINF:-1 catchup="flussonic" provider="MyVideo" tvg-logo="https://www.myvideo.ge/v3_imgs/tv/tv_eurosport.png?v=1732509566" tvg-name="Eurosport 1 HD" catchup-days="14" group-title="ტელე არხები",Eurosport 1 HD
+http://158.101.222.193:88/georgia_play.php?id=eurosport
+#EXTINF:-1 catchup="flussonic" provider="MyVideo" tvg-logo="https://www.myvideo.ge/v3_imgs/tv/tv_eurosport2.png?v=1732509566" tvg-name="Eurosport 2 HD" catchup-days="14" group-title="ტელე არხები",Eurosport 2 HD
+http://158.101.222.193:88/georgia_play.php?id=eurosport2
+#EXTINF:-1 catchup="flussonic" provider="MyVideo" tvg-logo="https://www.myvideo.ge/v3_imgs/tv/tv_fightboxhd.png?v=1732509566" tvg-name="FightBox HD" catchup-days="14" group-title="ტელე არხები",FightBox HD
+http://158.101.222.193:88/georgia_play.php?id=fightboxhd
+#EXTINF:-1 catchup="flussonic" provider="MyVideo" tvg-logo="https://www.myvideo.ge/v3_imgs/tv/tv_viasatsport.png?v=1732509566" tvg-name="Viasat Sport" catchup-days="14" group-title="ტელე არხები",Viasat Sport
+http://158.101.222.193:88/georgia_play.php?id=viasatsport
+#EXTINF:-1 tvg-logo="https://img.ge/ib/K6mz212.png" group-title="MYIPTV სპორტი",GE: Setanta Sports 1 Georgia HD
+http://158.101.222.193:88/georgia_play.php?id=setanta_georgia
+#EXTINF:-1 tvg-logo="https://img.ge/ib/G4JYv12.png" group-title="MYIPTV სპორტი",GE: Setanta Sports 3 Georgia HD
+http://158.101.222.193:88/georgia_play.php?id=setanta_sports_3
 #EXTINF:-1 tvg-logo="https://unitedfightalliance.com/wp-content/uploads/2024/01/29_-_Printable_Resolution_File-removebg-preview-1024x504.png" group-title="MYIPTV სპორტი",UFA United Fight Alliance
 https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/united-fight-alliance/cee99d2e-7187-44d4-8578-8da2701465df/0.m3u8
 #EXTINF:-1 tvg-logo="https://oneplaysport.cz/assets/front/img/channels/ops_2.png" group-title="MYIPTV სპორტი",one play sport 2
@@ -13,3 +85,5 @@ https://dmidspta.cdn.mgmlcdn.com/dubaisports/smil:dubaisports.stream.smil/chunkl
 http://dmitwlvvll.cdn.mangomolo.com/dubaisportshd/smil:dubaisportshd.smil/chunklist_b1600000.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/U0A8Gex.png" group-title="MYIPTV სპორტი",Dubai Sports 3
 http://dmitwlvvll.cdn.mangomolo.com/dubaisportshd5/smil:dubaisportshd5.smil/chunklist_b1600000.m3u8
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/736x/95/a9/56/95a9566ee370963400a80d1e069e0f2a.jpg" group-title="MYIPTV სპორტი",FOX SPORTS
+https://fl7.moveonjoy.com/FOX_Sports_1/tracks-v1a1/mono.ts.m3u8

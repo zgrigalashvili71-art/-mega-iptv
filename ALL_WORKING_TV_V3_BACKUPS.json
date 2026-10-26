@@ -1,4 +1,99 @@
 {
+ "BMG TV || Georgia": {
+  "channel_name": "BMG TV",
+  "normalized_name": "bmg",
+  "region": "GE",
+  "group": "Georgia",
+  "primary": {
+   "url": "https://tv.nucast.tv/lb/ge/bmg/index.m3u8",
+   "status": "HEALTHY",
+   "sources": [
+    "mega_iptv_main_v3"
+   ],
+   "successes": 2,
+   "failures": 0,
+   "attempts": 2,
+   "startup_seconds": 1.97,
+   "ffprobe_media": true,
+   "ffmpeg_played": true,
+   "proxied": false,
+   "user_agent": "",
+   "referer": "",
+   "origin": "",
+   "source_name": "BMG TV",
+   "tvg_id": "BMGTV.ge@SD"
+  },
+  "backups": [
+   {
+    "rank": 1,
+    "url": "http://tinyurl.com/3zje87av/bmg/tracks-v1a1/index.m3u8",
+    "status": "HEALTHY",
+    "sources": [
+     "senseigaga_full_v3"
+    ],
+    "successes": 2,
+    "failures": 0,
+    "attempts": 2,
+    "startup_seconds": 7.19,
+    "ffprobe_media": true,
+    "ffmpeg_played": true,
+    "proxied": false,
+    "user_agent": "",
+    "referer": "",
+    "origin": "",
+    "source_name": "BMG",
+    "tvg_id": ""
+   }
+  ]
+ },
+ "Ertsulovneba || Georgia": {
+  "channel_name": "Ertsulovneba",
+  "normalized_name": "ertsulovneba",
+  "region": "GE",
+  "group": "Georgia",
+  "primary": {
+   "url": "https://stream.sstv.ge/live/sstv/playlist.m3u8",
+   "status": "HEALTHY",
+   "sources": [
+    "mega_iptv_main_v3",
+    "my_main_three_sources_v3"
+   ],
+   "successes": 4,
+   "failures": 0,
+   "attempts": 4,
+   "startup_seconds": 6.58,
+   "ffprobe_media": true,
+   "ffmpeg_played": true,
+   "proxied": false,
+   "user_agent": "",
+   "referer": "",
+   "origin": "",
+   "source_name": "Ertsulovneba",
+   "tvg_id": "Ertsulovneba.ge@SD"
+  },
+  "backups": [
+   {
+    "rank": 1,
+    "url": "http://tinyurl.com/3zje87av/ertsulovneba/tracks-v1a1/index.m3u8",
+    "status": "HEALTHY",
+    "sources": [
+     "senseigaga_full_v3"
+    ],
+    "successes": 2,
+    "failures": 0,
+    "attempts": 2,
+    "startup_seconds": 4.39,
+    "ffprobe_media": true,
+    "ffmpeg_played": true,
+    "proxied": false,
+    "user_agent": "",
+    "referer": "",
+    "origin": "",
+    "source_name": "Ertsulovneba",
+    "tvg_id": "Ertsulovneba.ge"
+   }
+  ]
+ },
  "Formula || Georgia": {
   "channel_name": "Formula",
   "normalized_name": "formula",
@@ -165,6 +260,73 @@
     "origin": "",
     "source_name": "Palitra News",
     "tvg_id": "PalitraNews.ge"
+   }
+  ]
+ },
+ "Rustavi 2 || Georgia": {
+  "channel_name": "Rustavi 2",
+  "normalized_name": "rustavi 2",
+  "region": "GE",
+  "group": "Georgia",
+  "primary": {
+   "url": "https://live8.mar.tv/1/4rd/index.m3u8",
+   "status": "HEALTHY",
+   "sources": [
+    "mega_iptv_main_v3"
+   ],
+   "successes": 2,
+   "failures": 0,
+   "attempts": 2,
+   "startup_seconds": 1.61,
+   "ffprobe_media": true,
+   "ffmpeg_played": true,
+   "proxied": false,
+   "user_agent": "",
+   "referer": "",
+   "origin": "",
+   "source_name": "Rustavi 2",
+   "tvg_id": "rustavi2"
+  },
+  "backups": [
+   {
+    "rank": 1,
+    "url": "http://tinyurl.com/3zje87av/rustavi2hqnew/tracks-v1a1/index.m3u8",
+    "status": "HEALTHY",
+    "sources": [
+     "senseigaga_full_v3"
+    ],
+    "successes": 2,
+    "failures": 0,
+    "attempts": 2,
+    "startup_seconds": 5.75,
+    "ffprobe_media": true,
+    "ffmpeg_played": true,
+    "proxied": false,
+    "user_agent": "",
+    "referer": "",
+    "origin": "",
+    "source_name": "Rustavi 2",
+    "tvg_id": "no_epg"
+   },
+   {
+    "rank": 2,
+    "url": "http://nue01-edge01.itdc.ge/rustavi2hqnew/mpegts",
+    "status": "HEALTHY",
+    "sources": [
+     "mega_iptv_main_v3"
+    ],
+    "successes": 2,
+    "failures": 0,
+    "attempts": 2,
+    "startup_seconds": 10.7,
+    "ffprobe_media": true,
+    "ffmpeg_played": true,
+    "proxied": false,
+    "user_agent": "",
+    "referer": "",
+    "origin": "",
+    "source_name": "Rustavi 2",
+    "tvg_id": "Rustavi2.ge"
    }
   ]
  },
@@ -1545,6 +1707,53 @@
    }
   ]
  },
+ "Equalympic || Sports": {
+  "channel_name": "Equalympic",
+  "normalized_name": "equalympic",
+  "region": "UA",
+  "group": "Sports",
+  "primary": {
+   "url": "https://cdnua03.hls.tv/476/hls/c4a7acbb4f6a85595a117f7aa2099d65/4779/stream.m3u8",
+   "status": "HEALTHY",
+   "sources": [
+    "winsports_full_v3"
+   ],
+   "successes": 2,
+   "failures": 0,
+   "attempts": 2,
+   "startup_seconds": 4.96,
+   "ffprobe_media": true,
+   "ffmpeg_played": true,
+   "proxied": false,
+   "user_agent": "",
+   "referer": "",
+   "origin": "",
+   "source_name": "Equalympic",
+   "tvg_id": ""
+  },
+  "backups": [
+   {
+    "rank": 1,
+    "url": "http://stream.mcquack.net/485/index.m3u8",
+    "status": "FLAKY",
+    "sources": [
+     "mega_iptv_main_v3"
+    ],
+    "successes": 1,
+    "failures": 2,
+    "attempts": 3,
+    "startup_seconds": 3.08,
+    "ffprobe_media": true,
+    "ffmpeg_played": true,
+    "proxied": false,
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+    "referer": "",
+    "origin": "",
+    "source_name": "Equalympic",
+    "tvg_id": "Equalympic.ua@SD"
+   }
+  ]
+ },
  "ESPN || Sports": {
   "channel_name": "ESPN",
   "normalized_name": "espn",
@@ -2217,7 +2426,7 @@
  "Go3 Sport 1 || Sports": {
   "channel_name": "Go3 Sport 1",
   "normalized_name": "go 3 sport 1",
-  "region": "",
+  "region": "EE",
   "group": "Sports",
   "primary": {
    "url": "http://de.online24.pm/play/6709/0E5BF0B5A9755BD/video.m3u8",
@@ -2258,6 +2467,26 @@
     "origin": "",
     "source_name": "GO 3 Sport 1",
     "tvg_id": ""
+   },
+   {
+    "rank": 2,
+    "url": "http://stream.mcquack.net/416/index.m3u8",
+    "status": "FLAKY",
+    "sources": [
+     "mega_iptv_main_v3"
+    ],
+    "successes": 1,
+    "failures": 2,
+    "attempts": 3,
+    "startup_seconds": 3.25,
+    "ffprobe_media": true,
+    "ffmpeg_played": true,
+    "proxied": false,
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+    "referer": "",
+    "origin": "",
+    "source_name": "Go3 Sport 1",
+    "tvg_id": "Go3Sport1.ee@SD"
    }
   ]
  },
@@ -3916,104 +4145,57 @@
    }
   ]
  },
- "Sport 3 || Sports": {
-  "channel_name": "Sport 3",
-  "normalized_name": "sport 3",
-  "region": "IL",
+ "Sport 1 Baltic || Sports": {
+  "channel_name": "Sport 1 Baltic",
+  "normalized_name": "sport 1 baltic",
+  "region": "UA",
   "group": "Sports",
   "primary": {
-   "url": "http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/BWGFFCU59AE6AEV3KF3FXTBA/12251/index.m3u8",
+   "url": "http://de.online24.pm/play/876/0E5BF0B5A9755BD/video.m3u8",
    "status": "HEALTHY",
    "sources": [
-    "mega_iptv_main_v3"
+    "s3iptv_full_v3"
    ],
    "successes": 2,
    "failures": 0,
    "attempts": 2,
-   "startup_seconds": 2.77,
+   "startup_seconds": 6.68,
    "ffprobe_media": true,
    "ffmpeg_played": true,
    "proxied": false,
    "user_agent": "",
    "referer": "",
    "origin": "",
-   "source_name": "Sport 3",
-   "tvg_id": "Sport3.il@SD"
+   "source_name": "Sport 1 Baltic",
+   "tvg_id": "Xsport1-baltic"
   },
   "backups": [
    {
     "rank": 1,
-    "url": "http://de.online24.pm/play/1565/0E5BF0B5A9755BD/video.m3u8",
-    "status": "HEALTHY",
+    "url": "http://stream.mcquack.net/461/index.m3u8",
+    "status": "FLAKY",
     "sources": [
-     "s3iptv_full_v3"
+     "mega_iptv_main_v3"
     ],
-    "successes": 2,
-    "failures": 0,
-    "attempts": 2,
-    "startup_seconds": 6.77,
+    "successes": 1,
+    "failures": 2,
+    "attempts": 3,
+    "startup_seconds": 2.89,
     "ffprobe_media": true,
     "ffmpeg_played": true,
     "proxied": false,
-    "user_agent": "",
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
     "referer": "",
     "origin": "",
-    "source_name": "Sport 3",
-    "tvg_id": "X991788"
+    "source_name": "Sport 1 Baltic",
+    "tvg_id": "Sport1Baltic.ua@SD"
    }
   ]
  },
- "Sport 4 || Sports": {
-  "channel_name": "Sport 4",
-  "normalized_name": "sport 4",
-  "region": "IL",
-  "group": "Sports",
-  "primary": {
-   "url": "http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/BWGFFCU59AE6AEV3KF3FXTBA/2389/index.m3u8",
-   "status": "HEALTHY",
-   "sources": [
-    "mega_iptv_main_v3"
-   ],
-   "successes": 2,
-   "failures": 0,
-   "attempts": 2,
-   "startup_seconds": 2.98,
-   "ffprobe_media": true,
-   "ffmpeg_played": true,
-   "proxied": false,
-   "user_agent": "",
-   "referer": "",
-   "origin": "",
-   "source_name": "Sport 4",
-   "tvg_id": "Sport4.il@SD"
-  },
-  "backups": [
-   {
-    "rank": 1,
-    "url": "http://de.online24.pm/play/1566/0E5BF0B5A9755BD/video.m3u8",
-    "status": "HEALTHY",
-    "sources": [
-     "s3iptv_full_v3"
-    ],
-    "successes": 2,
-    "failures": 0,
-    "attempts": 2,
-    "startup_seconds": 5.66,
-    "ffprobe_media": true,
-    "ffmpeg_played": true,
-    "proxied": false,
-    "user_agent": "",
-    "referer": "",
-    "origin": "",
-    "source_name": "Sport 4",
-    "tvg_id": "X991783"
-   }
-  ]
- },
- "Sport5 || Sports": {
-  "channel_name": "Sport5",
+ "Sport 5 || Sports": {
+  "channel_name": "Sport 5",
   "normalized_name": "sport 5",
-  "region": "",
+  "region": "UA",
   "group": "Sports",
   "primary": {
    "url": "https://rgelive.akamaized.net/hls/live/2043095/live3/playlist.m3u8",
@@ -4075,6 +4257,26 @@
     "origin": "",
     "source_name": "Sport 5",
     "tvg_id": "X991606"
+   },
+   {
+    "rank": 3,
+    "url": "http://stream.mcquack.net/212/index.m3u8",
+    "status": "FLAKY",
+    "sources": [
+     "mega_iptv_main_v3"
+    ],
+    "successes": 1,
+    "failures": 2,
+    "attempts": 3,
+    "startup_seconds": 2.58,
+    "ffprobe_media": true,
+    "ffmpeg_played": true,
+    "proxied": false,
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36",
+    "referer": "",
+    "origin": "",
+    "source_name": "Sport 5",
+    "tvg_id": "Sport5.ua@SD"
    }
   ]
  },
@@ -4516,6 +4718,55 @@
    }
   ]
  },
+ "Suspilne Sport || Sports": {
+  "channel_name": "Suspilne Sport",
+  "normalized_name": "suspilne sport",
+  "region": "UA",
+  "group": "Sports",
+  "primary": {
+   "url": "http://cdnua05.hls.tv/934/hls/8743361621b245838bee193c9ec28322/4856/stream.m3u8",
+   "status": "HEALTHY",
+   "sources": [
+    "iptv_health_results",
+    "mega_iptv_main_v3",
+    "my_main_three_sources_v3"
+   ],
+   "successes": 5,
+   "failures": 0,
+   "attempts": 5,
+   "startup_seconds": 0.88,
+   "ffprobe_media": true,
+   "ffmpeg_played": true,
+   "proxied": false,
+   "user_agent": "",
+   "referer": "",
+   "origin": "",
+   "source_name": "Suspilne Sport",
+   "tvg_id": "SuspilneSport.ua"
+  },
+  "backups": [
+   {
+    "rank": 1,
+    "url": "http://stream.mcquack.net/444/index.m3u8",
+    "status": "FLAKY",
+    "sources": [
+     "mega_iptv_main_v3"
+    ],
+    "successes": 1,
+    "failures": 2,
+    "attempts": 3,
+    "startup_seconds": 2.47,
+    "ffprobe_media": true,
+    "ffmpeg_played": true,
+    "proxied": false,
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+    "referer": "",
+    "origin": "",
+    "source_name": "Suspilne. Sport",
+    "tvg_id": "SuspilneSport.ua@SD"
+   }
+  ]
+ },
  "Swerve Women’s Sports || Sports": {
   "channel_name": "Swerve Women’s Sports",
   "normalized_name": "swerve women s sports",
@@ -4851,6 +5102,77 @@
    }
   ]
  },
+ "viju+ Sport || Sports": {
+  "channel_name": "viju+ Sport",
+  "normalized_name": "viju plus sport",
+  "region": "RU",
+  "group": "Sports",
+  "primary": {
+   "url": "http://46.53.200.153:7777/play/a01l/index.m3u8",
+   "status": "HEALTHY",
+   "sources": [
+    "mega_iptv_main_v3"
+   ],
+   "successes": 2,
+   "failures": 0,
+   "attempts": 2,
+   "startup_seconds": 11.76,
+   "ffprobe_media": true,
+   "ffmpeg_played": true,
+   "proxied": false,
+   "user_agent": "",
+   "referer": "",
+   "origin": "",
+   "source_name": "viju+ Sport",
+   "tvg_id": "vijuPlusSport.ru@HD"
+  },
+  "backups": [
+   {
+    "rank": 1,
+    "url": "http://tinyurl.com/Argaavrcelo/viasatsport/index.m3u8",
+    "status": "HEALTHY",
+    "sources": [
+     "senseigaga_full_v3",
+     "senseigaga_tv_results",
+     "senseigaga_tv_results_run2",
+     "senseigaga_tv_results_v2",
+     "senseigaga_v3_binary"
+    ],
+    "successes": 16,
+    "failures": 4,
+    "attempts": 18,
+    "startup_seconds": 1.2,
+    "ffprobe_media": true,
+    "ffmpeg_played": true,
+    "proxied": false,
+    "user_agent": "",
+    "referer": "",
+    "origin": "",
+    "source_name": "Viju+ Sport",
+    "tvg_id": ""
+   },
+   {
+    "rank": 2,
+    "url": "http://stream.mcquack.net/333/index.m3u8",
+    "status": "FLAKY",
+    "sources": [
+     "mega_iptv_main_v3"
+    ],
+    "successes": 1,
+    "failures": 2,
+    "attempts": 3,
+    "startup_seconds": 2.73,
+    "ffprobe_media": true,
+    "ffmpeg_played": true,
+    "proxied": false,
+    "user_agent": "",
+    "referer": "",
+    "origin": "",
+    "source_name": "viju+ Sport",
+    "tvg_id": "vijuPlusSport.ru@SD"
+   }
+  ]
+ },
  "Women's Sports Network || Sports": {
   "channel_name": "Women's Sports Network",
   "normalized_name": "women s sports network",
@@ -5080,15 +5402,15 @@
   "region": "",
   "group": "Sports",
   "primary": {
-   "url": "http://cdntv.online/low/9mlxywika2/48.m3u8",
+   "url": "http://tinyurl.com/Argaavrcelo/matchtv/index.m3u8",
    "status": "HEALTHY",
    "sources": [
-    "my_main_three_sources_v3"
+    "senseigaga_full_v3"
    ],
-   "successes": 2,
+   "successes": 4,
    "failures": 0,
-   "attempts": 2,
-   "startup_seconds": 3.33,
+   "attempts": 4,
+   "startup_seconds": 5.88,
    "ffprobe_media": true,
    "ffmpeg_played": true,
    "proxied": false,
@@ -5101,6 +5423,26 @@
   "backups": [
    {
     "rank": 1,
+    "url": "http://cdntv.online/low/9mlxywika2/48.m3u8",
+    "status": "HEALTHY",
+    "sources": [
+     "my_main_three_sources_v3"
+    ],
+    "successes": 2,
+    "failures": 0,
+    "attempts": 2,
+    "startup_seconds": 3.33,
+    "ffprobe_media": true,
+    "ffmpeg_played": true,
+    "proxied": false,
+    "user_agent": "",
+    "referer": "",
+    "origin": "",
+    "source_name": "Матч!",
+    "tvg_id": ""
+   },
+   {
+    "rank": 2,
     "url": "http://tv.tuva.ru/machtv/index.m3u8",
     "status": "HEALTHY",
     "sources": [
@@ -5501,6 +5843,155 @@
     "origin": "",
     "source_name": "FIFA+",
     "tvg_id": "66997d18a1b69e00082ee85f"
+   },
+   {
+    "rank": 16,
+    "url": "https://jmp2.uk/plu-66997e8d3a4ad20008e50be9.m3u8",
+    "status": "HEALTHY",
+    "sources": [
+     "mega_iptv_main_v3"
+    ],
+    "successes": 2,
+    "failures": 0,
+    "attempts": 2,
+    "startup_seconds": 21.73,
+    "ffprobe_media": true,
+    "ffmpeg_played": true,
+    "proxied": false,
+    "user_agent": "",
+    "referer": "",
+    "origin": "",
+    "source_name": "FIFA+",
+    "tvg_id": "66997e8d3a4ad20008e50be9"
+   },
+   {
+    "rank": 17,
+    "url": "https://jmp2.uk/plu-660bfcd07bcd860008796ae8.m3u8",
+    "status": "HEALTHY",
+    "sources": [
+     "mega_iptv_main_v3"
+    ],
+    "successes": 2,
+    "failures": 0,
+    "attempts": 2,
+    "startup_seconds": 23.66,
+    "ffprobe_media": true,
+    "ffmpeg_played": true,
+    "proxied": false,
+    "user_agent": "",
+    "referer": "",
+    "origin": "",
+    "source_name": "FIFA+",
+    "tvg_id": "660bfcd07bcd860008796ae8"
+   },
+   {
+    "rank": 18,
+    "url": "https://jmp2.uk/plu-660bfca524e1d000085b6007.m3u8",
+    "status": "HEALTHY",
+    "sources": [
+     "mega_iptv_main_v3"
+    ],
+    "successes": 2,
+    "failures": 0,
+    "attempts": 2,
+    "startup_seconds": 25.33,
+    "ffprobe_media": true,
+    "ffmpeg_played": true,
+    "proxied": false,
+    "user_agent": "",
+    "referer": "",
+    "origin": "",
+    "source_name": "FIFA+",
+    "tvg_id": "660bfca524e1d000085b6007"
+   },
+   {
+    "rank": 19,
+    "url": "https://jmp2.uk/plu-660bfc4424e1d000085b5f93.m3u8",
+    "status": "HEALTHY",
+    "sources": [
+     "mega_iptv_main_v3"
+    ],
+    "successes": 2,
+    "failures": 0,
+    "attempts": 2,
+    "startup_seconds": 25.67,
+    "ffprobe_media": true,
+    "ffmpeg_played": true,
+    "proxied": false,
+    "user_agent": "",
+    "referer": "",
+    "origin": "",
+    "source_name": "FIFA+",
+    "tvg_id": "660bfc4424e1d000085b5f93"
+   },
+   {
+    "rank": 20,
+    "url": "https://jmp2.uk/plu-660bfc032433010008def35a.m3u8",
+    "status": "HEALTHY",
+    "sources": [
+     "mega_iptv_main_v3"
+    ],
+    "successes": 2,
+    "failures": 0,
+    "attempts": 2,
+    "startup_seconds": 26.69,
+    "ffprobe_media": true,
+    "ffmpeg_played": true,
+    "proxied": false,
+    "user_agent": "",
+    "referer": "",
+    "origin": "",
+    "source_name": "FIFA+",
+    "tvg_id": "660bfc032433010008def35a"
+   },
+   {
+    "rank": 21,
+    "url": "https://jmp2.uk/plu-660c2a2d2433010008df7e92.m3u8",
+    "status": "HEALTHY",
+    "sources": [
+     "mega_iptv_main_v3"
+    ],
+    "successes": 2,
+    "failures": 0,
+    "attempts": 2,
+    "startup_seconds": 31.9,
+    "ffprobe_media": true,
+    "ffmpeg_played": true,
+    "proxied": false,
+    "user_agent": "",
+    "referer": "",
+    "origin": "",
+    "source_name": "FIFA+",
+    "tvg_id": "660c2a2d2433010008df7e92"
+   },
+   {
+    "rank": 22,
+    "url": "https://a62dad94.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWV1X0ZJRkFQbHVzRW5nbGlzaF9ITFM/playlist.m3u8",
+    "status": "HEALTHY",
+    "sources": [
+     "iptv_health_results",
+     "mega_iptv_main_v3",
+     "my_main_three_sources_v3",
+     "senseigaga_full_v3",
+     "senseigaga_tv_results",
+     "senseigaga_tv_results_run2",
+     "senseigaga_tv_results_v2",
+     "senseigaga_v3_binary",
+     "toptiviku_full_v3",
+     "winsports_full_v3"
+    ],
+    "successes": 25,
+    "failures": 4,
+    "attempts": 27,
+    "startup_seconds": 3.52,
+    "ffprobe_media": true,
+    "ffmpeg_played": true,
+    "proxied": false,
+    "user_agent": "",
+    "referer": "",
+    "origin": "",
+    "source_name": "FIFA+",
+    "tvg_id": "GBBD1100008YW"
    }
   ]
  },
@@ -7838,6 +8329,26 @@
     "origin": "",
     "source_name": "UFC",
     "tvg_id": "6792044b680721c77c5b9ba2"
+   },
+   {
+    "rank": 16,
+    "url": "https://jmp2.uk/plu-677d9adfa9a51b0008497fa0.m3u8",
+    "status": "HEALTHY",
+    "sources": [
+     "mega_iptv_main_v3"
+    ],
+    "successes": 2,
+    "failures": 0,
+    "attempts": 2,
+    "startup_seconds": 28.09,
+    "ffprobe_media": true,
+    "ffmpeg_played": true,
+    "proxied": false,
+    "user_agent": "",
+    "referer": "",
+    "origin": "",
+    "source_name": "UFC",
+    "tvg_id": "677d9adfa9a51b0008497fa0"
    }
   ]
  },
@@ -10575,6 +11086,26 @@
   "backups": [
    {
     "rank": 1,
+    "url": "http://stream.mcquack.net/131/index.m3u8",
+    "status": "HEALTHY",
+    "sources": [
+     "mega_iptv_main_v3"
+    ],
+    "successes": 2,
+    "failures": 0,
+    "attempts": 2,
+    "startup_seconds": 12.73,
+    "ffprobe_media": true,
+    "ffmpeg_played": true,
+    "proxied": false,
+    "user_agent": "",
+    "referer": "",
+    "origin": "",
+    "source_name": "Al Jazeera English",
+    "tvg_id": "AlJazeera.qa@EnglishHD"
+   },
+   {
+    "rank": 2,
     "url": "https://live-hls-web-aje-fa.getaj.net/AJE/index.m3u8",
     "status": "HEALTHY",
     "sources": [
@@ -13211,53 +13742,6 @@
    }
   ]
  },
- "Channel 5 || News": {
-  "channel_name": "Channel 5",
-  "normalized_name": "channel 5",
-  "region": "RU",
-  "group": "News",
-  "primary": {
-   "url": "http://31.148.5.241/kanal_5/index.m3u8",
-   "status": "HEALTHY",
-   "sources": [
-    "mega_iptv_main_v3"
-   ],
-   "successes": 2,
-   "failures": 0,
-   "attempts": 2,
-   "startup_seconds": 5.26,
-   "ffprobe_media": true,
-   "ffmpeg_played": true,
-   "proxied": false,
-   "user_agent": "",
-   "referer": "",
-   "origin": "",
-   "source_name": "Channel 5",
-   "tvg_id": "Channel5.ru@SD"
-  },
-  "backups": [
-   {
-    "rank": 1,
-    "url": "https://api-tv.ipnet.ua/api/v1/manifest/2118742539.m3u8",
-    "status": "HEALTHY",
-    "sources": [
-     "my_main_three_sources_v3"
-    ],
-    "successes": 2,
-    "failures": 0,
-    "attempts": 2,
-    "startup_seconds": 13.13,
-    "ffprobe_media": true,
-    "ffmpeg_played": true,
-    "proxied": false,
-    "user_agent": "",
-    "referer": "",
-    "origin": "",
-    "source_name": "Channel 5",
-    "tvg_id": ""
-   }
-  ]
- },
  "Cheddar News || News": {
   "channel_name": "Cheddar News",
   "normalized_name": "cheddar news",
@@ -13442,10 +13926,10 @@
    }
   ]
  },
- "CNN || News": {
-  "channel_name": "CNN",
+ "CNN (USA) || News": {
+  "channel_name": "CNN (USA)",
   "normalized_name": "cnn",
-  "region": "",
+  "region": "US",
   "group": "News",
   "primary": {
    "url": "https://jmp2.uk/stvp-ATBD800001VA",
@@ -13470,7 +13954,7 @@
   "backups": [
    {
     "rank": 1,
-    "url": "https://jmp2.uk/stvp-DEBD800001S4",
+    "url": "https://tvsen6.aynaott.com/cnn/index.m3u8",
     "status": "HEALTHY",
     "sources": [
      "mega_iptv_main_v3"
@@ -13478,7 +13962,7 @@
     "successes": 2,
     "failures": 0,
     "attempts": 2,
-    "startup_seconds": 8.26,
+    "startup_seconds": 12.4,
     "ffprobe_media": true,
     "ffmpeg_played": true,
     "proxied": false,
@@ -13486,27 +13970,7 @@
     "referer": "",
     "origin": "",
     "source_name": "CNN",
-    "tvg_id": "DEBD800001S4"
-   },
-   {
-    "rank": 2,
-    "url": "https://jmp2.uk/stvp-CHBD800001D0",
-    "status": "HEALTHY",
-    "sources": [
-     "mega_iptv_main_v3"
-    ],
-    "successes": 2,
-    "failures": 0,
-    "attempts": 2,
-    "startup_seconds": 9.31,
-    "ffprobe_media": true,
-    "ffmpeg_played": true,
-    "proxied": false,
-    "user_agent": "",
-    "referer": "",
-    "origin": "",
-    "source_name": "CNN",
-    "tvg_id": "CHBD800001D0"
+    "tvg_id": "CNN.us@SD"
    }
   ]
  },
@@ -14385,6 +14849,53 @@
     "origin": "",
     "source_name": "Dijlah TV",
     "tvg_id": ""
+   }
+  ]
+ },
+ "DIM || News": {
+  "channel_name": "DIM",
+  "normalized_name": "dim",
+  "region": "UA",
+  "group": "News",
+  "primary": {
+   "url": "https://live.artidijitalmedya.com/artidijital_dimtv/dimtv/playlist.m3u8",
+   "status": "HEALTHY",
+   "sources": [
+    "my_main_three_sources_v3"
+   ],
+   "successes": 2,
+   "failures": 0,
+   "attempts": 2,
+   "startup_seconds": 8.55,
+   "ffprobe_media": true,
+   "ffmpeg_played": true,
+   "proxied": false,
+   "user_agent": "",
+   "referer": "",
+   "origin": "",
+   "source_name": "DİM TV",
+   "tvg_id": ""
+  },
+  "backups": [
+   {
+    "rank": 1,
+    "url": "http://stream.mcquack.net/383/index.m3u8",
+    "status": "FLAKY",
+    "sources": [
+     "mega_iptv_main_v3"
+    ],
+    "successes": 1,
+    "failures": 2,
+    "attempts": 3,
+    "startup_seconds": 3.42,
+    "ffprobe_media": true,
+    "ffmpeg_played": true,
+    "proxied": false,
+    "user_agent": "",
+    "referer": "",
+    "origin": "",
+    "source_name": "DIM",
+    "tvg_id": "DIM.ua@SD"
    }
   ]
  },
@@ -23894,6 +24405,53 @@
    }
   ]
  },
+ "Dorama || Movies": {
+  "channel_name": "Dorama",
+  "normalized_name": "dorama",
+  "region": "RU",
+  "group": "Movies",
+  "primary": {
+   "url": "https://fs.uplink.kz/dorama/mono.m3u8?token=onlinetv",
+   "status": "HEALTHY",
+   "sources": [
+    "mega_iptv_main_v3"
+   ],
+   "successes": 2,
+   "failures": 0,
+   "attempts": 2,
+   "startup_seconds": 6.19,
+   "ffprobe_media": true,
+   "ffmpeg_played": true,
+   "proxied": false,
+   "user_agent": "",
+   "referer": "",
+   "origin": "",
+   "source_name": "Dorama",
+   "tvg_id": "Dorama.ru@SD"
+  },
+  "backups": [
+   {
+    "rank": 1,
+    "url": "http://stream.mcquack.net/412/index.m3u8",
+    "status": "FLAKY",
+    "sources": [
+     "mega_iptv_main_v3"
+    ],
+    "successes": 1,
+    "failures": 2,
+    "attempts": 3,
+    "startup_seconds": 2.93,
+    "ffprobe_media": true,
+    "ffmpeg_played": true,
+    "proxied": false,
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+    "referer": "",
+    "origin": "",
+    "source_name": "Dorama",
+    "tvg_id": "Dorama.ru@HD"
+   }
+  ]
+ },
  "Drama Filme || Movies": {
   "channel_name": "Drama Filme",
   "normalized_name": "drama filme",
@@ -30457,6 +31015,53 @@
    }
   ]
  },
+ "red || Movies": {
+  "channel_name": "red",
+  "normalized_name": "red",
+  "region": "RU",
+  "group": "Movies",
+  "primary": {
+   "url": "http://tinyurl.com/Argaavrcelo/red/index.m3u8",
+   "status": "HEALTHY",
+   "sources": [
+    "senseigaga_full_v3"
+   ],
+   "successes": 2,
+   "failures": 0,
+   "attempts": 2,
+   "startup_seconds": 9.94,
+   "ffprobe_media": true,
+   "ffmpeg_played": true,
+   "proxied": false,
+   "user_agent": "",
+   "referer": "",
+   "origin": "",
+   "source_name": "Red",
+   "tvg_id": ""
+  },
+  "backups": [
+   {
+    "rank": 1,
+    "url": "http://178.134.1.158:8081/red/index.m3u8",
+    "status": "HEALTHY",
+    "sources": [
+     "mega_iptv_main_v3"
+    ],
+    "successes": 2,
+    "failures": 0,
+    "attempts": 2,
+    "startup_seconds": 11.46,
+    "ffprobe_media": true,
+    "ffmpeg_played": true,
+    "proxied": false,
+    "user_agent": "",
+    "referer": "",
+    "origin": "",
+    "source_name": "red",
+    "tvg_id": "red.ru@HD"
+   }
+  ]
+ },
  "Runtime Espanol || Movies": {
   "channel_name": "Runtime Espanol",
   "normalized_name": "runtime espanol",
@@ -32580,6 +33185,194 @@
     "origin": "",
     "source_name": "Urban Action Channel",
     "tvg_id": "LN_E1323824-8949-45C5-B8B9-DF36E8B84232"
+   }
+  ]
+ },
+ "viju TV1000 action || Movies": {
+  "channel_name": "viju TV1000 action",
+  "normalized_name": "viju tv 1000 action",
+  "region": "RU",
+  "group": "Movies",
+  "primary": {
+   "url": "http://tinyurl.com/Argaavrcelo/tv1000action/index.m3u8",
+   "status": "HEALTHY",
+   "sources": [
+    "senseigaga_full_v3"
+   ],
+   "successes": 2,
+   "failures": 0,
+   "attempts": 2,
+   "startup_seconds": 10.2,
+   "ffprobe_media": true,
+   "ffmpeg_played": true,
+   "proxied": false,
+   "user_agent": "",
+   "referer": "",
+   "origin": "",
+   "source_name": "Viju TV 1000 Action",
+   "tvg_id": ""
+  },
+  "backups": [
+   {
+    "rank": 1,
+    "url": "http://stream.mcquack.net/100/index.m3u8",
+    "status": "FLAKY",
+    "sources": [
+     "mega_iptv_main_v3"
+    ],
+    "successes": 1,
+    "failures": 2,
+    "attempts": 3,
+    "startup_seconds": 2.74,
+    "ffprobe_media": true,
+    "ffmpeg_played": true,
+    "proxied": false,
+    "user_agent": "",
+    "referer": "",
+    "origin": "",
+    "source_name": "viju TV1000 action",
+    "tvg_id": "vijuTV1000action.ru@SD"
+   }
+  ]
+ },
+ "viju+ Megahit || Movies": {
+  "channel_name": "viju+ Megahit",
+  "normalized_name": "viju plus megahit",
+  "region": "RU",
+  "group": "Movies",
+  "primary": {
+   "url": "http://tinyurl.com/Argaavrcelo/vipmegahit/index.m3u8",
+   "status": "HEALTHY",
+   "sources": [
+    "senseigaga_full_v3"
+   ],
+   "successes": 2,
+   "failures": 0,
+   "attempts": 2,
+   "startup_seconds": 8.07,
+   "ffprobe_media": true,
+   "ffmpeg_played": true,
+   "proxied": false,
+   "user_agent": "",
+   "referer": "",
+   "origin": "",
+   "source_name": "Viju+ Megahit",
+   "tvg_id": ""
+  },
+  "backups": [
+   {
+    "rank": 1,
+    "url": "http://stream.mcquack.net/200/index.m3u8",
+    "status": "FLAKY",
+    "sources": [
+     "mega_iptv_main_v3"
+    ],
+    "successes": 1,
+    "failures": 2,
+    "attempts": 3,
+    "startup_seconds": 2.81,
+    "ffprobe_media": true,
+    "ffmpeg_played": true,
+    "proxied": false,
+    "user_agent": "",
+    "referer": "",
+    "origin": "",
+    "source_name": "viju+ Megahit",
+    "tvg_id": "vijuPlusMegahit.ru@HD"
+   }
+  ]
+ },
+ "viju+ Premiere || Movies": {
+  "channel_name": "viju+ Premiere",
+  "normalized_name": "viju plus premiere",
+  "region": "RU",
+  "group": "Movies",
+  "primary": {
+   "url": "http://tinyurl.com/Argaavrcelo/vippremiera/index.m3u8",
+   "status": "HEALTHY",
+   "sources": [
+    "senseigaga_full_v3"
+   ],
+   "successes": 2,
+   "failures": 0,
+   "attempts": 2,
+   "startup_seconds": 6.73,
+   "ffprobe_media": true,
+   "ffmpeg_played": true,
+   "proxied": false,
+   "user_agent": "",
+   "referer": "",
+   "origin": "",
+   "source_name": "Viju+ Premiere",
+   "tvg_id": ""
+  },
+  "backups": [
+   {
+    "rank": 1,
+    "url": "http://stream.mcquack.net/202/index.m3u8",
+    "status": "FLAKY",
+    "sources": [
+     "mega_iptv_main_v3"
+    ],
+    "successes": 1,
+    "failures": 2,
+    "attempts": 3,
+    "startup_seconds": 4.37,
+    "ffprobe_media": true,
+    "ffmpeg_played": true,
+    "proxied": false,
+    "user_agent": "",
+    "referer": "",
+    "origin": "",
+    "source_name": "viju+ Premiere",
+    "tvg_id": "vijuPlusPremiere.ru@HD"
+   }
+  ]
+ },
+ "viju+ Serial || Movies": {
+  "channel_name": "viju+ Serial",
+  "normalized_name": "viju plus serial",
+  "region": "RU",
+  "group": "Movies",
+  "primary": {
+   "url": "http://tinyurl.com/Argaavrcelo/vipserial/index.m3u8",
+   "status": "HEALTHY",
+   "sources": [
+    "senseigaga_full_v3"
+   ],
+   "successes": 2,
+   "failures": 0,
+   "attempts": 2,
+   "startup_seconds": 7.21,
+   "ffprobe_media": true,
+   "ffmpeg_played": true,
+   "proxied": false,
+   "user_agent": "",
+   "referer": "",
+   "origin": "",
+   "source_name": "Viju+ Serial",
+   "tvg_id": ""
+  },
+  "backups": [
+   {
+    "rank": 1,
+    "url": "http://stream.mcquack.net/311/index.m3u8",
+    "status": "FLAKY",
+    "sources": [
+     "mega_iptv_main_v3"
+    ],
+    "successes": 1,
+    "failures": 2,
+    "attempts": 3,
+    "startup_seconds": 2.77,
+    "ffprobe_media": true,
+    "ffmpeg_played": true,
+    "proxied": false,
+    "user_agent": "",
+    "referer": "",
+    "origin": "",
+    "source_name": "viju+ Serial",
+    "tvg_id": "vijuPlusSerial.ru@HD"
    }
   ]
  },
@@ -39639,6 +40432,100 @@
    }
   ]
  },
+ "All Reality We TV || Entertainment": {
+  "channel_name": "All Reality We TV",
+  "normalized_name": "all reality we",
+  "region": "CA",
+  "group": "Entertainment",
+  "primary": {
+   "url": "https://d3pxo1qcgzxtxs.cloudfront.net/10005/99951376/hls/playlist.m3u8?includeAssetTags=true&ads.xumo_channelId=99951376&ads.xumo_streamId=99951376&ads.channelId=99951376&ads.channelName=&ads.csid=xumo_web_AMCAllRealityWeTV_ssai&ads._fw_coppa=0&ads._fw_content_genre=Reality,Drama,GD,Entertainment,GV,Reality-TV,Reality Shows&ads.xumo_contentId=4173&ads.xumo_contentName=AMCAllRealityWeTV&ads.xumo_providerId=4173&ads.xumo_providerName=AMCAllRealityWeTV&ads._fw_is_lat=0&ads._fw_us_privacy=&ads._fw_did=:fce8ab6e-a020-4843-9d6f-aa6bf54658ac&ads._fw_content_category=&ads._fw_content_language=en&ads._fw_content_rating=&ads._fw_deviceType=3-Connected_TV&ads._fw_deviceMake=GitHubAction&ads._fw_device_model=PythonScript&ads.xumo_platform=web&ads.appVersion=1.0.0&ads._fw_app_bundle=web.xumo.com&ads._fw_app_store_url=&ads._fw_ifa_type=",
+   "status": "HEALTHY",
+   "sources": [
+    "mega_iptv_main_v3"
+   ],
+   "successes": 2,
+   "failures": 0,
+   "attempts": 2,
+   "startup_seconds": 19.5,
+   "ffprobe_media": true,
+   "ffmpeg_played": true,
+   "proxied": false,
+   "user_agent": "",
+   "referer": "",
+   "origin": "",
+   "source_name": "All Reality We TV",
+   "tvg_id": "99951376"
+  },
+  "backups": [
+   {
+    "rank": 1,
+    "url": "https://jmp2.uk/plu-6a205abba7b5a6c560b8ac25.m3u8",
+    "status": "HEALTHY",
+    "sources": [
+     "mega_iptv_main_v3"
+    ],
+    "successes": 2,
+    "failures": 0,
+    "attempts": 2,
+    "startup_seconds": 21.41,
+    "ffprobe_media": true,
+    "ffmpeg_played": true,
+    "proxied": false,
+    "user_agent": "",
+    "referer": "",
+    "origin": "",
+    "source_name": "All Reality We TV",
+    "tvg_id": "6a205abba7b5a6c560b8ac25"
+   }
+  ]
+ },
+ "All Weddings WE tv || Entertainment": {
+  "channel_name": "All Weddings WE tv",
+  "normalized_name": "all weddings we",
+  "region": "US",
+  "group": "Entertainment",
+  "primary": {
+   "url": "https://d3pxo1qcgzxtxs.cloudfront.net/10005/99991625/hls/playlist.m3u8?includeAssetTags=true&ads.xumo_channelId=99991625&ads.xumo_streamId=99991625&ads.channelId=99991625&ads.channelName=&ads.csid=xumo_web_amcallweddingswetv_ssai&ads._fw_coppa=0&ads._fw_content_genre=Reality,Drama,GD,Entertainment,GV,Reality-TV,Reality Shows&ads.xumo_contentId=2653&ads.xumo_contentName=amcallweddingswetv&ads.xumo_providerId=2653&ads.xumo_providerName=amcallweddingswetv&ads._fw_is_lat=0&ads._fw_us_privacy=&ads._fw_did=:8e28e78f-c47d-4031-a732-374e6d233221&ads._fw_content_category=&ads._fw_content_language=en&ads._fw_content_rating=&ads._fw_deviceType=3-Connected_TV&ads._fw_deviceMake=GitHubAction&ads._fw_device_model=PythonScript&ads.xumo_platform=web&ads.appVersion=1.0.0&ads._fw_app_bundle=web.xumo.com&ads._fw_app_store_url=&ads._fw_ifa_type=",
+   "status": "HEALTHY",
+   "sources": [
+    "mega_iptv_main_v3"
+   ],
+   "successes": 2,
+   "failures": 0,
+   "attempts": 2,
+   "startup_seconds": 17.27,
+   "ffprobe_media": true,
+   "ffmpeg_played": true,
+   "proxied": false,
+   "user_agent": "",
+   "referer": "",
+   "origin": "",
+   "source_name": "All Weddings We TV",
+   "tvg_id": "99991625"
+  },
+  "backups": [
+   {
+    "rank": 1,
+    "url": "https://amc-allweddings-1-us.xumo.wurl.tv/playlist.m3u8",
+    "status": "HEALTHY",
+    "sources": [
+     "mega_iptv_main_v3"
+    ],
+    "successes": 2,
+    "failures": 0,
+    "attempts": 2,
+    "startup_seconds": 19.8,
+    "ffprobe_media": true,
+    "ffmpeg_played": true,
+    "proxied": false,
+    "user_agent": "",
+    "referer": "",
+    "origin": "",
+    "source_name": "All Weddings WE tv",
+    "tvg_id": "AllWeddingsWEtv.us@SD"
+   }
+  ]
+ },
  "ALLBLK Gems || Entertainment": {
   "channel_name": "ALLBLK Gems",
   "normalized_name": "allblk gems",
@@ -40525,6 +41412,53 @@
     "origin": "",
     "source_name": "Azteca Internacional",
     "tvg_id": "646cce4d1593940008a33f09"
+   }
+  ]
+ },
+ "Bad Girls Club || Entertainment": {
+  "channel_name": "Bad Girls Club",
+  "normalized_name": "bad girls club",
+  "region": "US",
+  "group": "Entertainment",
+  "primary": {
+   "url": "https://d4whmvwm0rdvi.cloudfront.net/10007/99951467/hls/master.m3u8?includeAssetTags=true&ads.xumo_channelId=99951467&ads.xumo_streamId=99951467&ads.channelId=99951467&ads.asnw=535279&ads.afid=440668005&ads.sfid=23858505&ads.csid=xumo_web_versantbadgirlsclub_ssai_cro&ads._fw_coppa=0&ads._fw_content_category=&ads._fw_content_genre=Reality,Drama,GD,Entertainment,GV,Reality-TV,Reality Shows&ads._fw_content_language=&ads._fw_content_rating=&ads.xumo_contentId=4301&ads.xumo_contentName=VersantBadGirlsClub&ads.xumo_providerId=4301&ads.xumo_providerName=VersantBadGirlsClub&ads.caid=&ads._fw_is_lat=0&ads._fw_us_privacy=&ads._fw_did=b03f04f1-3164-45ee-8f6a-eb9df323cc86&ads._fw_vcid2=512116:b03f04f1-3164-45ee-8f6a-eb9df323cc86&ads._fw_app_bundle=&ads._fw_app_store_url=&ads._fw_deviceMake=&ads._fw_device_model=&ads._fw_deviceType=3-Connected_TV&ads.appVersion=1.0.0&ads._fw_ifa_type=&ads.appName=xumo&ads._fw_content_category=&ads._fw_content_genre=&ads._fw_content_language=en&ads._fw_content_rating=",
+   "status": "HEALTHY",
+   "sources": [
+    "mega_iptv_main_v3"
+   ],
+   "successes": 2,
+   "failures": 0,
+   "attempts": 2,
+   "startup_seconds": 19.88,
+   "ffprobe_media": true,
+   "ffmpeg_played": true,
+   "proxied": false,
+   "user_agent": "",
+   "referer": "",
+   "origin": "",
+   "source_name": "Bad Girls Club",
+   "tvg_id": "99951467"
+  },
+  "backups": [
+   {
+    "rank": 1,
+    "url": "https://jmp2.uk/plu-654932fa4d6d8f00084c4723.m3u8",
+    "status": "HEALTHY",
+    "sources": [
+     "mega_iptv_main_v3"
+    ],
+    "successes": 2,
+    "failures": 0,
+    "attempts": 2,
+    "startup_seconds": 31.31,
+    "ffprobe_media": true,
+    "ffmpeg_played": true,
+    "proxied": false,
+    "user_agent": "",
+    "referer": "",
+    "origin": "",
+    "source_name": "Bad Girls Club",
+    "tvg_id": "654932fa4d6d8f00084c4723"
    }
   ]
  },
@@ -42343,6 +43277,53 @@
    }
   ]
  },
+ "DD Malayalam || Entertainment": {
+  "channel_name": "DD Malayalam",
+  "normalized_name": "dd malayalam",
+  "region": "IN",
+  "group": "Entertainment",
+  "primary": {
+   "url": "https://tinyurl.com/59vy8ubu?.m3u8",
+   "status": "HEALTHY",
+   "sources": [
+    "winsports_full_v3"
+   ],
+   "successes": 2,
+   "failures": 0,
+   "attempts": 2,
+   "startup_seconds": 3.85,
+   "ffprobe_media": true,
+   "ffmpeg_played": true,
+   "proxied": false,
+   "user_agent": "",
+   "referer": "",
+   "origin": "",
+   "source_name": "DD Malayalam",
+   "tvg_id": ""
+  },
+  "backups": [
+   {
+    "rank": 1,
+    "url": "https://d2lk5u59tns74c.cloudfront.net/out/v1/c313674ffced4c9a90f1bba436df2b9b/index.m3u8",
+    "status": "HEALTHY",
+    "sources": [
+     "mega_iptv_main_v3"
+    ],
+    "successes": 2,
+    "failures": 0,
+    "attempts": 2,
+    "startup_seconds": 7.02,
+    "ffprobe_media": true,
+    "ffmpeg_played": true,
+    "proxied": false,
+    "user_agent": "",
+    "referer": "",
+    "origin": "",
+    "source_name": "DD Malayalam",
+    "tvg_id": "DDMalayalam.in@SD"
+   }
+  ]
+ },
  "DD National || Entertainment": {
   "channel_name": "DD National",
   "normalized_name": "dd national",
@@ -42407,6 +43388,54 @@
     "origin": "",
     "source_name": "DD National",
     "tvg_id": "DDNational.in@SD"
+   }
+  ]
+ },
+ "DD Punjabi || Entertainment": {
+  "channel_name": "DD Punjabi",
+  "normalized_name": "dd punjabi",
+  "region": "IN",
+  "group": "Entertainment",
+  "primary": {
+   "url": "https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/da821c24a59d4e57960497aeaca8fb33/index.m3u8",
+   "status": "HEALTHY",
+   "sources": [
+    "mega_iptv_main_v3",
+    "my_main_three_sources_v3"
+   ],
+   "successes": 4,
+   "failures": 0,
+   "attempts": 4,
+   "startup_seconds": 7.22,
+   "ffprobe_media": true,
+   "ffmpeg_played": true,
+   "proxied": false,
+   "user_agent": "",
+   "referer": "",
+   "origin": "",
+   "source_name": "DD Punjabi",
+   "tvg_id": "DDPunjabi.in@SD"
+  },
+  "backups": [
+   {
+    "rank": 1,
+    "url": "https://tinyurl.com/bdd57fwr?.m3u8",
+    "status": "HEALTHY",
+    "sources": [
+     "winsports_full_v3"
+    ],
+    "successes": 2,
+    "failures": 0,
+    "attempts": 2,
+    "startup_seconds": 3.6,
+    "ffprobe_media": true,
+    "ffmpeg_played": true,
+    "proxied": false,
+    "user_agent": "",
+    "referer": "",
+    "origin": "",
+    "source_name": "DD Punjabi",
+    "tvg_id": ""
    }
   ]
  },
@@ -43055,6 +44084,93 @@
   "region": "",
   "group": "Entertainment",
   "primary": {
+   "url": "https://live-content.xumo.com/56/content/XM0O0W7616ZG6K/28162338/master.m3u8",
+   "status": "HEALTHY",
+   "sources": [
+    "mega_iptv_main_v3"
+   ],
+   "successes": 2,
+   "failures": 0,
+   "attempts": 2,
+   "startup_seconds": 14.0,
+   "ffprobe_media": true,
+   "ffmpeg_played": true,
+   "proxied": false,
+   "user_agent": "",
+   "referer": "",
+   "origin": "",
+   "source_name": "FailArmy",
+   "tvg_id": "99991153"
+  },
+  "backups": [
+   {
+    "rank": 1,
+    "url": "https://live-manifest.production-public.tubi.io/live/5fd9c7cd-53e4-445e-81c9-6bc717e0bcb7/playlist.m3u8",
+    "status": "HEALTHY",
+    "sources": [
+     "mega_iptv_main_v3"
+    ],
+    "successes": 2,
+    "failures": 0,
+    "attempts": 2,
+    "startup_seconds": 16.77,
+    "ffprobe_media": true,
+    "ffmpeg_played": true,
+    "proxied": false,
+    "user_agent": "",
+    "referer": "",
+    "origin": "",
+    "source_name": "FailArmy",
+    "tvg_id": "400000289"
+   },
+   {
+    "rank": 2,
+    "url": "https://s4host5.localnow.api.cms.amdvids.com/v1/master/c189661feba961c19bc5fb60b57879ee9b84548a/config5/dist/localnow/295/hls/master/playlist.m3u8?ads.cdnhost=s4host5.localnow.api.cms.amdvids.com&ads.playbackid=27B297E5-83A0-457F-B9EC-33C5A020F040&ads.n1=rule_id&ads.v1=E7BB7BA1-D932-4E65-BD9F-93731E6E87C5-1744054592&ads.n3=qp_content_id&ads.v3=27B297E5-83A0-457F-B9EC-33C5A020F040&ads.n4=content_name&ads.v4=EPG%20%7C%20FailArmy&ads.n21=dnt&ads.v21=&ads.n22=channel_genre&ads.v22=Comedy&ads.n23=w&ads.v23=1920&ads.n24=gpp_sid&ads.v24=&ads.n25=device_type&ads.v25=&ads.n26=network_name&ads.v26=fail-army&ads.n27=channel_rating&ads.v27=TV-PG&ads.n28=ua&ads.v28=Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F122.0.0.0%20Safari%2F537.36&ads.n29=channel_corp&ads.v29=JukinMedia%20INC&ads.n30=channel_ext_id&ads.v30=62740037e46279618f2b5933&ads.n31=cust_devicename&ads.v31=desktop_web&ads.n32=content_livestream&ads.v32=1&ads.n33=gpp&ads.v33=&ads.n34=content_producer_name&ads.v34=JukinMedia%20INC&ads.n35=app_store_url&ads.v35=&ads.n36=app_name&ads.v36=&ads.n37=app_version&ads.v37=0.0.0&ads.n38=channel_name&ads.v38=EPG%20%20FailArmy&ads.n39=channel_language&ads.v39=en&ads.n40=channel_title&ads.v40=EPG%20%20FailArmy&ads.n41=content_custom_1_param&ads.v41=27B297E5-83A0-457F-B9EC-33C5A020F040&ads.n42=content_provider&ads.v42=fail-army&ads.n43=channel_company_id&ads.v43=AMDP500402&ads.n44=ifa_type&ads.v44=&ads.n45=device_model&ads.v45=&ads.n46=us_privacy&ads.v46=1YNY&ads.n47=channel_brand_id&ads.v47=AMDB012769&ads.n48=pos&ads.v48=midroll&ads.n49=did&ads.v49=&ads.n50=content_custom_3_param&ads.v50=channel&ads.n51=ip&ads.v51=185.217.168.164&ads.n52=url&ads.v52=https%25253A%25252F%25252Flocalnow.com%25252Fchannels%25252Fcbs-news-chicago-hyperlocal&ads.n53=content_type&ads.v53=channel&ads.n54=content_custom_2_param&ads.v54=AMDB012769&ads.n55=h&ads.v55=1080&ads.n56=channel_id&ads.v56=27B297E5-83A0-457F-B9EC-33C5A020F040&ads.n57=app_bundle&ads.v57=&ads.n58=device_make&ads.v58=",
+    "status": "HEALTHY",
+    "sources": [
+     "mega_iptv_main_v3"
+    ],
+    "successes": 2,
+    "failures": 0,
+    "attempts": 2,
+    "startup_seconds": 26.47,
+    "ffprobe_media": true,
+    "ffmpeg_played": true,
+    "proxied": false,
+    "user_agent": "",
+    "referer": "",
+    "origin": "",
+    "source_name": "FailArmy",
+    "tvg_id": "LN_27B297E5-83A0-457F-B9EC-33C5A020F040"
+   },
+   {
+    "rank": 3,
+    "url": "https://epg.provider.plex.tv/library/parts/5e20b730f2f8d5003d739db7-5f170d62b898490041b4936e/?X-Plex-Token=1bd42jX6T5yoysgbMEMD",
+    "status": "FLAKY",
+    "sources": [
+     "mega_iptv_main_v3"
+    ],
+    "successes": 1,
+    "failures": 2,
+    "attempts": 3,
+    "startup_seconds": 11.24,
+    "ffprobe_media": true,
+    "ffmpeg_played": true,
+    "proxied": false,
+    "user_agent": "",
+    "referer": "",
+    "origin": "",
+    "source_name": "FailArmy",
+    "tvg_id": "5e20b730f2f8d5003d739db7-5f170d62b898490041b4936e"
+   }
+  ]
+ },
+ "FailArmy (USA) || Entertainment": {
+  "channel_name": "FailArmy (USA)",
+  "normalized_name": "failarmy",
+  "region": "US",
+  "group": "Entertainment",
+  "primary": {
    "url": "https://failarmy-international-au.samsung.wurl.tv/playlist.m3u8",
    "status": "HEALTHY",
    "sources": [
@@ -43077,226 +44193,6 @@
   "backups": [
    {
     "rank": 1,
-    "url": "https://jmp2.uk/stvp-ITBA1400001QN",
-    "status": "HEALTHY",
-    "sources": [
-     "mega_iptv_main_v3"
-    ],
-    "successes": 2,
-    "failures": 0,
-    "attempts": 2,
-    "startup_seconds": 8.2,
-    "ffprobe_media": true,
-    "ffmpeg_played": true,
-    "proxied": false,
-    "user_agent": "",
-    "referer": "",
-    "origin": "",
-    "source_name": "FailArmy",
-    "tvg_id": "ITBA1400001QN"
-   },
-   {
-    "rank": 2,
-    "url": "https://jmp2.uk/stvp-DEAJ3200004UF",
-    "status": "HEALTHY",
-    "sources": [
-     "mega_iptv_main_v3"
-    ],
-    "successes": 2,
-    "failures": 0,
-    "attempts": 2,
-    "startup_seconds": 8.88,
-    "ffprobe_media": true,
-    "ffmpeg_played": true,
-    "proxied": false,
-    "user_agent": "",
-    "referer": "",
-    "origin": "",
-    "source_name": "FailArmy",
-    "tvg_id": "DEAJ3200004UF"
-   },
-   {
-    "rank": 3,
-    "url": "https://jmp2.uk/stvp-GBAJ40003642",
-    "status": "HEALTHY",
-    "sources": [
-     "mega_iptv_main_v3"
-    ],
-    "successes": 2,
-    "failures": 0,
-    "attempts": 2,
-    "startup_seconds": 9.85,
-    "ffprobe_media": true,
-    "ffmpeg_played": true,
-    "proxied": false,
-    "user_agent": "",
-    "referer": "",
-    "origin": "",
-    "source_name": "FailArmy",
-    "tvg_id": "GBAJ40003642"
-   },
-   {
-    "rank": 4,
-    "url": "https://jmp2.uk/stvp-CHAJ32000026J",
-    "status": "HEALTHY",
-    "sources": [
-     "mega_iptv_main_v3"
-    ],
-    "successes": 2,
-    "failures": 0,
-    "attempts": 2,
-    "startup_seconds": 10.33,
-    "ffprobe_media": true,
-    "ffmpeg_played": true,
-    "proxied": false,
-    "user_agent": "",
-    "referer": "",
-    "origin": "",
-    "source_name": "FailArmy",
-    "tvg_id": "CHAJ32000026J"
-   },
-   {
-    "rank": 5,
-    "url": "https://jmp2.uk/stvp-ATAJ32000027V",
-    "status": "HEALTHY",
-    "sources": [
-     "mega_iptv_main_v3"
-    ],
-    "successes": 2,
-    "failures": 0,
-    "attempts": 2,
-    "startup_seconds": 10.54,
-    "ffprobe_media": true,
-    "ffmpeg_played": true,
-    "proxied": false,
-    "user_agent": "",
-    "referer": "",
-    "origin": "",
-    "source_name": "FailArmy",
-    "tvg_id": "ATAJ32000027V"
-   },
-   {
-    "rank": 6,
-    "url": "https://jmp2.uk/stvp-ESBA1400006NP",
-    "status": "HEALTHY",
-    "sources": [
-     "mega_iptv_main_v3"
-    ],
-    "successes": 2,
-    "failures": 0,
-    "attempts": 2,
-    "startup_seconds": 11.06,
-    "ffprobe_media": true,
-    "ffmpeg_played": true,
-    "proxied": false,
-    "user_agent": "",
-    "referer": "",
-    "origin": "",
-    "source_name": "FailArmy",
-    "tvg_id": "ESBA1400006NP"
-   },
-   {
-    "rank": 7,
-    "url": "https://jmp2.uk/stvp-INBA5100030AO",
-    "status": "HEALTHY",
-    "sources": [
-     "mega_iptv_main_v3"
-    ],
-    "successes": 2,
-    "failures": 0,
-    "attempts": 2,
-    "startup_seconds": 11.91,
-    "ffprobe_media": true,
-    "ffmpeg_played": true,
-    "proxied": false,
-    "user_agent": "",
-    "referer": "",
-    "origin": "",
-    "source_name": "FailArmy",
-    "tvg_id": "INBA5100030AO"
-   },
-   {
-    "rank": 8,
-    "url": "https://jmp2.uk/plu-62bdb5500c21270007218ce1.m3u8",
-    "status": "HEALTHY",
-    "sources": [
-     "mega_iptv_main_v3"
-    ],
-    "successes": 2,
-    "failures": 0,
-    "attempts": 2,
-    "startup_seconds": 12.96,
-    "ffprobe_media": true,
-    "ffmpeg_played": true,
-    "proxied": false,
-    "user_agent": "",
-    "referer": "",
-    "origin": "",
-    "source_name": "FailArmy",
-    "tvg_id": "62bdb5500c21270007218ce1"
-   },
-   {
-    "rank": 9,
-    "url": "https://jmp2.uk/stvp-CAAJ2700029OC",
-    "status": "HEALTHY",
-    "sources": [
-     "mega_iptv_main_v3"
-    ],
-    "successes": 2,
-    "failures": 0,
-    "attempts": 2,
-    "startup_seconds": 13.2,
-    "ffprobe_media": true,
-    "ffmpeg_played": true,
-    "proxied": false,
-    "user_agent": "",
-    "referer": "",
-    "origin": "",
-    "source_name": "FailArmy",
-    "tvg_id": "CAAJ2700029OC"
-   },
-   {
-    "rank": 10,
-    "url": "https://live-content.xumo.com/56/content/XM0O0W7616ZG6K/28162338/master.m3u8",
-    "status": "HEALTHY",
-    "sources": [
-     "mega_iptv_main_v3"
-    ],
-    "successes": 2,
-    "failures": 0,
-    "attempts": 2,
-    "startup_seconds": 14.0,
-    "ffprobe_media": true,
-    "ffmpeg_played": true,
-    "proxied": false,
-    "user_agent": "",
-    "referer": "",
-    "origin": "",
-    "source_name": "FailArmy",
-    "tvg_id": "99991153"
-   },
-   {
-    "rank": 11,
-    "url": "https://jmp2.uk/plu-608014d19a26320007c92ab6.m3u8",
-    "status": "HEALTHY",
-    "sources": [
-     "mega_iptv_main_v3"
-    ],
-    "successes": 2,
-    "failures": 0,
-    "attempts": 2,
-    "startup_seconds": 16.04,
-    "ffprobe_media": true,
-    "ffmpeg_played": true,
-    "proxied": false,
-    "user_agent": "",
-    "referer": "",
-    "origin": "",
-    "source_name": "FailArmy",
-    "tvg_id": "608014d19a26320007c92ab6"
-   },
-   {
-    "rank": 12,
     "url": "https://jmp2.uk/plu-554158e864526b29254ff105.m3u8",
     "status": "HEALTHY",
     "sources": [
@@ -43314,66 +44210,6 @@
     "origin": "",
     "source_name": "FailArmy",
     "tvg_id": "554158e864526b29254ff105"
-   },
-   {
-    "rank": 13,
-    "url": "https://jmp2.uk/plu-6177f6bf7693550007531275.m3u8",
-    "status": "HEALTHY",
-    "sources": [
-     "mega_iptv_main_v3"
-    ],
-    "successes": 2,
-    "failures": 0,
-    "attempts": 2,
-    "startup_seconds": 16.71,
-    "ffprobe_media": true,
-    "ffmpeg_played": true,
-    "proxied": false,
-    "user_agent": "",
-    "referer": "",
-    "origin": "",
-    "source_name": "FailArmy",
-    "tvg_id": "6177f6bf7693550007531275"
-   },
-   {
-    "rank": 14,
-    "url": "https://live-manifest.production-public.tubi.io/live/5fd9c7cd-53e4-445e-81c9-6bc717e0bcb7/playlist.m3u8",
-    "status": "HEALTHY",
-    "sources": [
-     "mega_iptv_main_v3"
-    ],
-    "successes": 2,
-    "failures": 0,
-    "attempts": 2,
-    "startup_seconds": 16.77,
-    "ffprobe_media": true,
-    "ffmpeg_played": true,
-    "proxied": false,
-    "user_agent": "",
-    "referer": "",
-    "origin": "",
-    "source_name": "FailArmy",
-    "tvg_id": "400000289"
-   },
-   {
-    "rank": 15,
-    "url": "https://jmp2.uk/plu-5f1abf5fafb5ee0007d4d0ca.m3u8",
-    "status": "HEALTHY",
-    "sources": [
-     "mega_iptv_main_v3"
-    ],
-    "successes": 2,
-    "failures": 0,
-    "attempts": 2,
-    "startup_seconds": 18.17,
-    "ffprobe_media": true,
-    "ffmpeg_played": true,
-    "proxied": false,
-    "user_agent": "",
-    "referer": "",
-    "origin": "",
-    "source_name": "FailArmy",
-    "tvg_id": "5f1abf5fafb5ee0007d4d0ca"
    }
   ]
  },
@@ -44502,6 +45338,54 @@
     "origin": "",
     "source_name": "Hum TV",
     "tvg_id": "HumTV.pk@HD"
+   }
+  ]
+ },
+ "ICTV2 || Entertainment": {
+  "channel_name": "ICTV2",
+  "normalized_name": "ictv 2",
+  "region": "UA",
+  "group": "Entertainment",
+  "primary": {
+   "url": "http://cdnua05.hls.tv/919/hls/8743361621b245838bee193c9ec28322/4835/stream.m3u8",
+   "status": "HEALTHY",
+   "sources": [
+    "mega_iptv_main_v3",
+    "my_main_three_sources_v3"
+   ],
+   "successes": 4,
+   "failures": 0,
+   "attempts": 4,
+   "startup_seconds": 1.63,
+   "ffprobe_media": true,
+   "ffmpeg_played": true,
+   "proxied": false,
+   "user_agent": "",
+   "referer": "",
+   "origin": "",
+   "source_name": "ICTV2",
+   "tvg_id": "ICTV2.ua"
+  },
+  "backups": [
+   {
+    "rank": 1,
+    "url": "http://stream.mcquack.net/368/index.m3u8",
+    "status": "FLAKY",
+    "sources": [
+     "mega_iptv_main_v3"
+    ],
+    "successes": 1,
+    "failures": 2,
+    "attempts": 3,
+    "startup_seconds": 2.76,
+    "ffprobe_media": true,
+    "ffmpeg_played": true,
+    "proxied": false,
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+    "referer": "",
+    "origin": "",
+    "source_name": "ICTV2",
+    "tvg_id": "ICTV2.ua@SD"
    }
   ]
  },
@@ -47554,6 +48438,53 @@
    }
   ]
  },
+ "Russia-K || Entertainment": {
+  "channel_name": "Russia-K",
+  "normalized_name": "russia k",
+  "region": "RU",
+  "group": "Entertainment",
+  "primary": {
+   "url": "https://stream.smotrim.ru/hls2/russia_k/playlist_5.m3u8",
+   "status": "HEALTHY",
+   "sources": [
+    "mega_iptv_main_v3"
+   ],
+   "successes": 2,
+   "failures": 0,
+   "attempts": 2,
+   "startup_seconds": 2.71,
+   "ffprobe_media": true,
+   "ffmpeg_played": true,
+   "proxied": false,
+   "user_agent": "",
+   "referer": "",
+   "origin": "",
+   "source_name": "Russia-K",
+   "tvg_id": "RussiaK.ru@HD"
+  },
+  "backups": [
+   {
+    "rank": 1,
+    "url": "http://stream.mcquack.net/229/index.m3u8",
+    "status": "FLAKY",
+    "sources": [
+     "mega_iptv_main_v3"
+    ],
+    "successes": 1,
+    "failures": 2,
+    "attempts": 3,
+    "startup_seconds": 2.04,
+    "ffprobe_media": true,
+    "ffmpeg_played": true,
+    "proxied": false,
+    "user_agent": "",
+    "referer": "",
+    "origin": "",
+    "source_name": "Russia-K",
+    "tvg_id": "RussiaK.ru@SD"
+   }
+  ]
+ },
  "Sabrina The Teenage Witch || Entertainment": {
   "channel_name": "Sabrina The Teenage Witch",
   "normalized_name": "sabrina the teenage witch",
@@ -48045,6 +48976,53 @@
     "origin": "",
     "source_name": "Storage Wars by A&E",
     "tvg_id": "99951475"
+   }
+  ]
+ },
+ "STS || Entertainment": {
+  "channel_name": "STS",
+  "normalized_name": "sts",
+  "region": "RU",
+  "group": "Entertainment",
+  "primary": {
+   "url": "http://tshift-1.telecoma.tv/sts/index.m3u8",
+   "status": "HEALTHY",
+   "sources": [
+    "mega_iptv_main_v3"
+   ],
+   "successes": 2,
+   "failures": 0,
+   "attempts": 2,
+   "startup_seconds": 4.18,
+   "ffprobe_media": true,
+   "ffmpeg_played": true,
+   "proxied": false,
+   "user_agent": "",
+   "referer": "",
+   "origin": "",
+   "source_name": "STS",
+   "tvg_id": "STS.ru@SD"
+  },
+  "backups": [
+   {
+    "rank": 1,
+    "url": "http://stream.mcquack.net/138/index.m3u8",
+    "status": "FLAKY",
+    "sources": [
+     "mega_iptv_main_v3"
+    ],
+    "successes": 1,
+    "failures": 2,
+    "attempts": 3,
+    "startup_seconds": 2.66,
+    "ffprobe_media": true,
+    "ffmpeg_played": true,
+    "proxied": false,
+    "user_agent": "",
+    "referer": "",
+    "origin": "",
+    "source_name": "STS",
+    "tvg_id": "STS.ru@HD"
    }
   ]
  },
@@ -49506,6 +50484,53 @@
    }
   ]
  },
+ "TV-3 || Entertainment": {
+  "channel_name": "TV-3",
+  "normalized_name": "tv 3",
+  "region": "RU",
+  "group": "Entertainment",
+  "primary": {
+   "url": "http://flussonic.linkintel.ru/tv-3/index.m3u8",
+   "status": "HEALTHY",
+   "sources": [
+    "mega_iptv_main_v3"
+   ],
+   "successes": 2,
+   "failures": 0,
+   "attempts": 2,
+   "startup_seconds": 3.27,
+   "ffprobe_media": true,
+   "ffmpeg_played": true,
+   "proxied": false,
+   "user_agent": "",
+   "referer": "",
+   "origin": "",
+   "source_name": "TV-3",
+   "tvg_id": "TV3.ru@SD"
+  },
+  "backups": [
+   {
+    "rank": 1,
+    "url": "http://stream.mcquack.net/136/index.m3u8",
+    "status": "FLAKY",
+    "sources": [
+     "mega_iptv_main_v3"
+    ],
+    "successes": 1,
+    "failures": 2,
+    "attempts": 3,
+    "startup_seconds": 2.91,
+    "ffprobe_media": true,
+    "ffmpeg_played": true,
+    "proxied": false,
+    "user_agent": "",
+    "referer": "",
+    "origin": "",
+    "source_name": "TV-3",
+    "tvg_id": "TV3.ru@HD"
+   }
+  ]
+ },
  "TVR Cultural || Entertainment": {
   "channel_name": "TVR Cultural",
   "normalized_name": "tvr cultural",
@@ -49829,6 +50854,53 @@
     "origin": "",
     "source_name": "Venevisión Internacional",
     "tvg_id": "cc04d77fd589a818cd036c850b6be867"
+   }
+  ]
+ },
+ "viju+ Comedy || Entertainment": {
+  "channel_name": "viju+ Comedy",
+  "normalized_name": "viju plus comedy",
+  "region": "RU",
+  "group": "Entertainment",
+  "primary": {
+   "url": "http://tinyurl.com/Argaavrcelo/vipcomedy/index.m3u8",
+   "status": "HEALTHY",
+   "sources": [
+    "senseigaga_full_v3"
+   ],
+   "successes": 2,
+   "failures": 0,
+   "attempts": 2,
+   "startup_seconds": 8.09,
+   "ffprobe_media": true,
+   "ffmpeg_played": true,
+   "proxied": false,
+   "user_agent": "",
+   "referer": "",
+   "origin": "",
+   "source_name": "Viju+ Comedy",
+   "tvg_id": ""
+  },
+  "backups": [
+   {
+    "rank": 1,
+    "url": "http://stream.mcquack.net/201/index.m3u8",
+    "status": "FLAKY",
+    "sources": [
+     "mega_iptv_main_v3"
+    ],
+    "successes": 1,
+    "failures": 2,
+    "attempts": 3,
+    "startup_seconds": 2.62,
+    "ffprobe_media": true,
+    "ffmpeg_played": true,
+    "proxied": false,
+    "user_agent": "",
+    "referer": "",
+    "origin": "",
+    "source_name": "viju+ Comedy",
+    "tvg_id": "vijuPlusComedy.ru@HD"
    }
   ]
  },
@@ -51673,6 +52745,53 @@
    }
   ]
  },
+ "Discovery Channel (Russia) || Documentary": {
+  "channel_name": "Discovery Channel (Russia)",
+  "normalized_name": "discovery",
+  "region": "RU",
+  "group": "Documentary",
+  "primary": {
+   "url": "http://5.188.159.128:8070/DiscoveryChannel/index.m3u8",
+   "status": "HEALTHY",
+   "sources": [
+    "winsports_full_v3"
+   ],
+   "successes": 2,
+   "failures": 0,
+   "attempts": 2,
+   "startup_seconds": 10.28,
+   "ffprobe_media": true,
+   "ffmpeg_played": true,
+   "proxied": false,
+   "user_agent": "",
+   "referer": "",
+   "origin": "",
+   "source_name": "Discovery Channel",
+   "tvg_id": ""
+  },
+  "backups": [
+   {
+    "rank": 1,
+    "url": "http://stream.mcquack.net/177/index.m3u8",
+    "status": "FLAKY",
+    "sources": [
+     "mega_iptv_main_v3"
+    ],
+    "successes": 1,
+    "failures": 2,
+    "attempts": 3,
+    "startup_seconds": 2.96,
+    "ffprobe_media": true,
+    "ffmpeg_played": true,
+    "proxied": false,
+    "user_agent": "",
+    "referer": "",
+    "origin": "",
+    "source_name": "Discovery Channel",
+    "tvg_id": "DiscoveryChannel.ru@SD"
+   }
+  ]
+ },
  "Discovery ID || Documentary": {
   "channel_name": "Discovery ID",
   "normalized_name": "discovery id",
@@ -53266,6 +54385,53 @@
     "origin": "",
     "source_name": "N24 Doku",
     "tvg_id": "N24Doku.de@SD"
+   }
+  ]
+ },
+ "Nano || Documentary": {
+  "channel_name": "Nano",
+  "normalized_name": "nano",
+  "region": "RU",
+  "group": "Documentary",
+  "primary": {
+   "url": "http://185.23.80.23:8080/NANO_HD/index.m3u8",
+   "status": "HEALTHY",
+   "sources": [
+    "mega_iptv_main_v3"
+   ],
+   "successes": 2,
+   "failures": 0,
+   "attempts": 2,
+   "startup_seconds": 3.37,
+   "ffprobe_media": true,
+   "ffmpeg_played": true,
+   "proxied": false,
+   "user_agent": "",
+   "referer": "",
+   "origin": "",
+   "source_name": "Nano",
+   "tvg_id": "Nano.ru@HD"
+  },
+  "backups": [
+   {
+    "rank": 1,
+    "url": "http://stream.mcquack.net/419/index.m3u8",
+    "status": "FLAKY",
+    "sources": [
+     "mega_iptv_main_v3"
+    ],
+    "successes": 1,
+    "failures": 2,
+    "attempts": 3,
+    "startup_seconds": 2.74,
+    "ffprobe_media": true,
+    "ffmpeg_played": true,
+    "proxied": false,
+    "user_agent": "",
+    "referer": "",
+    "origin": "",
+    "source_name": "Nano",
+    "tvg_id": "Nano.ru@SD"
    }
   ]
  },
@@ -55326,6 +56492,26 @@
   "backups": [
    {
     "rank": 1,
+    "url": "https://tinyurl.com/3m7nzwv2?.m3u8",
+    "status": "HEALTHY",
+    "sources": [
+     "winsports_full_v3"
+    ],
+    "successes": 2,
+    "failures": 0,
+    "attempts": 2,
+    "startup_seconds": 21.09,
+    "ffprobe_media": true,
+    "ffmpeg_played": true,
+    "proxied": false,
+    "user_agent": "",
+    "referer": "",
+    "origin": "",
+    "source_name": "True Crime UK",
+    "tvg_id": ""
+   },
+   {
+    "rank": 2,
     "url": "https://jmp2.uk/plu-6304fb268bd95300072d2198.m3u8",
     "status": "HEALTHY",
     "sources": [
@@ -55345,7 +56531,7 @@
     "tvg_id": "6304fb268bd95300072d2198"
    },
    {
-    "rank": 2,
+    "rank": 3,
     "url": "https://b6cca454.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/U2Ftc3VuZy1nYl9UcnVlQ3JpbWVVS2Zyb21DQlNSZWFsaXR5X0hMUw/playlist.m3u8?ads.wurl_channel=1151&ads.wurl_name=TrueCrimeUKfromCBSReality&ads.coppa=0&ads.psid=%7BPSID%7D&ads.targetopt=%7BTARGETOPT%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.consent=%7BTC_STRING%7D",
     "status": "HEALTHY",
     "sources": [
@@ -55761,6 +56947,147 @@
     "origin": "",
     "source_name": "Utalca",
     "tvg_id": ""
+   }
+  ]
+ },
+ "viju Explore || Documentary": {
+  "channel_name": "viju Explore",
+  "normalized_name": "viju explore",
+  "region": "RU",
+  "group": "Documentary",
+  "primary": {
+   "url": "http://tinyurl.com/Argaavrcelo/viasatexplor/index.m3u8",
+   "status": "HEALTHY",
+   "sources": [
+    "senseigaga_full_v3"
+   ],
+   "successes": 2,
+   "failures": 0,
+   "attempts": 2,
+   "startup_seconds": 14.78,
+   "ffprobe_media": true,
+   "ffmpeg_played": true,
+   "proxied": false,
+   "user_agent": "",
+   "referer": "",
+   "origin": "",
+   "source_name": "Viju Explore",
+   "tvg_id": ""
+  },
+  "backups": [
+   {
+    "rank": 1,
+    "url": "http://stream.mcquack.net/239/index.m3u8",
+    "status": "FLAKY",
+    "sources": [
+     "mega_iptv_main_v3"
+    ],
+    "successes": 1,
+    "failures": 2,
+    "attempts": 3,
+    "startup_seconds": 2.52,
+    "ffprobe_media": true,
+    "ffmpeg_played": true,
+    "proxied": false,
+    "user_agent": "",
+    "referer": "",
+    "origin": "",
+    "source_name": "viju Explore",
+    "tvg_id": "vijuExplore.ru@SD"
+   }
+  ]
+ },
+ "viju History || Documentary": {
+  "channel_name": "viju History",
+  "normalized_name": "viju history",
+  "region": "RU",
+  "group": "Documentary",
+  "primary": {
+   "url": "http://178.124.179.122:8080/HistoryHD/index.m3u8",
+   "status": "HEALTHY",
+   "sources": [
+    "mega_iptv_main_v3"
+   ],
+   "successes": 2,
+   "failures": 0,
+   "attempts": 2,
+   "startup_seconds": 2.91,
+   "ffprobe_media": true,
+   "ffmpeg_played": true,
+   "proxied": false,
+   "user_agent": "",
+   "referer": "",
+   "origin": "",
+   "source_name": "viju History",
+   "tvg_id": "vijuHistory.ru@SD"
+  },
+  "backups": [
+   {
+    "rank": 1,
+    "url": "http://tinyurl.com/Argaavrcelo/viasathistory/index.m3u8",
+    "status": "HEALTHY",
+    "sources": [
+     "senseigaga_full_v3"
+    ],
+    "successes": 2,
+    "failures": 0,
+    "attempts": 2,
+    "startup_seconds": 14.01,
+    "ffprobe_media": true,
+    "ffmpeg_played": true,
+    "proxied": false,
+    "user_agent": "",
+    "referer": "",
+    "origin": "",
+    "source_name": "Viju History",
+    "tvg_id": ""
+   }
+  ]
+ },
+ "viju+ Planet || Documentary": {
+  "channel_name": "viju+ Planet",
+  "normalized_name": "viju plus planet",
+  "region": "RU",
+  "group": "Documentary",
+  "primary": {
+   "url": "http://tinyurl.com/Argaavrcelo/viasatplaneta/index.m3u8",
+   "status": "HEALTHY",
+   "sources": [
+    "senseigaga_full_v3"
+   ],
+   "successes": 2,
+   "failures": 0,
+   "attempts": 2,
+   "startup_seconds": 8.03,
+   "ffprobe_media": true,
+   "ffmpeg_played": true,
+   "proxied": false,
+   "user_agent": "",
+   "referer": "",
+   "origin": "",
+   "source_name": "Viju+ Planet",
+   "tvg_id": ""
+  },
+  "backups": [
+   {
+    "rank": 1,
+    "url": "http://stream.mcquack.net/240/index.m3u8",
+    "status": "FLAKY",
+    "sources": [
+     "mega_iptv_main_v3"
+    ],
+    "successes": 1,
+    "failures": 2,
+    "attempts": 3,
+    "startup_seconds": 3.11,
+    "ffprobe_media": true,
+    "ffmpeg_played": true,
+    "proxied": false,
+    "user_agent": "",
+    "referer": "",
+    "origin": "",
+    "source_name": "viju+ Planet",
+    "tvg_id": "vijuPlusPlanet.ru@HD"
    }
   ]
  },
@@ -60410,6 +61737,53 @@
    }
   ]
  },
+ "TiJi || Kids": {
+  "channel_name": "TiJi",
+  "normalized_name": "tiji",
+  "region": "RU",
+  "group": "Kids",
+  "primary": {
+   "url": "https://stream8.cinerama.uz/1441/tracks-v1a1/mono.m3u8",
+   "status": "HEALTHY",
+   "sources": [
+    "my_main_three_sources_v3"
+   ],
+   "successes": 2,
+   "failures": 0,
+   "attempts": 2,
+   "startup_seconds": 5.35,
+   "ffprobe_media": true,
+   "ffmpeg_played": true,
+   "proxied": false,
+   "user_agent": "",
+   "referer": "",
+   "origin": "",
+   "source_name": "TiJi",
+   "tvg_id": ""
+  },
+  "backups": [
+   {
+    "rank": 1,
+    "url": "http://stream.mcquack.net/111/index.m3u8",
+    "status": "FLAKY",
+    "sources": [
+     "mega_iptv_main_v3"
+    ],
+    "successes": 1,
+    "failures": 2,
+    "attempts": 3,
+    "startup_seconds": 2.15,
+    "ffprobe_media": true,
+    "ffmpeg_played": true,
+    "proxied": false,
+    "user_agent": "",
+    "referer": "",
+    "origin": "",
+    "source_name": "TiJi",
+    "tvg_id": "TiJi.ru@SD"
+   }
+  ]
+ },
  "Tokusato || Kids": {
   "channel_name": "Tokusato",
   "normalized_name": "tokusato",
@@ -61202,6 +62576,73 @@
     "origin": "",
     "source_name": "BIZ Music",
     "tvg_id": ""
+   }
+  ]
+ },
+ "BRIDGE || Music": {
+  "channel_name": "BRIDGE",
+  "normalized_name": "bridge",
+  "region": "RU",
+  "group": "Music",
+  "primary": {
+   "url": "http://194.143.148.28:8080/RT_DOC/index.m3u8",
+   "status": "HEALTHY",
+   "sources": [
+    "winsports_full_v3"
+   ],
+   "successes": 2,
+   "failures": 0,
+   "attempts": 2,
+   "startup_seconds": 3.79,
+   "ffprobe_media": true,
+   "ffmpeg_played": true,
+   "proxied": false,
+   "user_agent": "",
+   "referer": "",
+   "origin": "",
+   "source_name": "Bridge",
+   "tvg_id": ""
+  },
+  "backups": [
+   {
+    "rank": 1,
+    "url": "http://tinyurl.com/Argaavrcelo/BRIDGE/index.m3u8",
+    "status": "HEALTHY",
+    "sources": [
+     "senseigaga_full_v3"
+    ],
+    "successes": 2,
+    "failures": 0,
+    "attempts": 2,
+    "startup_seconds": 13.22,
+    "ffprobe_media": true,
+    "ffmpeg_played": true,
+    "proxied": false,
+    "user_agent": "",
+    "referer": "",
+    "origin": "",
+    "source_name": "Bridge TV",
+    "tvg_id": ""
+   },
+   {
+    "rank": 2,
+    "url": "http://stream.mcquack.net/318/index.m3u8",
+    "status": "FLAKY",
+    "sources": [
+     "mega_iptv_main_v3"
+    ],
+    "successes": 1,
+    "failures": 2,
+    "attempts": 3,
+    "startup_seconds": 3.56,
+    "ffprobe_media": true,
+    "ffmpeg_played": true,
+    "proxied": false,
+    "user_agent": "",
+    "referer": "",
+    "origin": "",
+    "source_name": "BRIDGE",
+    "tvg_id": "BRIDGE.ru@SD"
    }
   ]
  },
@@ -62094,6 +63535,53 @@
     "origin": "",
     "source_name": "ET",
     "tvg_id": "LN_A9BAC7BD-E8B0-4B2D-B290-9AF210B32B50"
+   }
+  ]
+ },
+ "EU Music || Music": {
+  "channel_name": "EU Music",
+  "normalized_name": "eu music",
+  "region": "UA",
+  "group": "Music",
+  "primary": {
+   "url": "https://iptv.prosto.tv/ch134/tracks-v2a1/1.m3u8?21yo=1&live=1&ip=104.28.156.59&id=742347&secret=vu2y5m72&ses=ca0cfbf5db9d8003&uid=vu2y5m72&cs_track=false&e=1782900912&st=j-Ja2visdxrjH_8haQZjNg",
+   "status": "HEALTHY",
+   "sources": [
+    "my_main_three_sources_v3"
+   ],
+   "successes": 2,
+   "failures": 0,
+   "attempts": 2,
+   "startup_seconds": 3.64,
+   "ffprobe_media": true,
+   "ffmpeg_played": true,
+   "proxied": false,
+   "user_agent": "",
+   "referer": "",
+   "origin": "",
+   "source_name": "EU Music",
+   "tvg_id": ""
+  },
+  "backups": [
+   {
+    "rank": 1,
+    "url": "http://stream.mcquack.net/261/index.m3u8",
+    "status": "FLAKY",
+    "sources": [
+     "mega_iptv_main_v3"
+    ],
+    "successes": 1,
+    "failures": 2,
+    "attempts": 3,
+    "startup_seconds": 2.37,
+    "ffprobe_media": true,
+    "ffmpeg_played": true,
+    "proxied": false,
+    "user_agent": "",
+    "referer": "",
+    "origin": "",
+    "source_name": "EU Music",
+    "tvg_id": "EUMusic.ua@SD"
    }
   ]
  },
@@ -70082,6 +71570,53 @@
    }
   ]
  },
+ "Fashion || Lifestyle": {
+  "channel_name": "Fashion",
+  "normalized_name": "fashion",
+  "region": "UA",
+  "group": "Lifestyle",
+  "primary": {
+   "url": "http://stream.mcquack.net/288/index.m3u8",
+   "status": "FLAKY",
+   "sources": [
+    "mega_iptv_main_v3"
+   ],
+   "successes": 1,
+   "failures": 2,
+   "attempts": 3,
+   "startup_seconds": 2.93,
+   "ffprobe_media": true,
+   "ffmpeg_played": true,
+   "proxied": false,
+   "user_agent": "",
+   "referer": "",
+   "origin": "",
+   "source_name": "Fashion",
+   "tvg_id": "Fashion.ua@SD"
+  },
+  "backups": [
+   {
+    "rank": 1,
+    "url": "http://stream.mcquack.net/287/index.m3u8",
+    "status": "FLAKY",
+    "sources": [
+     "mega_iptv_main_v3"
+    ],
+    "successes": 1,
+    "failures": 2,
+    "attempts": 3,
+    "startup_seconds": 3.61,
+    "ffprobe_media": true,
+    "ffmpeg_played": true,
+    "proxied": false,
+    "user_agent": "",
+    "referer": "",
+    "origin": "",
+    "source_name": "Fashion TV",
+    "tvg_id": "FashionTV.ua@SD"
+   }
+  ]
+ },
  "GARDEN with Monty Don || Lifestyle": {
   "channel_name": "GARDEN with Monty Don",
   "normalized_name": "garden with monty don",
@@ -71449,6 +72984,54 @@
     "origin": "",
     "source_name": "Nomad Travel",
     "tvg_id": "697140a85d851f5e69414688-6aaa2279083227098739435f"
+   }
+  ]
+ },
+ "Ohotnik i rybolov || Lifestyle": {
+  "channel_name": "Ohotnik i rybolov",
+  "normalized_name": "ohotnik i rybolov",
+  "region": "RU",
+  "group": "Lifestyle",
+  "primary": {
+   "url": "https://stream8.cinerama.uz/1413/tracks-v1a1/mono.m3u8",
+   "status": "HEALTHY",
+   "sources": [
+    "mega_iptv_main_v3",
+    "my_main_three_sources_v3"
+   ],
+   "successes": 4,
+   "failures": 0,
+   "attempts": 4,
+   "startup_seconds": 5.56,
+   "ffprobe_media": true,
+   "ffmpeg_played": true,
+   "proxied": false,
+   "user_agent": "",
+   "referer": "",
+   "origin": "",
+   "source_name": "Ohotnik i rybolov",
+   "tvg_id": "Ohotnikirybolov.ru@SD"
+  },
+  "backups": [
+   {
+    "rank": 1,
+    "url": "http://stream.mcquack.net/194/index.m3u8",
+    "status": "FLAKY",
+    "sources": [
+     "mega_iptv_main_v3"
+    ],
+    "successes": 1,
+    "failures": 2,
+    "attempts": 3,
+    "startup_seconds": 2.84,
+    "ffprobe_media": true,
+    "ffmpeg_played": true,
+    "proxied": false,
+    "user_agent": "",
+    "referer": "",
+    "origin": "",
+    "source_name": "Ohotnik i rybolov",
+    "tvg_id": "Ohotnikirybolov.ru@HD"
    }
   ]
  },
@@ -83727,6 +85310,234 @@
     "origin": "",
     "source_name": "Fabella",
     "tvg_id": "DEBA15000130L"
+   }
+  ]
+ },
+ "FailArmy (Canada) || FAST TV": {
+  "channel_name": "FailArmy (Canada)",
+  "normalized_name": "failarmy",
+  "region": "CA",
+  "group": "FAST TV",
+  "primary": {
+   "url": "https://jmp2.uk/plu-62bdb5500c21270007218ce1.m3u8",
+   "status": "HEALTHY",
+   "sources": [
+    "mega_iptv_main_v3"
+   ],
+   "successes": 2,
+   "failures": 0,
+   "attempts": 2,
+   "startup_seconds": 12.96,
+   "ffprobe_media": true,
+   "ffmpeg_played": true,
+   "proxied": false,
+   "user_agent": "",
+   "referer": "",
+   "origin": "",
+   "source_name": "FailArmy",
+   "tvg_id": "62bdb5500c21270007218ce1"
+  },
+  "backups": [
+   {
+    "rank": 1,
+    "url": "https://jmp2.uk/stvp-CAAJ2700029OC",
+    "status": "HEALTHY",
+    "sources": [
+     "mega_iptv_main_v3"
+    ],
+    "successes": 2,
+    "failures": 0,
+    "attempts": 2,
+    "startup_seconds": 13.2,
+    "ffprobe_media": true,
+    "ffmpeg_played": true,
+    "proxied": false,
+    "user_agent": "",
+    "referer": "",
+    "origin": "",
+    "source_name": "FailArmy",
+    "tvg_id": "CAAJ2700029OC"
+   }
+  ]
+ },
+ "FailArmy (Italy) || FAST TV": {
+  "channel_name": "FailArmy (Italy)",
+  "normalized_name": "failarmy",
+  "region": "IT",
+  "group": "FAST TV",
+  "primary": {
+   "url": "https://jmp2.uk/stvp-ITBA1400001QN",
+   "status": "HEALTHY",
+   "sources": [
+    "mega_iptv_main_v3"
+   ],
+   "successes": 2,
+   "failures": 0,
+   "attempts": 2,
+   "startup_seconds": 8.2,
+   "ffprobe_media": true,
+   "ffmpeg_played": true,
+   "proxied": false,
+   "user_agent": "",
+   "referer": "",
+   "origin": "",
+   "source_name": "FailArmy",
+   "tvg_id": "ITBA1400001QN"
+  },
+  "backups": [
+   {
+    "rank": 1,
+    "url": "https://jmp2.uk/plu-608014d19a26320007c92ab6.m3u8",
+    "status": "HEALTHY",
+    "sources": [
+     "mega_iptv_main_v3"
+    ],
+    "successes": 2,
+    "failures": 0,
+    "attempts": 2,
+    "startup_seconds": 16.04,
+    "ffprobe_media": true,
+    "ffmpeg_played": true,
+    "proxied": false,
+    "user_agent": "",
+    "referer": "",
+    "origin": "",
+    "source_name": "FailArmy",
+    "tvg_id": "608014d19a26320007c92ab6"
+   }
+  ]
+ },
+ "FailArmy (Mexico) || FAST TV": {
+  "channel_name": "FailArmy (Mexico)",
+  "normalized_name": "failarmy",
+  "region": "MX",
+  "group": "FAST TV",
+  "primary": {
+   "url": "https://jmp2.uk/plu-5ebaccf1734aaf0007142c86.m3u8",
+   "status": "HEALTHY",
+   "sources": [
+    "mega_iptv_main_v3"
+   ],
+   "successes": 2,
+   "failures": 0,
+   "attempts": 2,
+   "startup_seconds": 24.03,
+   "ffprobe_media": true,
+   "ffmpeg_played": true,
+   "proxied": false,
+   "user_agent": "",
+   "referer": "",
+   "origin": "",
+   "source_name": "FailArmy",
+   "tvg_id": "5ebaccf1734aaf0007142c86"
+  },
+  "backups": [
+   {
+    "rank": 1,
+    "url": "https://epg.provider.plex.tv/library/parts/608049aefa2b8ae93c2c3a63-5f170d62b898490041b4936e/?X-Plex-Token=1bd42jX6T5yoysgbMEMD",
+    "status": "FLAKY",
+    "sources": [
+     "mega_iptv_main_v3"
+    ],
+    "successes": 1,
+    "failures": 2,
+    "attempts": 3,
+    "startup_seconds": 9.74,
+    "ffprobe_media": true,
+    "ffmpeg_played": true,
+    "proxied": false,
+    "user_agent": "",
+    "referer": "",
+    "origin": "",
+    "source_name": "FailArmy",
+    "tvg_id": "608049aefa2b8ae93c2c3a63-5f170d62b898490041b4936e"
+   }
+  ]
+ },
+ "FailArmy (Spain) || FAST TV": {
+  "channel_name": "FailArmy (Spain)",
+  "normalized_name": "failarmy",
+  "region": "ES",
+  "group": "FAST TV",
+  "primary": {
+   "url": "https://jmp2.uk/stvp-ESBA1400006NP",
+   "status": "HEALTHY",
+   "sources": [
+    "mega_iptv_main_v3"
+   ],
+   "successes": 2,
+   "failures": 0,
+   "attempts": 2,
+   "startup_seconds": 11.06,
+   "ffprobe_media": true,
+   "ffmpeg_played": true,
+   "proxied": false,
+   "user_agent": "",
+   "referer": "",
+   "origin": "",
+   "source_name": "FailArmy",
+   "tvg_id": "ESBA1400006NP"
+  },
+  "backups": [
+   {
+    "rank": 1,
+    "url": "https://tinyurl.com/2svakdtr?.m3u8",
+    "status": "HEALTHY",
+    "sources": [
+     "winsports_full_v3"
+    ],
+    "successes": 2,
+    "failures": 0,
+    "attempts": 2,
+    "startup_seconds": 13.03,
+    "ffprobe_media": true,
+    "ffmpeg_played": true,
+    "proxied": false,
+    "user_agent": "",
+    "referer": "",
+    "origin": "",
+    "source_name": "Failarmy",
+    "tvg_id": ""
+   },
+   {
+    "rank": 2,
+    "url": "https://jmp2.uk/plu-5f1abf5fafb5ee0007d4d0ca.m3u8",
+    "status": "HEALTHY",
+    "sources": [
+     "mega_iptv_main_v3"
+    ],
+    "successes": 2,
+    "failures": 0,
+    "attempts": 2,
+    "startup_seconds": 18.17,
+    "ffprobe_media": true,
+    "ffmpeg_played": true,
+    "proxied": false,
+    "user_agent": "",
+    "referer": "",
+    "origin": "",
+    "source_name": "FailArmy",
+    "tvg_id": "5f1abf5fafb5ee0007d4d0ca"
+   },
+   {
+    "rank": 3,
+    "url": "https://epg.provider.plex.tv/library/parts/643054b1fc3be59477853717-5f170d62b898490041b4936e/?X-Plex-Token=1bd42jX6T5yoysgbMEMD",
+    "status": "FLAKY",
+    "sources": [
+     "mega_iptv_main_v3"
+    ],
+    "successes": 1,
+    "failures": 2,
+    "attempts": 3,
+    "startup_seconds": 9.91,
+    "ffprobe_media": true,
+    "ffmpeg_played": true,
+    "proxied": false,
+    "user_agent": "",
+    "referer": "",
+    "origin": "",
+    "source_name": "FailArmy",
+    "tvg_id": "643054b1fc3be59477853717-5f170d62b898490041b4936e"
    }
   ]
  },
@@ -104191,6 +106002,53 @@
    }
   ]
  },
+ "KTK || International | Kazakhstan": {
+  "channel_name": "KTK",
+  "normalized_name": "ktk",
+  "region": "KZ",
+  "group": "International | Kazakhstan",
+  "primary": {
+   "url": "http://89.218.30.37/ktklive/live.hq/playlist.m3u8",
+   "status": "HEALTHY",
+   "sources": [
+    "mega_iptv_main_v3"
+   ],
+   "successes": 2,
+   "failures": 0,
+   "attempts": 2,
+   "startup_seconds": 10.61,
+   "ffprobe_media": true,
+   "ffmpeg_played": true,
+   "proxied": false,
+   "user_agent": "",
+   "referer": "",
+   "origin": "",
+   "source_name": "KTK",
+   "tvg_id": "KTK.kz@HD"
+  },
+  "backups": [
+   {
+    "rank": 1,
+    "url": "http://stream.mcquack.net/26/index.m3u8",
+    "status": "FLAKY",
+    "sources": [
+     "mega_iptv_main_v3"
+    ],
+    "successes": 1,
+    "failures": 2,
+    "attempts": 3,
+    "startup_seconds": 2.78,
+    "ffprobe_media": true,
+    "ffmpeg_played": true,
+    "proxied": false,
+    "user_agent": "",
+    "referer": "",
+    "origin": "",
+    "source_name": "KTK",
+    "tvg_id": "KTK.kz@SD"
+   }
+  ]
+ },
  "Qazaqstan || International | Kazakhstan": {
   "channel_name": "Qazaqstan",
   "normalized_name": "qazaqstan",
@@ -104256,6 +106114,26 @@
     "origin": "",
     "source_name": "Qazaqstan",
     "tvg_id": ""
+   },
+   {
+    "rank": 3,
+    "url": "http://stream.mcquack.net/71/index.m3u8",
+    "status": "FLAKY",
+    "sources": [
+     "mega_iptv_main_v3"
+    ],
+    "successes": 1,
+    "failures": 2,
+    "attempts": 3,
+    "startup_seconds": 2.91,
+    "ffprobe_media": true,
+    "ffmpeg_played": true,
+    "proxied": false,
+    "user_agent": "",
+    "referer": "",
+    "origin": "",
+    "source_name": "Qazaqstan",
+    "tvg_id": "Qazaqstan.kz@HD"
    }
   ]
  },
@@ -107083,6 +108961,53 @@
    }
   ]
  },
+ "Priklyucheniya || International | Russia": {
+  "channel_name": "Priklyucheniya",
+  "normalized_name": "priklyucheniya",
+  "region": "RU",
+  "group": "International | Russia",
+  "primary": {
+   "url": "https://stream8.cinerama.uz/1420/tracks-v1a1/mono.m3u8",
+   "status": "HEALTHY",
+   "sources": [
+    "mega_iptv_main_v3"
+   ],
+   "successes": 2,
+   "failures": 0,
+   "attempts": 2,
+   "startup_seconds": 5.71,
+   "ffprobe_media": true,
+   "ffmpeg_played": true,
+   "proxied": false,
+   "user_agent": "",
+   "referer": "",
+   "origin": "",
+   "source_name": "Priklyucheniya",
+   "tvg_id": "Priklyucheniya.ru@SD"
+  },
+  "backups": [
+   {
+    "rank": 1,
+    "url": "http://stream.mcquack.net/198/index.m3u8",
+    "status": "FLAKY",
+    "sources": [
+     "mega_iptv_main_v3"
+    ],
+    "successes": 1,
+    "failures": 2,
+    "attempts": 3,
+    "startup_seconds": 3.02,
+    "ffprobe_media": true,
+    "ffmpeg_played": true,
+    "proxied": false,
+    "user_agent": "",
+    "referer": "",
+    "origin": "",
+    "source_name": "Priklyucheniya",
+    "tvg_id": "Priklyucheniya.ru@HD"
+   }
+  ]
+ },
  "Sochi || International | Russia": {
   "channel_name": "Sochi",
   "normalized_name": "sochi",
@@ -107222,6 +109147,53 @@
     "origin": "",
     "source_name": "Unknown Russia",
     "tvg_id": "UnknownRussia.ru@SD"
+   }
+  ]
+ },
+ "Zhivaya priroda || International | Russia": {
+  "channel_name": "Zhivaya priroda",
+  "normalized_name": "zhivaya priroda",
+  "region": "RU",
+  "group": "International | Russia",
+  "primary": {
+   "url": "http://stream.mcquack.net/83/index.m3u8",
+   "status": "FLAKY",
+   "sources": [
+    "mega_iptv_main_v3"
+   ],
+   "successes": 1,
+   "failures": 2,
+   "attempts": 3,
+   "startup_seconds": 2.14,
+   "ffprobe_media": true,
+   "ffmpeg_played": true,
+   "proxied": false,
+   "user_agent": "",
+   "referer": "",
+   "origin": "",
+   "source_name": "Zhivaya priroda",
+   "tvg_id": "Zhivayapriroda.ru@SD"
+  },
+  "backups": [
+   {
+    "rank": 1,
+    "url": "http://stream.mcquack.net/225/index.m3u8",
+    "status": "FLAKY",
+    "sources": [
+     "mega_iptv_main_v3"
+    ],
+    "successes": 1,
+    "failures": 2,
+    "attempts": 3,
+    "startup_seconds": 2.73,
+    "ffprobe_media": true,
+    "ffmpeg_played": true,
+    "proxied": false,
+    "user_agent": "",
+    "referer": "",
+    "origin": "",
+    "source_name": "Zhivaya priroda",
+    "tvg_id": "Zhivayapriroda.ru@HD"
    }
   ]
  },
@@ -107471,6 +109443,53 @@
     "origin": "",
     "source_name": "8 La Marina",
     "tvg_id": ""
+   }
+  ]
+ },
+ "A Punt || International | Spain": {
+  "channel_name": "A Punt",
+  "normalized_name": "a punt",
+  "region": "ES",
+  "group": "International | Spain",
+  "primary": {
+   "url": "https://tinyurl.com/ua48kwaa?.m3u8",
+   "status": "HEALTHY",
+   "sources": [
+    "winsports_full_v3"
+   ],
+   "successes": 2,
+   "failures": 0,
+   "attempts": 2,
+   "startup_seconds": 20.51,
+   "ffprobe_media": true,
+   "ffmpeg_played": true,
+   "proxied": false,
+   "user_agent": "",
+   "referer": "",
+   "origin": "",
+   "source_name": "A Punt",
+   "tvg_id": ""
+  },
+  "backups": [
+   {
+    "rank": 1,
+    "url": "https://fastly.live.brightcove.com/1846756479408303045/eu-central-1/6057955885001/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJob3N0IjoiZWFxNWh4LmVncmVzcy53YzQ3bTEiLCJhY2NvdW50X2lkIjoiNjA1Nzk1NTg4NTAwMSIsImVobiI6ImZhc3RseS5saXZlLmJyaWdodGNvdmUuY29tIiwiaXNzIjoiYmxpdmUtcGxheWJhY2stc291cmNlLWFwaSIsInN1YiI6InBhdGhtYXB0b2tlbiIsImF1ZCI6WyI2MDU3OTU1ODg1MDAxIl0sImp0aSI6IjE4NDY3NTY0Nzk0MDgzMDMwNDUifQ.o6wb_VA-TVxl3ERgr7FKLlaTjY7smErmsf73QAydySE/playlist-hls-dvr.m3u8",
+    "status": "FLAKY",
+    "sources": [
+     "mega_iptv_main_v3"
+    ],
+    "successes": 1,
+    "failures": 2,
+    "attempts": 3,
+    "startup_seconds": 31.1,
+    "ffprobe_media": true,
+    "ffmpeg_played": true,
+    "proxied": false,
+    "user_agent": "",
+    "referer": "",
+    "origin": "",
+    "source_name": "A Punt",
+    "tvg_id": "APunt.es@SD"
    }
   ]
  },
@@ -108707,6 +110726,53 @@
     "origin": "",
     "source_name": "ITV",
     "tvg_id": "ITV.ua"
+   }
+  ]
+ },
+ "Mega (Ukraine) || International | Ukraine": {
+  "channel_name": "Mega (Ukraine)",
+  "normalized_name": "mega",
+  "region": "UA",
+  "group": "International | Ukraine",
+  "primary": {
+   "url": "https://cdn15.live-tv.cloud/ua_infinitas_tv/mega-abr/playlist.m3u8",
+   "status": "HEALTHY",
+   "sources": [
+    "mega_iptv_main_v3"
+   ],
+   "successes": 2,
+   "failures": 0,
+   "attempts": 2,
+   "startup_seconds": 6.17,
+   "ffprobe_media": true,
+   "ffmpeg_played": true,
+   "proxied": false,
+   "user_agent": "",
+   "referer": "",
+   "origin": "",
+   "source_name": "Mega",
+   "tvg_id": "Mega.ua"
+  },
+  "backups": [
+   {
+    "rank": 1,
+    "url": "http://stream.mcquack.net/325/index.m3u8",
+    "status": "HEALTHY",
+    "sources": [
+     "mega_iptv_main_v3"
+    ],
+    "successes": 2,
+    "failures": 0,
+    "attempts": 2,
+    "startup_seconds": 11.6,
+    "ffprobe_media": true,
+    "ffmpeg_played": true,
+    "proxied": false,
+    "user_agent": "",
+    "referer": "",
+    "origin": "",
+    "source_name": "Mega",
+    "tvg_id": "Mega.ua@SD"
    }
   ]
  },
