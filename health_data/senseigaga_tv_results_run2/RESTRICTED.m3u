@@ -1,0 +1,9 @@
+#EXTM3U
+#EXTINF:-1 tvg-logo="http://epg.one/img2/3553.png" group-title="MYIPTV სპორტი",Premier Sport 1
+https://7pal.short.gy/prsport1
+#EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/f/f8/TNT_Sports_1_%282023%29.svg/revision/latest/scale-to-width-down/300?cb=20230704071741" group-title="MYIPTV სპორტი",TNT Sport 1
+https://7pal.short.gy/tntspts1
+#EXTINF:-1 tvg-logo="https://img-284.media.info/i/bg/1/1540-1690027877.webp" group-title="MYIPTV სპორტი",TNT Sport 2
+https://7pal.short.gy/tntspts2
+#EXTINF:-1 tvg-logo="http://epg.one/img2/3553.png" group-title="MYIPTV სპორტი",Premier Sport 1
+https://7pal.short.gy/prsport1

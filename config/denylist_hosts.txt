@@ -1,0 +1,41 @@
+# Hosts that build_all_working_v3.py never publishes, even when they played in a test.
+# One entry per line; "#" starts a comment.
+#   example.com  -> that domain and all its subdomains
+#   word         -> any host name containing the word
+#
+# Source: the 2026-10-21 GitHub piracy reporting pack (premium-sports and
+# pay-TV restreams). Remove a line to allow that host again; add lines freely.
+
+# Georgia: PHP proxy carrying Setanta / Silk Sport Georgia, and restream sites
+158.101.222.193
+televizia.org
+mar.tv
+
+# US cable restreams
+moveonjoy.com
+thetvapp
+tvpass.org
+
+# Premium-sports piracy sites
+daddylive
+dlhd
+crichd
+platinsport
+streamed.su
+streamed.pk
+
+# Russian pay channels relayed without rights
+mcquack.net
+
+# Indian / Bangladeshi paid services
+fancode
+sonyliv
+jiotv
+jio.com
+toffeelive
+aynaott
+tapmad
+akashgo
+dishtv
+d2h.com
+yupptv

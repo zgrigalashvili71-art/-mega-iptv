@@ -1,0 +1,273 @@
+#EXTM3U
+#EXTINF:-1 tvg-id="ext" tvg-logo="https://app.playlistbox.com/icon/8aNGL5kdnv361goaVXxXVmPjYb7BWK4E.png" tvg-name="1 TV GE" group-title="MYIPTV ქართული",GE: 1 Arkhi HD
+http://tinyurl.com/3zje87av/gpb/tracks-v1a1/index.m3u8
+#EXTINF:-1 tvg-id="TVPirveli.ge" tvg-logo="https://img.ge/ib/th5Bd50.png" tvg-name="TV PIRVELI" group-title="MYIPTV ქართული",GE: Pirveli HD
+http://tinyurl.com/3zje87av/pirvelitv/tracks-v1a1/index.m3u8
+#EXTINF:-1 tvg-id="no_epg" tvg-logo="https://img.ge/ib/ETkjf40.png" tvg-name="RUSTAVI 2" group-title="MYIPTV ქართული",GE: Rustavi 2
+http://tinyurl.com/3zje87av/rustavi2hqnew/tracks-v1a1/index.m3u8
+#EXTINF:-1 tvg-id="Formula.ge" tvg-logo="https://app.playlistbox.com/icon/Q97O6Vp54NE2yxmOkeZLKe3Pjln8qJAm.png" tvg-name="FORMULA" group-title="MYIPTV ქართული",GE: Formula HD
+http://c4635.cdn.xsg.ge/c4635/TVFormula/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-id="ImediTV.ge" tvg-logo="https://img.ge/ib/QuUU293.png" tvg-name="IMEDI TV HD" group-title="MYIPTV ქართული",GE: Imedi
+https://tv.cdn.xsg.ge/imedihd/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-logo="https://img.ge/i/iOFpk30.jpg" group-title="MYIPTV ქართული",GE: Pos TV HD
+http://tinyurl.com/3zje87av/postv/tracks-v1a1/index.m3u8
+#EXTINF:-1 tvg-logo="http://tv.team/images/chIcons/2240.png" group-title="MYIPTV ქართული",GE: TVC
+http://tinyurl.com/3zje87av/comedytv/tracks-v1a1/index.m3u8
+#EXTINF:-1 tvg-logo="http://tv.team/images/chIcons/1588.png" group-title="MYIPTV ქართული",GE: Comedy Arkhi
+http://tinyurl.com/3zje87av/comedy/tracks-v1a1/index.m3u8
+#EXTINF:-1 tvg-logo="http://tv.team/images/chIcons/2816.png" group-title="MYIPTV ქართული",GE: Akhali Formula HD
+http://tinyurl.com/3zje87av/formula-new/tracks-v1a1/index.m3u8
+#EXTINF:-1 tvg-id="PalitraNews.ge" tvg-logo="https://app.playlistbox.com/icon/mLqEygb36eAPXvx4pGxw1B4J20a7VGdn.png" tvg-name="PALITRA NEWS" group-title="MYIPTV ქართული",GE: Palitra News
+https://livestream.palitra.ge/hls/palitratv/index.m3u8
+#EXTINF:-1 tvg-logo="https://img.ge/ib/klaaZ85.png" group-title="MYIPTV ქართული",GE: EuroNews
+https://live2.tvg.ge/eng/EURONEWSGEORGIA/playlist.m3u8
+#EXTINF:-1 tvg-logo="http://tv.team/images/chIcons/2241.png" group-title="MYIPTV ქართული",GE: BMG
+http://tinyurl.com/3zje87av/bmg/tracks-v1a1/index.m3u8
+#EXTINF:-1 tvg-logo="http://tv.team/images/chIcons/1616.png" group-title="MYIPTV ქართული",GE: Georgian Times
+http://tinyurl.com/3zje87av/gttv/tracks-v1a1/index.m3u8
+#EXTINF:-1 tvg-id="Maestro.ge" tvg-logo="http://troya.tv/images/chIcons/1210.png" tvg-name="MAESTRO" group-title="MYIPTV ქართული",GE: TV25
+http://tinyurl.com/3zje87av/tv25/tracks-v1a1/index.m3u8
+#EXTINF:-1 tvg-id="Ertsulovneba.ge" tvg-logo="https://app.playlistbox.com/icon/8gDbA7qlEn341oybkJxGdyX9vwPLOWm5.png" tvg-name="ERTSULOVNEBA" group-title="MYIPTV ქართული",GE: Ertsulovneba
+http://tinyurl.com/3zje87av/ertsulovneba/tracks-v1a1/index.m3u8
+#EXTINF:-1 tvg-id="ObieqtiviTV.ge" tvg-logo="https://app.playlistbox.com/icon/pYgKnX27GlDPdkZGpGoV6AOrqyjw9z1W.png" tvg-name="OBIEQTIVI" group-title="MYIPTV ქართული",GE: Obieqtivi
+http://tinyurl.com/3zje87av/obiektivi/tracks-v1a1/index.m3u8
+#EXTINF:-1 tvg-id="GDSTV.ge" tvg-logo="https://img.ge/i/FwC8E64.jpg" tvg-name="GDS TV" group-title="MYIPTV ქართული",GE: GDS
+http://tinyurl.com/3zje87av/gdstv/tracks-v1a1/index.m3u8
+#EXTINF:-1 tvg-id="AjaraTV.ge" tvg-logo="https://app.playlistbox.com/icon/Bn6p4Ke1N5rV8ZWAvAxDl0bAWz7dvkJR.png" tvg-name="ADJARA TV" group-title="MYIPTV ქართული",GE: Ajara HD
+http://tinyurl.com/3zje87av/adjara/tracks-v1a1/index.m3u8
+#EXTINF:-1 tvg-logo="http://tv.team/images/chIcons/1602.png" group-title="MYIPTV ქართული",GE: Batumi TV
+http://tinyurl.com/3zje87av/batumitv/tracks-v1a1/index.m3u8
+#EXTINF:-1 tvg-logo="http://tv.team/images/chIcons/1597.png" group-title="MYIPTV ქართული",GE: Guriatv HD
+http://tinyurl.com/3zje87av/guriatv/tracks-v1a1/index.m3u8
+#EXTINF:-1 tvg-logo="http://tv.team/images/chIcons/1596.png" group-title="MYIPTV ქართული",GE: Kavkasia
+http://tinyurl.com/3zje87av/caucasia/tracks-v1a1/index.m3u8
+#EXTINF:-1 tvg-logo="http://tv.team/images/chIcons/1611.png" group-title="MYIPTV ქართული",GE: Odishi HD
+http://tinyurl.com/3zje87av/odishi/tracks-v1a1/index.m3u8
+#EXTINF:-1 tvg-logo="http://tv.team/images/chIcons/2239.png" group-title="MYIPTV ქართული",GE: Rioni
+http://tinyurl.com/3zje87av/rioni/tracks-v1a1/index.m3u8
+#EXTINF:-1 tvg-logo="https://static.mar.tv/logos/320/15.png" group-title="MYIPTV ქართული",GE: Abkhaz
+http://tinyurl.com/3zje87av/abkhaz/tracks-v1a1/index.m3u8
+#EXTINF:-1 tvg-logo="http://tv.team/images/chIcons/2242.png" group-title="MYIPTV ქართული",GE: TV Zari
+http://tinyurl.com/3zje87av/tvzari/tracks-v1a1/index.m3u8
+#EXTINF:-1 tvg-logo="https://img2.tradewheel.com/uploads/images/products/5/3/myiptv-hot-sale-in-singapore-brunei-malaysia-indonesia-ip-tv-box-android-no-channel-include-iptv-m3u0-0045777001620640314.png.webp" group-title="MYIPTV ქართული",მეცხრე არხი
+http://tinyurl.com/3zje87av/nwbctv/tracks-v1a1/index.m3u8
+#EXTINF:-1 tvg-logo="https://img2.tradewheel.com/uploads/images/products/5/3/myiptv-hot-sale-in-singapore-brunei-malaysia-indonesia-ip-tv-box-android-no-channel-include-iptv-m3u0-0045777001620640314.png.webp" group-title="MYIPTV ქართული",ქართული კინო 3
+https://glb.bozztv.com/glb/ushba51/index.m3u8
+#EXTINF:-1 tvg-logo="https://img2.tradewheel.com/uploads/images/products/5/3/myiptv-hot-sale-in-singapore-brunei-malaysia-indonesia-ip-tv-box-android-no-channel-include-iptv-m3u0-0045777001620640314.png.webp" group-title="MYIPTV ქართული",ქართული დოკ 3
+https://fl1004.bozztv.com/ushba-a2/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-logo="https://img.ge/ib/7eSf071.png" group-title="MYIPTV ქართული",GE: Silk Kino Holiwood
+http://tinyurl.com/3zje87av/silkhollywood/tracks-v1a1/index.m3u8
+#EXTINF:-1 tvg-logo="https://img.ge/i/PglkE45.png" group-title="MYIPTV ქართული",GE: Silk Kids
+http://tinyurl.com/3zje87av/silkkids/tracks-v1a1/index.m3u8
+#EXTINF:-1 tvg-logo="https://img.ge/i/m2OCJ45.png" group-title="MYIPTV ქართული",GE: Silk Documentary
+http://tinyurl.com/3zje87av/silkdocumentary/tracks-v1a1/index.m3u8
+#EXTINF:-1 tvg-logo="https://img.ge/i/MUfwL45.png" group-title="MYIPTV სპორტი",GE: Silk Sport 1 HD
+http://tinyurl.com/3zje87av/silksport1/tracks-v1a1/index.m3u8
+#EXTINF:-1 tvg-logo="https://img.ge/i/cx6yP45.png" group-title="MYIPTV სპორტი",GE: Silk Sport 2 HD
+http://tinyurl.com/3zje87av/silksport2/tracks-v1a1/index.m3u8
+#EXTINF:-1 tvg-logo="https://img.ge/i/mPUQG45.png" group-title="MYIPTV სპორტი",GE: Silk Sport 3 HD
+http://tinyurl.com/3zje87av/silksport3/tracks-v1a1/index.m3u8
+#EXTINF:-1 tvg-id="2TV.ge" tvg-logo="https://img.ge/i/Wxk9C69.jpg" tvg-name="1 Arkhi sport" timeshift="7" group-title="MYIPTV სპორტი",GE: 1 Arkhi Sport HD
+https://tv.cdn.xsg.ge/gpb-2tv/index.m3u8
+#EXTINF:-1 tvg-logo="http://tv.team/images/chIcons/2046.png" group-title="MYIPTV სპორტი",GE: O2
+http://tinyurl.com/3zje87av/o2/tracks-v1a1/index.m3u8
+#EXTINF:-1 tvg-logo="http://tv.team/images/chIcons/1614.png" group-title="MYIPTV სპორტი",GE: Regbi TV
+http://tinyurl.com/3zje87av/rtv/tracks-v1a1/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/l5iax42.png" group-title="MYIPTV სპორტი",FIFA+
+https://a62dad94.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWV1X0ZJRkFQbHVzRW5nbGlzaF9ITFM/playlist.m3u8
+#EXTINF:-1 tvg-logo="http://tv.team/images/chIcons/64.png" group-title="MYIPTV სპორტი",Viju+ Sport
+http://tinyurl.com/Argaavrcelo/viasatsport/index.m3u8
+#EXTINF:-1 tvg-logo="https://img2.tradewheel.com/uploads/images/products/5/3/myiptv-hot-sale-in-singapore-brunei-malaysia-indonesia-ip-tv-box-android-no-channel-include-iptv-m3u0-0045777001620640314.png.webp" group-title="MYIPTV სპორტი",Спартивни 2
+http://tinyurl.com/Argaavrcelo/sportivni2/index.m3u8
+#EXTINF:-1 tvg-logo="http://troya.tv/images/chIcons/609.png" group-title="MYIPTV სპორტი",Матч!
+http://tinyurl.com/Argaavrcelo/matchtv/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/l5iax42.png" group-title="MYIPTV სპორტი",FIFA+
+https://a62dad94.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWV1X0ZJRkFQbHVzRW5nbGlzaF9ITFM/playlist.m3u8
+#EXTINF:-1 tvg-logo="http://tv.team/images/chIcons/64.png" group-title="MYIPTV სპორტი",Viju+ Sport
+http://tinyurl.com/Argaavrcelo/viasatsport/index.m3u8
+#EXTINF:-1 tvg-logo="https://img2.tradewheel.com/uploads/images/products/5/3/myiptv-hot-sale-in-singapore-brunei-malaysia-indonesia-ip-tv-box-android-no-channel-include-iptv-m3u0-0045777001620640314.png.webp" group-title="MYIPTV სპორტი",Спартивни 2
+http://tinyurl.com/Argaavrcelo/sportivni2/index.m3u8
+#EXTINF:-1 tvg-logo="http://troya.tv/images/chIcons/609.png" group-title="MYIPTV სპორტი",Матч!
+http://tinyurl.com/Argaavrcelo/matchtv/index.m3u8
+#EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/tvpedia/images/e/eb/Turkmenistan_sport.png/revision/latest?cb=20201026070318&path-prefix=ru" group-title="MYIPTV სპორტი",Turkmen Sport
+http://217.174.225.146/hls/ch004_720/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/5pMo7dL.png" group-title="MYIPTV სპორტი",Real Madrid
+https://rmtv.akamaized.net/hls/live/2043153/rmtv-es-web/master.m3u8
+#EXTINF:-1 tvg-logo="https://getdrawings.com/free-icon/red-bull-icon-63.png" group-title="MYIPTV სპორტი",Red bull TV HD
+https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master_6660.m3u8
+#EXTINF:-1 tvg-logo="http://tv.team/images/chIcons/473.png" group-title="MYIPTV სპორტი",BY: Беларусь 5 HD
+https://ngtrk.dc.beltelecom.by/ngtrk/_definst_/smil:belarus5.smil/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/V562tpO.png" group-title="MYIPTV სპორტი",beIN SPORTS XTRA
+https://bein-esp-xumo.amagi.tv/playlistR1080p.m3u8
+#EXTINF:-1 tvg-logo="http://tv.team/images/chIcons/697.png" group-title="MYIPTV სპორტი",Матч! Футбол 3 HD
+http://185.57.68.33:8091/110/index.m3u8
+#EXTINF:-1 tvg-logo="http://tv.team/images/chIcons/18.png" group-title="MYIPTV კინო",Viju TV 1000 Action HD
+http://tinyurl.com/Argaavrcelo/tv1000action/index.m3u8
+#EXTINF:-1 tvg-logo="http://tv.team/images/chIcons/469.png" group-title="MYIPTV კინო",TV XXI Век
+http://tinyurl.com/Argaavrcelo/TVXXI/index.m3u8
+#EXTINF:-1 tvg-logo="http://tv.team/images/chIcons/117.png" group-title="MYIPTV კინო",НСТ
+http://tinyurl.com/Argaavrcelo/nst/index.m3u8
+#EXTINF:-1 tvg-logo="https://www.uzdtv.uz/images/channel_1687320823.png" group-title="MYIPTV კინო",Cinema
+http://tinyurl.com/Argaavrcelo/cinema/index.m3u8
+#EXTINF:-1 tvg-logo="http://tv.team/images/chIcons/336.png" group-title="MYIPTV კინო",Мосфильм
+http://tinyurl.com/Argaavrcelo/mosfilm/index.m3u8
+#EXTINF:-1 tvg-logo="http://tv.team/images/chIcons/701.png" group-title="MYIPTV კინო",Viju+ Serial HD
+http://tinyurl.com/Argaavrcelo/vipserial/index.m3u8
+#EXTINF:-1 tvg-logo="http://tv.team/images/chIcons/58.png" group-title="MYIPTV კინო",Viju+ Comedy HD
+http://tinyurl.com/Argaavrcelo/vipcomedy/index.m3u8
+#EXTINF:-1 tvg-logo="http://tv.team/images/chIcons/59.png" group-title="MYIPTV კინო",Viju+ Megahit HD
+http://tinyurl.com/Argaavrcelo/vipmegahit/index.m3u8
+#EXTINF:-1 tvg-logo="http://troya.tv/images/chIcons/60.png" group-title="MYIPTV კინო",Viju+ Premiere HD
+http://tinyurl.com/Argaavrcelo/vippremiera/index.m3u8
+#EXTINF:-1 tvg-logo="http://troya.tv/images/chIcons/114.png" group-title="MYIPTV კინო",Иллюзион+ HD
+http://tinyurl.com/Argaavrcelo/iluzion/index.m3u8
+#EXTINF:-1 tvg-logo="http://troya.tv/images/chIcons/461.png" group-title="MYIPTV კინო",Индийское кино
+http://tinyurl.com/Argaavrcelo/indiskoekino/index.m3u8
+#EXTINF:-1 tvg-logo="http://troya.tv/images/chIcons/2079.png" group-title="MYIPTV კინო",Кинеко HD
+http://tinyurl.com/Argaavrcelo/kineko/index.m3u8
+#EXTINF:-1 tvg-logo="https://img2.tradewheel.com/uploads/images/products/5/3/myiptv-hot-sale-in-singapore-brunei-malaysia-indonesia-ip-tv-box-android-no-channel-include-iptv-m3u0-0045777001620640314.png.webp" group-title="MYIPTV კინო",Kino 24
+http://tinyurl.com/Argaavrcelo/kino24/index.m3u8
+#EXTINF:-1 tvg-logo="http://troya.tv/images/chIcons/568.png" group-title="MYIPTV კინო",НТВ Хит HD
+http://tinyurl.com/Argaavrcelo/ntvhit/index.m3u8
+#EXTINF:-1 tvg-logo="http://troya.tv/images/chIcons/70.png" group-title="MYIPTV კინო",Red HD
+http://tinyurl.com/Argaavrcelo/red/index.m3u8
+#EXTINF:-1 tvg-logo="http://troya.tv/images/chIcons/13.png" group-title="MYIPTV კინო",Viju TV 1000 Русское HD
+http://tinyurl.com/Argaavrcelo/tv1000ruski/index.m3u8
+#EXTINF:-1 tvg-logo="http://troya.tv/images/chIcons/712.png" group-title="MYIPTV კინო",Shot
+http://tinyurl.com/Argaavrcelo/shottv/index.m3u8
+#EXTINF:-1 tvg-logo="http://troya.tv/images/chIcons/112.png" group-title="MYIPTV კინო",Мужское кино HD
+http://tinyurl.com/Argaavrcelo/mujkoe/index.m3u8
+#EXTINF:-1 tvg-logo="https://img.rnx.ru/logotvchannel/779-250.jpg" group-title="MYIPTV კინო",Кино 1 International
+https://kino-1.catcast.tv/content/38617/index.m3u8
+#EXTINF:-1 tvg-logo="https://play-lh.googleusercontent.com/gAKgCxYU1hHi4Q9_PGH7Ut3sFgXvQPVe85TNA4yy50HBRp8dApHNXfhUKdLK2W1B9YTx" group-title="MYIPTV მუსიკა",Baraza HD Music TV
+https://eco.streams.ovh:8081/barazatv/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-logo="https://play-lh.googleusercontent.com/gAKgCxYU1hHi4Q9_PGH7Ut3sFgXvQPVe85TNA4yy50HBRp8dApHNXfhUKdLK2W1B9YTx" group-title="MYIPTV მუსიკა",Baraza Relax
+https://rtmp.streams.ovh:1936/barazarelax/barazarelax/chunklist_w340576673.m3u8
+#EXTINF:-1 tvg-logo="https://play-lh.googleusercontent.com/gAKgCxYU1hHi4Q9_PGH7Ut3sFgXvQPVe85TNA4yy50HBRp8dApHNXfhUKdLK2W1B9YTx" group-title="MYIPTV მუსიკა",Baraza GOLD
+https://rtmp.streams.ovh:1936/barazarelax/barazazararelax/barazarelax/chunklist_w428892978.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/hdyJ4PT.png" group-title="MYIPTV მუსიკა",MTVMusic.uk
+http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/6245d15062cd1f00070a2338/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=1b1ec342-4b81-11ef-a8ac-e146e4e7be02&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=a56dace8-66e4-4b9a-a55f-d5348160dae2
+#EXTINF:-1 tvg-logo="http://troya.tv/images/chIcons/490.png" group-title="MYIPTV მუსიკა",Bridge TV
+http://tinyurl.com/Argaavrcelo/BRIDGE/index.m3u8
+#EXTINF:-1 tvg-logo="https://smotret.tv/images/biz-music.jpg" group-title="MYIPTV მუსიკა",BIZ TV MUSIC
+https://fl.biztv.media/music_480_FbLnBjkOoclIXBLHLbLTuwFOKaihFS/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-logo="http://tv.team/images/chIcons/3.png" group-title="MYIPTV შერეული",НТВ HD
+https://cdn.ntv.ru/ntv0_foreign/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-logo="http://tv.team/images/chIcons/420.png" group-title="MYIPTV შერეული",ю
+http://tinyurl.com/Argaavrcelo/U/index.m3u8
+#EXTINF:-1 tvg-logo="http://tv.team/images/chIcons/11.png" group-title="MYIPTV შერეული",Viju Explore HD
+http://tinyurl.com/Argaavrcelo/viasatexplor/index.m3u8
+#EXTINF:-1 tvg-logo="http://tv.team/images/chIcons/21.png" group-title="MYIPTV შერეული",СТС HD
+http://tinyurl.com/Argaavrcelo/CTC/index.m3u8
+#EXTINF:-1 tvg-logo="http://tv.team/images/chIcons/627.png" group-title="MYIPTV შერეული",Зоопарк
+http://tinyurl.com/Argaavrcelo/zoopark/index.m3u8
+#EXTINF:-1 tvg-logo="http://tv.team/images/chIcons/73.png" group-title="MYIPTV შერეული",Наука
+http://tinyurl.com/Argaavrcelo/nauka/index.m3u8
+#EXTINF:-1 tvg-logo="http://tv.team/images/chIcons/12.png" group-title="MYIPTV შერეული",Viju Nature HD
+http://tinyurl.com/Argaavrcelo/viasatnatur/index.m3u8
+#EXTINF:-1 tvg-logo="http://tv.team/images/chIcons/126.png" group-title="MYIPTV შერეული",Viju History `HD
+http://tinyurl.com/Argaavrcelo/viasathistory/index.m3u8
+#EXTINF:-1 tvg-logo="http://troya.tv/images/chIcons/614.png" group-title="MYIPTV შერეული",Арсенал HD
+http://tinyurl.com/Argaavrcelo/arsenal2/index.m3u8
+#EXTINF:-1 tvg-logo="http://troya.tv/images/chIcons/4.png" group-title="MYIPTV შერეული",Рен ТВ HD
+http://tinyurl.com/Argaavrcelo/RENTV/index.m3u8
+#EXTINF:-1 tvg-logo="http://troya.tv/images/chIcons/633.png" group-title="MYIPTV შერეული",Перец International
+http://tinyurl.com/Argaavrcelo/PEREC/index.m3u8
+#EXTINF:-1 tvg-logo="http://troya.tv/images/chIcons/729.png" group-title="MYIPTV შერეული",Мир HD
+http://tinyurl.com/Argaavrcelo/NTVMIR/index.m3u8
+#EXTINF:-1 tvg-logo="http://troya.tv/images/chIcons/2454.png" group-title="MYIPTV შერეული",Viju+ Planet HD
+http://tinyurl.com/Argaavrcelo/viasatplaneta/index.m3u8
+#EXTINF:-1 tvg-logo="http://troya.tv/images/chIcons/438.png" group-title="MYIPTV შერეული",Техно 24
+http://tinyurl.com/Argaavrcelo/t24/index.m3u8
+#EXTINF:-1 tvg-logo="http://troya.tv/images/chIcons/448.png" group-title="MYIPTV შერეული",Охота и рыбалка
+http://tinyurl.com/Argaavrcelo/oxotaribalka/index.m3u8
+#EXTINF:-1 tvg-logo="https://www.radioamra.com/wp-content/uploads/2020/09/radioamranewlogoshadow.png" group-title="MYIPTV რადიო",Amra FM
+https://radio.garden/api/ara/content/listen/wgOH7huD/channel.mp3
+#EXTINF:-1 tvg-logo="https://static.myvideo.ge/media/cache/image/15829/7d147c70-596f-11ea-94c9-e79df396a0ec_100x100.png" group-title="MYIPTV რადიო",რადიო ჯორჯიან Თაიმსი
+http://tinyurl.com/3zje87av/fm-georgiantimes-92.3/index.m3u8
+#EXTINF:-1 tvg-logo="https://static.myvideo.ge/media/cache/image/15091/493c3020-ba34-11e7-be04-232427982941_100x100.png" group-title="MYIPTV რადიო",რადიო Ძველი ქალაქი
+http://tinyurl.com/3zje87av/fm-radiodk-107.9/index.m3u8
+#EXTINF:-1 tvg-logo="https://static.myvideo.ge/media/cache/image/15215/45555b10-2b79-11e8-a7df-ffaa16a1f883_100x100.png" group-title="MYIPTV რადიო",აᲗინაᲗი
+http://tinyurl.com/3zje87av/fm-atinati-105.9/index.m3u8
+#EXTINF:-1 tvg-logo="https://static.myvideo.ge/media/cache/image/15102/22240830-c46b-11e7-b90b-cde310934900_100x100.png" group-title="MYIPTV რადიო",ობიექტივი
+http://tinyurl.com/3zje87av/fm-obieqtivi-105.1/index.m3u8
+#EXTINF:-1 tvg-logo="https://static.myvideo.ge/media/cache/image/15157/e6a3b2c0-f6c5-11e7-986d-73afab632a7b_100x100.png" group-title="MYIPTV რადიო",ᲗრიალეᲗი
+http://tinyurl.com/3zje87av/fm-trialeti-104.9/index.m3u8
+#EXTINF:-1 tvg-logo="https://static.myvideo.ge/media/cache/image/15245/42183020-46d8-11e8-87a5-8dc5c2399f89_100x100.png" group-title="MYIPTV რადიო",რადიო აᲭარა
+http://tinyurl.com/3zje87av/fm-adjara-104.5/index.m3u8
+#EXTINF:-1 tvg-logo="https://static.myvideo.ge/media/cache/image/15766/5eceb020-20bd-11ea-883b-fb511f4b027d_100x100.png" group-title="MYIPTV რადიო",რადიო პოზიტივი
+http://tinyurl.com/3zje87av/fm-radiopositive-104.3/index.m3u8
+#EXTINF:-1 tvg-logo="https://static.myvideo.ge/media/cache/image/15102/b35890c0-c46a-11e7-95af-d512ec8e990d_100x100.png" group-title="MYIPTV რადიო",რადიო პალიტრა
+http://tinyurl.com/3zje87av/fm-palitra-103.9/index.m3u8
+#EXTINF:-1 tvg-logo="https://static.myvideo.ge/media/cache/image/15706/d77b8600-e9d6-11e9-8807-f5e12b771b46_100x100.png" group-title="MYIPTV რადიო",არგო
+http://tinyurl.com/3zje87av/fm-argo-102/index.m3u8
+#EXTINF:-1 tvg-logo="https://static.myvideo.ge/media/cache/image/15313/07da75d0-8443-11e8-9129-732a2765f5ca_100x100.png" group-title="MYIPTV რადიო",აფხაზეᲗის ხმა
+http://tinyurl.com/3zje87av/fm-abkhazia-98.9/index.m3u8
+#EXTINF:-1 tvg-logo="https://static.myvideo.ge/media/cache/image/15255/5619d580-4fa2-11e8-b27e-bba104116e2f_100x100.png" group-title="MYIPTV რადიო",რადიო უცნობი
+http://tinyurl.com/3zje87av/fm-ucnobi-98.1/index.m3u8
+#EXTINF:-1 tvg-logo="https://static.myvideo.ge/media/cache/image/15282/b3989ae0-6895-11e8-b6a8-3931e27bc2e1_100x100.png" group-title="MYIPTV რადიო",რადიო 4
+http://tinyurl.com/3zje87av/fm-radio4-97.8/index.m3u8
+#EXTINF:-1 tvg-logo="https://static.myvideo.ge/media/cache/image/15091/84416320-ba31-11e7-ae12-db3c570c237d_100x100.png" group-title="MYIPTV რადიო",რადიო არ დაიდარდო
+http://tinyurl.com/3zje87av/fm-ardaidardo-96.7/index.m3u8
+#EXTINF:-1 tvg-logo="https://static.myvideo.ge/media/cache/image/15091/1c500200-ba30-11e7-a94e-effe9c9b81b0_100x100.png" group-title="MYIPTV რადიო",Star fm
+http://tinyurl.com/3zje87av/fm-star-93.9/index.m3u8
+#EXTINF:-1 tvg-logo="https://static.myvideo.ge/media/cache/image/16892/057fe300-2019-11ee-a126-69775613faa9_100x100.png" group-title="MYIPTV რადიო",რადიო სივრცე
+http://tinyurl.com/3zje87av/fm-sivrce/index.m3u8
+#EXTINF:-1 tvg-logo="https://static.myvideo.ge/media/cache/image/16003/bb692d40-f81c-11ea-a8c7-5f0cd5288bab_100x100.png" group-title="MYIPTV რადიო",რადიო ბაᲗუმი
+http://tinyurl.com/3zje87av/fm-batumi-93.7/index.m3u8
+#EXTINF:-1 tvg-logo="https://static.myvideo.ge/media/cache/image/15246/15b1b7a0-47c3-11e8-ba80-418158652275_100x100.png" group-title="MYIPTV რადიო",ჰერეᲗი
+http://tinyurl.com/3zje87av/fm-hereti-102.8/index.m3u8
+#EXTINF:-1 tvg-logo="https://static.myvideo.ge/media/cache/image/15676/2571fd20-ceea-11e9-872c-6f76f87c77c7_100x100.png" group-title="MYIPTV რადიო",რადიო ციტრუსი
+http://tinyurl.com/3zje87av/fm-citrus-97.3/index.m3u8
+#EXTINF:-1 tvg-logo="https://static.myvideo.ge/media/cache/image/15091/02acd6f0-ba34-11e7-9a4a-bd987d1757f8_100x100.png" group-title="MYIPTV რადიო",ფორტუნა
+http://tinyurl.com/3zje87av/fm-radiofortuna-106.9/index.m3u8
+#EXTINF:-1 tvg-logo="https://static.myvideo.ge/media/cache/image/15736/89e9e990-0551-11ea-b6cf-77fe5c2f08ce_100x100.png" group-title="MYIPTV რადიო",ფორტუნა პლუს
+http://tinyurl.com/3zje87av/fm-radiofortunaplus-103.4/index.m3u8
+#EXTINF:-1 tvg-logo="https://static.myvideo.ge/media/cache/image/15091/3c7aa270-ba30-11e7-a38d-ed0d15f1809a_100x100.png" group-title="MYIPTV რადიო",ავტორადიო
+http://tinyurl.com/3zje87av/fm-autoradio-95.1/index.m3u8
+#EXTINF:-1 tvg-logo="https://static.myvideo.ge/media/cache/image/15246/46d32810-47c3-11e8-aee2-33949b5b8352_100x100.png" group-title="MYIPTV რადიო",Თბილისი
+http://tinyurl.com/3zje87av/fm-tbilisi-93.5/index.m3u8
+#EXTINF:-1 tvg-logo="https://static.myvideo.ge/media/cache/image/15246/6000d710-47c3-11e8-8e4b-dd31da77cfe3_100x100.png" group-title="MYIPTV რადიო",Relax Web Radio
+http://tinyurl.com/3zje87av/fm-relax-web-radio/index.m3u8
+#EXTINF:-1 tvg-id="no_epg_radio" tvg-logo="https://radiomixer.net/images/2023/11/01/YWT3JC4mWYkfFUAzLthwQmfyrlfTdm3VgrvNmzFA.jpg" group-title="რადიო რუს",Радио Родных Дорог
+https://stream-msk-17.ott.tricolor.tv/dtv/id961_MSKSG-PVR-1--Radio_Rodnykh_Dorog/01/plst.m3u8?drmreq=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHBfdHlwZSI6ImFwdHBfb3R0IiwiY2xhc3MiOiJCUk9XU0VSIiwiZHJlaWQiOiI1NDIxOTAwNzk1ODc0MiIsImV4cCI6MTc1OTg1Mjk0NiwiaHdpZCI6IjE0MzhiZTY5MWYzZjkxNWNkN2E0NDA1ZmZiNDhjNTc1M2E2MDk1ZWVkM2IwMGZiMWFkZGM3OGVhZTAwYmU5YzEiLCJsYXN0X3JlcV9kYXRlIjoxNzU5MjQ4MTQ2LCJzZXNzaW9uX2lkIjoiZjI4ZjQ3ZDFkNzMwMGRjMmZkNWFhODQ3NWU5MGE0OGQiLCJ0b2tlbl90eXBlIjoiQ29udGVudEFjY2Vzc1Rva2VuIiwidHlwZSI6Ik1PWklMTEEifQ.EAUDyK-Ial2RbrtCf92nfA9Cd0rfRQHzNipEm2-BAGw
+#EXTINF:-1 tvg-id="no_epg_radio" tvg-logo="https://frocus.net/images/logotv/original/dorojnoe_radio_tiraspol.jpg" group-title="რადიო რუს",Дорожное FM
+https://stream-msk-17.ott.tricolor.tv/dtv/id949_MSKSG-PVR-1--dorozhnoye_radio/01/plst.m3u8?drmreq=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHBfdHlwZSI6ImFwdHBfb3R0IiwiY2xhc3MiOiJCUk9XU0VSIiwiZHJlaWQiOiI1NDIxOTAwNzk1ODc0MiIsImV4cCI6MTc1OTg1Mjk0NiwiaHdpZCI6IjE0MzhiZTY5MWYzZjkxNWNkN2E0NDA1ZmZiNDhjNTc1M2E2MDk1ZWVkM2IwMGZiMWFkZGM3OGVhZTAwYmU5YzEiLCJsYXN0X3JlcV9kYXRlIjoxNzU5MjQ4MTQ2LCJzZXNzaW9uX2lkIjoiZjI4ZjQ3ZDFkNzMwMGRjMmZkNWFhODQ3NWU5MGE0OGQiLCJ0b2tlbl90eXBlIjoiQ29udGVudEFjY2Vzc1Rva2VuIiwidHlwZSI6Ik1PWklMTEEifQ.EAUDyK-Ial2RbrtCf92nfA9Cd0rfRQHzNipEm2-BAGw
+#EXTINF:-1 tvg-id="no_epg_radio" tvg-logo="https://tv2free.ru/sites/default/files/radio-logo/radio-evropa-plyus-1659175383.jpg" group-title="რადიო რუს",Europe Plus
+https://stream-msk-17.ott.tricolor.tv/dtv/id945_MSKSG-PVR-1--europa_plus/01/plst.m3u8?drmreq=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHBfdHlwZSI6ImFwdHBfb3R0IiwiY2xhc3MiOiJCUk9XU0VSIiwiZHJlaWQiOiI1NDIxOTAwNzk1ODc0MiIsImV4cCI6MTc1OTg1Mjk0NiwiaHdpZCI6IjE0MzhiZTY5MWYzZjkxNWNkN2E0NDA1ZmZiNDhjNTc1M2E2MDk1ZWVkM2IwMGZiMWFkZGM3OGVhZTAwYmU5YzEiLCJsYXN0X3JlcV9kYXRlIjoxNzU5MjQ4MTQ2LCJzZXNzaW9uX2lkIjoiZjI4ZjQ3ZDFkNzMwMGRjMmZkNWFhODQ3NWU5MGE0OGQiLCJ0b2tlbl90eXBlIjoiQ29udGVudEFjY2Vzc1Rva2VuIiwidHlwZSI6Ik1PWklMTEEifQ.EAUDyK-Ial2RbrtCf92nfA9Cd0rfRQHzNipEm2-BAGw
+#EXTINF:-1 tvg-id="no_epg_radio" tvg-logo="https://tv2free.ru/sites/default/files/radio-logo/radio-radio-maximum-1660163074.jpg" group-title="რადიო რუს",Радио Maximum
+https://stream-msk-05.ott.tricolor.tv/dtv/id763_MSKSG-PVR-1--Maximum/01/plst.m3u8?drmreq=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHBfdHlwZSI6ImFwdHBfb3R0IiwiY2xhc3MiOiJCUk9XU0VSIiwiZHJlaWQiOiI1NDIxOTAwNzk1ODc0MiIsImV4cCI6MTc1OTg1Mjk0NiwiaHdpZCI6IjE0MzhiZTY5MWYzZjkxNWNkN2E0NDA1ZmZiNDhjNTc1M2E2MDk1ZWVkM2IwMGZiMWFkZGM3OGVhZTAwYmU5YzEiLCJsYXN0X3JlcV9kYXRlIjoxNzU5MjQ4MTQ2LCJzZXNzaW9uX2lkIjoiZjI4ZjQ3ZDFkNzMwMGRjMmZkNWFhODQ3NWU5MGE0OGQiLCJ0b2tlbl90eXBlIjoiQ29udGVudEFjY2Vzc1Rva2VuIiwidHlwZSI6Ik1PWklMTEEifQ.EAUDyK-Ial2RbrtCf92nfA9Cd0rfRQHzNipEm2-BAGw
+#EXTINF:-1 tvg-id="no_epg_radio" tvg-logo="https://ra-germes.ru/upload/iblock/3de/russkoe_radio_img.jpg" group-title="რადიო რუს",Русское Радио
+https://stream-msk-20.ott.tricolor.tv/dtv/id962_MSKSG-PVR-1--Russkoe_radio/01/plst.m3u8?drmreq=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHBfdHlwZSI6ImFwdHBfb3R0IiwiY2xhc3MiOiJCUk9XU0VSIiwiZHJlaWQiOiI1NDIxOTAwNzk1ODc0MiIsImV4cCI6MTc1OTg1Mjk0NiwiaHdpZCI6IjE0MzhiZTY5MWYzZjkxNWNkN2E0NDA1ZmZiNDhjNTc1M2E2MDk1ZWVkM2IwMGZiMWFkZGM3OGVhZTAwYmU5YzEiLCJsYXN0X3JlcV9kYXRlIjoxNzU5MjQ4MTQ2LCJzZXNzaW9uX2lkIjoiZjI4ZjQ3ZDFkNzMwMGRjMmZkNWFhODQ3NWU5MGE0OGQiLCJ0b2tlbl90eXBlIjoiQ29udGVudEFjY2Vzc1Rva2VuIiwidHlwZSI6Ik1PWklMTEEifQ.EAUDyK-Ial2RbrtCf92nfA9Cd0rfRQHzNipEm2-BAGw
+#EXTINF:-1 tvg-id="no_epg_radio" tvg-logo="https://nerios.ru/roster/uploads/posts/2024-03/mibzo_nnejs-min.jpg" group-title="რადიო რუს",Радио Ваня
+https://stream-msk-17.ott.tricolor.tv/dtv/id954_MSKSG-PVR-1--radio_vanya/01/plst.m3u8?drmreq=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHBfdHlwZSI6ImFwdHBfb3R0IiwiY2xhc3MiOiJCUk9XU0VSIiwiZHJlaWQiOiI1NDIxOTAwNzk1ODc0MiIsImV4cCI6MTc1OTg1Mjk0NiwiaHdpZCI6IjE0MzhiZTY5MWYzZjkxNWNkN2E0NDA1ZmZiNDhjNTc1M2E2MDk1ZWVkM2IwMGZiMWFkZGM3OGVhZTAwYmU5YzEiLCJsYXN0X3JlcV9kYXRlIjoxNzU5MjQ4MTQ2LCJzZXNzaW9uX2lkIjoiZjI4ZjQ3ZDFkNzMwMGRjMmZkNWFhODQ3NWU5MGE0OGQiLCJ0b2tlbl90eXBlIjoiQ29udGVudEFjY2Vzc1Rva2VuIiwidHlwZSI6Ik1PWklMTEEifQ.EAUDyK-Ial2RbrtCf92nfA9Cd0rfRQHzNipEm2-BAGw
+#EXTINF:-1 tvg-id="no_epg_radio" tvg-logo="https://pvgstudio.ru/work/img/dfm3.jpg" group-title="რადიო რუს",Dance FM
+https://stream-msk-20.ott.tricolor.tv/dtv/id952_MSKSG-PVR-1--dfm/01/plst.m3u8?drmreq=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHBfdHlwZSI6ImFwdHBfb3R0IiwiY2xhc3MiOiJCUk9XU0VSIiwiZHJlaWQiOiI1NDIxOTAwNzk1ODc0MiIsImV4cCI6MTc1OTg1Mjk0NiwiaHdpZCI6IjE0MzhiZTY5MWYzZjkxNWNkN2E0NDA1ZmZiNDhjNTc1M2E2MDk1ZWVkM2IwMGZiMWFkZGM3OGVhZTAwYmU5YzEiLCJsYXN0X3JlcV9kYXRlIjoxNzU5MjQ4MTQ2LCJzZXNzaW9uX2lkIjoiZjI4ZjQ3ZDFkNzMwMGRjMmZkNWFhODQ3NWU5MGE0OGQiLCJ0b2tlbl90eXBlIjoiQ29udGVudEFjY2Vzc1Rva2VuIiwidHlwZSI6Ik1PWklMTEEifQ.EAUDyK-Ial2RbrtCf92nfA9Cd0rfRQHzNipEm2-BAGw
+#EXTINF:-1 tvg-id="no_epg_radio" tvg-logo="https://vivareit.ru/wp-content/uploads/2015/10/retro99.jpg" group-title="რადიო რუს",Ретро FM
+https://stream-msk-17.ott.tricolor.tv/dtv/id967_MSKSG-PVR-1--Retro_FM/01/plst.m3u8?drmreq=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHBfdHlwZSI6ImFwdHBfb3R0IiwiY2xhc3MiOiJCUk9XU0VSIiwiZHJlaWQiOiI1NDIxOTAwNzk1ODc0MiIsImV4cCI6MTc1OTg1Mjk0NiwiaHdpZCI6IjE0MzhiZTY5MWYzZjkxNWNkN2E0NDA1ZmZiNDhjNTc1M2E2MDk1ZWVkM2IwMGZiMWFkZGM3OGVhZTAwYmU5YzEiLCJsYXN0X3JlcV9kYXRlIjoxNzU5MjQ4MTQ2LCJzZXNzaW9uX2lkIjoiZjI4ZjQ3ZDFkNzMwMGRjMmZkNWFhODQ3NWU5MGE0OGQiLCJ0b2tlbl90eXBlIjoiQ29udGVudEFjY2Vzc1Rva2VuIiwidHlwZSI6Ik1PWklMTEEifQ.EAUDyK-Ial2RbrtCf92nfA9Cd0rfRQHzNipEm2-BAGw
+#EXTINF:-1 tvg-id="no_epg_radio" tvg-logo="https://i.podster.fm/img/220577/crop/yes/size/default/220577-1.jpg" group-title="რადიო რუს",ХИТ FM
+https://stream-msk-20.ott.tricolor.tv/dtv/id953_MSKSG-PVR-1--hit_fm/01/plst.m3u8?drmreq=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHBfdHlwZSI6ImFwdHBfb3R0IiwiY2xhc3MiOiJCUk9XU0VSIiwiZHJlaWQiOiI1NDIxOTAwNzk1ODc0MiIsImV4cCI6MTc1OTg1Mjk0NiwiaHdpZCI6IjE0MzhiZTY5MWYzZjkxNWNkN2E0NDA1ZmZiNDhjNTc1M2E2MDk1ZWVkM2IwMGZiMWFkZGM3OGVhZTAwYmU5YzEiLCJsYXN0X3JlcV9kYXRlIjoxNzU5MjQ4MTQ2LCJzZXNzaW9uX2lkIjoiZjI4ZjQ3ZDFkNzMwMGRjMmZkNWFhODQ3NWU5MGE0OGQiLCJ0b2tlbl90eXBlIjoiQ29udGVudEFjY2Vzc1Rva2VuIiwidHlwZSI6Ik1PWklMTEEifQ.EAUDyK-Ial2RbrtCf92nfA9Cd0rfRQHzNipEm2-BAGw
+#EXTINF:-1 tvg-id="no_epg_radio" tvg-logo="https://sun9-32.userapi.com/hvYm3QEIKaM895rZ2fgNkIh0P18i-Oe-FjwIMw/rL09pDNrMus.jpg" group-title="რადიო რუს",Радио 7
+https://stream-msk-17.ott.tricolor.tv/dtv/id955_MSKSG-PVR-1--radio_na_7_kholmakh/01/plst.m3u8?drmreq=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHBfdHlwZSI6ImFwdHBfb3R0IiwiY2xhc3MiOiJCUk9XU0VSIiwiZHJlaWQiOiI1NDIxOTAwNzk1ODc0MiIsImV4cCI6MTc1OTg1Mjk0NiwiaHdpZCI6IjE0MzhiZTY5MWYzZjkxNWNkN2E0NDA1ZmZiNDhjNTc1M2E2MDk1ZWVkM2IwMGZiMWFkZGM3OGVhZTAwYmU5YzEiLCJsYXN0X3JlcV9kYXRlIjoxNzU5MjQ4MTQ2LCJzZXNzaW9uX2lkIjoiZjI4ZjQ3ZDFkNzMwMGRjMmZkNWFhODQ3NWU5MGE0OGQiLCJ0b2tlbl90eXBlIjoiQ29udGVudEFjY2Vzc1Rva2VuIiwidHlwZSI6Ik1PWklMTEEifQ.EAUDyK-Ial2RbrtCf92nfA9Cd0rfRQHzNipEm2-BAGw
+#EXTINF:-1 tvg-id="no_epg_radio" tvg-logo="https://static.tildacdn.com/tild3463-6266-4664-a637-333161383337/3c484c65a2d021a349aa.jpg" group-title="რადიო რუს",Радио Воскресение
+https://stream-msk-06.ott.tricolor.tv/dtv/id780_MSKSG-PVR-1--Voskreseniye/01/plst.m3u8?drmreq=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHBfdHlwZSI6ImFwdHBfb3R0IiwiY2xhc3MiOiJCUk9XU0VSIiwiZHJlaWQiOiI1NDIxOTAwNzk1ODc0MiIsImV4cCI6MTc1OTg1Mjk0NiwiaHdpZCI6IjE0MzhiZTY5MWYzZjkxNWNkN2E0NDA1ZmZiNDhjNTc1M2E2MDk1ZWVkM2IwMGZiMWFkZGM3OGVhZTAwYmU5YzEiLCJsYXN0X3JlcV9kYXRlIjoxNzU5MjQ4MTQ2LCJzZXNzaW9uX2lkIjoiZjI4ZjQ3ZDFkNzMwMGRjMmZkNWFhODQ3NWU5MGE0OGQiLCJ0b2tlbl90eXBlIjoiQ29udGVudEFjY2Vzc1Rva2VuIiwidHlwZSI6Ik1PWklMTEEifQ.EAUDyK-Ial2RbrtCf92nfA9Cd0rfRQHzNipEm2-BAGw
+#EXTINF:-1 tvg-id="no_epg_radio" tvg-logo="https://maps.adpass.ru/wp-content/uploads/2023/06/132433557_zvezd_thumb_fed_photo.jpg" group-title="რადიო რუს",Радио Звезда
+https://stream-msk-17.ott.tricolor.tv/dtv/id968_MSKSG-PVR-1--Radio_ZVEZDA/01/plst.m3u8?drmreq=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHBfdHlwZSI6ImFwdHBfb3R0IiwiY2xhc3MiOiJCUk9XU0VSIiwiZHJlaWQiOiI1NDIxOTAwNzk1ODc0MiIsImV4cCI6MTc1OTg1Mjk0NiwiaHdpZCI6IjE0MzhiZTY5MWYzZjkxNWNkN2E0NDA1ZmZiNDhjNTc1M2E2MDk1ZWVkM2IwMGZiMWFkZGM3OGVhZTAwYmU5YzEiLCJsYXN0X3JlcV9kYXRlIjoxNzU5MjQ4MTQ2LCJzZXNzaW9uX2lkIjoiZjI4ZjQ3ZDFkNzMwMGRjMmZkNWFhODQ3NWU5MGE0OGQiLCJ0b2tlbl90eXBlIjoiQ29udGVudEFjY2Vzc1Rva2VuIiwidHlwZSI6Ik1PWklMTEEifQ.EAUDyK-Ial2RbrtCf92nfA9Cd0rfRQHzNipEm2-BAGw
+#EXTINF:-1 tvg-id="no_epg_radio" tvg-logo="https://airpersonalities.ru/Foto/04April2016/radio_kp_bez_chastoty-7.jpg" group-title="რადიო რუს",Радио Комсомольская Правда
+https://stream-msk-20.ott.tricolor.tv/dtv/id958_MSKSG-PVR-1--komsomolskaya_pravda/01/plst.m3u8?drmreq=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHBfdHlwZSI6ImFwdHBfb3R0IiwiY2xhc3MiOiJCUk9XU0VSIiwiZHJlaWQiOiI1NDIxOTAwNzk1ODc0MiIsImV4cCI6MTc1OTg1Mjk0NiwiaHdpZCI6IjE0MzhiZTY5MWYzZjkxNWNkN2E0NDA1ZmZiNDhjNTc1M2E2MDk1ZWVkM2IwMGZiMWFkZGM3OGVhZTAwYmU5YzEiLCJsYXN0X3JlcV9kYXRlIjoxNzU5MjQ4MTQ2LCJzZXNzaW9uX2lkIjoiZjI4ZjQ3ZDFkNzMwMGRjMmZkNWFhODQ3NWU5MGE0OGQiLCJ0b2tlbl90eXBlIjoiQ29udGVudEFjY2Vzc1Rva2VuIiwidHlwZSI6Ik1PWklMTEEifQ.EAUDyK-Ial2RbrtCf92nfA9Cd0rfRQHzNipEm2-BAGw
+#EXTINF:-1 tvg-id="no_epg_radio" tvg-logo="https://sibexpo.ru/upload/iblock/dc7/лого МсМ Улан-Удэ.jpg" group-title="რადიო რუს",Радио МСМ
+http://tv.streams.baikal-telecom.net/MCM/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-id="no_epg_radio" tvg-logo="https://sun1-27.userapi.com/K00RzIbIRMgpmKk5gMyIlZ_XuwhfIeOk_ID50g/WKEk93tgVTQ.jpg" group-title="რადიო რუს",Радио Град Петров
+https://stream-msk-17.ott.tricolor.tv/dtv/id963_MSKSG-PVR-1--Grad_Petrov/01/plst.m3u8?drmreq=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHBfdHlwZSI6ImFwdHBfb3R0IiwiY2xhc3MiOiJCUk9XU0VSIiwiZHJlaWQiOiI1NDIxOTAwNzk1ODc0MiIsImV4cCI6MTc1OTg1Mjk0NiwiaHdpZCI6IjE0MzhiZTY5MWYzZjkxNWNkN2E0NDA1ZmZiNDhjNTc1M2E2MDk1ZWVkM2IwMGZiMWFkZGM3OGVhZTAwYmU5YzEiLCJsYXN0X3JlcV9kYXRlIjoxNzU5MjQ4MTQ2LCJzZXNzaW9uX2lkIjoiZjI4ZjQ3ZDFkNzMwMGRjMmZkNWFhODQ3NWU5MGE0OGQiLCJ0b2tlbl90eXBlIjoiQ29udGVudEFjY2Vzc1Rva2VuIiwidHlwZSI6Ik1PWklMTEEifQ.EAUDyK-Ial2RbrtCf92nfA9Cd0rfRQHzNipEm2-BAGw
+#EXTINF:-1 tvg-id="no_epg_radio" tvg-logo="https://semey.city/assets/templates/uikit/radio/images/novoe-msk-180.jpg" group-title="რადიო რუს",Новое Радио
+https://stream-msk-17.ott.tricolor.tv/dtv/id957_MSKSG-PVR-1--novoye_radio/01/plst.m3u8?drmreq=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHBfdHlwZSI6ImFwdHBfb3R0IiwiY2xhc3MiOiJCUk9XU0VSIiwiZHJlaWQiOiI1NDIxOTAwNzk1ODc0MiIsImV4cCI6MTc1OTg1Mjk0NiwiaHdpZCI6IjE0MzhiZTY5MWYzZjkxNWNkN2E0NDA1ZmZiNDhjNTc1M2E2MDk1ZWVkM2IwMGZiMWFkZGM3OGVhZTAwYmU5YzEiLCJsYXN0X3JlcV9kYXRlIjoxNzU5MjQ4MTQ2LCJzZXNzaW9uX2lkIjoiZjI4ZjQ3ZDFkNzMwMGRjMmZkNWFhODQ3NWU5MGE0OGQiLCJ0b2tlbl90eXBlIjoiQ29udGVudEFjY2Vzc1Rva2VuIiwidHlwZSI6Ik1PWklMTEEifQ.EAUDyK-Ial2RbrtCf92nfA9Cd0rfRQHzNipEm2-BAGw
+#EXTINF:-1 tvg-id="no_epg_radio" tvg-logo="https://radiopotok.ru/f/station/512/2367.png" group-title="რადიო რუს",Радио Краснодар
+http://live-tvkrasnodar.cdnvideo.ru/tvkrasnodar2/tvkrasnodarradio/playlist.m3u8
+#EXTINF:-1 tvg-id="no_epg_radio" tvg-logo="https://grodno24.com/assets/thumbs/images/2018/9/centr-fm.jpg" group-title="რადიო რუს",Радио Центр FM
+https://centrfm.dc.beltelecom.by/centrfm/livestream/playlist.m3u8
+#EXTINF:-1 tvg-id="no_epg_radio" tvg-logo="http://www.hist.msu.ru/pictures/partners/rsputnik.jpg" group-title="რადიო რუს",Радио Спутник
+https://live-rian.cdnvideo.ru/rian/rus-radio/playlist.m3u8
+#EXTINF:-1 tvg-id="no_epg_radio" tvg-logo="https://p16-useast2a.tiktokcdn.com/tos-useast2a-avt-0068-euttp/2bffd5e34aae71b5f2234fd2573cf3fd~c5_720x720.webp" group-title="რადიო რუს",EHR FM Русские Хиты
+http://stream.ehrhiti.lv:8000/khr.mp3
+#EXTINF:-1 tvg-id="no_epg_radio" tvg-logo="https://p16-useast2a.tiktokcdn.com/tos-useast2a-avt-0068-euttp/2bffd5e34aae71b5f2234fd2573cf3fd~c5_720x720.webp" group-title="რადიო რუს",EHR FM Русские Хиты 2000-х
+http://stream.ehrhiti.lv:8000/Stream_66.mp3

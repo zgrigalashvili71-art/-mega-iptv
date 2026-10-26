@@ -1,0 +1,71 @@
+#EXTM3U
+#EXTINF:-1 group-title="Sports" tvg-source="SHAJON Sports",CAZE TV
+https://dfr80qz435crc.cloudfront.net/MNOP/Amagi/Caze/Caze_TV_BR/Caze_TV.m3u8
+#EXTINF:-1 group-title="Sports" tvg-source="SHAJON Sports",CAZE TV (1080p)
+https://dfr80qz435crc.cloudfront.net/MNOP/Amagi/Caze/Caze_TV_BR/1080p-vtt/index.m3u8
+#EXTINF:-1 group-title="Sports" tvg-source="SHAJON Sports",FIGHTER TV
+https://nomawnoijl.gpcdn.net/akash/fighter/chunks.m3u8
+#EXTINF:-1 group-title="Sports" tvg-source="SHAJON Sports",Sports Legends
+https://nomawnoijl.gpcdn.net/akash/sportslegends/playlist.m3u8
+#EXTINF:-1 group-title="Sports" tvg-source="SHAJON Sports",Flash Guys HD
+https://nomawnoijl.gpcdn.net/akash/flashguys/playlist.m3u8
+#EXTINF:-1 group-title="Sports" tvg-source="SHAJON Sports",Sports Range
+https://nomawnoijl.gpcdn.net/akash/sportrange/playlist.m3u8
+#EXTINF:-1 group-title="Sports" tvg-source="SHAJON Sports",Thunder Er
+https://nomawnoijl.gpcdn.net/akash/thunder/playlist.m3u8
+#EXTINF:-1 group-title="Sports" tvg-source="SHAJON Sports",Fighters
+https://nomawnoijl.gpcdn.net/akash/fighter/playlist.m3u8
+#EXTINF:-1 group-title="Sports" tvg-source="SHAJON Sports",Crazy Ex
+https://nomawnoijl.gpcdn.net/akash/crazy_ex/playlist.m3u8
+#EXTINF:-1 group-title="Sports" tvg-source="SHAJON Sports",Alkass One (1080p)
+https://liveeu-gcp.alkassdigital.net/alkass1-p/main.m3u8
+#EXTINF:-1 group-title="Sports" tvg-source="SHAJON Sports",Alkass Four (1080p)
+https://liveeu-gcp.alkassdigital.net/alkass4-p/main.m3u8
+#EXTINF:-1 group-title="Sports" tvg-source="SHAJON Sports",Alkass SHOOF 2 (1080p)
+https://liveeu-gcp.alkassdigital.net/shooflive2/main.m3u8
+#EXTINF:-1 group-title="Sports" tvg-source="SHAJON Sports",Alkass Six (1080p)
+https://liveeu-gcp.alkassdigital.net/alkass6-p/main.m3u8
+#EXTINF:-1 group-title="Sports" tvg-source="SHAJON Sports",Alkass SHOOF (1080p)
+https://liveeu-gcp.alkassdigital.net/shooflive/main.m3u8
+#EXTINF:-1 group-title="Sports" tvg-source="SHAJON Sports",Alkass Three (1080p)
+https://liveeu-gcp.alkassdigital.net/alkass3-p/main.m3u8
+#EXTINF:-1 group-title="Sports" tvg-source="SHAJON Sports",Alkass Two (1080p)
+https://liveeu-gcp.alkassdigital.net/alkass2-p/main.m3u8
+#EXTINF:-1 group-title="Sports" tvg-source="SHAJON Sports",Tele Rebelde (480p) [Not 24/7]
+https://tv.picta.cu/telerebelde/telerebelde_1.m3u8
+#EXTINF:-1 group-title="Other" tvg-source="SHAJON Universal",Bein Sport 3 🇫🇷
+http://145.239.5.177:80/559/index.m3u8
+#EXTINF:-1 group-title="Italy" tvg-source="SHAJON Universal",SuperTennis
+https://live-embed.supertennix.hiway.media/restreamer/supertennix_client/gpu-a-c0-16/restreamer/outgest/aa3673f1-e178-44a9-a947-ef41db73211a/manifest.m3u8
+#EXTINF:-1 group-title="Kids;Sports" tvg-source="SHAJON Universal",ADO TV (720p)
+https://strhls.streamakaci.tv/ortb/ortb2-multi/playlist.m3u8
+#EXTINF:-1 group-title="SportzX" tvg-source="SHAJON:fifa.m3u",SportzX Live
+https://edgestream1.pro/hls/sqhdghzavbxu75.m3u8?
+#EXTINF:-1 group-title="beIN" tvg-source="SHAJON:fifa.m3u",beIN ARABIC FHD
+https://pub-f6b8e84cfb6a4f70b4fc28e51d834e00.r2.dev/BMax1-1/index.m3u8
+#EXTINF:-1 group-title="SportzX" tvg-source="SHAJON:fifa.m3u",SportzX SD
+https://edgestream2.pro/hls/zeafwqvhfe69.m3u8?
+#EXTINF:-1 group-title="SportzX" tvg-source="SHAJON:fifa.m3u",SportzX Live
+https://edgestream3.pro/hls/ztyarueaghj71.m3u8?
+#EXTINF:-1 group-title="SportzX" tvg-source="SHAJON:fifa.m3u",SportzX Live
+https://edgestream2.pro/hls/mlkijfezag65.m3u8?
+#EXTINF:-1 group-title="SportzX" tvg-source="SHAJON:fifa.m3u",SportzX
+https://edgestream3.pro/hls/pllmazjkdzajh72.m3u8?
+#EXTINF:-1 group-title="SportzX" tvg-source="SHAJON:fifa.m3u",SportzX Live
+https://edgestream1.pro/hls/pllmazjkdzajh72.m3u8?
+#EXTINF:-1 group-title="SportzX" tvg-source="SHAJON:fifa.m3u",SportzX SD
+https://edgestream2.pro/hls/ztyarueaghj71.m3u8?
+#EXTINF:-1 group-title="SportzX" tvg-source="SHAJON:fifa.m3u",SportzX Live
+https://edgestream1.pro/hls/ztyarueaghj71.m3u8?
+#EXTINF:-1 group-title="Bein Sports - 🇫🇷 France" tvg-source="SHAJON:fifa.m3u",Bein Sports - 🇫🇷 France
+http://145.239.5.177/559/mpegts
+#EXTINF:-1 group-title="Bein Sports 🇫🇷 France" tvg-source="SHAJON:fifa.m3u",Bein Sports 🇫🇷 France
+http://145.239.5.177:80/559/index.m3u8
+#EXTINF:-1 group-title="FIFAWC 2026 GAME" tvg-source="SHAJON:fifa.m3u",FIFAWC 2026 GAME 01
+http://wickediptv.xyz/Randall123/Randall321/340018
+#EXTINF:-1 group-title="FIFAWC 2026 GAME" tvg-source="SHAJON:fifa.m3u",FIFAWC 2026 GAME 02
+http://wickediptv.xyz/Randall123/Randall321/340019
+#EXTINF:-1 group-title="FIFAWC 2026 GAME" tvg-source="SHAJON:fifa.m3u",FIFAWC 2026 GAME 03
+http://wickediptv.xyz/Randall123/Randall321/340017
+#EXTINF:-1 group-title="FIFAWC 2026 GAME" tvg-source="SHAJON:fifa.m3u",FIFAWC 2026 GAME 04
+http://wickediptv.xyz/Randall123/Randall321/340016

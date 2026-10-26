@@ -1,0 +1,400 @@
+{
+ "http://tinyurl.com/3zje87av/formula-new/tracks-v1a1/index.m3u8": {
+  "name": "GE: Akhali Formula HD",
+  "group": "MYIPTV ქართული",
+  "source": "",
+  "total_successes": 1,
+  "total_failures": 0,
+  "consecutive_failures": 0,
+  "recent": [
+   {
+    "time": "2026-10-21T13:41:59+00:00",
+    "status": "HEALTHY"
+   }
+  ],
+  "last_success": "2026-10-21T13:41:59+00:00",
+  "last_seen": "2026-10-21T13:41:59+00:00",
+  "last_status": "HEALTHY"
+ },
+ "http://c4635.cdn.xsg.ge/c4635/TVFormula/tracks-v1a1/mono.m3u8": {
+  "name": "GE: Formula HD",
+  "group": "MYIPTV ქართული",
+  "source": "",
+  "total_successes": 1,
+  "total_failures": 0,
+  "consecutive_failures": 0,
+  "recent": [
+   {
+    "time": "2026-10-21T13:41:59+00:00",
+    "status": "HEALTHY"
+   }
+  ],
+  "last_success": "2026-10-21T13:41:59+00:00",
+  "last_seen": "2026-10-21T13:41:59+00:00",
+  "last_status": "HEALTHY"
+ },
+ "http://178.134.1.158:8081/setanta2/index.m3u8": {
+  "name": "GE: Setanta Sports 2 Georgia HD",
+  "group": "MYIPTV სპორტი",
+  "source": "",
+  "total_successes": 0,
+  "total_failures": 1,
+  "consecutive_failures": 1,
+  "recent": [
+   {
+    "time": "2026-10-21T13:41:59+00:00",
+    "status": "DEAD_CANDIDATE"
+   }
+  ],
+  "last_seen": "2026-10-21T13:41:59+00:00",
+  "last_status": "DEAD_CANDIDATE"
+ },
+ "http://tinyurl.com/3zje87av/silksport1/tracks-v1a1/index.m3u8": {
+  "name": "GE: Silk Sport 1 HD",
+  "group": "MYIPTV სპორტი",
+  "source": "",
+  "total_successes": 1,
+  "total_failures": 0,
+  "consecutive_failures": 0,
+  "recent": [
+   {
+    "time": "2026-10-21T13:42:21+00:00",
+    "status": "HEALTHY"
+   }
+  ],
+  "last_success": "2026-10-21T13:42:21+00:00",
+  "last_seen": "2026-10-21T13:42:21+00:00",
+  "last_status": "HEALTHY"
+ },
+ "http://tinyurl.com/3zje87av/silksport2/tracks-v1a1/index.m3u8": {
+  "name": "GE: Silk Sport 2 HD",
+  "group": "MYIPTV სპორტი",
+  "source": "",
+  "total_successes": 1,
+  "total_failures": 0,
+  "consecutive_failures": 0,
+  "recent": [
+   {
+    "time": "2026-10-21T13:42:21+00:00",
+    "status": "HEALTHY"
+   }
+  ],
+  "last_success": "2026-10-21T13:42:21+00:00",
+  "last_seen": "2026-10-21T13:42:21+00:00",
+  "last_status": "HEALTHY"
+ },
+ "https://tv.cdn.xsg.ge/gpb-2tv/index.m3u8": {
+  "name": "GE: 1 Arkhi Sport HD",
+  "group": "MYIPTV სპორტი",
+  "source": "",
+  "total_successes": 1,
+  "total_failures": 0,
+  "consecutive_failures": 0,
+  "recent": [
+   {
+    "time": "2026-10-21T13:42:22+00:00",
+    "status": "HEALTHY"
+   }
+  ],
+  "last_success": "2026-10-21T13:42:22+00:00",
+  "last_seen": "2026-10-21T13:42:22+00:00",
+  "last_status": "HEALTHY"
+ },
+ "http://tinyurl.com/3zje87av/silksport3/tracks-v1a1/index.m3u8": {
+  "name": "GE: Silk Sport 3 HD",
+  "group": "MYIPTV სპორტი",
+  "source": "",
+  "total_successes": 1,
+  "total_failures": 0,
+  "consecutive_failures": 0,
+  "recent": [
+   {
+    "time": "2026-10-21T13:42:23+00:00",
+    "status": "HEALTHY"
+   }
+  ],
+  "last_success": "2026-10-21T13:42:23+00:00",
+  "last_seen": "2026-10-21T13:42:23+00:00",
+  "last_status": "HEALTHY"
+ },
+ "https://7pal.short.gy/prsport1": {
+  "name": "Premier Sport 1",
+  "group": "MYIPTV სპორტი",
+  "source": "",
+  "total_successes": 0,
+  "total_failures": 0,
+  "consecutive_failures": 0,
+  "recent": [
+   {
+    "time": "2026-10-21T13:42:23+00:00",
+    "status": "RESTRICTED"
+   },
+   {
+    "time": "2026-10-21T13:42:34+00:00",
+    "status": "RESTRICTED"
+   }
+  ],
+  "last_seen": "2026-10-21T13:42:34+00:00",
+  "last_status": "RESTRICTED"
+ },
+ "https://a62dad94.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWV1X0ZJRkFQbHVzRW5nbGlzaF9ITFM/playlist.m3u8": {
+  "name": "FIFA+",
+  "group": "MYIPTV სპორტი",
+  "source": "",
+  "total_successes": 2,
+  "total_failures": 0,
+  "consecutive_failures": 0,
+  "recent": [
+   {
+    "time": "2026-10-21T13:42:29+00:00",
+    "status": "HEALTHY"
+   },
+   {
+    "time": "2026-10-21T13:42:41+00:00",
+    "status": "HEALTHY"
+   }
+  ],
+  "last_success": "2026-10-21T13:42:41+00:00",
+  "last_seen": "2026-10-21T13:42:41+00:00",
+  "last_status": "HEALTHY"
+ },
+ "https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/united-fight-alliance/cee99d2e-7187-44d4-8578-8da2701465df/0.m3u8": {
+  "name": "UFA United Fight Alliance",
+  "group": "MYIPTV სპორტი",
+  "source": "",
+  "total_successes": 1,
+  "total_failures": 0,
+  "consecutive_failures": 0,
+  "recent": [
+   {
+    "time": "2026-10-21T13:42:29+00:00",
+    "status": "FLAKY"
+   }
+  ],
+  "last_success": "2026-10-21T13:42:29+00:00",
+  "last_seen": "2026-10-21T13:42:29+00:00",
+  "last_status": "FLAKY"
+ },
+ "http://tinyurl.com/Argaavrcelo/viasatsport/index.m3u8": {
+  "name": "Viju+ Sport",
+  "group": "MYIPTV სპორტი",
+  "source": "",
+  "total_successes": 2,
+  "total_failures": 0,
+  "consecutive_failures": 0,
+  "recent": [
+   {
+    "time": "2026-10-21T13:42:32+00:00",
+    "status": "HEALTHY"
+   },
+   {
+    "time": "2026-10-21T13:42:41+00:00",
+    "status": "HEALTHY"
+   }
+  ],
+  "last_success": "2026-10-21T13:42:41+00:00",
+  "last_seen": "2026-10-21T13:42:41+00:00",
+  "last_status": "HEALTHY"
+ },
+ "https://7pal.short.gy/tntspts1": {
+  "name": "TNT Sport 1",
+  "group": "MYIPTV სპორტი",
+  "source": "",
+  "total_successes": 0,
+  "total_failures": 0,
+  "consecutive_failures": 0,
+  "recent": [
+   {
+    "time": "2026-10-21T13:42:34+00:00",
+    "status": "RESTRICTED"
+   }
+  ],
+  "last_seen": "2026-10-21T13:42:34+00:00",
+  "last_status": "RESTRICTED"
+ },
+ "https://7pal.short.gy/tntspts2": {
+  "name": "TNT Sport 2",
+  "group": "MYIPTV სპორტი",
+  "source": "",
+  "total_successes": 0,
+  "total_failures": 0,
+  "consecutive_failures": 0,
+  "recent": [
+   {
+    "time": "2026-10-21T13:42:34+00:00",
+    "status": "RESTRICTED"
+   }
+  ],
+  "last_seen": "2026-10-21T13:42:34+00:00",
+  "last_status": "RESTRICTED"
+ },
+ "http://217.174.225.146/hls/ch004_720/index.m3u8": {
+  "name": "Turkmen Sport",
+  "group": "MYIPTV სპორტი",
+  "source": "",
+  "total_successes": 1,
+  "total_failures": 0,
+  "consecutive_failures": 0,
+  "recent": [
+   {
+    "time": "2026-10-21T13:42:42+00:00",
+    "status": "HEALTHY"
+   }
+  ],
+  "last_success": "2026-10-21T13:42:42+00:00",
+  "last_seen": "2026-10-21T13:42:42+00:00",
+  "last_status": "HEALTHY"
+ },
+ "https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master_6660.m3u8": {
+  "name": "Red bull TV HD",
+  "group": "MYIPTV სპორტი",
+  "source": "",
+  "total_successes": 1,
+  "total_failures": 0,
+  "consecutive_failures": 0,
+  "recent": [
+   {
+    "time": "2026-10-21T13:42:43+00:00",
+    "status": "HEALTHY"
+   }
+  ],
+  "last_success": "2026-10-21T13:42:43+00:00",
+  "last_seen": "2026-10-21T13:42:43+00:00",
+  "last_status": "HEALTHY"
+ },
+ "https://bein-esp-xumo.amagi.tv/playlistR1080p.m3u8": {
+  "name": "beIN SPORTS XTRA",
+  "group": "MYIPTV სპორტი",
+  "source": "",
+  "total_successes": 1,
+  "total_failures": 0,
+  "consecutive_failures": 0,
+  "recent": [
+   {
+    "time": "2026-10-21T13:42:47+00:00",
+    "status": "HEALTHY"
+   }
+  ],
+  "last_success": "2026-10-21T13:42:47+00:00",
+  "last_seen": "2026-10-21T13:42:47+00:00",
+  "last_status": "HEALTHY"
+ },
+ "https://dmidspta.cdn.mgmlcdn.com/dubaisports/smil:dubaisports.stream.smil/chunklist.m3u8": {
+  "name": "Dubai Sports 1",
+  "group": "MYIPTV სპორტი",
+  "source": "",
+  "total_successes": 1,
+  "total_failures": 0,
+  "consecutive_failures": 0,
+  "recent": [
+   {
+    "time": "2026-10-21T13:42:48+00:00",
+    "status": "FLAKY"
+   }
+  ],
+  "last_success": "2026-10-21T13:42:48+00:00",
+  "last_seen": "2026-10-21T13:42:48+00:00",
+  "last_status": "FLAKY"
+ },
+ "http://dmitwlvvll.cdn.mangomolo.com/dubaisportshd/smil:dubaisportshd.smil/chunklist_b1600000.m3u8": {
+  "name": "Dubai Sports 2",
+  "group": "MYIPTV სპორტი",
+  "source": "",
+  "total_successes": 1,
+  "total_failures": 0,
+  "consecutive_failures": 0,
+  "recent": [
+   {
+    "time": "2026-10-21T13:42:49+00:00",
+    "status": "FLAKY"
+   }
+  ],
+  "last_success": "2026-10-21T13:42:49+00:00",
+  "last_seen": "2026-10-21T13:42:49+00:00",
+  "last_status": "FLAKY"
+ },
+ "http://dmitwlvvll.cdn.mangomolo.com/dubaisportshd5/smil:dubaisportshd5.smil/chunklist_b1600000.m3u8": {
+  "name": "Dubai Sports 3",
+  "group": "MYIPTV სპორტი",
+  "source": "",
+  "total_successes": 1,
+  "total_failures": 0,
+  "consecutive_failures": 0,
+  "recent": [
+   {
+    "time": "2026-10-21T13:42:50+00:00",
+    "status": "FLAKY"
+   }
+  ],
+  "last_success": "2026-10-21T13:42:50+00:00",
+  "last_seen": "2026-10-21T13:42:50+00:00",
+  "last_status": "FLAKY"
+ },
+ "https://linear-893.frequency.stream/mt/plex/893/hls/master/playlist_1920x1080.m3u8": {
+  "name": "UFC Unfiltered",
+  "group": "MYIPTV სპორტი",
+  "source": "",
+  "total_successes": 0,
+  "total_failures": 0,
+  "consecutive_failures": 0,
+  "recent": [
+   {
+    "time": "2026-10-21T13:42:54+00:00",
+    "status": "UNKNOWN"
+   }
+  ],
+  "last_seen": "2026-10-21T13:42:54+00:00",
+  "last_status": "UNKNOWN"
+ },
+ "http://213.192.12.185:8082/play/Oneplay%20Sport%202.m3u8": {
+  "name": "one play sport 2",
+  "group": "MYIPTV სპორტი",
+  "source": "",
+  "total_successes": 1,
+  "total_failures": 0,
+  "consecutive_failures": 0,
+  "recent": [
+   {
+    "time": "2026-10-21T13:43:07+00:00",
+    "status": "FLAKY"
+   }
+  ],
+  "last_success": "2026-10-21T13:43:07+00:00",
+  "last_seen": "2026-10-21T13:43:07+00:00",
+  "last_status": "FLAKY"
+ },
+ "http://213.192.12.185:8082/play/Nova%20Sport%201%20HD.m3u8": {
+  "name": "nova sport 1",
+  "group": "MYIPTV სპორტი",
+  "source": "",
+  "total_successes": 1,
+  "total_failures": 0,
+  "consecutive_failures": 0,
+  "recent": [
+   {
+    "time": "2026-10-21T13:43:11+00:00",
+    "status": "FLAKY"
+   }
+  ],
+  "last_success": "2026-10-21T13:43:11+00:00",
+  "last_seen": "2026-10-21T13:43:11+00:00",
+  "last_status": "FLAKY"
+ },
+ "http://213.192.12.185:8082/play/Nova%20Sport%202%20HD.m3u8": {
+  "name": "nova sport 2",
+  "group": "MYIPTV სპორტი",
+  "source": "",
+  "total_successes": 1,
+  "total_failures": 0,
+  "consecutive_failures": 0,
+  "recent": [
+   {
+    "time": "2026-10-21T13:43:23+00:00",
+    "status": "FLAKY"
+   }
+  ],
+  "last_success": "2026-10-21T13:43:23+00:00",
+  "last_seen": "2026-10-21T13:43:23+00:00",
+  "last_status": "FLAKY"
+ }
+}

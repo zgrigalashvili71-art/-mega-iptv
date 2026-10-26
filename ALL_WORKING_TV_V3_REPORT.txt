@@ -1,0 +1,191 @@
+ALL WORKING TV V3 - CONSOLIDATED BUILD REPORT
+==============================================
+Built (UTC): 2026-10-26 08:55
+Inputs: IPTV_TEST
+
+TOTAL RESULT FOLDERS SCANNED         33
+TOTAL INPUT RECORDS               41019
+UNIQUE URLs                       33535
+
+URL-level status (one verdict per unique URL, all runs combined)
+  HEALTHY (accepted)              14183
+  HEALTHY but policy-excluded       320
+  FLAKY ACCEPTED                    352
+  FLAKY REJECTED                    112
+  RESTRICTED                       4312
+  OFFLINE_NOW                      8860
+  DRM                                28
+  DEAD                             4861
+  UNKNOWN                           290
+
+Policy exclusions (would have played, never published)
+  CREDENTIALS                         9
+  AUTH_REQUIRED                      73
+  DENYLIST                          220
+  INVALID_URL                         3
+  DRM                                 0
+  OTHER                             232
+
+DUPLICATE URL RECORDS MERGED       7484
+DUPLICATE CHANNELS -> BACKUPS      3196
+DUPLICATES BEYOND BACKUP CAP         17
+UNIQUE FINAL CHANNELS             11339
+CHANNELS WITH BACKUPS              1702
+PRIMARY = HEALTHY                 11211
+PRIMARY = FLAKY (evidence)          128
+
+Channels by group
+  Georgia                                  20
+  Sports                                  381
+  Football                                 30
+  Basketball                                1
+  Motorsport                               36
+  Combat Sports                            34
+  Other Sports                             86
+  News                                   1159
+  Movies                                  850
+  Series                                  365
+  Entertainment                           860
+  Documentary                             434
+  Kids                                    430
+  Music                                   774
+  Lifestyle                               324
+  Religious                               574
+  Shopping                                 61
+  FAST TV                                1348
+  Local / Regional                         92
+  Radio                                   247
+  International (all countries)          3233
+     International                        489
+     International | Italy                231
+     International | USA                  220
+     International | Spain                170
+     International | Dominican Republic    139
+     International | Russia               133
+     International | Chile                103
+     International | Peru                  96
+     International | Argentina             92
+     International | Netherlands           89
+     International | India                 88
+     International | Indonesia             83
+     International | Germany               83
+     International | Mexico                83
+     International | Slovakia              77
+     International | Brazil                72
+     International | Turkey                64
+     International | Ukraine               58
+     International | Iran                  53
+     International | Romania               45
+     International | Colombia              42
+     International | Greece                40
+     International | Hungary               38
+     International | Czechia               38
+     International | Poland                36
+     International | Paraguay              33
+     International | Mongolia              33
+     International | France                31
+     International | Bolivia               31
+     International | Vietnam               31
+     International | Costa Rica            30
+     International | Ecuador               29
+     International | China                 27
+     International | Venezuela             25
+     International | South Korea           24
+     International | Thailand              21
+     International | Honduras              20
+     International | Canada                20
+     International | UK                    18
+     International | Australia             16
+     International | Iraq                  15
+     International | Guatemala             15
+     International | Uzbekistan            15
+     International | Belarus               14
+     International | Austria               13
+     International | Portugal              13
+     International | Nigeria               12
+     International | El Salvador           12
+     International | Serbia                11
+     International | Cyprus                10
+     International | Albania               10
+     International | North Macedonia        9
+     International | Puerto Rico            9
+     International | Lebanon                8
+     International | Kazakhstan             8
+     International | Finland                8
+  Sports total (all sport groups)         568
+
+Per result folder
+  folder                               schema    records   urls     ok primary backup
+  ahyawahab_full_v3                    V3            353    344     20      16      4
+  armadillo007_full_v3                 V3            108    108      0       0      0
+  bhsyd_full_v3                        V3            523    507     70      70      0
+  bhsyd_iptvnet_full_v3                V3            523    507     70      70      0
+  chingithub_v3                        V3             95     94     36      35      1
+  halasat_v3_full                      V3            120    120      0       0      0
+  idhanmario_full_v3                   V3            196    192      4       4      0
+  instatechhd_sports_full_v3           V3            228    228      0       0      0
+  iptv_health_results                  V1            317    314    177     160     16
+  judy_gotv_results                    V1             33     26      0       0      0
+  judy_v3_full                         V3             35     28      0       0      0
+  KHW10530_full_v3                     V3             95     88      0       0      0
+  mega_iptv_main_v3                    V3          21632  21632  12200    9684   2499
+  my_main_three_sources_v3             V3           6311   6301   4385    4001    383
+  nackson_v3_sample                    V3            100    100      0       0      0
+  nadjibmad_v3                         V3             34     34      0       0      0
+  nikhamidi_tvmidi_full_v3             V3            213    212      7       6      1
+  proefem_trftr_full_v3                V3            300    231      1       1      0
+  rolandosegundo_full_v3               V3            686    657     17      13      4
+  s3iptv_full_v3                       V3           1308   1143    179     162     17
+  semangat_pagi_full_v3                V3            256    242      6       6      0
+  senseigaga_full_v3                   V3            700    507     43      34      8
+  senseigaga_tv_results                V1             68     49      6       2      3
+  senseigaga_tv_results_run2           V1             68     49      6       2      3
+  senseigaga_tv_results_v2             V2             68     49      6       2      3
+  senseigaga_v3_binary                 V3             68     49      6       2      3
+  sni2007_wc2026_full_v3               V3            121    102      6       5      1
+  sonyliv_full_v3                      V3             22     22      0       0      0
+  sportlive18_combined_full_v3         V3           1500   1499      0       0      0
+  toffee_full_v3                       V3             78     78      0       0      0
+  toptiviku_full_v3                    V3           2210   1815     56      41     14
+  winsports_full_v3                    V3           2482   2472   1679    1330    348
+  wmf2020_full_v3                      V3            168    168      0       0      0
+
+Exclusion reasons (unique URLs)
+  OFFLINE_NOW                      8860
+  DEAD                             4861
+  RESTRICTED                       4312
+  UNKNOWN                           290
+  OTHER                             232
+  DENYLIST                          220
+  FLAKY_REJECTED                    112
+  AUTH_REQUIRED                      73
+  DRM                                28
+  CREDENTIALS                         9
+  INVALID_URL                         3
+
+Observation classes (raw records)
+  HEALTHY                         19040
+  OFFLINE_NOW                     10343
+  DEAD                             5868
+  RESTRICTED                       4642
+  FLAKY_EVIDENCE                    645
+  UNKNOWN                           322
+  FLAKY_NO_EVIDENCE                 126
+  DRM                                33
+
+M3U VALIDATION: PASSED
+
+FINAL SMOKE TEST (ffprobe, this machine): 57/60 primary URLs answered
+  fail: Sport Digital [Sports] - entral-1.amazonaws.com/v1/master/81bfcafb76f9c947b24574657a9ce7fe14ad75c0/live-prod/2d9202
+  fail: TV Barrandov [International | Czechia] - http://88.212.15.17/live/test_barrandov/playlist.m3u8: Server returned 404 Not Found
+  fail: Ray TV [Entertainment] - https://streaming.tvnepal.com:19360/raynewsdaily/480p.m3u8: Server returned 404 Not Found
+
+Rules
+  Accepted = V3 WORKING_NOW (2/3 ffprobe+5s ffmpeg playback), V1/V2 HEALTHY,
+  or FLAKY with real evidence (>=1 successful playback / ffprobe A/V detected)
+  and no 404/410/DRM verdict in any other run.
+  Never published: DRM, credentials (user/pass, Xtream/Stalker), private or
+  expiring tokens/cookies, denylisted pirate-restream hosts (config/denylist_hosts.txt).
+  Same channel from several sources: best-ranked URL is primary, others are
+  ranked backups in ALL_WORKING_TV_V3_BACKUPS.json (max 15).
+  Results are point-in-time from the tester's PC; streams can change at any time.

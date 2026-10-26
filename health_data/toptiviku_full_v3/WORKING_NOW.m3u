@@ -1,0 +1,830 @@
+#EXTM3U
+#EXTINF:-1 group-title="00. FAVORIT ADMIN 🚀⚡" tvg-logo="https://thumbor.prod.vidiocdn.com/LCZH_yEBnTYEQzrU1pB7w7ev-Bw=/230x230/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/875/325605.png", MDTV (Dens)
+#EXTVLCOPT:http-user-agent=Oxygen TV/5.9.240112 (Linux; Android 13) ExoPlayerLib/2.18.1
+https://wakhaji.biz.id/hls/hls-oxygen.php?id=nettv-hd
+#EXTINF:-1 group-title="00. FAVORIT ADMIN 🚀⚡" tvg-logo="https://thumbor.prod.vidiocdn.com/NEU5NOM51mtJVYE4bI4iP2bLSCs=/112x112/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/1561/665aea.png", RTV
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0
+https://rtvstream.rtv.co.id:4555/hls/rtv.m3u8
+#EXTINF:-1 group-title="00. FAVORIT ADMIN 🚀⚡" tvg-logo="https://thumbor.prod.vidiocdn.com/CHQ7jG2pWgk7OSBt-Sw8ZK1MB9U=/112x112/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/6441/528cc9.png", TVRI Nasional (480p)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36
+https://ott-balancer.tvri.go.id/live/eds/Nasional/hls/Nasional-avc1_900000=10002-mp4a_96000_eng=20000.m3u8
+#EXTINF:-1 group-title="00. FAVORIT ADMIN 🚀⚡" tvg-logo="https://thumbor.prod.vidiocdn.com/CHQ7jG2pWgk7OSBt-Sw8ZK1MB9U=/112x112/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/6441/528cc9.png", TVRI Nasional (720p)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36
+https://ott-balancer.tvri.go.id/live/eds/Nasional/hls/Nasional-avc1_1500000=10003-mp4a_96000_eng=20000.m3u8
+#EXTINF:-1 group-title="",202.150.153.254:65500
+http://202.150.153.254:65500/bandungtvWEBSITE.m3u8
+#EXTINF:0 tvg-logo="http://pitek.diskon.cloud/gambar/forsat.jpg" group-title="00 PIALA DUNIA 2026 🏆⚽🌍" tvg-id="001" tvg-name="016-LABURATV", CCTV 5
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone14,6; U; CPU iPhone OS 15_4 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) Version/10.0 Mobile/19E241 Safari/602.1
+http://107.150.60.122/live/cctv5hd.m3u8
+#EXTINF:-1 group-title="00 PIALA DUNIA 2026 🏆⚽🌍" tvg-logo="https://epg.v1.mk/logo/cctv5.png",CCTV5 hd
+http://38.75.136.137:98/gslb/dsdqpub/cctv5hd.m3u8?auth=testpub
+#EXTINF:-1 tvg-id="Vasantham" tvg-name="oktolidays" tvg-logo="https://i.imgur.com/DEGZtGq.png"  group-title="00 BADMINTON (LIVE) 🏸",Mewatch 1
+https://tglmp04.akamaized.net/out/v1/898b1cbac7c747e3b1f3deb460e9b67e/manifest.mpd
+#EXTINF:-1 tvg-id="BNTV" tvg-name="BN Channel" tvg-logo="https://pic.dens.tv/tv_183x174/BN_Channel_(Trial)_1.jpg" group-title="01. TV NASIONAL 🇮🇩  ", BN Channel
+http://cdn.nng.cloudns.us/live/m3u8/id/6183ec225226ccf.m3u8
+#EXTINF:-1 group-title="",warningfm.github.io
+https://warningfm.github.io/streams/live/m3u8/id/0525ed2747e3161.m3u8
+#EXTINF:-1 group-title="",khano.nng.cloudns.us
+https://khano.nng.cloudns.us/live/m3u8/id/0525ed2747e3161.m3u8
+#EXTINF:-1 tvg-logo="http://home-tv.online:80/images/Ew7KWgEVPBJlBK0JSddniCSXgQUyeYTSUh135SFESvbiziO7FndHuS-l2338RtDq0O1iFBnLp7qOj1z9sBlO3w.png" group-title="01. TV NASIONAL 🇮🇩  ", DAAI TV
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+https://pull.daaiplus.com/live-DAAIPLUS/live-DAAIPLUS.m3u8
+#EXTINF:-1 group-title="01. TV NASIONAL 🇮🇩  " tvg-id="GARUDATV.id" tvg-logo="http://home-tv.online:80/images/Ew7KWgEVPBJlBK0JSddniCSXgQUyeYTSUh135SFESvbiUpkF6ZHtkiH5Mzc7rmdMnLsokFnMcOsPsr3vsA3pxgFnb0nZQ3dfPSb61k6B98E.png",Garuda TV
+#EXTVLCOPT:http-user-agent=ExoPlayer/2.19.1 (Linux; Android 15) Media3/1.6.0
+https://hgmtv.com:19360/garudatvlivestreaming/garudatvlivestreaming.m3u8
+#EXTINF:-1 group-title="",122.248.43.242:1935
+http://122.248.43.242:1935/JTVSURABAYA/_definst_/myStream/playlist.m3u8
+#EXTINF:-1 group-title="01. TV NASIONAL 🇮🇩  " tvg-logo="http://home-tv.online:80/images/Ew7KWgEVPBJlBK0JSddniCSXgQUyeYTSUh135SFESvbiziO7FndHuS-l2338RtDqJtbbNR2CRsFDWQiMHunmEg.png", MDTV (Dens)
+#EXTVLCOPT:http-user-agent=Oxygen TV/5.9.240112 (Linux; Android 13) ExoPlayerLib/2.18.1
+https://wakhaji.biz.id/hls/hls-oxygen.php?id=nettv-hd
+#EXTINF:-1 tvg-id="22" tvg-logo="http://home-tv.online:80/images/Ew7KWgEVPBJlBK0JSddniCSXgQUyeYTSUh135SFESvbiziO7FndHuS-l2338RtDqM3OnKm5_dx2QLZJQH_7kJw.png" group-title="01. TV NASIONAL 🇮🇩  ", RTV
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0
+https://rtvstream.rtv.co.id:4555/hls/rtv.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubuserconte/Bics/main/picons/us_sky_sports_preme.png" group-title="01. TV NASIONAL 🇮🇩  ", TRANS 7 CBM
+https://cdnjkt913.transvision.co.id/live/master/4/4028c685651d7bcc01651f0db0bf0097/manifest.mpd
+#EXTINF:-1 group-title="",khano.nng.cloudns.us
+https://khano.nng.cloudns.us/live/m3u8/id/0976f879a0c4548.m3u8
+#EXTINF:-1 group-title="",warningfm.github.io
+https://warningfm.github.io/streams/live/m3u8/id//0976f879a0c4548.m3u8
+#EXTINF:-1 group-title="01. TV NASIONAL 🇮🇩  " tvg-logo="https://i.ibb.co.com/gRBZ0bN/Smart-Select-20230610-161210-Picsart.jpg", TVRI SPORT
+https://ott-balancer.tvri.go.id/live/eds/SportHD/hls/SportHD.m3u8
+#EXTINF:-1 group-title="",202.150.153.254:65500
+http://202.150.153.254:65500/bandungtvWEBSITE.m3u8
+#EXTINF: -1 tvg-logo="https://upload.wikimedia.org/wikipedia/id/thumb/8/81/Logo_MQTV.png/400px-Logo_MQTV.png" group-title="06. TV ISLAM", MQTV
+https://5bf7b725107e5.streamlock.net/mqtv/mqtv/playlist.m3u8
+#EXTINF:-1 group-title="06. TV ISLAM" tvg-logo="https://i.imgur.com/IS9HqO1.png", Quran Audio Juzz 3
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Firefox/101.0 Safari/537.36 Edg/111.0.1661.43
+https://ia800402.us.archive.org/16/items/MisharyRasyidPerJuz/Mishary/03.mp3
+#EXTINF:-1 group-title="06. TV ISLAM" tvg-logo="https://i.imgur.com/IS9HqO1.png", Quran Audio Juzz 17
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Firefox/101.0 Safari/537.36 Edg/111.0.1661.43
+https://ia800402.us.archive.org/16/items/MisharyRasyidPerJuz/Mishary/17.mp3
+#EXTINF:-1 group-title="",j.mp
+http://j.mp/2brHsFz
+#EXTINF:-1 group-title="",j.mp
+http://j.mp/2b8SCfc
+#EXTINF:-1 group-title="06. TV ISLAM" tvg-logo="https://i.imgur.com/IS9HqO1.png", Quran Audio Juzz 21
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Firefox/101.0 Safari/537.36 Edg/111.0.1661.43
+https://ia800402.us.archive.org/16/items/MisharyRasyidPerJuz/Mishary/21.mp3
+#EXTINF:-1 group-title="06. TV ISLAM" tvg-logo="https://i.imgur.com/IS9HqO1.png", Quran Audio Juzz 22
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Firefox/101.0 Safari/537.36 Edg/111.0.1661.43
+https://ia600402.us.archive.org/16/items/MisharyRasyidPerJuz/Mishary/22.mp3
+#EXTINF:-1 group-title="06. TV ISLAM" tvg-logo="https://i.imgur.com/IS9HqO1.png", Quran Audio Juzz 23
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Firefox/101.0 Safari/537.36 Edg/111.0.1661.43
+https://ia600402.us.archive.org/16/items/MisharyRasyidPerJuz/Mishary/23.mp3
+#EXTINF:-1 group-title="06. TV ISLAM" tvg-logo="https://i.imgur.com/IS9HqO1.png", Quran Audio Juzz 26
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Firefox/101.0 Safari/537.36 Edg/111.0.1661.43
+https://archive.org/download/MisharyRasyidPerJuz/Mishary/26.mp3
+#EXTINF:-1 group-title="",j.mp
+http://j.mp/2bFRHF2
+#EXTINF:-1 group-title="",j.mp
+http://j.mp/2brI3ai
+#EXTINF:-1 group-title="",j.mp
+http://j.mp/2bFREcc
+#EXTINF:-1 tvg-id="Vevo2K.us" tvg-logo="https://images.pluto.tv/channels/5fd7bca3e0a4ee0007a38e8c/featuredImage.jpg" group-title="07. TV MUSIK",Vevo 2K
+http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5fd7bca3e0a4ee0007a38e8c/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c2cc208-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=9c78a281-5d61-4850-8b62-74632f015343
+#EXTINF:-1 tvg-id="Vevo90s.us" tvg-logo="https://images.pluto.tv/channels/5fd7bb1f86d94a000796e2c2/featuredImage.jpg" group-title="07. TV MUSIK",Vevo '90s
+http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5fd7bb1f86d94a000796e2c2/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c2cc207-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=0728470d-6a7e-40da-b12d-986993b83ec1
+#EXTINF:-1 cuid="1278" tvg-chno="1276" tvg-name="Deluxe Music 🇩🇪" tvg-id="DeluxeMusic.de" tvg-logo="https://github.com/inspirationlinks/m3u/raw/live/LogosTv/DeluxeMusic.webp" group-title="07. TV MUSIK", Deluxe Music
+http://sdn-global-live-streaming-packager-cache.3qsdn.com/13456/13456_264_live.m3u8
+#EXTINF:-1 cuid="1262" tvg-chno="1260" tvg-name="XITE Hits" tvg-id="USBD3300004RH" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBD3300004RH_20241105T024203SQUARE.png" group-title="07. TV MUSIK", XITE Hits (OFF)
+https://xite-hitsuk-lg.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-logo="___" group-title="07. TV MUSIK", Song TV (Trans)
+https://cdnjkt913.transvision.co.id:1000/live/master/100/4028c685840ff0490184560acf62436a/manifest.mpd
+#EXTINF:-1 group-title="08. TV OLAHRAGA | SPORT" tvg-logo="https://i.ibb.co.com/gRBZ0bN/Smart-Select-20230610-161210-Picsart.jpg", TVRI SPORT
+https://ott-balancer.tvri.go.id/live/eds/SportHD/hls/SportHD.m3u8
+#EXTINF:-1 group-title="08. TV OLAHRAGA | SPORT"  tvg-logo="https://raw.githubusercontent.com/quuen2024/logo-versi/refs/heads/queen/maxres.png",UFC
+https://dbrb49pjoymg4.cloudfront.net/10001/99951134/hls/playlist.m3u8?ads.xumo_channelId=99951134
+#EXTINF:-1 group-title="08. TV OLAHRAGA | SPORT" tvg-logo="https://raw.githubusercontent.com/quuen2024/logo-versi/refs/heads/queen/maxres.png",Swerve Combat
+https://dbrb49pjoymg4.cloudfront.net/10001/99991696/hls/playlist.m3u8?ads.xumo_channelId=99991696
+#EXTINF:-1 tvg-name="IMPACT Wrestling" tvg-logo="https://images.pluto.tv/channels/59b722526996084038c01e1b/colorLogoPNG.png" group-title="08. TV OLAHRAGA | SPORT", IMPACT Wrestling
+https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/59b722526996084038c01e1b/master.m3u8?terminate=false&deviceType=web&deviceMake=web&deviceModel=web&sid=734&deviceId=59b722526996084038c01e1b&deviceVersion=DNT&appVersion=DNT&deviceDNT=0&userId=&advertisingId=&deviceLat=&deviceLon=&app_name=&appName=web&buildVersion=&appStoreUrl=&architecture=&includeExtendedEvents=false&marketingRegion=US&serverSideAds=false
+#EXTINF:-1 tvg-logo="" group-title="08. TV OLAHRAGA | SPORT",Dazn Ringside
+https://aegis-cloudfront-1.tubi.video/bfad29e2-5bee-44f3-8256-127324e8b106/playlist.m3u8
+#EXTINF:-1 tvg-id="Apple TV.id" group-logo="https://i.ibb.co.com/QKWdQvk/rounded-in-photoretrica-1.png" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlgfZ1y0tMkAJx1r1l8RRLFEQPB1ngcjtcqKd0beD2qN7IlrcP2bNcDR_i&s=10" group-title="08. TV OLAHRAGA | SPORT", TINJU / BOXING 1
+https://stitcher.pluto.tv/stitch/hls/channel/64df7ab4dfa32400083c517blivestitch/master.m3u8?deviceType=web&servertSideAds=false&deviceMake=safari&deviceVersion=1&deviceId=spencer&appVersion=1&deviceDNT=0&deviceModel=web&sid=f9f2b24b-6a97-11ef-9ed7-d66fb14cb385&profilesFromStream=true
+#EXTINF:-1 group-title="08. TV OLAHRAGA | SPORT" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLBknO-7pQZ0cliJsEyPFiX5VPrZf2lTutRg&s", NBA TV
+http://38b891c9.rossteleccom.net/iptv/SQNLRPBE7FFE8V/7226/index.m3u8
+#EXTINF:-1 tvg-logo="https://hifight.it/wp-content/uploads/2021/11/hifight-600x600-1.jpg" group-title="08. TV OLAHRAGA | SPORT", Hi-Fight Super sport
+http://49.0.64.96:8007/HIFIGHT
+#EXTINF:-1 group-title="08. TV OLAHRAGA | SPORT" tvg-logo="https://i.ibb.co.com/gRBZ0bN/Smart-Select-20230610-161210-Picsart.jpg", TVRI SPORT Volly
+https://ott-balancer.tvri.go.id/live/eds/SportHD/hls/SportHD.m3u8
+#EXTINF:-1  tvg-id="GBBD1100008YW" tvg-logo="https://i.ibb.co.com/HK0Nf10/fifaplus.png" group-title="09. TIMNAS MATCH DAY" , FIFA+
+https://a62dad94.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWV1X0ZJRkFQbHVzRW5nbGlzaF9ITFM/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://i.ibb.co.com/HK0Nf10/fifaplus.png" group-title="09. TIMNAS MATCH DAY", FIFA+
+https://e3be9ac5.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/TEctYnJfRklGQVBsdXNQb3J0dWd1ZXNlX0hMUw/playlist.m3u8
+#EXTINF:-1  tvg-id="GBBD1100008YW" tvg-logo="https://i.ibb.co.com/HK0Nf10/fifaplus.png" group-title="09. TIMNAS MATCH DAY" , FIFA+ 🇦🇹
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0
+https://jmp2.uk/stvp-ATBA3300007PT
+#EXTINF:-1  tvg-id="GBBD1100008YW" tvg-logo="https://i.ibb.co.com/HK0Nf10/fifaplus.png" group-title="09. TIMNAS MATCH DAY" , FIFA+ 🇨🇦
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0
+https://jmp2.uk/stvp-CABD1200008JG
+#EXTINF:-1  tvg-id="GBBD1100008YW" tvg-logo="https://i.ibb.co.com/HK0Nf10/fifaplus.png" group-title="09. TIMNAS MATCH DAY" , FIFA+ 🇨🇭
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0
+https://jmp2.uk/stvp-CHBA3300010UC
+#EXTINF:-1  tvg-id="GBBD1100008YW" tvg-logo="https://i.ibb.co.com/HK0Nf10/fifaplus.png" group-title="09. TIMNAS MATCH DAY" , FIFA+ 🇩🇪
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0
+https://jmp2.uk/stvp-DEBA3300019EB
+#EXTINF:-1  tvg-id="GBBD1100008YW" tvg-logo="https://i.ibb.co.com/HK0Nf10/fifaplus.png" group-title="09. TIMNAS MATCH DAY" , FIFA+ 🇪🇸
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0
+https://jmp2.uk/stvp-ESBC2700009B4
+#EXTINF:-1  tvg-id="GBBD1100008YW" tvg-logo="https://i.ibb.co.com/HK0Nf10/fifaplus.png" group-title="09. TIMNAS MATCH DAY" , FIFA+ 🇫🇷
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0
+https://jmp2.uk/stvp-FRBA3300037Y7
+#EXTINF:-1  tvg-id="GBBD1100008YW" tvg-logo="https://i.ibb.co.com/HK0Nf10/fifaplus.png" group-title="09. TIMNAS MATCH DAY" , FIFA+ 🇬🇧
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0
+https://jmp2.uk/stvp-GBBD1100008YW
+#EXTINF:-1  tvg-id="GBBD1100008YW" tvg-logo="https://i.ibb.co.com/HK0Nf10/fifaplus.png" group-title="09. TIMNAS MATCH DAY" , FIFA+ 🇮🇹
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0
+https://jmp2.uk/stvp-ITBD1000002HF
+#EXTINF:-1 group-title="",images.indihometv.com
+https://images.indihometv.com/tvposter/indosiar.png
+#EXTINF:0 channel-id="bellator-mma" channel-number="2870" tvg-logo="https://images.pluto.tv/channels/5ebc8688f3697d00072f7cf8/colorLogoPNG.png" tvc-guide-art="https://images.pluto.tv/channels/5ebc8688f3697d00072f7cf8/featuredImage.jpg?fill=blur&fit=fill&fm=jpg&h=562&q=75&w=1000" tvc-guide-title="Bellator MMA" tvc-guide-description="Bellator MMA is home to the most exciting MMA action featuring the top fighters from around the world. Relive all the best events, championship fights, knockouts and submissions from inside the Bellator MMA cage." group-title="11. (c) UFC/MMA", Bellator MMA
+https://jmp2.uk/plu-5ebc8688f3697d00072f7cf8.m3u8
+#EXTINF:-1 group-title="11. (c) UFC/MMA" tvg-logo="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjfhi_1_yqlx6Fi9rEhSIR3i72U8hasLnNjzj-XDkc1jjDWX46FwWoia2oAgmt50vd9YvSH_XBumlXPGyJ2Jazzy1JjocG50oO1nrqcPYvjc9ySas7JbV9ShaYUsLOSyLP8MNCjp9cExDgdBrqfbTJkMzcij-dcIhEoe8BtzuDC0qkcSGl17K0cbna0-MIA/s700/UFC.png",UFC MMA 1
+https://linear-893.frequency.stream/dist/xumo/893/hls/master/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://img2.hulu.com/user/v3/artwork/36cbc733-044f-4e94-a511-f4abbbc8c803?base_image_bucket_name=image_manager&base_image=13261923-7033-417c-bf73-c64e492cd830&size=600x338&format=webp" group-title="11. (c) UFC/MMA",MMA TV/PFL
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) MPF.Players/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
+https://a883593c.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWV1X1BGTE1NQV9ITFM/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTB2Rhgo-vYluFZ0W7Y8JTK1AN6x-N0LOrj_Htm6Af5Fr-XrVjok0qoWShPeEc9AoKgOgY&usqp=CAU" group-title="11. (c) UFC/MMA", UFA TV
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) MPF.Players/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
+https://9ab4bcc639c845d2b682105f4e9afbf8.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/SportsTribal-eu_UnitedFightAlliance/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://swerve.tv/wp-content/uploads/2025/06/Swerve-Combat.png" group-title="11. (c) UFC/MMA", SWERVE COMBAT TV
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) MPF.Players/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
+https://dbrb49pjoymg4.cloudfront.net/10001/99991696/hls/playlist.m3u8?ads.xumo_channelId=99991696
+#EXTINF:-1 tvg-logo="https://images.pluto.tv/channels/5417a212ff9fba68282fbf5e/featuredImage.jpg?auto=&q=70&fit=fill&fill=blur&ixlib=react-9.1.5" group-title="11. (c) UFC/MMA", GLORY KICBOXING
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) MPF.Players/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
+https://6ada88b3.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/U3BvcnRzVHJpYmFsLWV1X0dsb3J5S2lja2JveGluZ19ITFM/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="Wired 2 Fish" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWYnHW68kzWG96p0COPRl_21l9Csm4dRlyHxQqc4DAteQS8_Y6nO8jbzM&s=10" group-title="11. (F) MANCING MANIA 🎣",Wired 2 Fish
+https://linear-80.frequency.stream/dist/plex/80/hls/master/playlist.m3u8
+#EXTINF:-1 tvg-id="20240402T134311SQUARE" tvg-name="" group-title="11. (F) MANCING MANIA 🎣" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IT600001L6_20240402T134311SQUARE.png",Italian Fishing TV
+https://d2n1ucuifwse4q.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-5nki8b8udz6dm/index.m3u8
+#EXTINF:-1 tvg-id="Apple TV.id" group-logo="https://i.ibb.co.com/QKWdQvk/rounded-in-photoretrica-1.png" tvg-logo="https://images-tm.tempo.co/all/2023/11/04/845913/845913_1200.jpg" group-title="11. (F) MANCING MANIA 🎣", FISHING TV
+https://streams2.sofast.tv/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/eea68b79-bfe2-451e-a227-d637a5b9548a/manifest.m3u8
+#EXTINF:-1 tvg-id="Apple TV.id" group-logo="https://i.ibb.co.com/QKWdQvk/rounded-in-photoretrica-1.png" tvg-logo="https://images-tm.tempo.co/all/2023/11/04/845913/845913_1200.jpg" group-title="11. (F) MANCING MANIA 🎣", JUST FISHING
+http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/61b33085897b9d000702b72e/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=1b1e2704-4b81-11ef-a8ac-e146e4e7be02&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=40e61b35-9683-4394-86ae-756247e07690
+#EXTINF:-1 tvg-name="" tvg-id="" tvg-logo="https://mimipipi22.github.io/logo/antik/golfchannel.jpg" group-title="11. (G) GOLF 🏌️‍♀️ (LIVE) ⛳",GOLF CHANNEL 🇸🇰
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://webtv.sk/
+https://dash3.antik.sk/live/test_golf_channel/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzp6yffvIhzqrpxF4crch0bMOD2GrtB-wFyYGqgQtd9thcIWVCN4g99pg&s=10" group-title="12. (D) ⚽ BOLA | BUNDESLIGA", ESPN
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone14,6; U; CPU iPhone OS 15_4 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) Version/10.0 Mobile/19E241 Safari/602.1
+#EXTVLCOPT:http-referrer=https://www.soccertvhd.com/
+https://bintangstreaming.my.id/connect/index.m3u8?channel=bundes1&type=m3u8
+#EXTINF:-1 tvg-id="Dummy" tvg-logo="https://parspng.com/wp-content/uploads/2022/09/quranpng.parspng.com-12.png" group-title="14. ALQURAN TERJEMAH | MP3", [001] Surah Alfatihah (Pembukaan)
+https://archive.org/download/MurotalMR/001.mp3
+#EXTINF:-1 tvg-id="Dummy" tvg-logo="https://parspng.com/wp-content/uploads/2022/09/quranpng.parspng.com-12.png" group-title="14. ALQURAN TERJEMAH | MP3", [003] Surah Ali 'Imran (Keluarga Imran)
+https://archive.org/download/MurotalMR/003.mp3
+#EXTINF:-1 tvg-id="Dummy" tvg-logo="https://parspng.com/wp-content/uploads/2022/09/quranpng.parspng.com-12.png" group-title="14. ALQURAN TERJEMAH | MP3", [004] Surah An-Nisaa' (Wanita)
+https://archive.org/download/MurotalMR/004.mp3
+#EXTINF:-1 tvg-id="Dummy" tvg-logo="https://parspng.com/wp-content/uploads/2022/09/quranpng.parspng.com-12.png" group-title="14. ALQURAN TERJEMAH | MP3", [005] Surah Al-Maa'idah (Hidangan)
+https://archive.org/download/MurotalMR/005.mp3
+#EXTINF:-1 tvg-id="Dummy" tvg-logo="https://parspng.com/wp-content/uploads/2022/09/quranpng.parspng.com-12.png" group-title="14. ALQURAN TERJEMAH | MP3", [006] Surah Al-An'aam (Binatang Ternakan)
+https://archive.org/download/MurotalMR/006.mp3
+#EXTINF:-1 tvg-id="Dummy" tvg-logo="https://parspng.com/wp-content/uploads/2022/09/quranpng.parspng.com-12.png" group-title="14. ALQURAN TERJEMAH | MP3", [008] Surah Al-Anfaal (Rampasan Perang)
+https://archive.org/download/MurotalMR/008.mp3
+#EXTINF:-1 tvg-id="Dummy" tvg-logo="https://parspng.com/wp-content/uploads/2022/09/quranpng.parspng.com-12.png" group-title="14. ALQURAN TERJEMAH | MP3", [009] Surah At-Taubah (Pengampunan)
+https://archive.org/download/MurotalMR/009.mp3
+#EXTINF:-1 tvg-id="Dummy" tvg-logo="https://parspng.com/wp-content/uploads/2022/09/quranpng.parspng.com-12.png" group-title="14. ALQURAN TERJEMAH | MP3", [010] Surah Yunus (Nabi Yunus a.s.)
+https://archive.org/download/MurotalMR/010.mp3
+#EXTINF:-1 tvg-id="Dummy" tvg-logo="https://parspng.com/wp-content/uploads/2022/09/quranpng.parspng.com-12.png" group-title="14. ALQURAN TERJEMAH | MP3", [011] Surah Hud (Nabi Hud a.s.)
+https://archive.org/download/MurotalMR/011.mp3
+#EXTINF:-1 tvg-id="Dummy" tvg-logo="https://parspng.com/wp-content/uploads/2022/09/quranpng.parspng.com-12.png" group-title="14. ALQURAN TERJEMAH | MP3", [012] Surah Yusuf (Nabi Yusuf a.s.)
+https://archive.org/download/MurotalMR/012.mp3
+#EXTINF:-1 tvg-id="Dummy" tvg-logo="https://parspng.com/wp-content/uploads/2022/09/quranpng.parspng.com-12.png" group-title="14. ALQURAN TERJEMAH | MP3", [013] Surah Ar-Ra'd (Guruh)
+https://archive.org/download/MurotalMR/013.mp3
+#EXTINF:-1 tvg-id="Dummy" tvg-logo="https://parspng.com/wp-content/uploads/2022/09/quranpng.parspng.com-12.png" group-title="14. ALQURAN TERJEMAH | MP3", [014] Surah Ibrahim (Nabi Ibrahim a.s.)
+https://archive.org/download/MurotalMR/014.mp3
+#EXTINF:-1 tvg-id="Dummy" tvg-logo="https://parspng.com/wp-content/uploads/2022/09/quranpng.parspng.com-12.png" group-title="14. ALQURAN TERJEMAH | MP3", [015] Surah Al-Hijr (Kawasan Berbatu)
+https://archive.org/download/MurotalMR/015.mp3
+#EXTINF:-1 tvg-id="Dummy" tvg-logo="https://parspng.com/wp-content/uploads/2022/09/quranpng.parspng.com-12.png" group-title="14. ALQURAN TERJEMAH | MP3", [016] Surah An-Nahl (Lebah)
+https://archive.org/download/MurotalMR/016.mp3
+#EXTINF:-1 tvg-id="Dummy" tvg-logo="https://parspng.com/wp-content/uploads/2022/09/quranpng.parspng.com-12.png" group-title="14. ALQURAN TERJEMAH | MP3", [017] Surah Al-Israa' (Perjalanan Malam)
+https://archive.org/download/MurotalMR/017.mp3
+#EXTINF:-1 tvg-id="Dummy" tvg-logo="https://parspng.com/wp-content/uploads/2022/09/quranpng.parspng.com-12.png" group-title="14. ALQURAN TERJEMAH | MP3", [018] Surah Al-Kahfi (Gua)
+https://archive.org/download/MurotalMR/018.mp3
+#EXTINF:-1 tvg-id="Dummy" tvg-logo="https://parspng.com/wp-content/uploads/2022/09/quranpng.parspng.com-12.png" group-title="14. ALQURAN TERJEMAH | MP3", [019] Surah Maryam (Siti Maryam)
+https://archive.org/download/MurotalMR/019.mp3
+#EXTINF:-1 tvg-id="Dummy" tvg-logo="https://parspng.com/wp-content/uploads/2022/09/quranpng.parspng.com-12.png" group-title="14. ALQURAN TERJEMAH | MP3", [020] Surah Taahaa
+https://archive.org/download/MurotalMR/020.mp3
+#EXTINF:-1 tvg-id="Dummy" tvg-logo="https://parspng.com/wp-content/uploads/2022/09/quranpng.parspng.com-12.png" group-title="14. ALQURAN TERJEMAH | MP3", [021] Surah Al-Anbiyaa' (Para Nabi)
+https://archive.org/download/MurotalMR/021.mp3
+#EXTINF:-1 tvg-id="Dummy" tvg-logo="https://parspng.com/wp-content/uploads/2022/09/quranpng.parspng.com-12.png" group-title="14. ALQURAN TERJEMAH | MP3", [022] Surah Al-Hajj (Haji)
+https://archive.org/download/MurotalMR/022.mp3
+#EXTINF:-1 tvg-id="Dummy" tvg-logo="https://parspng.com/wp-content/uploads/2022/09/quranpng.parspng.com-12.png" group-title="14. ALQURAN TERJEMAH | MP3", [023] Surah Al-Mu'minun (Golongan yang Beriman)
+https://archive.org/download/MurotalMR/023.mp3
+#EXTINF:-1 tvg-id="Dummy" tvg-logo="https://parspng.com/wp-content/uploads/2022/09/quranpng.parspng.com-12.png" group-title="14. ALQURAN TERJEMAH | MP3", [024] Surah An-Nuur (Cahaya)
+https://archive.org/download/MurotalMR/024.mp3
+#EXTINF:-1 tvg-id="Dummy" tvg-logo="https://parspng.com/wp-content/uploads/2022/09/quranpng.parspng.com-12.png" group-title="14. ALQURAN TERJEMAH | MP3", [025] Surah Al-Furqaan (Pembeza Kebenaran dan Kebatilan)
+https://archive.org/download/MurotalMR/025.mp3
+#EXTINF:-1 tvg-id="Dummy" tvg-logo="https://parspng.com/wp-content/uploads/2022/09/quranpng.parspng.com-12.png" group-title="14. ALQURAN TERJEMAH | MP3", [026] Surah Asy-Syu'araa (Para Penyair)
+https://archive.org/download/MurotalMR/026.mp3
+#EXTINF:-1 tvg-id="Dummy" tvg-logo="https://parspng.com/wp-content/uploads/2022/09/quranpng.parspng.com-12.png" group-title="14. ALQURAN TERJEMAH | MP3", [027] Surah An-Naml (Semut)
+https://archive.org/download/MurotalMR/027.mp3
+#EXTINF:-1 tvg-id="Dummy" tvg-logo="https://parspng.com/wp-content/uploads/2022/09/quranpng.parspng.com-12.png" group-title="14. ALQURAN TERJEMAH | MP3", [028] Surah Al-Qasas (Cerita-cerita)
+https://archive.org/download/MurotalMR/028.mp3
+#EXTINF:-1 tvg-id="Dummy" tvg-logo="https://parspng.com/wp-content/uploads/2022/09/quranpng.parspng.com-12.png" group-title="14. ALQURAN TERJEMAH | MP3", [029] Surah Al-'Ankabut (Labah-labah)
+https://archive.org/download/MurotalMR/029.mp3
+#EXTINF:-1 tvg-id="Dummy" tvg-logo="https://parspng.com/wp-content/uploads/2022/09/quranpng.parspng.com-12.png" group-title="14. ALQURAN TERJEMAH | MP3", [030] Surah Ar-Rum (Bangsa Rom)
+https://archive.org/download/MurotalMR/030.mp3
+#EXTINF:-1 tvg-id="Dummy" tvg-logo="https://parspng.com/wp-content/uploads/2022/09/quranpng.parspng.com-12.png" group-title="14. ALQURAN TERJEMAH | MP3", [031] Surah Luqman (Luqman)
+https://archive.org/download/MurotalMR/031.mp3
+#EXTINF:-1 tvg-id="Dummy" tvg-logo="https://parspng.com/wp-content/uploads/2022/09/quranpng.parspng.com-12.png" group-title="14. ALQURAN TERJEMAH | MP3", [032] Surah As-Sajdah (Sujud)
+https://archive.org/download/MurotalMR/032.mp3
+#EXTINF:-1 tvg-id="Dummy" tvg-logo="https://parspng.com/wp-content/uploads/2022/09/quranpng.parspng.com-12.png" group-title="14. ALQURAN TERJEMAH | MP3", [033] Surah Al-Ahzab (Golongan yang Bersekutu)
+https://archive.org/download/MurotalMR/033.mp3
+#EXTINF:-1 tvg-id="Dummy" tvg-logo="https://parspng.com/wp-content/uploads/2022/09/quranpng.parspng.com-12.png" group-title="14. ALQURAN TERJEMAH | MP3", [034] Surah Saba' (Kaum Saba')
+https://archive.org/download/MurotalMR/034.mp3
+#EXTINF:-1 tvg-id="Dummy" tvg-logo="https://parspng.com/wp-content/uploads/2022/09/quranpng.parspng.com-12.png" group-title="14. ALQURAN TERJEMAH | MP3", [035] Surah Faatir (Pencipta)
+https://archive.org/download/MurotalMR/035.mp3
+#EXTINF:-1 tvg-id="Dummy" tvg-logo="https://parspng.com/wp-content/uploads/2022/09/quranpng.parspng.com-12.png" group-title="14. ALQURAN TERJEMAH | MP3", [036] Surah Yaasin
+https://archive.org/download/MurotalMR/036.mp3
+#EXTINF:-1 tvg-id="Dummy" tvg-logo="https://parspng.com/wp-content/uploads/2022/09/quranpng.parspng.com-12.png" group-title="14. ALQURAN TERJEMAH | MP3", [037] Surah As-Saaffat (Yang Teratur Berbaris)
+https://archive.org/download/MurotalMR/037.mp3
+#EXTINF:-1 tvg-id="Dummy" tvg-logo="https://parspng.com/wp-content/uploads/2022/09/quranpng.parspng.com-12.png" group-title="14. ALQURAN TERJEMAH | MP3", [038] Surah Saad
+https://archive.org/download/MurotalMR/038.mp3
+#EXTINF:-1 tvg-id="Dummy" tvg-logo="https://parspng.com/wp-content/uploads/2022/09/quranpng.parspng.com-12.png" group-title="14. ALQURAN TERJEMAH | MP3", [039] Surah Az-Zumar (Rombongan)
+https://archive.org/download/MurotalMR/039.mp3
+#EXTINF:-1 tvg-id="Dummy" tvg-logo="https://parspng.com/wp-content/uploads/2022/09/quranpng.parspng.com-12.png" group-title="14. ALQURAN TERJEMAH | MP3", [040] Surah Al-Ghafir / Al-Mu'min (Orang yang Beriman)
+https://archive.org/download/MurotalMR/040.mp3
+#EXTINF:-1 tvg-id="Dummy" tvg-logo="https://parspng.com/wp-content/uploads/2022/09/quranpng.parspng.com-12.png" group-title="14. ALQURAN TERJEMAH | MP3", [041] Surah Fussilat (Dijelaskan)
+https://archive.org/download/MurotalMR/041.mp3
+#EXTINF:-1 tvg-id="Dummy" tvg-logo="https://parspng.com/wp-content/uploads/2022/09/quranpng.parspng.com-12.png" group-title="14. ALQURAN TERJEMAH | MP3", [042] Surah Asy-Syuraa (Permesyuaratan)
+https://archive.org/download/MurotalMR/042.mp3
+#EXTINF:-1 tvg-id="Dummy" tvg-logo="https://parspng.com/wp-content/uploads/2022/09/quranpng.parspng.com-12.png" group-title="14. ALQURAN TERJEMAH | MP3", [043] Surah Az-Zukhruf (Perhiasan Emas)
+https://archive.org/download/MurotalMR/043.mp3
+#EXTINF:-1 tvg-id="Dummy" tvg-logo="https://parspng.com/wp-content/uploads/2022/09/quranpng.parspng.com-12.png" group-title="14. ALQURAN TERJEMAH | MP3", [044] Surah Ad-Dukhaan (Kabut / Asap)
+https://archive.org/download/MurotalMR/044.mp3
+#EXTINF:-1 tvg-id="Dummy" tvg-logo="https://parspng.com/wp-content/uploads/2022/09/quranpng.parspng.com-12.png" group-title="14. ALQURAN TERJEMAH | MP3", [045] Surah Al-Jatsiyah (Yang Berlutut)
+https://archive.org/download/MurotalMR/045.mp3
+#EXTINF:-1 tvg-id="Dummy" tvg-logo="https://parspng.com/wp-content/uploads/2022/09/quranpng.parspng.com-12.png" group-title="14. ALQURAN TERJEMAH | MP3", [046] Surah Al-Ahqaaf (Bukit-bukit Pasir)
+https://archive.org/download/MurotalMR/046.mp3
+#EXTINF:-1 tvg-id="Dummy" tvg-logo="https://parspng.com/wp-content/uploads/2022/09/quranpng.parspng.com-12.png" group-title="14. ALQURAN TERJEMAH | MP3", [047] Surah Muhammad (Nabi Muhammad SAW)
+https://archive.org/download/MurotalMR/047.mp3
+#EXTINF:-1 tvg-id="Dummy" tvg-logo="https://parspng.com/wp-content/uploads/2022/09/quranpng.parspng.com-12.png" group-title="14. ALQURAN TERJEMAH | MP3", [048] Surah Al-Fath (Kemenangan)
+https://archive.org/download/MurotalMR/048.mp3
+#EXTINF:-1 tvg-id="Dummy" tvg-logo="https://parspng.com/wp-content/uploads/2022/09/quranpng.parspng.com-12.png" group-title="14. ALQURAN TERJEMAH | MP3", [049] Surah Al-Hujurat (Bilik-bilik)
+https://archive.org/download/MurotalMR/049.mp3
+#EXTINF:-1 tvg-id="Dummy" tvg-logo="https://parspng.com/wp-content/uploads/2022/09/quranpng.parspng.com-12.png" group-title="14. ALQURAN TERJEMAH | MP3", [050] Surah Qaaf
+https://archive.org/download/MurotalMR/050.mp3
+#EXTINF:-1 tvg-id="Dummy" tvg-logo="https://parspng.com/wp-content/uploads/2022/09/quranpng.parspng.com-12.png" group-title="14. ALQURAN TERJEMAH | MP3", [051] Surah Adz-Dzariyaat (Angin yang Menerbangkan)
+https://archive.org/download/MurotalMR/051.mp3
+#EXTINF:-1 tvg-id="Dummy" tvg-logo="https://parspng.com/wp-content/uploads/2022/09/quranpng.parspng.com-12.png" group-title="14. ALQURAN TERJEMAH | MP3", [052] Surah At-Tur (Bukit)
+https://archive.org/download/MurotalMR/052.mp3
+#EXTINF:-1 tvg-id="Dummy" tvg-logo="https://parspng.com/wp-content/uploads/2022/09/quranpng.parspng.com-12.png" group-title="14. ALQURAN TERJEMAH | MP3", [053] Surah An-Najm (Bintang)
+https://archive.org/download/MurotalMR/053.mp3
+#EXTINF:-1 tvg-id="Dummy" tvg-logo="https://parspng.com/wp-content/uploads/2022/09/quranpng.parspng.com-12.png" group-title="14. ALQURAN TERJEMAH | MP3", [054] Surah Al-Qamar (Bulan)
+https://archive.org/download/MurotalMR/054.mp3
+#EXTINF:-1 tvg-id="Dummy" tvg-logo="https://parspng.com/wp-content/uploads/2022/09/quranpng.parspng.com-12.png" group-title="14. ALQURAN TERJEMAH | MP3", [055] Surah Ar-Rahman (Yang Maha Pemurah)
+https://archive.org/download/MurotalMR/055.mp3
+#EXTINF:-1 tvg-id="Dummy" tvg-logo="https://parspng.com/wp-content/uploads/2022/09/quranpng.parspng.com-12.png" group-title="14. ALQURAN TERJEMAH | MP3", [056] Surah Al-Waqi'ah (Peristiwa yang Tidak Dapat Dielakkan)
+https://archive.org/download/MurotalMR/056.mp3
+#EXTINF:-1 tvg-id="Dummy" tvg-logo="https://parspng.com/wp-content/uploads/2022/09/quranpng.parspng.com-12.png" group-title="14. ALQURAN TERJEMAH | MP3", [057] Surah Al-Hadid (Besi)
+https://archive.org/download/MurotalMR/057.mp3
+#EXTINF:-1 tvg-id="Dummy" tvg-logo="https://parspng.com/wp-content/uploads/2022/09/quranpng.parspng.com-12.png" group-title="14. ALQURAN TERJEMAH | MP3", [058] Surah Al-Mujadilah (Perempuan yang Merayu)
+https://archive.org/download/MurotalMR/058.mp3
+#EXTINF:-1 tvg-id="Dummy" tvg-logo="https://parspng.com/wp-content/uploads/2022/09/quranpng.parspng.com-12.png" group-title="14. ALQURAN TERJEMAH | MP3", [059] Surah Al-Hasyr (Pengusiran)
+https://archive.org/download/MurotalMR/059.mp3
+#EXTINF:-1 tvg-id="Dummy" tvg-logo="https://parspng.com/wp-content/uploads/2022/09/quranpng.parspng.com-12.png" group-title="14. ALQURAN TERJEMAH | MP3", [060] Surah Al-Mumtahanah (Perempuan yang Diuji)
+https://archive.org/download/MurotalMR/060.mp3
+#EXTINF:-1 tvg-id="Dummy" tvg-logo="https://parspng.com/wp-content/uploads/2022/09/quranpng.parspng.com-12.png" group-title="14. ALQURAN TERJEMAH | MP3", [061] Surah As-Saf (Barisan)
+https://archive.org/download/MurotalMR/061.mp3
+#EXTINF:-1 tvg-id="Dummy" tvg-logo="https://parspng.com/wp-content/uploads/2022/09/quranpng.parspng.com-12.png" group-title="14. ALQURAN TERJEMAH | MP3", [062] Surah Al-Jumu'ah (Hari Jumaat)
+https://archive.org/download/MurotalMR/062.mp3
+#EXTINF:-1 tvg-id="Dummy" tvg-logo="https://parspng.com/wp-content/uploads/2022/09/quranpng.parspng.com-12.png" group-title="14. ALQURAN TERJEMAH | MP3", [063] Surah Al-Munafiquun (Golongan Munafik)
+https://archive.org/download/MurotalMR/063.mp3
+#EXTINF:-1 tvg-id="Dummy" tvg-logo="https://parspng.com/wp-content/uploads/2022/09/quranpng.parspng.com-12.png" group-title="14. ALQURAN TERJEMAH | MP3", [064] Surah At-Taghabun (Dinampakkan Kesalahan)
+https://archive.org/download/MurotalMR/064.mp3
+#EXTINF:-1 tvg-id="Dummy" tvg-logo="https://parspng.com/wp-content/uploads/2022/09/quranpng.parspng.com-12.png" group-title="14. ALQURAN TERJEMAH | MP3", [065] Surah At-Talaq (Cerai / Talak)
+https://archive.org/download/MurotalMR/065.mp3
+#EXTINF:-1 tvg-id="Dummy" tvg-logo="https://parspng.com/wp-content/uploads/2022/09/quranpng.parspng.com-12.png" group-title="14. ALQURAN TERJEMAH | MP3", [066] Surah At-Tahrim (Mengharamkan)
+https://archive.org/download/MurotalMR/066.mp3
+#EXTINF:-1 tvg-id="Dummy" tvg-logo="https://parspng.com/wp-content/uploads/2022/09/quranpng.parspng.com-12.png" group-title="14. ALQURAN TERJEMAH | MP3", [067] Surah Al-Mulk (Kerajaan)
+https://archive.org/download/MurotalMR/067.mp3
+#EXTINF:-1 tvg-id="Dummy" tvg-logo="https://parspng.com/wp-content/uploads/2022/09/quranpng.parspng.com-12.png" group-title="14. ALQURAN TERJEMAH | MP3", [068] Surah Al-Qalam (Pena / Kalam)
+https://archive.org/download/MurotalMR/068.mp3
+#EXTINF:-1 tvg-id="Dummy" tvg-logo="https://parspng.com/wp-content/uploads/2022/09/quranpng.parspng.com-12.png" group-title="14. ALQURAN TERJEMAH | MP3", [069] Surah Al-Haaqqah (Keadaan Sebenar / Hari Kiamat)
+https://archive.org/download/MurotalMR/069.mp3
+#EXTINF:-1 tvg-id="Dummy" tvg-logo="https://parspng.com/wp-content/uploads/2022/09/quranpng.parspng.com-12.png" group-title="14. ALQURAN TERJEMAH | MP3", [070] Surah Al-Ma'arij (Tempat-tempat Naik)
+https://archive.org/download/MurotalMR/070.mp3
+#EXTINF:-1 tvg-id="Dummy" tvg-logo="https://parspng.com/wp-content/uploads/2022/09/quranpng.parspng.com-12.png" group-title="14. ALQURAN TERJEMAH | MP3", [071] Surah Nuh (Nabi Nuh a.s.)
+https://archive.org/download/MurotalMR/071.mp3
+#EXTINF:-1 tvg-id="Dummy" tvg-logo="https://parspng.com/wp-content/uploads/2022/09/quranpng.parspng.com-12.png" group-title="14. ALQURAN TERJEMAH | MP3", [072] Surah A-Jin (Jin)
+https://archive.org/download/MurotalMR/072.mp3
+#EXTINF:-1 tvg-id="Dummy" tvg-logo="https://parspng.com/wp-content/uploads/2022/09/quranpng.parspng.com-12.png" group-title="14. ALQURAN TERJEMAH | MP3", [073] Surah Al-Muzammil (Yang Berselimut)
+https://archive.org/download/MurotalMR/073.mp3
+#EXTINF:-1 tvg-id="Dummy" tvg-logo="https://parspng.com/wp-content/uploads/2022/09/quranpng.parspng.com-12.png" group-title="14. ALQURAN TERJEMAH | MP3", [074] Surah Al-Muddathir (Yang Berselubung)
+https://archive.org/download/MurotalMR/074.mp3
+#EXTINF:-1 tvg-id="Dummy" tvg-logo="https://parspng.com/wp-content/uploads/2022/09/quranpng.parspng.com-12.png" group-title="14. ALQURAN TERJEMAH | MP3", [075] Surah Al-Qiyaamah (Hari Kebangkitan / Kiamat)
+https://archive.org/download/MurotalMR/075.mp3
+#EXTINF:-1 tvg-id="Dummy" tvg-logo="https://parspng.com/wp-content/uploads/2022/09/quranpng.parspng.com-12.png" group-title="14. ALQURAN TERJEMAH | MP3", [076] Surah Al-Insaan (Manusia)
+https://archive.org/download/MurotalMR/076.mp3
+#EXTINF:-1 tvg-id="Dummy" tvg-logo="https://parspng.com/wp-content/uploads/2022/09/quranpng.parspng.com-12.png" group-title="14. ALQURAN TERJEMAH | MP3", [077] Surah Al-Mursalat (Malaikat Yang Diutus)
+https://archive.org/download/MurotalMR/077.mp3
+#EXTINF:-1 tvg-id="Dummy" tvg-logo="https://parspng.com/wp-content/uploads/2022/09/quranpng.parspng.com-12.png" group-title="14. ALQURAN TERJEMAH | MP3", [078] Surah An-Naba' (Berita Besar)
+https://archive.org/download/MurotalMR/078.mp3
+#EXTINF:-1 tvg-id="Dummy" tvg-logo="https://parspng.com/wp-content/uploads/2022/09/quranpng.parspng.com-12.png" group-title="14. ALQURAN TERJEMAH | MP3", [079] Surah An-Naazi'aat (Malaikat Yang Mencabut)
+https://archive.org/download/MurotalMR/079.mp3
+#EXTINF:-1 tvg-id="Dummy" tvg-logo="https://parspng.com/wp-content/uploads/2022/09/quranpng.parspng.com-12.png" group-title="14. ALQURAN TERJEMAH | MP3", [080] Surah 'Abasa (Dia Bermasam Muka)
+https://archive.org/download/MurotalMR/080.mp3
+#EXTINF:-1 tvg-id="Dummy" tvg-logo="https://parspng.com/wp-content/uploads/2022/09/quranpng.parspng.com-12.png" group-title="14. ALQURAN TERJEMAH | MP3", [081] Surah At-Takwiir (Menggulung)
+https://archive.org/download/MurotalMR/081.mp3
+#EXTINF:-1 tvg-id="Dummy" tvg-logo="https://parspng.com/wp-content/uploads/2022/09/quranpng.parspng.com-12.png" group-title="14. ALQURAN TERJEMAH | MP3", [082] Surah Al-Infitar (Terpecah & Terbelah)
+https://archive.org/download/MurotalMR/082.mp3
+#EXTINF:-1 tvg-id="Dummy" tvg-logo="https://parspng.com/wp-content/uploads/2022/09/quranpng.parspng.com-12.png" group-title="14. ALQURAN TERJEMAH | MP3", [083] Surah Al-Mutaffifiin (Golongan yang Curang)
+https://archive.org/download/MurotalMR/083.mp3
+#EXTINF:-1 tvg-id="Dummy" tvg-logo="https://parspng.com/wp-content/uploads/2022/09/quranpng.parspng.com-12.png" group-title="14. ALQURAN TERJEMAH | MP3", [084] Surah Al-Insyiqaaq (Terbelah)
+https://archive.org/download/MurotalMR/084.mp3
+#EXTINF:-1 tvg-id="Dummy" tvg-logo="https://parspng.com/wp-content/uploads/2022/09/quranpng.parspng.com-12.png" group-title="14. ALQURAN TERJEMAH | MP3", [085] Surah Al-Buruj (Gugusan Bintang)
+https://archive.org/download/MurotalMR/085.mp3
+#EXTINF:-1 tvg-id="Dummy" tvg-logo="https://parspng.com/wp-content/uploads/2022/09/quranpng.parspng.com-12.png" group-title="14. ALQURAN TERJEMAH | MP3", [086] Surah At-Taariq (Pengunjung Malam)
+https://archive.org/download/MurotalMR/086.mp3
+#EXTINF:-1 tvg-id="Dummy" tvg-logo="https://parspng.com/wp-content/uploads/2022/09/quranpng.parspng.com-12.png" group-title="14. ALQURAN TERJEMAH | MP3", [087] Surah Al-A'laa (Yang Tertinggi)
+https://archive.org/download/MurotalMR/087.mp3
+#EXTINF:-1 tvg-id="Dummy" tvg-logo="https://parspng.com/wp-content/uploads/2022/09/quranpng.parspng.com-12.png" group-title="14. ALQURAN TERJEMAH | MP3", [088] Surah Al-Ghaasyiah (Peristiwa Menggelisahkan/Hari Pembalasan)
+https://archive.org/download/MurotalMR/088.mp3
+#EXTINF:-1 tvg-id="Dummy" tvg-logo="https://parspng.com/wp-content/uploads/2022/09/quranpng.parspng.com-12.png" group-title="14. ALQURAN TERJEMAH | MP3", [089] Surah Al-Fajr (Fajar / Sinar Mentari)
+https://archive.org/download/MurotalMR/089.mp3
+#EXTINF:-1 tvg-id="Dummy" tvg-logo="https://parspng.com/wp-content/uploads/2022/09/quranpng.parspng.com-12.png" group-title="14. ALQURAN TERJEMAH | MP3", [090] Surah Al-Balad (Negeri)
+https://archive.org/download/MurotalMR/090.mp3
+#EXTINF:-1 tvg-id="Dummy" tvg-logo="https://parspng.com/wp-content/uploads/2022/09/quranpng.parspng.com-12.png" group-title="14. ALQURAN TERJEMAH | MP3", [091] Surah Asy-Syams (Matahari)
+https://archive.org/download/MurotalMR/091.mp3
+#EXTINF:-1 tvg-id="Dummy" tvg-logo="https://parspng.com/wp-content/uploads/2022/09/quranpng.parspng.com-12.png" group-title="14. ALQURAN TERJEMAH | MP3", [092] Surah Al-Lail (Malam)
+https://archive.org/download/MurotalMR/092.mp3
+#EXTINF:-1 tvg-id="Dummy" tvg-logo="https://parspng.com/wp-content/uploads/2022/09/quranpng.parspng.com-12.png" group-title="14. ALQURAN TERJEMAH | MP3", [093] Surah Adh-Dhuha (Pagi yang Cemerlang / Matahari Meninggi)
+https://archive.org/download/MurotalMR/093.mp3
+#EXTINF:-1 tvg-id="Dummy" tvg-logo="https://parspng.com/wp-content/uploads/2022/09/quranpng.parspng.com-12.png" group-title="14. ALQURAN TERJEMAH | MP3", [094] Surah Al-Insyirah/An-Nasyrah (Melapangkan)
+https://archive.org/download/MurotalMR/094.mp3
+#EXTINF:-1 tvg-id="Dummy" tvg-logo="https://parspng.com/wp-content/uploads/2022/09/quranpng.parspng.com-12.png" group-title="14. ALQURAN TERJEMAH | MP3", [095] Surah At-Tin (Buah Tin / Buah Ara)
+https://archive.org/download/MurotalMR/095.mp3
+#EXTINF:-1 tvg-id="Dummy" tvg-logo="https://parspng.com/wp-content/uploads/2022/09/quranpng.parspng.com-12.png" group-title="14. ALQURAN TERJEMAH | MP3", [096] Surah Al-'Alaq (Segumpal Darah)
+https://archive.org/download/MurotalMR/096.mp3
+#EXTINF:-1 tvg-id="Dummy" tvg-logo="https://parspng.com/wp-content/uploads/2022/09/quranpng.parspng.com-12.png" group-title="14. ALQURAN TERJEMAH | MP3", [097] Surah Al-Qadr (Kemuliaan)
+https://archive.org/download/MurotalMR/097.mp3
+#EXTINF:-1 tvg-id="Dummy" tvg-logo="https://parspng.com/wp-content/uploads/2022/09/quranpng.parspng.com-12.png" group-title="14. ALQURAN TERJEMAH | MP3", [098] Surah Al-Baiyinah (Bukti yang Nyata)
+https://archive.org/download/MurotalMR/098.mp3
+#EXTINF:-1 tvg-id="Dummy" tvg-logo="https://parspng.com/wp-content/uploads/2022/09/quranpng.parspng.com-12.png" group-title="14. ALQURAN TERJEMAH | MP3", [099] Surah Al-Zalzalah (Kegoncangan)
+https://archive.org/download/MurotalMR/099.mp3
+#EXTINF:-1 tvg-id="Dummy" tvg-logo="https://parspng.com/wp-content/uploads/2022/09/quranpng.parspng.com-12.png" group-title="14. ALQURAN TERJEMAH | MP3", [100] Surah Al-'Aadiyaat (Yang Berlari Kencang)
+https://archive.org/download/MurotalMR/100.mp3
+#EXTINF:-1 tvg-id="Dummy" tvg-logo="https://parspng.com/wp-content/uploads/2022/09/quranpng.parspng.com-12.png" group-title="14. ALQURAN TERJEMAH | MP3", [101] Surah Al-Qari'ah (Hari Yang Hingar Bingar/kiamat)
+https://archive.org/download/MurotalMR/101.mp3
+#EXTINF:-1 tvg-id="Dummy" tvg-logo="https://parspng.com/wp-content/uploads/2022/09/quranpng.parspng.com-12.png" group-title="14. ALQURAN TERJEMAH | MP3", [102] Surah At-Takathur (Bermegah-Megah)
+https://archive.org/download/MurotalMR/102.mp3
+#EXTINF:-1 tvg-id="Dummy" tvg-logo="https://parspng.com/wp-content/uploads/2022/09/quranpng.parspng.com-12.png" group-title="14. ALQURAN TERJEMAH | MP3", [103] Surah Al-'Asr (Masa)
+https://archive.org/download/MurotalMR/103.mp3
+#EXTINF:-1 tvg-id="Dummy" tvg-logo="https://parspng.com/wp-content/uploads/2022/09/quranpng.parspng.com-12.png" group-title="14. ALQURAN TERJEMAH | MP3", [104] Surah Al-Humazah (Pengumpat)
+https://archive.org/download/MurotalMR/104.mp3
+#EXTINF:-1 tvg-id="Dummy" tvg-logo="https://parspng.com/wp-content/uploads/2022/09/quranpng.parspng.com-12.png" group-title="14. ALQURAN TERJEMAH | MP3", [105] Surah Al-Fiil (Gajah)
+https://archive.org/download/MurotalMR/105.mp3
+#EXTINF:-1 tvg-id="Dummy" tvg-logo="https://parspng.com/wp-content/uploads/2022/09/quranpng.parspng.com-12.png" group-title="14. ALQURAN TERJEMAH | MP3", [106] Surah Quraisy (Kaum Quraisy)
+https://archive.org/download/MurotalMR/106.mp3
+#EXTINF:-1 tvg-id="Dummy" tvg-logo="https://parspng.com/wp-content/uploads/2022/09/quranpng.parspng.com-12.png" group-title="14. ALQURAN TERJEMAH | MP3", [107] Surah Al-Ma'un (Barangan Berguna)
+https://archive.org/download/MurotalMR/107.mp3
+#EXTINF:-1 tvg-id="Dummy" tvg-logo="https://parspng.com/wp-content/uploads/2022/09/quranpng.parspng.com-12.png" group-title="14. ALQURAN TERJEMAH | MP3", [108] Surah Al-Kauthar (Sungai Di Syurga)
+https://archive.org/download/MurotalMR/108.mp3
+#EXTINF:-1 tvg-id="Dummy" tvg-logo="https://parspng.com/wp-content/uploads/2022/09/quranpng.parspng.com-12.png" group-title="14. ALQURAN TERJEMAH | MP3", [109] Surah Al-Kafirun (Golongan Kafir)
+https://archive.org/download/MurotalMR/109.mp3
+#EXTINF:-1 tvg-id="Dummy" tvg-logo="https://parspng.com/wp-content/uploads/2022/09/quranpng.parspng.com-12.png" group-title="14. ALQURAN TERJEMAH | MP3", [110] Surah An-Nasr (Pertolongan)
+https://archive.org/download/MurotalMR/110.mp3
+#EXTINF:-1 tvg-id="Dummy" tvg-logo="https://parspng.com/wp-content/uploads/2022/09/quranpng.parspng.com-12.png" group-title="14. ALQURAN TERJEMAH | MP3", [111] Surah Al-Masad / Al-Lahab (Nyalaan Api)
+https://archive.org/download/MurotalMR/111.mp3
+#EXTINF:-1 tvg-id="Dummy" tvg-logo="https://parspng.com/wp-content/uploads/2022/09/quranpng.parspng.com-12.png" group-title="14. ALQURAN TERJEMAH | MP3", [112] Surah Al-Ikhlas (Tulus Ikhlas / Memurnikan Keesaan Allah)
+https://archive.org/download/MurotalMR/112.mp3
+#EXTINF:-1 tvg-id="Dummy" tvg-logo="https://parspng.com/wp-content/uploads/2022/09/quranpng.parspng.com-12.png" group-title="14. ALQURAN TERJEMAH | MP3", [113] Surah Al-Falaq (Waktu Subuh / Dinihari)
+https://archive.org/download/MurotalMR/113.mp3
+#EXTINF:-1 tvg-id="Dummy" tvg-logo="https://parspng.com/wp-content/uploads/2022/09/quranpng.parspng.com-12.png" group-title="14. ALQURAN TERJEMAH | MP3", [114] Surah An-Naas (Manusia)
+https://archive.org/download/MurotalMR/114.mp3
+#EXTINF:-1 tvg-id="Dummy" tvg-logo="https://parspng.com/wp-content/uploads/2022/09/quranpng.parspng.com-12.png" group-title="14. ALQURAN TERJEMAH | MP3", [001] Surah Alfatihah (Pembukaan)
+https://archive.org/download/MurotalMR/001.mp3
+#EXTINF:-1 tvg-id="Dummy" tvg-logo="https://parspng.com/wp-content/uploads/2022/09/quranpng.parspng.com-12.png" group-title="14. ALQURAN TERJEMAH | MP3", [003] Surah Ali 'Imran (Keluarga Imran)
+https://archive.org/download/MurotalMR/003.mp3
+#EXTINF:-1 tvg-id="Dummy" tvg-logo="https://parspng.com/wp-content/uploads/2022/09/quranpng.parspng.com-12.png" group-title="14. ALQURAN TERJEMAH | MP3", [004] Surah An-Nisaa' (Wanita)
+https://archive.org/download/MurotalMR/004.mp3
+#EXTINF:-1 tvg-id="Dummy" tvg-logo="https://parspng.com/wp-content/uploads/2022/09/quranpng.parspng.com-12.png" group-title="14. ALQURAN TERJEMAH | MP3", [006] Surah Al-An'aam (Binatang Ternakan)
+https://archive.org/download/MurotalMR/006.mp3
+#EXTINF:-1 tvg-id="Dummy" tvg-logo="https://parspng.com/wp-content/uploads/2022/09/quranpng.parspng.com-12.png" group-title="14. ALQURAN TERJEMAH | MP3", [008] Surah Al-Anfaal (Rampasan Perang)
+https://archive.org/download/MurotalMR/008.mp3
+#EXTINF:-1 tvg-id="Dummy" tvg-logo="https://parspng.com/wp-content/uploads/2022/09/quranpng.parspng.com-12.png" group-title="14. ALQURAN TERJEMAH | MP3", [009] Surah At-Taubah (Pengampunan)
+https://archive.org/download/MurotalMR/009.mp3
+#EXTINF:-1 tvg-id="Dummy" tvg-logo="https://parspng.com/wp-content/uploads/2022/09/quranpng.parspng.com-12.png" group-title="14. ALQURAN TERJEMAH | MP3", [010] Surah Yunus (Nabi Yunus a.s.)
+https://archive.org/download/MurotalMR/010.mp3
+#EXTINF:-1 tvg-id="Dummy" tvg-logo="https://parspng.com/wp-content/uploads/2022/09/quranpng.parspng.com-12.png" group-title="14. ALQURAN TERJEMAH | MP3", [011] Surah Hud (Nabi Hud a.s.)
+https://archive.org/download/MurotalMR/011.mp3
+#EXTINF:-1 tvg-id="Dummy" tvg-logo="https://parspng.com/wp-content/uploads/2022/09/quranpng.parspng.com-12.png" group-title="14. ALQURAN TERJEMAH | MP3", [012] Surah Yusuf (Nabi Yusuf a.s.)
+https://archive.org/download/MurotalMR/012.mp3
+#EXTINF:-1 tvg-id="Dummy" tvg-logo="https://parspng.com/wp-content/uploads/2022/09/quranpng.parspng.com-12.png" group-title="14. ALQURAN TERJEMAH | MP3", [013] Surah Ar-Ra'd (Guruh)
+https://archive.org/download/MurotalMR/013.mp3
+#EXTINF:-1 tvg-id="Dummy" tvg-logo="https://parspng.com/wp-content/uploads/2022/09/quranpng.parspng.com-12.png" group-title="14. ALQURAN TERJEMAH | MP3", [014] Surah Ibrahim (Nabi Ibrahim a.s.)
+https://archive.org/download/MurotalMR/014.mp3
+#EXTINF:-1 tvg-id="Dummy" tvg-logo="https://parspng.com/wp-content/uploads/2022/09/quranpng.parspng.com-12.png" group-title="14. ALQURAN TERJEMAH | MP3", [015] Surah Al-Hijr (Kawasan Berbatu)
+https://archive.org/download/MurotalMR/015.mp3
+#EXTINF:-1 tvg-id="Dummy" tvg-logo="https://parspng.com/wp-content/uploads/2022/09/quranpng.parspng.com-12.png" group-title="14. ALQURAN TERJEMAH | MP3", [016] Surah An-Nahl (Lebah)
+https://archive.org/download/MurotalMR/016.mp3
+#EXTINF:-1 tvg-id="Dummy" tvg-logo="https://parspng.com/wp-content/uploads/2022/09/quranpng.parspng.com-12.png" group-title="14. ALQURAN TERJEMAH | MP3", [017] Surah Al-Israa' (Perjalanan Malam)
+https://archive.org/download/MurotalMR/017.mp3
+#EXTINF:-1 tvg-id="Dummy" tvg-logo="https://parspng.com/wp-content/uploads/2022/09/quranpng.parspng.com-12.png" group-title="14. ALQURAN TERJEMAH | MP3", [018] Surah Al-Kahfi (Gua)
+https://archive.org/download/MurotalMR/018.mp3
+#EXTINF:-1 tvg-id="Dummy" tvg-logo="https://parspng.com/wp-content/uploads/2022/09/quranpng.parspng.com-12.png" group-title="14. ALQURAN TERJEMAH | MP3", [019] Surah Maryam (Siti Maryam)
+https://archive.org/download/MurotalMR/019.mp3
+#EXTINF:-1 tvg-id="Dummy" tvg-logo="https://parspng.com/wp-content/uploads/2022/09/quranpng.parspng.com-12.png" group-title="14. ALQURAN TERJEMAH | MP3", [020] Surah Taahaa
+https://archive.org/download/MurotalMR/020.mp3
+#EXTINF:-1 tvg-id="Dummy" tvg-logo="https://parspng.com/wp-content/uploads/2022/09/quranpng.parspng.com-12.png" group-title="14. ALQURAN TERJEMAH | MP3", [021] Surah Al-Anbiyaa' (Para Nabi)
+https://archive.org/download/MurotalMR/021.mp3
+#EXTINF:-1 tvg-id="Dummy" tvg-logo="https://parspng.com/wp-content/uploads/2022/09/quranpng.parspng.com-12.png" group-title="14. ALQURAN TERJEMAH | MP3", [022] Surah Al-Hajj (Haji)
+https://archive.org/download/MurotalMR/022.mp3
+#EXTINF:-1 tvg-id="Dummy" tvg-logo="https://parspng.com/wp-content/uploads/2022/09/quranpng.parspng.com-12.png" group-title="14. ALQURAN TERJEMAH | MP3", [023] Surah Al-Mu'minun (Golongan yang Beriman)
+https://archive.org/download/MurotalMR/023.mp3
+#EXTINF:-1 tvg-id="Dummy" tvg-logo="https://parspng.com/wp-content/uploads/2022/09/quranpng.parspng.com-12.png" group-title="14. ALQURAN TERJEMAH | MP3", [024] Surah An-Nuur (Cahaya)
+https://archive.org/download/MurotalMR/024.mp3
+#EXTINF:-1 tvg-id="Dummy" tvg-logo="https://parspng.com/wp-content/uploads/2022/09/quranpng.parspng.com-12.png" group-title="14. ALQURAN TERJEMAH | MP3", [025] Surah Al-Furqaan (Pembeza Kebenaran dan Kebatilan)
+https://archive.org/download/MurotalMR/025.mp3
+#EXTINF:-1 tvg-id="Dummy" tvg-logo="https://parspng.com/wp-content/uploads/2022/09/quranpng.parspng.com-12.png" group-title="14. ALQURAN TERJEMAH | MP3", [026] Surah Asy-Syu'araa (Para Penyair)
+https://archive.org/download/MurotalMR/026.mp3
+#EXTINF:-1 tvg-id="Dummy" tvg-logo="noimage.png" group-title="14. ALQURAN TERJEMAH | MP3", [027] Surah An-Naml (Semut)
+https://archive.org/download/MurotalMR/027.mp3
+#EXTINF:-1 tvg-id="Dummy" tvg-logo="https://parspng.com/wp-content/uploads/2022/09/quranpng.parspng.com-12.png" group-title="14. ALQURAN TERJEMAH | MP3", [028] Surah Al-Qasas (Cerita-cerita)
+https://archive.org/download/MurotalMR/028.mp3
+#EXTINF:-1 tvg-id="Dummy" tvg-logo="https://parspng.com/wp-content/uploads/2022/09/quranpng.parspng.com-12.png" group-title="14. ALQURAN TERJEMAH | MP3", [029] Surah Al-'Ankabut (Labah-labah)
+https://archive.org/download/MurotalMR/029.mp3
+#EXTINF:-1 tvg-id="Dummy" tvg-logo="https://parspng.com/wp-content/uploads/2022/09/quranpng.parspng.com-12.png" group-title="14. ALQURAN TERJEMAH | MP3", [030] Surah Ar-Rum (Bangsa Rom)
+https://archive.org/download/MurotalMR/030.mp3
+#EXTINF:-1 tvg-id="Dummy" tvg-logo="https://parspng.com/wp-content/uploads/2022/09/quranpng.parspng.com-12.png" group-title="14. ALQURAN TERJEMAH | MP3", [031] Surah Luqman (Luqman)
+https://archive.org/download/MurotalMR/031.mp3
+#EXTINF:-1 tvg-id="Dummy" tvg-logo="https://parspng.com/wp-content/uploads/2022/09/quranpng.parspng.com-12.png" group-title="14. ALQURAN TERJEMAH | MP3", [032] Surah As-Sajdah (Sujud)
+https://archive.org/download/MurotalMR/032.mp3
+#EXTINF:-1 tvg-id="Dummy" tvg-logo="https://parspng.com/wp-content/uploads/2022/09/quranpng.parspng.com-12.png" group-title="14. ALQURAN TERJEMAH | MP3", [033] Surah Al-Ahzab (Golongan yang Bersekutu)
+https://archive.org/download/MurotalMR/033.mp3
+#EXTINF:-1 tvg-id="Dummy" tvg-logo="https://parspng.com/wp-content/uploads/2022/09/quranpng.parspng.com-12.png" group-title="14. ALQURAN TERJEMAH | MP3", [034] Surah Saba' (Kaum Saba')
+https://archive.org/download/MurotalMR/034.mp3
+#EXTINF:-1 tvg-id="Dummy" tvg-logo="https://parspng.com/wp-content/uploads/2022/09/quranpng.parspng.com-12.png" group-title="14. ALQURAN TERJEMAH | MP3", [035] Surah Faatir (Pencipta)
+https://archive.org/download/MurotalMR/035.mp3
+#EXTINF:-1 tvg-id="Dummy" tvg-logo="https://parspng.com/wp-content/uploads/2022/09/quranpng.parspng.com-12.png" group-title="14. ALQURAN TERJEMAH | MP3", [036] Surah Yaasin
+https://archive.org/download/MurotalMR/036.mp3
+#EXTINF:-1 tvg-id="Dummy" tvg-logo="https://parspng.com/wp-content/uploads/2022/09/quranpng.parspng.com-12.png" group-title="14. ALQURAN TERJEMAH | MP3", [037] Surah As-Saaffat (Yang Teratur Berbaris)
+https://archive.org/download/MurotalMR/037.mp3
+#EXTINF:-1 tvg-id="Dummy" tvg-logo="https://parspng.com/wp-content/uploads/2022/09/quranpng.parspng.com-12.png" group-title="14. ALQURAN TERJEMAH | MP3", [038] Surah Saad
+https://archive.org/download/MurotalMR/038.mp3
+#EXTINF:-1 tvg-id="Dummy" tvg-logo="https://parspng.com/wp-content/uploads/2022/09/quranpng.parspng.com-12.png" group-title="14. ALQURAN TERJEMAH | MP3", [039] Surah Az-Zumar (Rombongan)
+https://archive.org/download/MurotalMR/039.mp3
+#EXTINF:-1 tvg-id="Dummy" tvg-logo="https://parspng.com/wp-content/uploads/2022/09/quranpng.parspng.com-12.png" group-title="14. ALQURAN TERJEMAH | MP3", [040] Surah Al-Ghafir / Al-Mu'min (Orang yang Beriman)
+https://archive.org/download/MurotalMR/040.mp3
+#EXTINF:-1 tvg-id="Dummy" tvg-logo="https://parspng.com/wp-content/uploads/2022/09/quranpng.parspng.com-12.png" group-title="14. ALQURAN TERJEMAH | MP3", [041] Surah Fussilat (Dijelaskan)
+https://archive.org/download/MurotalMR/041.mp3
+#EXTINF:-1 tvg-id="Dummy" tvg-logo="https://parspng.com/wp-content/uploads/2022/09/quranpng.parspng.com-12.png" group-title="14. ALQURAN TERJEMAH | MP3", [042] Surah Asy-Syuraa (Permesyuaratan)
+https://archive.org/download/MurotalMR/042.mp3
+#EXTINF:-1 tvg-id="Dummy" tvg-logo="https://parspng.com/wp-content/uploads/2022/09/quranpng.parspng.com-12.png" group-title="14. ALQURAN TERJEMAH | MP3", [043] Surah Az-Zukhruf (Perhiasan Emas)
+https://archive.org/download/MurotalMR/043.mp3
+#EXTINF:-1 tvg-id="Dummy" tvg-logo="https://parspng.com/wp-content/uploads/2022/09/quranpng.parspng.com-12.png" group-title="14. ALQURAN TERJEMAH | MP3", [044] Surah Ad-Dukhaan (Kabut / Asap)
+https://archive.org/download/MurotalMR/044.mp3
+#EXTINF:-1 tvg-id="Dummy" tvg-logo="https://parspng.com/wp-content/uploads/2022/09/quranpng.parspng.com-12.png" group-title="14. ALQURAN TERJEMAH | MP3", [045] Surah Al-Jatsiyah (Yang Berlutut)
+https://archive.org/download/MurotalMR/045.mp3
+#EXTINF:-1 tvg-id="Dummy" tvg-logo="https://parspng.com/wp-content/uploads/2022/09/quranpng.parspng.com-12.png" group-title="14. ALQURAN TERJEMAH | MP3", [046] Surah Al-Ahqaaf (Bukit-bukit Pasir)
+https://archive.org/download/MurotalMR/046.mp3
+#EXTINF:-1 tvg-id="Dummy" tvg-logo="https://parspng.com/wp-content/uploads/2022/09/quranpng.parspng.com-12.png" group-title="14. ALQURAN TERJEMAH | MP3", [047] Surah Muhammad (Nabi Muhammad SAW)
+https://archive.org/download/MurotalMR/047.mp3
+#EXTINF:-1 tvg-id="Dummy" tvg-logo="https://parspng.com/wp-content/uploads/2022/09/quranpng.parspng.com-12.png" group-title="14. ALQURAN TERJEMAH | MP3", [048] Surah Al-Fath (Kemenangan)
+https://archive.org/download/MurotalMR/048.mp3
+#EXTINF:-1 tvg-id="Dummy" tvg-logo="https://parspng.com/wp-content/uploads/2022/09/quranpng.parspng.com-12.png" group-title="14. ALQURAN TERJEMAH | MP3", [049] Surah Al-Hujurat (Bilik-bilik)
+https://archive.org/download/MurotalMR/049.mp3
+#EXTINF:-1 tvg-id="Dummy" tvg-logo="https://parspng.com/wp-content/uploads/2022/09/quranpng.parspng.com-12.png" group-title="14. ALQURAN TERJEMAH | MP3", [050] Surah Qaaf
+https://archive.org/download/MurotalMR/050.mp3
+#EXTINF:-1 tvg-id="Dummy" tvg-logo="https://parspng.com/wp-content/uploads/2022/09/quranpng.parspng.com-12.png" group-title="14. ALQURAN TERJEMAH | MP3", [051] Surah Adz-Dzariyaat (Angin yang Menerbangkan)
+https://archive.org/download/MurotalMR/051.mp3
+#EXTINF:-1 tvg-id="Dummy" tvg-logo="https://parspng.com/wp-content/uploads/2022/09/quranpng.parspng.com-12.png" group-title="14. ALQURAN TERJEMAH | MP3", [052] Surah At-Tur (Bukit)
+https://archive.org/download/MurotalMR/052.mp3
+#EXTINF:-1 tvg-id="Dummy" tvg-logo="https://parspng.com/wp-content/uploads/2022/09/quranpng.parspng.com-12.png" group-title="14. ALQURAN TERJEMAH | MP3", [053] Surah An-Najm (Bintang)
+https://archive.org/download/MurotalMR/053.mp3
+#EXTINF:-1 tvg-id="Dummy" tvg-logo="https://parspng.com/wp-content/uploads/2022/09/quranpng.parspng.com-12.png" group-title="14. ALQURAN TERJEMAH | MP3", [054] Surah Al-Qamar (Bulan)
+https://archive.org/download/MurotalMR/054.mp3
+#EXTINF:-1 tvg-id="Dummy" tvg-logo="https://parspng.com/wp-content/uploads/2022/09/quranpng.parspng.com-12.png" group-title="14. ALQURAN TERJEMAH | MP3", [055] Surah Ar-Rahman (Yang Maha Pemurah)
+https://archive.org/download/MurotalMR/055.mp3
+#EXTINF:-1 tvg-id="Dummy" tvg-logo="https://parspng.com/wp-content/uploads/2022/09/quranpng.parspng.com-12.png" group-title="14. ALQURAN TERJEMAH | MP3", [056] Surah Al-Waqi'ah (Peristiwa yang Tidak Dapat Dielakkan)
+https://archive.org/download/MurotalMR/056.mp3
+#EXTINF:-1 tvg-id="Dummy" tvg-logo="https://parspng.com/wp-content/uploads/2022/09/quranpng.parspng.com-12.png" group-title="14. ALQURAN TERJEMAH | MP3", [057] Surah Al-Hadid (Besi)
+https://archive.org/download/MurotalMR/057.mp3
+#EXTINF:-1 tvg-id="Dummy" tvg-logo="https://parspng.com/wp-content/uploads/2022/09/quranpng.parspng.com-12.png" group-title="14. ALQURAN TERJEMAH | MP3", [058] Surah Al-Mujadilah (Perempuan yang Merayu)
+https://archive.org/download/MurotalMR/058.mp3
+#EXTINF:-1 tvg-id="Dummy" tvg-logo="https://parspng.com/wp-content/uploads/2022/09/quranpng.parspng.com-12.png" group-title="14. ALQURAN TERJEMAH | MP3", [059] Surah Al-Hasyr (Pengusiran)
+https://archive.org/download/MurotalMR/059.mp3
+#EXTINF:-1 tvg-id="Dummy" tvg-logo="https://parspng.com/wp-content/uploads/2022/09/quranpng.parspng.com-12.png" group-title="14. ALQURAN TERJEMAH | MP3", [060] Surah Al-Mumtahanah (Perempuan yang Diuji)
+https://archive.org/download/MurotalMR/060.mp3
+#EXTINF:-1 tvg-id="Dummy" tvg-logo="https://parspng.com/wp-content/uploads/2022/09/quranpng.parspng.com-12.png" group-title="14. ALQURAN TERJEMAH | MP3", [061] Surah As-Saf (Barisan)
+https://archive.org/download/MurotalMR/061.mp3
+#EXTINF:-1 tvg-id="Dummy" tvg-logo="https://parspng.com/wp-content/uploads/2022/09/quranpng.parspng.com-12.png" group-title="14. ALQURAN TERJEMAH | MP3", [062] Surah Al-Jumu'ah (Hari Jumaat)
+https://archive.org/download/MurotalMR/062.mp3
+#EXTINF:-1 tvg-id="Dummy" tvg-logo="https://parspng.com/wp-content/uploads/2022/09/quranpng.parspng.com-12.png" group-title="14. ALQURAN TERJEMAH | MP3", [063] Surah Al-Munafiquun (Golongan Munafik)
+https://archive.org/download/MurotalMR/063.mp3
+#EXTINF:-1 tvg-id="Dummy" tvg-logo="https://parspng.com/wp-content/uploads/2022/09/quranpng.parspng.com-12.png" group-title="14. ALQURAN TERJEMAH | MP3", [064] Surah At-Taghabun (Dinampakkan Kesalahan)
+https://archive.org/download/MurotalMR/064.mp3
+#EXTINF:-1 tvg-id="Dummy" tvg-logo="https://parspng.com/wp-content/uploads/2022/09/quranpng.parspng.com-12.png" group-title="14. ALQURAN TERJEMAH | MP3", [065] Surah At-Talaq (Cerai / Talak)
+https://archive.org/download/MurotalMR/065.mp3
+#EXTINF:-1 tvg-id="Dummy" tvg-logo="https://parspng.com/wp-content/uploads/2022/09/quranpng.parspng.com-12.png" group-title="14. ALQURAN TERJEMAH | MP3", [066] Surah At-Tahrim (Mengharamkan)
+https://archive.org/download/MurotalMR/066.mp3
+#EXTINF:-1 tvg-id="Dummy" tvg-logo="https://parspng.com/wp-content/uploads/2022/09/quranpng.parspng.com-12.png" group-title="14. ALQURAN TERJEMAH | MP3", [067] Surah Al-Mulk (Kerajaan)
+https://archive.org/download/MurotalMR/067.mp3
+#EXTINF:-1 tvg-id="Dummy" tvg-logo="https://parspng.com/wp-content/uploads/2022/09/quranpng.parspng.com-12.png" group-title="14. ALQURAN TERJEMAH | MP3", [068] Surah Al-Qalam (Pena / Kalam)
+https://archive.org/download/MurotalMR/068.mp3
+#EXTINF:-1 tvg-id="Dummy" tvg-logo="https://parspng.com/wp-content/uploads/2022/09/quranpng.parspng.com-12.png" group-title="14. ALQURAN TERJEMAH | MP3", [069] Surah Al-Haaqqah (Keadaan Sebenar / Hari Kiamat)
+https://archive.org/download/MurotalMR/069.mp3
+#EXTINF:-1 tvg-id="Dummy" tvg-logo="https://parspng.com/wp-content/uploads/2022/09/quranpng.parspng.com-12.png" group-title="14. ALQURAN TERJEMAH | MP3", [070] Surah Al-Ma'arij (Tempat-tempat Naik)
+https://archive.org/download/MurotalMR/070.mp3
+#EXTINF:-1 tvg-id="Dummy" tvg-logo="https://parspng.com/wp-content/uploads/2022/09/quranpng.parspng.com-12.png" group-title="14. ALQURAN TERJEMAH | MP3", [071] Surah Nuh (Nabi Nuh a.s.)
+https://archive.org/download/MurotalMR/071.mp3
+#EXTINF:-1 tvg-id="Dummy" tvg-logo="https://parspng.com/wp-content/uploads/2022/09/quranpng.parspng.com-12.png" group-title="14. ALQURAN TERJEMAH | MP3", [072] Surah A-Jin (Jin)
+https://archive.org/download/MurotalMR/072.mp3
+#EXTINF:-1 tvg-id="Dummy" tvg-logo="https://parspng.com/wp-content/uploads/2022/09/quranpng.parspng.com-12.png" group-title="14. ALQURAN TERJEMAH | MP3", [073] Surah Al-Muzammil (Yang Berselimut)
+https://archive.org/download/MurotalMR/073.mp3
+#EXTINF:-1 tvg-id="Dummy" tvg-logo="https://parspng.com/wp-content/uploads/2022/09/quranpng.parspng.com-12.png" group-title="14. ALQURAN TERJEMAH | MP3", [074] Surah Al-Muddathir (Yang Berselubung)
+https://archive.org/download/MurotalMR/074.mp3
+#EXTINF:-1 tvg-id="Dummy" tvg-logo="https://parspng.com/wp-content/uploads/2022/09/quranpng.parspng.com-12.png" group-title="14. ALQURAN TERJEMAH | MP3", [075] Surah Al-Qiyaamah (Hari Kebangkitan / Kiamat)
+https://archive.org/download/MurotalMR/075.mp3
+#EXTINF:-1 tvg-id="Dummy" tvg-logo="https://parspng.com/wp-content/uploads/2022/09/quranpng.parspng.com-12.png" group-title="14. ALQURAN TERJEMAH | MP3", [076] Surah Al-Insaan (Manusia)
+https://archive.org/download/MurotalMR/076.mp3
+#EXTINF:-1 tvg-id="Dummy" tvg-logo="https://parspng.com/wp-content/uploads/2022/09/quranpng.parspng.com-12.png" group-title="14. ALQURAN TERJEMAH | MP3", [077] Surah Al-Mursalat (Malaikat Yang Diutus)
+https://archive.org/download/MurotalMR/077.mp3
+#EXTINF:-1 tvg-id="Dummy" tvg-logo="https://parspng.com/wp-content/uploads/2022/09/quranpng.parspng.com-12.png" group-title="14. ALQURAN TERJEMAH | MP3", [078] Surah An-Naba' (Berita Besar)
+https://archive.org/download/MurotalMR/078.mp3
+#EXTINF:-1 tvg-id="Dummy" tvg-logo="https://parspng.com/wp-content/uploads/2022/09/quranpng.parspng.com-12.png" group-title="14. ALQURAN TERJEMAH | MP3", [079] Surah An-Naazi'aat (Malaikat Yang Mencabut)
+https://archive.org/download/MurotalMR/079.mp3
+#EXTINF:-1 tvg-id="Dummy" tvg-logo="https://parspng.com/wp-content/uploads/2022/09/quranpng.parspng.com-12.png" group-title="14. ALQURAN TERJEMAH | MP3", [080] Surah 'Abasa (Dia Bermasam Muka)
+https://archive.org/download/MurotalMR/080.mp3
+#EXTINF:-1 tvg-id="Dummy" tvg-logo="https://parspng.com/wp-content/uploads/2022/09/quranpng.parspng.com-12.png" group-title="14. ALQURAN TERJEMAH | MP3", [081] Surah At-Takwiir (Menggulung)
+https://archive.org/download/MurotalMR/081.mp3
+#EXTINF:-1 tvg-id="Dummy" tvg-logo="https://parspng.com/wp-content/uploads/2022/09/quranpng.parspng.com-12.png" group-title="14. ALQURAN TERJEMAH | MP3", [082] Surah Al-Infitar (Terpecah & Terbelah)
+https://archive.org/download/MurotalMR/082.mp3
+#EXTINF:-1 tvg-id="Dummy" tvg-logo="https://parspng.com/wp-content/uploads/2022/09/quranpng.parspng.com-12.png" group-title="14. ALQURAN TERJEMAH | MP3", [083] Surah Al-Mutaffifiin (Golongan yang Curang)
+https://archive.org/download/MurotalMR/083.mp3
+#EXTINF:-1 tvg-id="Dummy" tvg-logo="https://parspng.com/wp-content/uploads/2022/09/quranpng.parspng.com-12.png" group-title="14. ALQURAN TERJEMAH | MP3", [084] Surah Al-Insyiqaaq (Terbelah)
+https://archive.org/download/MurotalMR/084.mp3
+#EXTINF:-1 tvg-id="Dummy" tvg-logo="https://parspng.com/wp-content/uploads/2022/09/quranpng.parspng.com-12.png" group-title="14. ALQURAN TERJEMAH | MP3", [085] Surah Al-Buruj (Gugusan Bintang)
+https://archive.org/download/MurotalMR/085.mp3
+#EXTINF:-1 tvg-id="Dummy" tvg-logo="https://parspng.com/wp-content/uploads/2022/09/quranpng.parspng.com-12.png" group-title="14. ALQURAN TERJEMAH | MP3", [086] Surah At-Taariq (Pengunjung Malam)
+https://archive.org/download/MurotalMR/086.mp3
+#EXTINF:-1 tvg-id="Dummy" tvg-logo="https://parspng.com/wp-content/uploads/2022/09/quranpng.parspng.com-12.png" group-title="14. ALQURAN TERJEMAH | MP3", [087] Surah Al-A'laa (Yang Tertinggi)
+https://archive.org/download/MurotalMR/087.mp3
+#EXTINF:-1 tvg-id="Dummy" tvg-logo="https://parspng.com/wp-content/uploads/2022/09/quranpng.parspng.com-12.png" group-title="14. ALQURAN TERJEMAH | MP3", [088] Surah Al-Ghaasyiah (Peristiwa Menggelisahkan/Hari Pembalasan)
+https://archive.org/download/MurotalMR/088.mp3
+#EXTINF:-1 tvg-id="Dummy" tvg-logo="https://parspng.com/wp-content/uploads/2022/09/quranpng.parspng.com-12.png" group-title="14. ALQURAN TERJEMAH | MP3", [089] Surah Al-Fajr (Fajar / Sinar Mentari)
+https://archive.org/download/MurotalMR/089.mp3
+#EXTINF:-1 tvg-id="Dummy" tvg-logo="https://parspng.com/wp-content/uploads/2022/09/quranpng.parspng.com-12.png" group-title="14. ALQURAN TERJEMAH | MP3", [090] Surah Al-Balad (Negeri)
+https://archive.org/download/MurotalMR/090.mp3
+#EXTINF:-1 tvg-id="Dummy" tvg-logo="https://parspng.com/wp-content/uploads/2022/09/quranpng.parspng.com-12.png" group-title="14. ALQURAN TERJEMAH | MP3", [091] Surah Asy-Syams (Matahari)
+https://archive.org/download/MurotalMR/091.mp3
+#EXTINF:-1 tvg-id="Dummy" tvg-logo="https://parspng.com/wp-content/uploads/2022/09/quranpng.parspng.com-12.png" group-title="14. ALQURAN TERJEMAH | MP3", [092] Surah Al-Lail (Malam)
+https://archive.org/download/MurotalMR/092.mp3
+#EXTINF:-1 tvg-id="Dummy" tvg-logo="https://parspng.com/wp-content/uploads/2022/09/quranpng.parspng.com-12.png" group-title="14. ALQURAN TERJEMAH | MP3", [093] Surah Adh-Dhuha (Pagi yang Cemerlang / Matahari Meninggi)
+https://archive.org/download/MurotalMR/093.mp3
+#EXTINF:-1 tvg-id="Dummy" tvg-logo="https://parspng.com/wp-content/uploads/2022/09/quranpng.parspng.com-12.png" group-title="14. ALQURAN TERJEMAH | MP3", [094] Surah Al-Insyirah/An-Nasyrah (Melapangkan)
+https://archive.org/download/MurotalMR/094.mp3
+#EXTINF:-1 tvg-id="Dummy" tvg-logo="https://parspng.com/wp-content/uploads/2022/09/quranpng.parspng.com-12.png" group-title="14. ALQURAN TERJEMAH | MP3", [095] Surah At-Tin (Buah Tin / Buah Ara)
+https://archive.org/download/MurotalMR/095.mp3
+#EXTINF:-1 tvg-id="Dummy" tvg-logo="https://parspng.com/wp-content/uploads/2022/09/quranpng.parspng.com-12.png" group-title="14. ALQURAN TERJEMAH | MP3", [096] Surah Al-'Alaq (Segumpal Darah)
+https://archive.org/download/MurotalMR/096.mp3
+#EXTINF:-1 tvg-id="Dummy" tvg-logo="https://parspng.com/wp-content/uploads/2022/09/quranpng.parspng.com-12.png" group-title="14. ALQURAN TERJEMAH | MP3", [097] Surah Al-Qadr (Kemuliaan)
+https://archive.org/download/MurotalMR/097.mp3
+#EXTINF:-1 tvg-id="Dummy" tvg-logo="https://parspng.com/wp-content/uploads/2022/09/quranpng.parspng.com-12.png" group-title="14. ALQURAN TERJEMAH | MP3", [098] Surah Al-Baiyinah (Bukti yang Nyata)
+https://archive.org/download/MurotalMR/098.mp3
+#EXTINF:-1 tvg-id="Dummy" tvg-logo="https://parspng.com/wp-content/uploads/2022/09/quranpng.parspng.com-12.png" group-title="14. ALQURAN TERJEMAH | MP3", [099] Surah Al-Zalzalah (Kegoncangan)
+https://archive.org/download/MurotalMR/099.mp3
+#EXTINF:-1 tvg-id="Dummy" tvg-logo="https://parspng.com/wp-content/uploads/2022/09/quranpng.parspng.com-12.png" group-title="14. ALQURAN TERJEMAH | MP3", [100] Surah Al-'Aadiyaat (Yang Berlari Kencang)
+https://archive.org/download/MurotalMR/100.mp3
+#EXTINF:-1 tvg-id="Dummy" tvg-logo="https://parspng.com/wp-content/uploads/2022/09/quranpng.parspng.com-12.png" group-title="14. ALQURAN TERJEMAH | MP3", [101] Surah Al-Qari'ah (Hari Yang Hingar Bingar/kiamat)
+https://archive.org/download/MurotalMR/101.mp3
+#EXTINF:-1 tvg-id="Dummy" tvg-logo="https://parspng.com/wp-content/uploads/2022/09/quranpng.parspng.com-12.png" group-title="14. ALQURAN TERJEMAH | MP3", [102] Surah At-Takathur (Bermegah-Megah)
+https://archive.org/download/MurotalMR/102.mp3
+#EXTINF:-1 tvg-id="Dummy" tvg-logo="https://parspng.com/wp-content/uploads/2022/09/quranpng.parspng.com-12.png" group-title="14. ALQURAN TERJEMAH | MP3", [103] Surah Al-'Asr (Masa)
+https://archive.org/download/MurotalMR/103.mp3
+#EXTINF:-1 tvg-id="Dummy" tvg-logo="https://parspng.com/wp-content/uploads/2022/09/quranpng.parspng.com-12.png" group-title="14. ALQURAN TERJEMAH | MP3", [104] Surah Al-Humazah (Pengumpat)
+https://archive.org/download/MurotalMR/104.mp3
+#EXTINF:-1 tvg-id="Dummy" tvg-logo="https://parspng.com/wp-content/uploads/2022/09/quranpng.parspng.com-12.png" group-title="14. ALQURAN TERJEMAH | MP3", [105] Surah Al-Fiil (Gajah)
+https://archive.org/download/MurotalMR/105.mp3
+#EXTINF:-1 tvg-id="Dummy" tvg-logo="https://parspng.com/wp-content/uploads/2022/09/quranpng.parspng.com-12.png" group-title="14. ALQURAN TERJEMAH | MP3", [106] Surah Quraisy (Kaum Quraisy)
+https://archive.org/download/MurotalMR/106.mp3
+#EXTINF:-1 tvg-id="Dummy" tvg-logo="https://parspng.com/wp-content/uploads/2022/09/quranpng.parspng.com-12.png" group-title="14. ALQURAN TERJEMAH | MP3", [107] Surah Al-Ma'un (Barangan Berguna)
+https://archive.org/download/MurotalMR/107.mp3
+#EXTINF:-1 tvg-id="Dummy" tvg-logo="https://parspng.com/wp-content/uploads/2022/09/quranpng.parspng.com-12.png" group-title="14. ALQURAN TERJEMAH | MP3", [108] Surah Al-Kauthar (Sungai Di Syurga)
+https://archive.org/download/MurotalMR/108.mp3
+#EXTINF:-1 tvg-id="Dummy" tvg-logo="https://parspng.com/wp-content/uploads/2022/09/quranpng.parspng.com-12.png" group-title="14. ALQURAN TERJEMAH | MP3", [109] Surah Al-Kafirun (Golongan Kafir)
+https://archive.org/download/MurotalMR/109.mp3
+#EXTINF:-1 tvg-id="Dummy" tvg-logo="https://parspng.com/wp-content/uploads/2022/09/quranpng.parspng.com-12.png" group-title="14. ALQURAN TERJEMAH | MP3", [110] Surah An-Nasr (Pertolongan)
+https://archive.org/download/MurotalMR/110.mp3
+#EXTINF:-1 tvg-id="Dummy" tvg-logo="https://parspng.com/wp-content/uploads/2022/09/quranpng.parspng.com-12.png" group-title="14. ALQURAN TERJEMAH | MP3", [111] Surah Al-Masad / Al-Lahab (Nyalaan Api)
+https://archive.org/download/MurotalMR/111.mp3
+#EXTINF:-1 tvg-id="Dummy" tvg-logo="https://parspng.com/wp-content/uploads/2022/09/quranpng.parspng.com-12.png" group-title="14. ALQURAN TERJEMAH | MP3", [112] Surah Al-Ikhlas (Tulus Ikhlas / Memurnikan Keesaan Allah)
+https://archive.org/download/MurotalMR/112.mp3
+#EXTINF:-1 tvg-id="Dummy" tvg-logo="https://parspng.com/wp-content/uploads/2022/09/quranpng.parspng.com-12.png" group-title="14. ALQURAN TERJEMAH | MP3", [113] Surah Al-Falaq (Waktu Subuh / Dinihari)
+https://archive.org/download/MurotalMR/113.mp3
+#EXTINF:-1 tvg-id="Dummy" tvg-logo="https://parspng.com/wp-content/uploads/2022/09/quranpng.parspng.com-12.png" group-title="14. ALQURAN TERJEMAH | MP3", [114] Surah An-Naas (Manusia)
+https://archive.org/download/MurotalMR/114.mp3
+#EXTINF:-1 tvg-id="CNNIndonesia.id" tvg-logo="https://i.postimg.cc/x1jqJ5VX/cnn-id.png" group-title="✅MEMBERLIST RUMAHTV24", ✅Acong (Wundulako) 30/07/2026 (1thn)
+https://drive.usercontent.google.com/download?id=1QYV_SKgt-cRIiuULymAVxEfCvUHALN5B&export=download&authuser=0&confirm=t&uuid=e170ee18-ffc9-416a-bec3-51ce980c5e7c&at=AN8xHoqEoQspulgOR3414IXfcV9j:1751564417505
+#EXTINF:-1 tvg-id="CNNIndonesia.id" tvg-logo="https://i.postimg.cc/x1jqJ5VX/cnn-id.png" group-title="✅MEMBERLIST RUMAHTV24", ✅Abdul Asis (Erwin stb1) 31/12/2025 (1thn)
+https://drive.usercontent.google.com/download?id=1QYV_SKgt-cRIiuULymAVxEfCvUHALN5B&export=download&authuser=0&confirm=t&uuid=e170ee18-ffc9-416a-bec3-51ce980c5e7c&at=AN8xHoqEoQspulgOR3414IXfcV9j:1751564417505
+#EXTINF:-1 tvg-id="CNNIndonesia.id" tvg-logo="https://i.postimg.cc/x1jqJ5VX/cnn-id.png" group-title="✅MEMBERLIST RUMAHTV24", ✅Abdul Razak (polres) 07/11/2026 (1thn)
+https://drive.usercontent.google.com/download?id=1QYV_SKgt-cRIiuULymAVxEfCvUHALN5B&export=download&authuser=0&confirm=t&uuid=e170ee18-ffc9-416a-bec3-51ce980c5e7c&at=AN8xHoqEoQspulgOR3414IXfcV9j:1751564417505
+#EXTINF:-1 tvg-id="CNNIndonesia.id" tvg-logo="https://i.postimg.cc/x1jqJ5VX/cnn-id.png" group-title="✅MEMBERLIST RUMAHTV24", ✅Adit Huko2 02/10/2026 (1thn)
+https://drive.usercontent.google.com/download?id=1QYV_SKgt-cRIiuULymAVxEfCvUHALN5B&export=download&authuser=0&confirm=t&uuid=e170ee18-ffc9-416a-bec3-51ce980c5e7c&at=AN8xHoqEoQspulgOR3414IXfcV9j:1751564417505
+#EXTINF:-1 tvg-id="CNNIndonesia.id" tvg-logo="https://i.postimg.cc/x1jqJ5VX/cnn-id.png" group-title="✅MEMBERLIST RUMAHTV24", ✅Agustina Sapan (RSBG) 31/10/2025 (1thn)
+https://drive.usercontent.google.com/download?id=1QYV_SKgt-cRIiuULymAVxEfCvUHALN5B&export=download&authuser=0&confirm=t&uuid=e170ee18-ffc9-416a-bec3-51ce980c5e7c&at=AN8xHoqEoQspulgOR3414IXfcV9j:1751564417505
+#EXTINF:-1 tvg-id="CNNIndonesia.id" tvg-logo="https://i.postimg.cc/x1jqJ5VX/cnn-id.png" group-title="✅MEMBERLIST RUMAHTV24", ✅Ahmad (Sea) 13/08/2026 (1thn)
+https://drive.usercontent.google.com/download?id=1QYV_SKgt-cRIiuULymAVxEfCvUHALN5B&export=download&authuser=0&confirm=t&uuid=e170ee18-ffc9-416a-bec3-51ce980c5e7c&at=AN8xHoqEoQspulgOR3414IXfcV9j:1751564417505
+#EXTINF:-1 tvg-id="CNNIndonesia.id" tvg-logo="https://i.postimg.cc/x1jqJ5VX/cnn-id.png" group-title="✅MEMBERLIST RUMAHTV24", ✅Akbar (Omnya Alifa STB) 31/01/2026 (1thn)
+https://drive.usercontent.google.com/download?id=1QYV_SKgt-cRIiuULymAVxEfCvUHALN5B&export=download&authuser=0&confirm=t&uuid=e170ee18-ffc9-416a-bec3-51ce980c5e7c&at=AN8xHoqEoQspulgOR3414IXfcV9j:1751564417505
+#EXTINF:-1 tvg-id="CNNIndonesia.id" tvg-logo="https://i.postimg.cc/x1jqJ5VX/cnn-id.png" group-title="✅MEMBERLIST RUMAHTV24", ✅Alifa (BTN Tahoa 2) 20/03/2026 (1thn)
+https://drive.usercontent.google.com/download?id=1QYV_SKgt-cRIiuULymAVxEfCvUHALN5B&export=download&authuser=0&confirm=t&uuid=e170ee18-ffc9-416a-bec3-51ce980c5e7c&at=AN8xHoqEoQspulgOR3414IXfcV9j:1751564417505
+#EXTINF:-1 tvg-id="CNNIndonesia.id" tvg-logo="https://i.postimg.cc/x1jqJ5VX/cnn-id.png" group-title="✅MEMBERLIST RUMAHTV24", ✅Alim Bahri (Kolaka) 10/07/2026 (1thn)
+https://drive.usercontent.google.com/download?id=1QYV_SKgt-cRIiuULymAVxEfCvUHALN5B&export=download&authuser=0&confirm=t&uuid=e170ee18-ffc9-416a-bec3-51ce980c5e7c&at=AN8xHoqEoQspulgOR3414IXfcV9j:1751564417505
+#EXTINF:-1 tvg-id="CNNIndonesia.id" tvg-logo="https://i.postimg.cc/x1jqJ5VX/cnn-id.png" group-title="✅MEMBERLIST RUMAHTV24", ✅Alvian (Bakso Cak Yadi) 22/08/2026 (1thn)
+https://drive.usercontent.google.com/download?id=1QYV_SKgt-cRIiuULymAVxEfCvUHALN5B&export=download&authuser=0&confirm=t&uuid=e170ee18-ffc9-416a-bec3-51ce980c5e7c&at=AN8xHoqEoQspulgOR3414IXfcV9j:1751564417505
+#EXTINF:-1 tvg-id="CNNIndonesia.id" tvg-logo="https://i.postimg.cc/x1jqJ5VX/cnn-id.png" group-title="✅MEMBERLIST RUMAHTV24", ✅Amrullah Abdullah (PKM Kolakaasi) 19/04/2026 (1thn)
+https://drive.usercontent.google.com/download?id=1QYV_SKgt-cRIiuULymAVxEfCvUHALN5B&export=download&authuser=0&confirm=t&uuid=e170ee18-ffc9-416a-bec3-51ce980c5e7c&at=AN8xHoqEoQspulgOR3414IXfcV9j:1751564417505
+#EXTINF:-1 tvg-id="CNNIndonesia.id" tvg-logo="https://i.postimg.cc/x1jqJ5VX/cnn-id.png" group-title="✅MEMBERLIST RUMAHTV24", ✅Andi Rahayu (RSBG) 31/11/2025 (1thn)
+https://drive.usercontent.google.com/download?id=1QYV_SKgt-cRIiuULymAVxEfCvUHALN5B&export=download&authuser=0&confirm=t&uuid=e170ee18-ffc9-416a-bec3-51ce980c5e7c&at=AN8xHoqEoQspulgOR3414IXfcV9j:1751564417505
+#EXTINF:-1 tvg-id="CNNIndonesia.id" tvg-logo="https://i.postimg.cc/x1jqJ5VX/cnn-id.png" group-title="✅MEMBERLIST RUMAHTV24", ✅Anha Suryani (BTN ISRAR) 31/11/2025 (1thn)
+https://drive.usercontent.google.com/download?id=1QYV_SKgt-cRIiuULymAVxEfCvUHALN5B&export=download&authuser=0&confirm=t&uuid=e170ee18-ffc9-416a-bec3-51ce980c5e7c&at=AN8xHoqEoQspulgOR3414IXfcV9j:1751564417505
+#EXTINF:-1 tvg-id="CNNIndonesia.id" tvg-logo="https://i.postimg.cc/x1jqJ5VX/cnn-id.png" group-title="✅MEMBERLIST RUMAHTV24", ✅Annisa/ Alvaro (Bu Wakapolres) 20/10/2026 (1thn)
+https://drive.usercontent.google.com/download?id=1QYV_SKgt-cRIiuULymAVxEfCvUHALN5B&export=download&authuser=0&confirm=t&uuid=e170ee18-ffc9-416a-bec3-51ce980c5e7c&at=AN8xHoqEoQspulgOR3414IXfcV9j:1751564417505
+#EXTINF:-1 tvg-id="CNNIndonesia.id" tvg-logo="https://i.postimg.cc/x1jqJ5VX/cnn-id.png" group-title="✅MEMBERLIST RUMAHTV24", ✅Aprillia Isabella (Cust. Asdar 3) 05/12/2025 (1thn)
+https://drive.usercontent.google.com/download?id=1QYV_SKgt-cRIiuULymAVxEfCvUHALN5B&export=download&authuser=0&confirm=t&uuid=e170ee18-ffc9-416a-bec3-51ce980c5e7c&at=AN8xHoqEoQspulgOR3414IXfcV9j:1751564417505
+#EXTINF:-1 tvg-id="CNNIndonesia.id" tvg-logo="https://i.postimg.cc/x1jqJ5VX/cnn-id.png" group-title="✅MEMBERLIST RUMAHTV24", ✅Arron Cell tv1	11/10/2025 (1thn)
+https://drive.usercontent.google.com/download?id=1QYV_SKgt-cRIiuULymAVxEfCvUHALN5B&export=download&authuser=0&confirm=t&uuid=e170ee18-ffc9-416a-bec3-51ce980c5e7c&at=AN8xHoqEoQspulgOR3414IXfcV9j:1751564417505
+#EXTINF:-1 tvg-id="CNNIndonesia.id" tvg-logo="https://i.postimg.cc/x1jqJ5VX/cnn-id.png" group-title="✅MEMBERLIST RUMAHTV24", ✅Arron Cell tv2	11/10/2025 (1thn)
+https://drive.usercontent.google.com/download?id=1QYV_SKgt-cRIiuULymAVxEfCvUHALN5B&export=download&authuser=0&confirm=t&uuid=e170ee18-ffc9-416a-bec3-51ce980c5e7c&at=AN8xHoqEoQspulgOR3414IXfcV9j:1751564417505
+#EXTINF:-1 tvg-id="CNNIndonesia.id" tvg-logo="https://i.postimg.cc/x1jqJ5VX/cnn-id.png" group-title="✅MEMBERLIST RUMAHTV24", ✅Asdar STB 4	31/12/2025 (1thn)
+https://drive.usercontent.google.com/download?id=1QYV_SKgt-cRIiuULymAVxEfCvUHALN5B&export=download&authuser=0&confirm=t&uuid=e170ee18-ffc9-416a-bec3-51ce980c5e7c&at=AN8xHoqEoQspulgOR3414IXfcV9j:1751564417505
+#EXTINF:-1 tvg-id="CNNIndonesia.id" tvg-logo="https://i.postimg.cc/x1jqJ5VX/cnn-id.png" group-title="✅MEMBERLIST RUMAHTV24", ✅Asril (Jl Sunu) 14/08/2026 (1thn)
+https://drive.usercontent.google.com/download?id=1QYV_SKgt-cRIiuULymAVxEfCvUHALN5B&export=download&authuser=0&confirm=t&uuid=e170ee18-ffc9-416a-bec3-51ce980c5e7c&at=AN8xHoqEoQspulgOR3414IXfcV9j:1751564417505
+#EXTINF:-1 tvg-id="CNNIndonesia.id" tvg-logo="https://i.postimg.cc/x1jqJ5VX/cnn-id.png" group-title="✅MEMBERLIST RUMAHTV24", ✅Aulia (BTN Tahoa 2) 31/11/2025 (1thn)
+https://drive.usercontent.google.com/download?id=1QYV_SKgt-cRIiuULymAVxEfCvUHALN5B&export=download&authuser=0&confirm=t&uuid=e170ee18-ffc9-416a-bec3-51ce980c5e7c&at=AN8xHoqEoQspulgOR3414IXfcV9j:1751564417505
+#EXTINF:-1 tvg-id="CNNIndonesia.id" tvg-logo="https://i.postimg.cc/x1jqJ5VX/cnn-id.png" group-title="✅MEMBERLIST RUMAHTV24", ✅Ayu Wahyuni (RSBG) 14/10/2025 (1thn)
+https://drive.usercontent.google.com/download?id=1QYV_SKgt-cRIiuULymAVxEfCvUHALN5B&export=download&authuser=0&confirm=t&uuid=e170ee18-ffc9-416a-bec3-51ce980c5e7c&at=AN8xHoqEoQspulgOR3414IXfcV9j:1751564417505
+#EXTINF:-1 tvg-id="CNNIndonesia.id" tvg-logo="https://i.postimg.cc/x1jqJ5VX/cnn-id.png" group-title="✅MEMBERLIST RUMAHTV24", ✅Bidan Santi (STB1) 30/10/2025 (1thn)
+https://drive.usercontent.google.com/download?id=1QYV_SKgt-cRIiuULymAVxEfCvUHALN5B&export=download&authuser=0&confirm=t&uuid=e170ee18-ffc9-416a-bec3-51ce980c5e7c&at=AN8xHoqEoQspulgOR3414IXfcV9j:1751564417505
+#EXTINF:-1 tvg-id="CNNIndonesia.id" tvg-logo="https://i.postimg.cc/x1jqJ5VX/cnn-id.png" group-title="✅MEMBERLIST RUMAHTV24", ✅Bidan Santi (STB2) 30/10/2025 (1thn)
+https://drive.usercontent.google.com/download?id=1QYV_SKgt-cRIiuULymAVxEfCvUHALN5B&export=download&authuser=0&confirm=t&uuid=e170ee18-ffc9-416a-bec3-51ce980c5e7c&at=AN8xHoqEoQspulgOR3414IXfcV9j:1751564417505
+#EXTINF:-1 tvg-id="CNNIndonesia.id" tvg-logo="https://i.postimg.cc/x1jqJ5VX/cnn-id.png" group-title="✅MEMBERLIST RUMAHTV24", ✅Bidan Tiwi (RSBG) 06/12/2025 (1thn)
+https://drive.usercontent.google.com/download?id=1QYV_SKgt-cRIiuULymAVxEfCvUHALN5B&export=download&authuser=0&confirm=t&uuid=e170ee18-ffc9-416a-bec3-51ce980c5e7c&at=AN8xHoqEoQspulgOR3414IXfcV9j:1751564417505
+#EXTINF:-1 tvg-id="CNNIndonesia.id" tvg-logo="https://i.postimg.cc/x1jqJ5VX/cnn-id.png" group-title="✅MEMBERLIST RUMAHTV24", ✅Bilqis (Tahoa3) 07/10/2025 (3bln)
+https://drive.usercontent.google.com/download?id=1QYV_SKgt-cRIiuULymAVxEfCvUHALN5B&export=download&authuser=0&confirm=t&uuid=e170ee18-ffc9-416a-bec3-51ce980c5e7c&at=AN8xHoqEoQspulgOR3414IXfcV9j:1751564417505
+#EXTINF:-1 tvg-id="CNNIndonesia.id" tvg-logo="https://i.postimg.cc/x1jqJ5VX/cnn-id.png" group-title="✅MEMBERLIST RUMAHTV24", ✅Budiman (Nurse) 30/11/2026 (1thn)
+https://drive.usercontent.google.com/download?id=1QYV_SKgt-cRIiuULymAVxEfCvUHALN5B&export=download&authuser=0&confirm=t&uuid=e170ee18-ffc9-416a-bec3-51ce980c5e7c&at=AN8xHoqEoQspulgOR3414IXfcV9j:1751564417505
+#EXTINF:-1 tvg-id="CNNIndonesia.id" tvg-logo="https://i.postimg.cc/x1jqJ5VX/cnn-id.png" group-title="✅MEMBERLIST RUMAHTV24", ✅Ciwang (RSBG) 30/10/2025 (1thn)
+https://drive.usercontent.google.com/download?id=1QYV_SKgt-cRIiuULymAVxEfCvUHALN5B&export=download&authuser=0&confirm=t&uuid=e170ee18-ffc9-416a-bec3-51ce980c5e7c&at=AN8xHoqEoQspulgOR3414IXfcV9j:1751564417505
+#EXTINF:-1 tvg-id="CNNIndonesia.id" tvg-logo="https://i.postimg.cc/x1jqJ5VX/cnn-id.png" group-title="✅MEMBERLIST RUMAHTV24", ✅Dewi Ochenk (Iwoimenda) 08/10/2025 (3blan)
+https://drive.usercontent.google.com/download?id=1QYV_SKgt-cRIiuULymAVxEfCvUHALN5B&export=download&authuser=0&confirm=t&uuid=e170ee18-ffc9-416a-bec3-51ce980c5e7c&at=AN8xHoqEoQspulgOR3414IXfcV9j:1751564417505
+#EXTINF:-1 tvg-id="CNNIndonesia.id" tvg-logo="https://i.postimg.cc/x1jqJ5VX/cnn-id.png" group-title="✅MEMBERLIST RUMAHTV24", ✅Dirman (POLRES) 12/09/2026 (1thn)
+https://drive.usercontent.google.com/download?id=1QYV_SKgt-cRIiuULymAVxEfCvUHALN5B&export=download&authuser=0&confirm=t&uuid=e170ee18-ffc9-416a-bec3-51ce980c5e7c&at=AN8xHoqEoQspulgOR3414IXfcV9j:1751564417505
+#EXTINF:-1 tvg-id="CNNIndonesia.id" tvg-logo="https://i.postimg.cc/x1jqJ5VX/cnn-id.png" group-title="✅MEMBERLIST RUMAHTV24", ✅dr. Rosmaladewi (RSBG) 10/11/2025 (1thn)
+https://drive.usercontent.google.com/download?id=1QYV_SKgt-cRIiuULymAVxEfCvUHALN5B&export=download&authuser=0&confirm=t&uuid=e170ee18-ffc9-416a-bec3-51ce980c5e7c&at=AN8xHoqEoQspulgOR3414IXfcV9j:1751564417505
+#EXTINF:-1 tvg-id="CNNIndonesia.id" tvg-logo="https://i.postimg.cc/x1jqJ5VX/cnn-id.png" group-title="✅MEMBERLIST RUMAHTV24", ✅dr. Sri Noviati (RSBG) 31/10/2025 (1thn)
+https://drive.usercontent.google.com/download?id=1QYV_SKgt-cRIiuULymAVxEfCvUHALN5B&export=download&authuser=0&confirm=t&uuid=e170ee18-ffc9-416a-bec3-51ce980c5e7c&at=AN8xHoqEoQspulgOR3414IXfcV9j:1751564417505
+#EXTINF:-1 tvg-id="CNNIndonesia.id" tvg-logo="https://i.postimg.cc/x1jqJ5VX/cnn-id.png" group-title="✅MEMBERLIST RUMAHTV24", ✅Erni Hamid (RSBG) 02/03/2026 (1thn)
+https://drive.usercontent.google.com/download?id=1QYV_SKgt-cRIiuULymAVxEfCvUHALN5B&export=download&authuser=0&confirm=t&uuid=e170ee18-ffc9-416a-bec3-51ce980c5e7c&at=AN8xHoqEoQspulgOR3414IXfcV9j:1751564417505
+#EXTINF:-1 tvg-id="CNNIndonesia.id" tvg-logo="https://i.postimg.cc/x1jqJ5VX/cnn-id.png" group-title="✅MEMBERLIST RUMAHTV24", ✅Eka (Ciwang) 18/03/2026 (1thn)
+https://drive.usercontent.google.com/download?id=1QYV_SKgt-cRIiuULymAVxEfCvUHALN5B&export=download&authuser=0&confirm=t&uuid=e170ee18-ffc9-416a-bec3-51ce980c5e7c&at=AN8xHoqEoQspulgOR3414IXfcV9j:1751564417505
+#EXTINF:-1 tvg-id="CNNIndonesia.id" tvg-logo="https://i.postimg.cc/x1jqJ5VX/cnn-id.png" group-title="✅MEMBERLIST RUMAHTV24", ✅Fajar Ahmad (RSBG) 10/03/2026 (1thn)
+https://drive.usercontent.google.com/download?id=1QYV_SKgt-cRIiuULymAVxEfCvUHALN5B&export=download&authuser=0&confirm=t&uuid=e170ee18-ffc9-416a-bec3-51ce980c5e7c&at=AN8xHoqEoQspulgOR3414IXfcV9j:1751564417505
+#EXTINF:-1 tvg-id="CNNIndonesia.id" tvg-logo="https://i.postimg.cc/x1jqJ5VX/cnn-id.png" group-title="✅MEMBERLIST RUMAHTV24", ✅Gunawan (Polsek pelabuhan) 10/07/2026 (1thn)
+https://drive.usercontent.google.com/download?id=1QYV_SKgt-cRIiuULymAVxEfCvUHALN5B&export=download&authuser=0&confirm=t&uuid=e170ee18-ffc9-416a-bec3-51ce980c5e7c&at=AN8xHoqEoQspulgOR3414IXfcV9j:1751564417505
+#EXTINF:-1 tvg-id="CNNIndonesia.id" tvg-logo="https://i.postimg.cc/x1jqJ5VX/cnn-id.png" group-title="✅MEMBERLIST RUMAHTV24", ✅Glory (Natan) 04/10/2026 (1thn)
+https://drive.usercontent.google.com/download?id=1QYV_SKgt-cRIiuULymAVxEfCvUHALN5B&export=download&authuser=0&confirm=t&uuid=e170ee18-ffc9-416a-bec3-51ce980c5e7c&at=AN8xHoqEoQspulgOR3414IXfcV9j:1751564417505
+#EXTINF:-1 tvg-id="CNNIndonesia.id" tvg-logo="https://i.postimg.cc/x1jqJ5VX/cnn-id.png" group-title="✅MEMBERLIST RUMAHTV24", ✅Farid (RSBG) 30/06/2025 (1thn)
+https://drive.usercontent.google.com/download?id=1QYV_SKgt-cRIiuULymAVxEfCvUHALN5B&export=download&authuser=0&confirm=t&uuid=e170ee18-ffc9-416a-bec3-51ce980c5e7c&at=AN8xHoqEoQspulgOR3414IXfcV9j:1751564417505
+#EXTINF:-1 tvg-id="CNNIndonesia.id" tvg-logo="https://i.postimg.cc/x1jqJ5VX/cnn-id.png" group-title="✅MEMBERLIST RUMAHTV24", ✅Farman (Tanggetada) 30/11/2025 (1thn)
+https://drive.usercontent.google.com/download?id=1QYV_SKgt-cRIiuULymAVxEfCvUHALN5B&export=download&authuser=0&confirm=t&uuid=e170ee18-ffc9-416a-bec3-51ce980c5e7c&at=AN8xHoqEoQspulgOR3414IXfcV9j:1751564417505
+#EXTINF:-1 tvg-id="CNNIndonesia.id" tvg-logo="https://i.postimg.cc/x1jqJ5VX/cnn-id.png" group-title="✅MEMBERLIST RUMAHTV24", ✅Fatmawati (RSBG) 07/10/2025 (1thn)
+https://drive.usercontent.google.com/download?id=1QYV_SKgt-cRIiuULymAVxEfCvUHALN5B&export=download&authuser=0&confirm=t&uuid=e170ee18-ffc9-416a-bec3-51ce980c5e7c&at=AN8xHoqEoQspulgOR3414IXfcV9j:1751564417505
+#EXTINF:-1 tvg-id="CNNIndonesia.id" tvg-logo="https://i.postimg.cc/x1jqJ5VX/cnn-id.png" group-title="✅MEMBERLIST RUMAHTV24", ✅Haery Guslaeni (RSBG) 31/12/2025 (1thn)
+https://drive.usercontent.google.com/download?id=1QYV_SKgt-cRIiuULymAVxEfCvUHALN5B&export=download&authuser=0&confirm=t&uuid=e170ee18-ffc9-416a-bec3-51ce980c5e7c&at=AN8xHoqEoQspulgOR3414IXfcV9j:1751564417505
+#EXTINF:-1 tvg-id="CNNIndonesia.id" tvg-logo="https://i.postimg.cc/x1jqJ5VX/cnn-id.png" group-title="✅MEMBERLIST RUMAHTV24", ✅Haerun (Dinkes) 03/11/2026 (1thn)
+https://drive.usercontent.google.com/download?id=1QYV_SKgt-cRIiuULymAVxEfCvUHALN5B&export=download&authuser=0&confirm=t&uuid=e170ee18-ffc9-416a-bec3-51ce980c5e7c&at=AN8xHoqEoQspulgOR3414IXfcV9j:1751564417505
+#EXTINF:-1 tvg-id="CNNIndonesia.id" tvg-logo="https://i.postimg.cc/x1jqJ5VX/cnn-id.png" group-title="✅MEMBERLIST RUMAHTV24", ✅Hafiz (Tahoa2) 27/06/2026 (1Thn)
+https://drive.usercontent.google.com/download?id=1QYV_SKgt-cRIiuULymAVxEfCvUHALN5B&export=download&authuser=0&confirm=t&uuid=e170ee18-ffc9-416a-bec3-51ce980c5e7c&at=AN8xHoqEoQspulgOR3414IXfcV9j:1751564417505
+#EXTINF:-1 tvg-id="CNNIndonesia.id" tvg-logo="https://i.postimg.cc/x1jqJ5VX/cnn-id.png" group-title="✅MEMBERLIST RUMAHTV24", ✅Haji Burhanuddin (PASAR) 28/07/2026 (1thn)
+https://drive.usercontent.google.com/download?id=1QYV_SKgt-cRIiuULymAVxEfCvUHALN5B&export=download&authuser=0&confirm=t&uuid=e170ee18-ffc9-416a-bec3-51ce980c5e7c&at=AN8xHoqEoQspulgOR3414IXfcV9j:1751564417505
+#EXTINF:-1 tvg-id="CNNIndonesia.id" tvg-logo="https://i.postimg.cc/x1jqJ5VX/cnn-id.png" group-title="✅MEMBERLIST RUMAHTV24", ✅Halim (IPCN Jenponto) 04/01/2026 (1Thn)
+https://drive.usercontent.google.com/download?id=1QYV_SKgt-cRIiuULymAVxEfCvUHALN5B&export=download&authuser=0&confirm=t&uuid=e170ee18-ffc9-416a-bec3-51ce980c5e7c&at=AN8xHoqEoQspulgOR3414IXfcV9j:1751564417505
+#EXTINF:-1 tvg-id="CNNIndonesia.id" tvg-logo="https://i.postimg.cc/x1jqJ5VX/cnn-id.png" group-title="✅MEMBERLIST RUMAHTV24", ✅Halim STB (IPCN Jenponto) 24/05/2026 (1Thn)
+https://drive.usercontent.google.com/download?id=1QYV_SKgt-cRIiuULymAVxEfCvUHALN5B&export=download&authuser=0&confirm=t&uuid=e170ee18-ffc9-416a-bec3-51ce980c5e7c&at=AN8xHoqEoQspulgOR3414IXfcV9j:1751564417505
+#EXTINF:-1 tvg-id="CNNIndonesia.id" tvg-logo="https://i.postimg.cc/x1jqJ5VX/cnn-id.png" group-title="✅MEMBERLIST RUMAHTV24", ✅Handri (RSBG) 22/02/2026 (1thn)
+https://drive.usercontent.google.com/download?id=1QYV_SKgt-cRIiuULymAVxEfCvUHALN5B&export=download&authuser=0&confirm=t&uuid=e170ee18-ffc9-416a-bec3-51ce980c5e7c&at=AN8xHoqEoQspulgOR3414IXfcV9j:1751564417505
+#EXTINF:-1 tvg-id="CNNIndonesia.id" tvg-logo="https://i.postimg.cc/x1jqJ5VX/cnn-id.png" group-title="✅MEMBERLIST RUMAHTV24", ✅hariman (Wundulako) 30/07/2026 (1thn)
+https://drive.usercontent.google.com/download?id=1QYV_SKgt-cRIiuULymAVxEfCvUHALN5B&export=download&authuser=0&confirm=t&uuid=e170ee18-ffc9-416a-bec3-51ce980c5e7c&at=AN8xHoqEoQspulgOR3414IXfcV9j:1751564417505
+#EXTINF:-1 tvg-id="CNNIndonesia.id" tvg-logo="https://i.postimg.cc/x1jqJ5VX/cnn-id.png" group-title="✅MEMBERLIST RUMAHTV24", ✅Hepy (RSBG) 22/08/2026 (1thn)
+https://drive.usercontent.google.com/download?id=1QYV_SKgt-cRIiuULymAVxEfCvUHALN5B&export=download&authuser=0&confirm=t&uuid=e170ee18-ffc9-416a-bec3-51ce980c5e7c&at=AN8xHoqEoQspulgOR3414IXfcV9j:1751564417505
+#EXTINF:-1 tvg-id="CNNIndonesia.id" tvg-logo="https://i.postimg.cc/x1jqJ5VX/cnn-id.png" group-title="✅MEMBERLIST RUMAHTV24", ✅Hijrah (pak Guru) 31/08/2025 (1thn)
+https://drive.usercontent.google.com/download?id=1QYV_SKgt-cRIiuULymAVxEfCvUHALN5B&export=download&authuser=0&confirm=t&uuid=e170ee18-ffc9-416a-bec3-51ce980c5e7c&at=AN8xHoqEoQspulgOR3414IXfcV9j:1751564417505
+#EXTINF:-1 tvg-id="CNNIndonesia.id" tvg-logo="https://i.postimg.cc/x1jqJ5VX/cnn-id.png" group-title="✅MEMBERLIST RUMAHTV24", ✅Hj Henny (RSBG) 15/06/2026 (1thn)
+https://drive.usercontent.google.com/download?id=1QYV_SKgt-cRIiuULymAVxEfCvUHALN5B&export=download&authuser=0&confirm=t&uuid=e170ee18-ffc9-416a-bec3-51ce980c5e7c&at=AN8xHoqEoQspulgOR3414IXfcV9j:1751564417505
+#EXTINF:-1 tvg-id="CNNIndonesia.id" tvg-logo="https://i.postimg.cc/x1jqJ5VX/cnn-id.png" group-title="✅MEMBERLIST RUMAHTV24", ✅Icang Saputri (Cust. Asdar 2) 30/11/2025 (1thn)
+https://drive.usercontent.google.com/download?id=1QYV_SKgt-cRIiuULymAVxEfCvUHALN5B&export=download&authuser=0&confirm=t&uuid=e170ee18-ffc9-416a-bec3-51ce980c5e7c&at=AN8xHoqEoQspulgOR3414IXfcV9j:1751564417505
+#EXTINF:-1 tvg-id="CNNIndonesia.id" tvg-logo="https://i.postimg.cc/x1jqJ5VX/cnn-id.png" group-title="✅MEMBERLIST RUMAHTV24", ✅Iin (BTN Rektor) 11/11/2026 (1thn)
+https://drive.usercontent.google.com/download?id=1QYV_SKgt-cRIiuULymAVxEfCvUHALN5B&export=download&authuser=0&confirm=t&uuid=e170ee18-ffc9-416a-bec3-51ce980c5e7c&at=AN8xHoqEoQspulgOR3414IXfcV9j:1751564417505
+#EXTINF:-1 tvg-id="CNNIndonesia.id" tvg-logo="https://i.postimg.cc/x1jqJ5VX/cnn-id.png" group-title="✅MEMBERLIST RUMAHTV24", ✅Ikramullah (Kolakaasi) 20/04/2026 (1thn)
+https://drive.usercontent.google.com/download?id=1QYV_SKgt-cRIiuULymAVxEfCvUHALN5B&export=download&authuser=0&confirm=t&uuid=e170ee18-ffc9-416a-bec3-51ce980c5e7c&at=AN8xHoqEoQspulgOR3414IXfcV9j:1751564417505
+#EXTINF:-1 tvg-id="CNNIndonesia.id" tvg-logo="https://i.postimg.cc/x1jqJ5VX/cnn-id.png" group-title="✅MEMBERLIST RUMAHTV24", ✅Ilham (Jl. Jensud) 28/08/2026 (1thn)
+https://drive.usercontent.google.com/download?id=1QYV_SKgt-cRIiuULymAVxEfCvUHALN5B&export=download&authuser=0&confirm=t&uuid=e170ee18-ffc9-416a-bec3-51ce980c5e7c&at=AN8xHoqEoQspulgOR3414IXfcV9j:1751564417505
+#EXTINF:-1 tvg-id="CNNIndonesia.id" tvg-logo="https://i.postimg.cc/x1jqJ5VX/cnn-id.png" group-title="✅MEMBERLIST RUMAHTV24", ✅Imran (STB) 15/12/2025 (1thn)
+https://drive.usercontent.google.com/download?id=1QYV_SKgt-cRIiuULymAVxEfCvUHALN5B&export=download&authuser=0&confirm=t&uuid=e170ee18-ffc9-416a-bec3-51ce980c5e7c&at=AN8xHoqEoQspulgOR3414IXfcV9j:1751564417505
+#EXTINF:-1 tvg-id="CNNIndonesia.id" tvg-logo="https://i.postimg.cc/x1jqJ5VX/cnn-id.png" group-title="✅MEMBERLIST RUMAHTV24", ✅Imran (TV) 15/12/2025 (1thn)
+https://drive.usercontent.google.com/download?id=1QYV_SKgt-cRIiuULymAVxEfCvUHALN5B&export=download&authuser=0&confirm=t&uuid=e170ee18-ffc9-416a-bec3-51ce980c5e7c&at=AN8xHoqEoQspulgOR3414IXfcV9j:1751564417505
+#EXTINF:-1 tvg-id="CNNIndonesia.id" tvg-logo="https://i.postimg.cc/x1jqJ5VX/cnn-id.png" group-title="✅MEMBERLIST RUMAHTV24", ✅Ishak (KTU Toshiba) 07/10/2025 (3bln)
+https://drive.usercontent.google.com/download?id=1QYV_SKgt-cRIiuULymAVxEfCvUHALN5B&export=download&authuser=0&confirm=t&uuid=e170ee18-ffc9-416a-bec3-51ce980c5e7c&at=AN8xHoqEoQspulgOR3414IXfcV9j:1751564417505
+#EXTINF:-1 tvg-id="CNNIndonesia.id" tvg-logo="https://i.postimg.cc/x1jqJ5VX/cnn-id.png" group-title="✅MEMBERLIST RUMAHTV24", ✅Jabba (Jl. Sunu) 05/12/2025 (1thn)
+https://drive.usercontent.google.com/download?id=1QYV_SKgt-cRIiuULymAVxEfCvUHALN5B&export=download&authuser=0&confirm=t&uuid=e170ee18-ffc9-416a-bec3-51ce980c5e7c&at=AN8xHoqEoQspulgOR3414IXfcV9j:1751564417505
+#EXTINF:-1 tvg-id="CNNIndonesia.id" tvg-logo="https://i.postimg.cc/x1jqJ5VX/cnn-id.png" group-title="✅MEMBERLIST RUMAHTV24", ✅Joko Purnomo (PUPR) 17/11/2025 (1thn)
+https://drive.usercontent.google.com/download?id=1QYV_SKgt-cRIiuULymAVxEfCvUHALN5B&export=download&authuser=0&confirm=t&uuid=e170ee18-ffc9-416a-bec3-51ce980c5e7c&at=AN8xHoqEoQspulgOR3414IXfcV9j:1751564417505
+#EXTINF:-1 tvg-id="CNNIndonesia.id" tvg-logo="https://i.postimg.cc/x1jqJ5VX/cnn-id.png" group-title="✅MEMBERLIST RUMAHTV24", ✅Jumram (RSBG) 30/06/2025 (1thn)
+https://drive.usercontent.google.com/download?id=1QYV_SKgt-cRIiuULymAVxEfCvUHALN5B&export=download&authuser=0&confirm=t&uuid=e170ee18-ffc9-416a-bec3-51ce980c5e7c&at=AN8xHoqEoQspulgOR3414IXfcV9j:1751564417505
+#EXTINF:-1 tvg-id="CNNIndonesia.id" tvg-logo="https://i.postimg.cc/x1jqJ5VX/cnn-id.png" group-title="✅MEMBERLIST RUMAHTV24", ✅Jumria (RSBG) 05/08/2026 (1thn)
+https://drive.usercontent.google.com/download?id=1QYV_SKgt-cRIiuULymAVxEfCvUHALN5B&export=download&authuser=0&confirm=t&uuid=e170ee18-ffc9-416a-bec3-51ce980c5e7c&at=AN8xHoqEoQspulgOR3414IXfcV9j:1751564417505
+#EXTINF:-1 tvg-id="CNNIndonesia.id" tvg-logo="https://i.postimg.cc/x1jqJ5VX/cnn-id.png" group-title="✅MEMBERLIST RUMAHTV24", ✅Kak Ay (RSBG) 02/11/2025 (1thn)
+https://drive.usercontent.google.com/download?id=1QYV_SKgt-cRIiuULymAVxEfCvUHALN5B&export=download&authuser=0&confirm=t&uuid=e170ee18-ffc9-416a-bec3-51ce980c5e7c&at=AN8xHoqEoQspulgOR3414IXfcV9j:1751564417505
+#EXTINF:-1 tvg-id="CNNIndonesia.id" tvg-logo="https://i.postimg.cc/x1jqJ5VX/cnn-id.png" group-title="✅MEMBERLIST RUMAHTV24", ✅Lukman (Bombana) 06/10/2026 (1thn)
+https://drive.usercontent.google.com/download?id=1QYV_SKgt-cRIiuULymAVxEfCvUHALN5B&export=download&authuser=0&confirm=t&uuid=e170ee18-ffc9-416a-bec3-51ce980c5e7c&at=AN8xHoqEoQspulgOR3414IXfcV9j:1751564417505
+#EXTINF:-1 tvg-id="CNNIndonesia.id" tvg-logo="https://i.postimg.cc/x1jqJ5VX/cnn-id.png" group-title="✅MEMBERLIST RUMAHTV24", ✅Mariyani (RSUD Kota) 06/12/2025 (1thn)
+https://drive.usercontent.google.com/download?id=1QYV_SKgt-cRIiuULymAVxEfCvUHALN5B&export=download&authuser=0&confirm=t&uuid=e170ee18-ffc9-416a-bec3-51ce980c5e7c&at=AN8xHoqEoQspulgOR3414IXfcV9j:1751564417505
+#EXTINF:-1 tvg-id="CNNIndonesia.id" tvg-logo="https://i.postimg.cc/x1jqJ5VX/cnn-id.png" group-title="✅MEMBERLIST RUMAHTV24", ✅Marles	11/10/2025 (1thn)
+https://drive.usercontent.google.com/download?id=1QYV_SKgt-cRIiuULymAVxEfCvUHALN5B&export=download&authuser=0&confirm=t&uuid=e170ee18-ffc9-416a-bec3-51ce980c5e7c&at=AN8xHoqEoQspulgOR3414IXfcV9j:1751564417505
+#EXTINF:-1 tvg-id="CNNIndonesia.id" tvg-logo="https://i.postimg.cc/x1jqJ5VX/cnn-id.png" group-title="✅MEMBERLIST RUMAHTV24", ✅Marliani	03/10/2026 (1thn)
+https://drive.usercontent.google.com/download?id=1QYV_SKgt-cRIiuULymAVxEfCvUHALN5B&export=download&authuser=0&confirm=t&uuid=e170ee18-ffc9-416a-bec3-51ce980c5e7c&at=AN8xHoqEoQspulgOR3414IXfcV9j:1751564417505
+#EXTINF:-1 tvg-id="CNNIndonesia.id" tvg-logo="https://i.postimg.cc/x1jqJ5VX/cnn-id.png" group-title="✅MEMBERLIST RUMAHTV24", ✅Misbahuddin (Tahoa2) 24/04/2026 (1thn)
+https://drive.usercontent.google.com/download?id=1QYV_SKgt-cRIiuULymAVxEfCvUHALN5B&export=download&authuser=0&confirm=t&uuid=e170ee18-ffc9-416a-bec3-51ce980c5e7c&at=AN8xHoqEoQspulgOR3414IXfcV9j:1751564417505
+#EXTINF:-1 tvg-id="CNNIndonesia.id" tvg-logo="https://i.postimg.cc/x1jqJ5VX/cnn-id.png" group-title="✅MEMBERLIST RUMAHTV24", ✅Musliana (RSBG) 30/06/2025 (1thn)
+https://drive.usercontent.google.com/download?id=1QYV_SKgt-cRIiuULymAVxEfCvUHALN5B&export=download&authuser=0&confirm=t&uuid=e170ee18-ffc9-416a-bec3-51ce980c5e7c&at=AN8xHoqEoQspulgOR3414IXfcV9j:1751564417505
+#EXTINF:-1 tvg-id="CNNIndonesia.id" tvg-logo="https://i.postimg.cc/x1jqJ5VX/cnn-id.png" group-title="✅MEMBERLIST RUMAHTV24", ✅Musyawir	13/12/2025 (1thn)
+https://drive.usercontent.google.com/download?id=1QYV_SKgt-cRIiuULymAVxEfCvUHALN5B&export=download&authuser=0&confirm=t&uuid=e170ee18-ffc9-416a-bec3-51ce980c5e7c&at=AN8xHoqEoQspulgOR3414IXfcV9j:1751564417505
+#EXTINF:-1 tvg-id="CNNIndonesia.id" tvg-logo="https://i.postimg.cc/x1jqJ5VX/cnn-id.png" group-title="✅MEMBERLIST RUMAHTV24", ✅Natan (KK Marles)	10/05/2026 (1thn)
+https://drive.usercontent.google.com/download?id=1QYV_SKgt-cRIiuULymAVxEfCvUHALN5B&export=download&authuser=0&confirm=t&uuid=e170ee18-ffc9-416a-bec3-51ce980c5e7c&at=AN8xHoqEoQspulgOR3414IXfcV9j:1751564417505
+#EXTINF:-1 tvg-id="CNNIndonesia.id" tvg-logo="https://i.postimg.cc/x1jqJ5VX/cnn-id.png" group-title="✅MEMBERLIST RUMAHTV24", ✅Neni (Ngapa)	11/11/2026 (1thn)
+https://drive.usercontent.google.com/download?id=1QYV_SKgt-cRIiuULymAVxEfCvUHALN5B&export=download&authuser=0&confirm=t&uuid=e170ee18-ffc9-416a-bec3-51ce980c5e7c&at=AN8xHoqEoQspulgOR3414IXfcV9j:1751564417505
+#EXTINF:-1 tvg-id="CNNIndonesia.id" tvg-logo="https://i.postimg.cc/x1jqJ5VX/cnn-id.png" group-title="✅MEMBERLIST RUMAHTV24", ✅Nurdin Irawan(Mangolo) 27/08/2026 (1thn)
+https://drive.usercontent.google.com/download?id=1QYV_SKgt-cRIiuULymAVxEfCvUHALN5B&export=download&authuser=0&confirm=t&uuid=e170ee18-ffc9-416a-bec3-51ce980c5e7c&at=AN8xHoqEoQspulgOR3414IXfcV9j:1751564417505
+#EXTINF:-1 tvg-id="CNNIndonesia.id" tvg-logo="https://i.postimg.cc/x1jqJ5VX/cnn-id.png" group-title="✅MEMBERLIST RUMAHTV24", ✅Nurviani (RSBG) 21/07/2025 (1thn)
+https://drive.usercontent.google.com/download?id=1QYV_SKgt-cRIiuULymAVxEfCvUHALN5B&export=download&authuser=0&confirm=t&uuid=e170ee18-ffc9-416a-bec3-51ce980c5e7c&at=AN8xHoqEoQspulgOR3414IXfcV9j:1751564417505
+#EXTINF:-1 tvg-id="CNNIndonesia.id" tvg-logo="https://i.postimg.cc/x1jqJ5VX/cnn-id.png" group-title="✅MEMBERLIST RUMAHTV24", ✅Polsek Pelabuhan Kolaka 13/07/2026 (1thn)
+https://drive.usercontent.google.com/download?id=1QYV_SKgt-cRIiuULymAVxEfCvUHALN5B&export=download&authuser=0&confirm=t&uuid=e170ee18-ffc9-416a-bec3-51ce980c5e7c&at=AN8xHoqEoQspulgOR3414IXfcV9j:1751564417505
+#EXTINF:-1 tvg-id="CNNIndonesia.id" tvg-logo="https://i.postimg.cc/x1jqJ5VX/cnn-id.png" group-title="✅MEMBERLIST RUMAHTV24", ✅Puskesmas (Kolakaasi) 27/06/2026 (1thn)
+https://drive.usercontent.google.com/download?id=1QYV_SKgt-cRIiuULymAVxEfCvUHALN5B&export=download&authuser=0&confirm=t&uuid=e170ee18-ffc9-416a-bec3-51ce980c5e7c&at=AN8xHoqEoQspulgOR3414IXfcV9j:1751564417505
+#EXTINF:-1 tvg-id="CNNIndonesia.id" tvg-logo="https://i.postimg.cc/x1jqJ5VX/cnn-id.png" group-title="✅MEMBERLIST RUMAHTV24", ✅Piyo (RS Bombana) 21/05/2026 (3bln)
+https://drive.usercontent.google.com/download?id=1QYV_SKgt-cRIiuULymAVxEfCvUHALN5B&export=download&authuser=0&confirm=t&uuid=e170ee18-ffc9-416a-bec3-51ce980c5e7c&at=AN8xHoqEoQspulgOR3414IXfcV9j:1751564417505
+#EXTINF:-1 tvg-id="CNNIndonesia.id" tvg-logo="https://i.postimg.cc/x1jqJ5VX/cnn-id.png" group-title="✅MEMBERLIST RUMAHTV24", ✅RMEd Klinik (dr Rafi) 13/07/2026 (1thn)
+https://drive.usercontent.google.com/download?id=1QYV_SKgt-cRIiuULymAVxEfCvUHALN5B&export=download&authuser=0&confirm=t&uuid=e170ee18-ffc9-416a-bec3-51ce980c5e7c&at=AN8xHoqEoQspulgOR3414IXfcV9j:1751564417505
+#EXTINF:-1 tvg-id="CNNIndonesia.id" tvg-logo="https://i.postimg.cc/x1jqJ5VX/cnn-id.png" group-title="✅MEMBERLIST RUMAHTV24", ✅Ratna (RM RSBG) 10/10/2025 (1thn)
+https://drive.usercontent.google.com/download?id=1QYV_SKgt-cRIiuULymAVxEfCvUHALN5B&export=download&authuser=0&confirm=t&uuid=e170ee18-ffc9-416a-bec3-51ce980c5e7c&at=AN8xHoqEoQspulgOR3414IXfcV9j:1751564417505
+#EXTINF:-1 tvg-id="CNNIndonesia.id" tvg-logo="https://i.postimg.cc/x1jqJ5VX/cnn-id.png" group-title="✅MEMBERLIST RUMAHTV24", ✅Ratna Juwita (RSBG) 31/12/2025 (1thn)
+https://drive.usercontent.google.com/download?id=1QYV_SKgt-cRIiuULymAVxEfCvUHALN5B&export=download&authuser=0&confirm=t&uuid=e170ee18-ffc9-416a-bec3-51ce980c5e7c&at=AN8xHoqEoQspulgOR3414IXfcV9j:1751564417505
+#EXTINF:-1 tvg-id="CNNIndonesia.id" tvg-logo="https://i.postimg.cc/x1jqJ5VX/cnn-id.png" group-title="✅MEMBERLIST RUMAHTV24", ✅Ratnasari (Jl Tamalaki) 03/11/2026 (1thn)
+https://drive.usercontent.google.com/download?id=1QYV_SKgt-cRIiuULymAVxEfCvUHALN5B&export=download&authuser=0&confirm=t&uuid=e170ee18-ffc9-416a-bec3-51ce980c5e7c&at=AN8xHoqEoQspulgOR3414IXfcV9j:1751564417505
+#EXTINF:-1 tvg-id="CNNIndonesia.id" tvg-logo="https://i.postimg.cc/x1jqJ5VX/cnn-id.png" group-title="✅MEMBERLIST RUMAHTV24", ✅Ratnawati Anwar (RSBG) 10/11/2026 (1thn)
+https://drive.usercontent.google.com/download?id=1QYV_SKgt-cRIiuULymAVxEfCvUHALN5B&export=download&authuser=0&confirm=t&uuid=e170ee18-ffc9-416a-bec3-51ce980c5e7c&at=AN8xHoqEoQspulgOR3414IXfcV9j:1751564417505
+#EXTINF:-1 tvg-id="CNNIndonesia.id" tvg-logo="https://i.postimg.cc/x1jqJ5VX/cnn-id.png" group-title="✅MEMBERLIST RUMAHTV24", ✅Rendy (Wundulako) 30/07/2026 (1thn)
+https://drive.usercontent.google.com/download?id=1QYV_SKgt-cRIiuULymAVxEfCvUHALN5B&export=download&authuser=0&confirm=t&uuid=e170ee18-ffc9-416a-bec3-51ce980c5e7c&at=AN8xHoqEoQspulgOR3414IXfcV9j:1751564417505
+#EXTINF:-1 tvg-id="CNNIndonesia.id" tvg-logo="https://i.postimg.cc/x1jqJ5VX/cnn-id.png" group-title="✅MEMBERLIST RUMAHTV24", ✅Ria (RSBG) 09/02/2026 (1thn)
+https://drive.usercontent.google.com/download?id=1QYV_SKgt-cRIiuULymAVxEfCvUHALN5B&export=download&authuser=0&confirm=t&uuid=e170ee18-ffc9-416a-bec3-51ce980c5e7c&at=AN8xHoqEoQspulgOR3414IXfcV9j:1751564417505
+#EXTINF:-1 tvg-id="CNNIndonesia.id" tvg-logo="https://i.postimg.cc/x1jqJ5VX/cnn-id.png" group-title="✅MEMBERLIST RUMAHTV24", ✅Ridwan (Polres) 14/10/2026 (1thn)
+https://drive.usercontent.google.com/download?id=1QYV_SKgt-cRIiuULymAVxEfCvUHALN5B&export=download&authuser=0&confirm=t&uuid=e170ee18-ffc9-416a-bec3-51ce980c5e7c&at=AN8xHoqEoQspulgOR3414IXfcV9j:1751564417505
+#EXTINF:-1 tvg-id="CNNIndonesia.id" tvg-logo="https://i.postimg.cc/x1jqJ5VX/cnn-id.png" group-title="✅MEMBERLIST RUMAHTV24", ✅Rika Pratiwi(STB/RSBG) 30/10/2026 (1thn)
+https://drive.usercontent.google.com/download?id=1QYV_SKgt-cRIiuULymAVxEfCvUHALN5B&export=download&authuser=0&confirm=t&uuid=e170ee18-ffc9-416a-bec3-51ce980c5e7c&at=AN8xHoqEoQspulgOR3414IXfcV9j:1751564417505
+#EXTINF:-1 tvg-id="CNNIndonesia.id" tvg-logo="https://i.postimg.cc/x1jqJ5VX/cnn-id.png" group-title="✅MEMBERLIST RUMAHTV24", ✅Muhdin Saleh (RSUD Kota) 10/11/2025 (3bln)
+https://drive.usercontent.google.com/download?id=1QYV_SKgt-cRIiuULymAVxEfCvUHALN5B&export=download&authuser=0&confirm=t&uuid=e170ee18-ffc9-416a-bec3-51ce980c5e7c&at=AN8xHoqEoQspulgOR3414IXfcV9j:1751564417505
+#EXTINF:-1 tvg-id="CNNIndonesia.id" tvg-logo="https://i.postimg.cc/x1jqJ5VX/cnn-id.png" group-title="✅MEMBERLIST RUMAHTV24", ✅Salman (BTN Israr) 06/03/2026 (1thn)
+https://drive.usercontent.google.com/download?id=1QYV_SKgt-cRIiuULymAVxEfCvUHALN5B&export=download&authuser=0&confirm=t&uuid=e170ee18-ffc9-416a-bec3-51ce980c5e7c&at=AN8xHoqEoQspulgOR3414IXfcV9j:1751564417505
+#EXTINF:-1 tvg-id="CNNIndonesia.id" tvg-logo="https://i.postimg.cc/x1jqJ5VX/cnn-id.png" group-title="✅MEMBERLIST RUMAHTV24", ✅Samsinar Landre (RSBG) 30/06/2026 (1thn)
+https://drive.usercontent.google.com/download?id=1QYV_SKgt-cRIiuULymAVxEfCvUHALN5B&export=download&authuser=0&confirm=t&uuid=e170ee18-ffc9-416a-bec3-51ce980c5e7c&at=AN8xHoqEoQspulgOR3414IXfcV9j:1751564417505
+#EXTINF:-1 tvg-id="CNNIndonesia.id" tvg-logo="https://i.postimg.cc/x1jqJ5VX/cnn-id.png" group-title="✅MEMBERLIST RUMAHTV24", ✅Sely (RSBG) 30/06/2025 (1thn)
+https://drive.usercontent.google.com/download?id=1QYV_SKgt-cRIiuULymAVxEfCvUHALN5B&export=download&authuser=0&confirm=t&uuid=e170ee18-ffc9-416a-bec3-51ce980c5e7c&at=AN8xHoqEoQspulgOR3414IXfcV9j:1751564417505
+#EXTINF:-1 tvg-id="CNNIndonesia.id" tvg-logo="https://i.postimg.cc/x1jqJ5VX/cnn-id.png" group-title="✅MEMBERLIST RUMAHTV24", ✅Sitti Mikarna K (Kdi) 07/07/2025 (1thn)
+https://drive.usercontent.google.com/download?id=1QYV_SKgt-cRIiuULymAVxEfCvUHALN5B&export=download&authuser=0&confirm=t&uuid=e170ee18-ffc9-416a-bec3-51ce980c5e7c&at=AN8xHoqEoQspulgOR3414IXfcV9j:1751564417505
+#EXTINF:-1 tvg-id="CNNIndonesia.id" tvg-logo="https://i.postimg.cc/x1jqJ5VX/cnn-id.png" group-title="✅MEMBERLIST RUMAHTV24", ✅Sitti Sainab (Bumi) 30/06/2026 (1thn)
+https://drive.usercontent.google.com/download?id=1QYV_SKgt-cRIiuULymAVxEfCvUHALN5B&export=download&authuser=0&confirm=t&uuid=e170ee18-ffc9-416a-bec3-51ce980c5e7c&at=AN8xHoqEoQspulgOR3414IXfcV9j:1751564417505
+#EXTINF:-1 tvg-id="CNNIndonesia.id" tvg-logo="https://i.postimg.cc/x1jqJ5VX/cnn-id.png" group-title="✅MEMBERLIST RUMAHTV24", ✅Sofyan (RSBG) 03/03/2026 (1thn)
+https://drive.usercontent.google.com/download?id=1QYV_SKgt-cRIiuULymAVxEfCvUHALN5B&export=download&authuser=0&confirm=t&uuid=e170ee18-ffc9-416a-bec3-51ce980c5e7c&at=AN8xHoqEoQspulgOR3414IXfcV9j:1751564417505
+#EXTINF:-1 tvg-id="CNNIndonesia.id" tvg-logo="https://i.postimg.cc/x1jqJ5VX/cnn-id.png" group-title="✅MEMBERLIST RUMAHTV24", ✅Sofyan (Kolakasi) 10/07/2026 (1thn)
+https://drive.usercontent.google.com/download?id=1QYV_SKgt-cRIiuULymAVxEfCvUHALN5B&export=download&authuser=0&confirm=t&uuid=e170ee18-ffc9-416a-bec3-51ce980c5e7c&at=AN8xHoqEoQspulgOR3414IXfcV9j:1751564417505
+#EXTINF:-1 tvg-id="CNNIndonesia.id" tvg-logo="https://i.postimg.cc/x1jqJ5VX/cnn-id.png" group-title="✅MEMBERLIST RUMAHTV24", ✅Sulfaidah (RSBG) 07/10/2025 (1thn)
+https://drive.usercontent.google.com/download?id=1QYV_SKgt-cRIiuULymAVxEfCvUHALN5B&export=download&authuser=0&confirm=t&uuid=e170ee18-ffc9-416a-bec3-51ce980c5e7c&at=AN8xHoqEoQspulgOR3414IXfcV9j:1751564417505
+#EXTINF:-1 tvg-id="CNNIndonesia.id" tvg-logo="https://i.postimg.cc/x1jqJ5VX/cnn-id.png" group-title="✅MEMBERLIST RUMAHTV24", ✅Suci Citra Sari 19/12/2025 (1thn)
+https://drive.usercontent.google.com/download?id=1QYV_SKgt-cRIiuULymAVxEfCvUHALN5B&export=download&authuser=0&confirm=t&uuid=e170ee18-ffc9-416a-bec3-51ce980c5e7c&at=AN8xHoqEoQspulgOR3414IXfcV9j:1751564417505
+#EXTINF:-1 tvg-id="CNNIndonesia.id" tvg-logo="https://i.postimg.cc/x1jqJ5VX/cnn-id.png" group-title="✅MEMBERLIST RUMAHTV24", ✅Syahrul (Kolaka) 07/10/2025 (1thn)
+https://drive.usercontent.google.com/download?id=1QYV_SKgt-cRIiuULymAVxEfCvUHALN5B&export=download&authuser=0&confirm=t&uuid=e170ee18-ffc9-416a-bec3-51ce980c5e7c&at=AN8xHoqEoQspulgOR3414IXfcV9j:1751564417505
+#EXTINF:-1 tvg-id="CNNIndonesia.id" tvg-logo="https://i.postimg.cc/x1jqJ5VX/cnn-id.png" group-title="✅MEMBERLIST RUMAHTV24", ✅Takbir 11/11/2026 (1thn)
+https://drive.usercontent.google.com/download?id=1QYV_SKgt-cRIiuULymAVxEfCvUHALN5B&export=download&authuser=0&confirm=t&uuid=e170ee18-ffc9-416a-bec3-51ce980c5e7c&at=AN8xHoqEoQspulgOR3414IXfcV9j:1751564417505
+#EXTINF:-1 tvg-id="CNNIndonesia.id" tvg-logo="https://i.postimg.cc/x1jqJ5VX/cnn-id.png" group-title="✅MEMBERLIST RUMAHTV24", ✅Taqwa (Cust. Asdar 1) 30/10/2025 (1thn)
+https://drive.usercontent.google.com/download?id=1QYV_SKgt-cRIiuULymAVxEfCvUHALN5B&export=download&authuser=0&confirm=t&uuid=e170ee18-ffc9-416a-bec3-51ce980c5e7c&at=AN8xHoqEoQspulgOR3414IXfcV9j:1751564417505
+#EXTINF:-1 tvg-id="CNNIndonesia.id" tvg-logo="https://i.postimg.cc/x1jqJ5VX/cnn-id.png" group-title="✅MEMBERLIST RUMAHTV24", ✅Usman (Tahoa 2) 31/01/2026 (1thn)
+https://drive.usercontent.google.com/download?id=1QYV_SKgt-cRIiuULymAVxEfCvUHALN5B&export=download&authuser=0&confirm=t&uuid=e170ee18-ffc9-416a-bec3-51ce980c5e7c&at=AN8xHoqEoQspulgOR3414IXfcV9j:1751564417505
+#EXTINF:-1 tvg-id="CNNIndonesia.id" tvg-logo="https://i.postimg.cc/x1jqJ5VX/cnn-id.png" group-title="✅MEMBERLIST RUMAHTV24", ✅Kakak Usman (Tahoa 3) 31/03/2026 (1thn)
+https://drive.usercontent.google.com/download?id=1QYV_SKgt-cRIiuULymAVxEfCvUHALN5B&export=download&authuser=0&confirm=t&uuid=e170ee18-ffc9-416a-bec3-51ce980c5e7c&at=AN8xHoqEoQspulgOR3414IXfcV9j:1751564417505
+#EXTINF:-1 tvg-id="CNNIndonesia.id" tvg-logo="https://i.postimg.cc/x1jqJ5VX/cnn-id.png" group-title="✅MEMBERLIST RUMAHTV24", ✅Usman (ortu) 27/06/2026 (1thn)
+https://drive.usercontent.google.com/download?id=1QYV_SKgt-cRIiuULymAVxEfCvUHALN5B&export=download&authuser=0&confirm=t&uuid=e170ee18-ffc9-416a-bec3-51ce980c5e7c&at=AN8xHoqEoQspulgOR3414IXfcV9j:1751564417505
+#EXTINF:-1 tvg-id="CNNIndonesia.id" tvg-logo="https://i.postimg.cc/x1jqJ5VX/cnn-id.png" group-title="✅MEMBERLIST RUMAHTV24", ✅Tria Wulandari (RSUD Kota) 31/01/2026 (1thn)
+https://drive.usercontent.google.com/download?id=1QYV_SKgt-cRIiuULymAVxEfCvUHALN5B&export=download&authuser=0&confirm=t&uuid=e170ee18-ffc9-416a-bec3-51ce980c5e7c&at=AN8xHoqEoQspulgOR3414IXfcV9j:1751564417505
+#EXTINF:-1 tvg-id="CNNIndonesia.id" tvg-logo="https://i.postimg.cc/x1jqJ5VX/cnn-id.png" group-title="✅MEMBERLIST RUMAHTV24", ✅Viviet Handayani  20/09/2026 (1thn)
+https://drive.usercontent.google.com/download?id=1QYV_SKgt-cRIiuULymAVxEfCvUHALN5B&export=download&authuser=0&confirm=t&uuid=e170ee18-ffc9-416a-bec3-51ce980c5e7c&at=AN8xHoqEoQspulgOR3414IXfcV9j:1751564417505
+#EXTINF:-1 tvg-id="CNNIndonesia.id" tvg-logo="https://i.postimg.cc/x1jqJ5VX/cnn-id.png" group-title="✅MEMBERLIST RUMAHTV24", ✅Yudi	11/11/2025 (1thn)
+https://drive.usercontent.google.com/download?id=1QYV_SKgt-cRIiuULymAVxEfCvUHALN5B&export=download&authuser=0&confirm=t&uuid=e170ee18-ffc9-416a-bec3-51ce980c5e7c&at=AN8xHoqEoQspulgOR3414IXfcV9j:1751564417505
+#EXTINF:-1 tvg-id="CNNIndonesia.id" tvg-logo="https://i.postimg.cc/x1jqJ5VX/cnn-id.png" group-title="✅MEMBERLIST RUMAHTV24", ✅Yuni (P. Ciwang) 25/05/2026 (1thn)
+https://drive.usercontent.google.com/download?id=1QYV_SKgt-cRIiuULymAVxEfCvUHALN5B&export=download&authuser=0&confirm=t&uuid=e170ee18-ffc9-416a-bec3-51ce980c5e7c&at=AN8xHoqEoQspulgOR3414IXfcV9j:1751564417505
+#EXTINF:-1 tvg-id="CNNIndonesia.id" tvg-logo="https://i.postimg.cc/x1jqJ5VX/cnn-id.png" group-title="✅MEMBERLIST RUMAHTV24", ✅Yuni Yulianti (RSBG) 31/10/2025 (1thn)
+https://drive.usercontent.google.com/download?id=1QYV_SKgt-cRIiuULymAVxEfCvUHALN5B&export=download&authuser=0&confirm=t&uuid=e170ee18-ffc9-416a-bec3-51ce980c5e7c&at=AN8xHoqEoQspulgOR3414IXfcV9j:1751564417505

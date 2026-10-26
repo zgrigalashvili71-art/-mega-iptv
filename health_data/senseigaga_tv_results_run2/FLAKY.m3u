@@ -1,0 +1,7 @@
+#EXTM3U
+#EXTINF:-1 tvg-logo="https://oneplaysport.cz/assets/front/img/channels/ops_2.png" group-title="MYIPTV სპორტი",one play sport 2
+http://213.192.12.185:8082/play/Oneplay%20Sport%202.m3u8
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVf9vLr8-kR02p4rhQRsI7OMzQkX8dCMRbMaZ5XXxGUq4uzaLNlKFtMbKx&s=10" group-title="MYIPTV სპორტი",nova sport 1
+http://213.192.12.185:8082/play/Nova%20Sport%201%20HD.m3u8
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdZLpVERk2gZLzh7RPJrP3ap1vYJHQm6p9K2pfpNAuiVjRLp3JFMPpmMM&s=10" group-title="MYIPTV სპორტი",nova sport 2
+http://213.192.12.185:8082/play/Nova%20Sport%202%20HD.m3u8

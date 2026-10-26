@@ -1,0 +1,85 @@
+#EXTM3U
+#EXTINF:-1 tvg-id="翡翠台.hk" tvg-logo="https://assets.livednow.com/logo/翡翠台.png" group-title="Hong Kong 香港", 翡翠台
+https://cdn3.indevs.in/stream/tvb/fct/
+#EXTINF:-1 tvg-name="华丽翡翠台" tvg-logo="https://gitee.com/suxuang/logo/raw/master/mylogo/华丽翡翠台.png" group-title="Hong Kong 香港",华丽翡翠台
+http://r.jdshipin.com/thuYX
+#EXTINF:21 tvg-id="無綫新聞台.hk" group-title="Hong Kong 香港" tvg-logo="https://upload.wikimedia.org/wikipedia/zh/6/62/TVBN_2017_logo.png", 無線新聞台
+http://r.jdshipin.com/CkuBd
+#EXTINF:-1 tvg-id="nba-tv-usa" tvg-logo="https://i.pinimg.com/originals/52/4a/46/524a467886b251a6ef5becf35e47de10.png" group-title="SPORTS", NBA TV
+https://cdn1.ayitistream.com/NBATV/index.m3u8
+#EXTINF:-1 tvg-name="CA CBC NEWS NETWORK (E)[960x540]" tvg-logo="https://live.fanmingming.cn/tv/CA CBC NEWS NETWORK (E)[960x540].png" group-title="24/7 WORLD NEWS",CA CBC NEWS NETWORK
+https://d2ny9lo79ujali.cloudfront.net/CBC_News_International.m3u8
+#EXTINF:-1 tvg-id="Skynews.uk" tvg-name="Sky News" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/b/b4/Sky-news-logo.png" group-title="24/7 WORLD NEWS",Sky News
+https://xemzi.short.gy/1000018
+#EXTINF:-1 tvg-id="nfl-network" tvg-name="NFL Network" tvg-logo="https://cdn2.downdetector.com/static/uploads/c/300/31114/NFL_Network_logo.png" group-title="SPORTS",NFL Network
+http://23.237.104.106:8080/USA_NFL_NETWORK/index.m3u8
+#EXTINF: -1 tvg-id="鳳凰衛視香港台.hk" tvg-logo="http://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch367_110_80" group-title="Hong Kong 香港", 凤凰香港
+http://php.jdshipin.com/TVOD/iptv.php?id=fhzw
+#EXTINF:-1 tvg-name="US Cinemax (East)[1920x1080]" tvg-logo="https://live.fanmingming.cn/tv/US Cinemax (East)[1920x1080].png" group-title="Movies",US Cinemax (East)[1920x1080]
+http://23.237.104.106:8080/USA_CINEMAX/index.m3u8
+#EXTINF:-1tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s18431_dark_360w_270h.png" group-title="Movies",HBO Zone
+http://23.237.104.106:8080/USA_HBO_ZONE/index.m3u8
+#EXTINF:-1 tvg-id="TCMPacific.us" tvg-name="TCM West" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s12852_dark_360w_270h.png" group-title="Movies",TCM (Turner Classic Movies) West
+https://raw.githubusercontent.com/InsolenceWillow/insolencetvgo/main/streams/tcmwest.us.m3u8
+#EXTINF:-1 tvg-id="368550" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/RTHK_TV_31.svg/1200px-RTHK_TV_31.svg.png" group-title="Hong Kong 香港",港台電視31
+http://php.jdshipin.com/TVOD/iptv.php?id=rthk31
+#EXTINF:-1 tvg-id="368551" tvg-logo="https://logos.fandom.com/vi/wiki/%E6%B8%AF%E5%8F%B0%E9%9B%BB%E8%A6%96_32?file=RTHK_TV_32_2013.svg" group-title="Hong Kong 香港",港台電視32
+http://php.jdshipin.com/TVOD/iptv.php?id=rthk32
+#EXTINF:15 tvg-id="千禧經典台.hk" group-title="Hong Kong 香港" tvg-logo="https://assets.livednow.com/logo/千禧經典台.png", 千禧經典台
+http://php.jdshipin.com/TVOD/iptv.php?id=tvbc
+#EXTINF: -1 tvg-id="娛樂新聞台.hk" tvg-logo="https://staticsfm.tvbanywhere.com.sg/images/liveChannelImage/2020/6/15/1594786611129.png" group-title="Hong Kong 香港", TVB 娛樂新聞台
+http://php.jdshipin.com/TVOD/iptv.php?id=tvbylxw
+#EXTINF: -1 tvg-id="明珠台.hk" tvg-logo="https://gitee.com/suxuang/TVlogo/raw/main/img/TVB2.png" group-title="Hong Kong 香港", Pearl 明珠台
+http://php.jdshipin.com/TVOD/iptv.php?id=mzt
+#EXTINF:-1 tvg-name="翡翠台北美版" tvg-logo="https://live.fanmingming.cn/tv/翡翠台北美版.png" group-title="Hong Kong 香港",翡翠台北美版
+http://php.jdshipin.com:8880/TVOD/iptv.php?id=j1
+#EXTINF:-1 tvg-logo="https://www.tvchinese.net/uploads/tv/tvb-xinhe.jpg" group-title="Hong Kong 香港",TVB 星河
+http://php.jdshipin.com/TVOD/iptv.php?id=tvbxh
+#EXTINF:-1 tvg-name="亚洲武侠" tvg-logo="https://live.fanmingming.cn/tv/亚洲武侠.png" group-title="Hong Kong 香港",亚洲武侠
+http://php.jdshipin.com/TVOD/iptv.php?id=yzwx
+#EXTINF:0 tvg-id="TVB Plus.hk" tvg-logo="https://assets.livednow.com/logo/TVB-Plus.png" group-title="Hong Kong 香港",無線 TVB Plus
+http://php.jdshipin.com/TVOD/iptv.php?id=tvbp
+#EXTINF:-1 tvg-logo="https://gitee.com/suxuang/logo/raw/master/mylogo/HOY TV.png" group-title="Hong Kong 香港",HOY TV
+http://r.jdshipin.com/sFw4S
+#EXTINF:-1  tvg-logo="https://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s67081_dark_360w_270h.png" group-title="UK Channels",BBC One
+http://41.205.93.154/BBCONE/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-states/bein-sports-xtra-us.png" group-logo="https://cdn-icons-png.freepik.com/512/1080/1080994.png" group-title="SPORTS",Bein Sports Xtra
+https://bein-xtra-xumo.amagi.tv/hls/amagi_hls_data_beinAAAAA-bein-xtra-xumoA/CDN/master.m3u8
+#EXTINF:-1 tvg-id="CBSSportsGolazoNetwork.us@SD" tvg-logo="https://i.imgur.com/eMjutHS.png" group-title="SPORTS",CBS Sports Golazo Network (720p)
+https://dai.google.com/linear/hls/event/7f3Wv6f7QEKfQna22jHqLQ/master.m3u8
+#EXTINF:-1 tvg-id="613683" tvg-logo="https://canvas-lb.tubitv.com/opts/50bQ3M9R_pEUzg==/69e052e9-4264-45cf-93f6-6218f998abc4/CHgQeDoFMS4xLjlAAQ==" group-title="SPORTS™,FOX Sports on Tubi
+https://live-manifest.production-public.tubi.io/live/6035c7fd-efff-4ec7-93dc-aa0c7a58ba47/playlist.m3u8
+#EXTINF:-1 tvg-id="TVBSAsia.tw@SD" group-title="Taiwan",TVBS Asia (1080p)
+http://38.64.72.148/hls/modn/list/4005/playlist.m3u8
+#EXTINF:-1 group-title="Taiwan",大立電視
+http://www.dalitv.com.tw:4568/live/dali/index.m3u8
+#EXTINF:-1 group-title="Taiwan",东森美洲卫视
+https://epg.pw/stream/568e26b29122e84e3527b97eca553332274777bdf39873fb234fb6581a3f6a59.m3u8
+#EXTINF:-1 group-title="Taiwan",台视新闻 HD
+http://38.64.72.148/hls/modn/list/4013/chunklist0.m3u8
+#EXTINF:-1  tvg-name="华视新闻" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/华视新闻.png"  group-title="Taiwan",华视新闻
+https://ha.msbot.dpdns.org/4gtv_api.php?id=256
+#EXTINF:-1 tvg-id="SkySports1" tvg-name="Sky Sports NZ 1 FHD" tvg-logo="https://8upload.com/image/67dcf3f71dbaa/sky-sport-1-nz.png?raw=1" group-title="Sports",Sky Sports NZ 1 FHD
+http://45.12.32.190:8080/UK-SkySport1NZ/video.m3u8
+#EXTINF:-1 tvg-id="SkySports2" tvg-name="Sky Sports NZ 2 FHD" tvg-logo="https://8upload.com/image/67dcf3f712c8a/sky-sport-2-nz.png?raw=1" group-title="Sports",Sky Sports NZ 2 FHD
+http://45.12.32.190:8080/UK-SkySport2NZ/video.m3u8
+#EXTINF:-1 tvg-id="SkySports3" tvg-name="Sky Sports NZ 3 FHD" tvg-logo="https://8upload.com/image/67dcf3f707147/sky-sport-3-nz.png?raw=1" group-title="Sports",Sky Sports NZ 3 FHD
+http://45.12.32.190:8080/UK-SkySport3NZ/video.m3u8
+#EXTINF:-1 tvg-id="0" group-title="Sports" tvg-logo="http://103.176.90.118/picons-dino/logos/FOX-SPORTS.png",AU - FOX SPORTS 501
+https://bdix.spidy.online/MAC/SBHGOLD/play.php?id=259842
+#EXTINF:-1 tvg-id="0" group-title="Sports" tvg-logo="http://103.176.90.118/picons-dino/logos/FOX-SPORTS-503.png",AU - FOX SPORTS 503
+https://bdix.spidy.online/MAC/SBHGOLD/play.php?id=259844
+#EXTINF:-1 tvg-id="0" group-title="Sports" tvg-logo="http://103.176.90.118/picons-dino/logos/FOX-SPORTS.png",AU - FOX SPORTS 504
+https://bdix.spidy.online/MAC/SBHGOLD/play.php?id=259845
+#EXTINF:-1 tvg-id="0" group-title="Sports" tvg-logo="http://103.176.90.118/picons-dino/logos/FOX-SPORTS-507.png",AU - FOX SPORTS 505
+https://bdix.spidy.online/MAC/SBHGOLD/play.php?id=617191
+#EXTINF:-1 tvg-id="0" group-title="Sports" tvg-logo="http://103.176.90.118/picons-dino/logos/FOX-SPORTS-507.png",AU - FOX SPORTS 506
+https://bdix.spidy.online/MAC/SBHGOLD/play.php?id=617192
+#EXTINF:-1 tvg-id="0" group-title="Sports" tvg-logo="http://103.176.90.118/picons-dino/logos/FOX-SPORTS-507.png",AU - FOX SPORTS 507
+https://bdix.spidy.online/MAC/SBHGOLD/play.php?id=259846
+#EXTINF:-1 tvg-id="FoxDeportes.us@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/FOX_Deportes_logo.png/960px-FOX_Deportes_logo.png" group-title="Sports",Fox Deportes (720p)
+http://23.237.104.106:8080/USA_FOX_DEPORTES/index.m3u8
+#EXTINF:-1 tvg-chno="40" tvg-id="CNBC.HD.us2" tvg-name="CNBC" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/united-states/cnbc-us.png" group-title="Test Channels",CNBC
+http://41.205.93.154/CNBC/index.m3u8
+#EXTINF:-1 tvg-id="CNNOriginals.us@SD" tvg-logo="https://provider-static.plex.tv/epg/cms/production/f351d697-1e1f-4e7d-86c7-5995698e593f/CNN_Originals_ChannelLogo_Dark_1500x1000_2025_-_Grace_Hartwig.png" group-title="Test Channels",CNN Originals (1080p)
+https://amg01918-cnnus-amg01918c2-vizio-us-9192.playouts.now.amagi.tv/playlist/amg01918-cnnus-cnnoriginals-vizious/playlist.m3u8

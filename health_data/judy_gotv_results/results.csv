@@ -1,0 +1,34 @@
+﻿name,group,source,url,status,attempts,startup_seconds,http_code,detail,has_video,has_audio
+Astro Football,GPT-体育,,https://smt.goiptv.us.ci/go_assp4/playlist.m3u8,FLAKY,3,20.49,,https://smt.goiptv.us.ci/go_assp4/playlist.m3u8: Server returned 5XX Server Error reply,False,False
+Astro Sports Plus,GPT-体育,,https://smt.goiptv.us.ci/go_sportsplus/playlist.m3u8,FLAKY,3,20.49,,https://smt.goiptv.us.ci/go_sportsplus/playlist.m3u8: Server returned 5XX Server Error reply,False,False
+Astro W-Sports,GPT-体育,,https://smt.goiptv.us.ci/go_assp5/playlist.m3u8,FLAKY,3,19.99,,https://smt.goiptv.us.ci/go_assp5/playlist.m3u8: Server returned 5XX Server Error reply,False,False
+Supersports 1,GPT-体育,,https://smt.goiptv.us.ci/Assp1/playlist.m3u8,FLAKY,3,20.32,,https://smt.goiptv.us.ci/Assp1/playlist.m3u8: Server returned 5XX Server Error reply,False,False
+Supersports 2,GPT-体育,,https://smt.goiptv.us.ci/Assp2/playlist.m3u8,FLAKY,3,19.97,,https://smt.goiptv.us.ci/Assp2/playlist.m3u8: Server returned 5XX Server Error reply,False,False
+Supersports 3,GPT-体育,,https://smt.goiptv.us.ci/Assp3/playlist.m3u8,FLAKY,3,20.36,,https://smt.goiptv.us.ci/Assp3/playlist.m3u8: Server returned 5XX Server Error reply,False,False
+Supersports 4,GPT-体育,,https://smt.goiptv.us.ci/Assp4/playlist.m3u8,FLAKY,3,19.97,,https://smt.goiptv.us.ci/Assp4/playlist.m3u8: Server returned 5XX Server Error reply,False,False
+Fight Sports,GPT-体育,,https://smt.goiptv.us.ci/Fs/playlist.m3u8,FLAKY,3,20.15,,https://smt.goiptv.us.ci/Fs/playlist.m3u8: Server returned 5XX Server Error reply,False,False
+NBA TV,GPT-体育,,https://smt.goiptv.us.ci/Nba/playlist.m3u8,FLAKY,3,20.32,,https://smt.goiptv.us.ci/Nba/playlist.m3u8: Server returned 5XX Server Error reply,False,False
+Astro Cricket,GPT-体育,,https://smt.goiptv.us.ci/Acricket/playlist.m3u8,FLAKY,3,20.53,,https://smt.goiptv.us.ci/Acricket/playlist.m3u8: Server returned 5XX Server Error reply,False,False
+Astro Golf,GPT-体育,,https://smt.goiptv.us.ci/Agolf/playlist.m3u8,FLAKY,3,20.2,,https://smt.goiptv.us.ci/Agolf/playlist.m3u8: Server returned 5XX Server Error reply,False,False
+Tnt Sports 1,GPT-体育,,https://smt.goiptv.us.ci/6fac0aaead/playlist.m3u8,FLAKY,3,19.97,,https://smt.goiptv.us.ci/6fac0aaead/playlist.m3u8: Server returned 5XX Server Error reply,False,False
+TNT Sports 2,GPT-体育,,https://smt.goiptv.us.ci/d9a76a79cc/playlist.m3u8,FLAKY,3,20.16,,https://smt.goiptv.us.ci/d9a76a79cc/playlist.m3u8: Server returned 5XX Server Error reply,False,False
+TNT Sports 3,GPT-体育,,https://smt.goiptv.us.ci/5fea4d73db/playlist.m3u8,FLAKY,3,20.01,,https://smt.goiptv.us.ci/5fea4d73db/playlist.m3u8: Server returned 5XX Server Error reply,False,False
+TNT Sports 4,GPT-体育,,https://smt.goiptv.us.ci/tntsport4/playlist.m3u8,FLAKY,3,20.17,,https://smt.goiptv.us.ci/tntsport4/playlist.m3u8: Server returned 5XX Server Error reply,False,False
+Skysports F1,GPT-体育,,https://smt.goiptv.us.ci/tiankongf1/playlist.m3u8,FLAKY,3,19.97,,https://smt.goiptv.us.ci/tiankongf1/playlist.m3u8: Server returned 5XX Server Error reply,False,False
+Skysports Cricket,GPT-体育,,https://smt.goiptv.us.ci/tiankongcricket/playlist.m3u8,FLAKY,3,19.96,,https://smt.goiptv.us.ci/tiankongcricket/playlist.m3u8: Server returned 5XX Server Error reply,False,False
+Skysports EPL,GPT-体育,,https://smt.goiptv.us.ci/tiankongepl/playlist.m3u8,FLAKY,3,19.98,,https://smt.goiptv.us.ci/tiankongepl/playlist.m3u8: Server returned 5XX Server Error reply,False,False
+Skysports Main Event,GPT-体育,,https://smt.goiptv.us.ci/tiankongmain/playlist.m3u8,FLAKY,3,20.03,,https://smt.goiptv.us.ci/tiankongmain/playlist.m3u8: Server returned 5XX Server Error reply,False,False
+Skysports News,GPT-体育,,https://smt.goiptv.us.ci/tiankongnews/playlist.m3u8,FLAKY,3,19.97,,https://smt.goiptv.us.ci/tiankongnews/playlist.m3u8: Server returned 5XX Server Error reply,False,False
+Skysports Mix,GPT-体育,,https://smt.goiptv.us.ci/tiankongmix/playlist.m3u8,FLAKY,3,20.02,,https://smt.goiptv.us.ci/tiankongmix/playlist.m3u8: Server returned 5XX Server Error reply,False,False
+RTM Sports HD,GPT-体育,,https://smt.goiptv.us.ci/Rtmsport/playlist.m3u8,FLAKY,3,19.98,,https://smt.goiptv.us.ci/Rtmsport/playlist.m3u8: Server returned 5XX Server Error reply,False,False
+Astro Beinsports 1,GPT-体育,,https://smt.goiptv.us.ci/Astrobein1/playlist.m3u8,FLAKY,3,19.98,,https://smt.goiptv.us.ci/Astrobein1/playlist.m3u8: Server returned 5XX Server Error reply,False,False
+Astro Beinsports 2,GPT-体育,,https://smt.goiptv.us.ci/Astrobein2/playlist.m3u8,FLAKY,3,19.99,,https://smt.goiptv.us.ci/Astrobein2/playlist.m3u8: Server returned 5XX Server Error reply,False,False
+Astro Beinsports 3,GPT-体育,,https://smt.goiptv.us.ci/Astrobein3/playlist.m3u8,FLAKY,3,20.0,,https://smt.goiptv.us.ci/Astrobein3/playlist.m3u8: Server returned 5XX Server Error reply,False,False
+RTM Sports HD,GPT-马来西亚,,https://smt.goiptv.us.ci/Rtmsport/playlist.m3u8,FLAKY,3,20.01,,https://smt.goiptv.us.ci/Rtmsport/playlist.m3u8: Server returned 5XX Server Error reply,False,False
+Fight Sports,GPT-印尼,,https://smt.goiptv.us.ci/Fs/playlist.m3u8,FLAKY,3,20.12,,https://smt.goiptv.us.ci/Fs/playlist.m3u8: Server returned 5XX Server Error reply,False,False
+Freesports,GPT-英国,,https://smt.goiptv.us.ci/freesports_antik/playlist.m3u8,FLAKY,3,20.12,,https://smt.goiptv.us.ci/freesports_antik/playlist.m3u8: Server returned 5XX Server Error reply,False,False
+Skysports F1,GPT-英国,,https://smt.goiptv.us.ci/tiankongf1/playlist.m3u8,FLAKY,3,20.13,,https://smt.goiptv.us.ci/tiankongf1/playlist.m3u8: Server returned 5XX Server Error reply,False,False
+Skysports Cricket,GPT-英国,,https://smt.goiptv.us.ci/tiankongcricket/playlist.m3u8,FLAKY,3,20.13,,https://smt.goiptv.us.ci/tiankongcricket/playlist.m3u8: Server returned 5XX Server Error reply,False,False
+Skysports EPL,GPT-英国,,https://smt.goiptv.us.ci/tiankongepl/playlist.m3u8,FLAKY,3,20.02,,https://smt.goiptv.us.ci/tiankongepl/playlist.m3u8: Server returned 5XX Server Error reply,False,False
+Skysports Main Event,GPT-英国,,https://smt.goiptv.us.ci/tiankongmain/playlist.m3u8,FLAKY,3,20.0,,https://smt.goiptv.us.ci/tiankongmain/playlist.m3u8: Server returned 5XX Server Error reply,False,False
+Skysports News,GPT-英国,,https://smt.goiptv.us.ci/tiankongnews/playlist.m3u8,FLAKY,3,20.0,,https://smt.goiptv.us.ci/tiankongnews/playlist.m3u8: Server returned 5XX Server Error reply,False,False

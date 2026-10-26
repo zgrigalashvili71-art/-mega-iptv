@@ -1,0 +1,64 @@
+name: Build ALL_WORKING_TV_V3 playlist
+
+# Rebuilds the consolidated V3 playlist from the health-check results stored in
+# health_data/. It never runs streams checks itself (GitHub runners sit in the US,
+# so their geo results would not match playback in Georgia) and it never touches
+# ALL_TV_PLUS_SPORTS.m3u, which update-playlist.yml owns.
+#
+# To refresh: run the V3 checker locally, then
+#   py -3.11 build_all_working_v3.py --input <IPTV_TEST folder> --output . --export-health-data health_data
+# and push health_data/. This workflow rebuilds and commits the outputs.
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "health_data/**"
+      - "config/denylist_hosts.txt"
+      - "build_all_working_v3.py"
+      - ".github/workflows/build-v3.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: build-v3
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Build consolidated playlist
+        run: python build_all_working_v3.py --input health_data --output . --denylist config/denylist_hosts.txt
+
+      - name: Guard the V2 playlist
+        run: git diff --quiet -- ALL_TV_PLUS_SPORTS.m3u || (echo "ALL_TV_PLUS_SPORTS.m3u changed - aborting" && exit 1)
+
+      - name: Commit outputs
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add ALL_WORKING_TV_V3.m3u ALL_WORKING_TV_V3_*.csv ALL_WORKING_TV_V3_*.json \
+                  ALL_WORKING_TV_V3_*.txt ALL_WORKING_TV_V3_RECHECK_*.m3u
+          if git diff --cached --quiet; then
+            echo "No playlist changes."
+            exit 0
+          fi
+          git commit -m "Rebuild ALL_WORKING_TV_V3 from health_data"
+          for i in 1 2 3; do
+            git pull --rebase origin main && git push && exit 0
+            sleep $((i * 10))
+          done
+          exit 1
