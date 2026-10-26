@@ -1,6 +1,6 @@
 ALL WORKING TV V3 - CONSOLIDATED BUILD REPORT
 ==============================================
-Built (UTC): 2026-10-26 09:31
+Built (UTC): 2026-10-26 11:24
 Inputs: health_data
 
 TOTAL RESULT FOLDERS SCANNED         33
@@ -33,7 +33,18 @@ DUPLICATES BEYOND BACKUP CAP          0
 UNIQUE FINAL CHANNELS             11764
 PLAYLIST ENTRIES (main .m3u)      14990   every working stream; extra copies as 'Name (alt N)'
 CLEAN PLAYLIST ENTRIES            11764   ALL_WORKING_TV_V3_CLEAN.m3u, one per channel
+GEORGIA PLAYLIST ENTRIES             77   ALL_WORKING_TV_V3_GEORGIA.m3u
+SPORTS PLAYLIST ENTRIES             905   ALL_WORKING_TV_V3_SPORTS.m3u
+GEORGIA_SPORTS PLAYLIST ENTRIES      982   ALL_WORKING_TV_V3_GEORGIA_SPORTS.m3u
 CHANNELS WITH BACKUPS              1743
+CHANNELS WITH TV GUIDE (EPG)       3016   of 11764
+       1456  https://i.mjh.nz/PlutoTV/all.xml.gz
+       1119  https://i.mjh.nz/SamsungTVPlus/all.xml.gz
+        219  https://i.mjh.nz/Plex/all.xml.gz
+        150  https://www.open-epg.com/files/georgia1.xml.gz
+         41  https://iptv-epg.org/files/epg-it.xml.gz
+         31  https://iptv-epg.org/files/epg-es.xml.gz
+GEORGIA CHANNELS WITH EPG            23   of 47
 PRIMARY = HEALTHY                 11450
 PRIMARY = FLAKY (evidence)          314
 

@@ -1,0 +1,15 @@
+# TV guides (XMLTV) the builder matches channels against, in priority order.
+# Only guides that match at least one channel are written into the playlist header.
+# Keep the total small: the TV box downloads every listed guide.
+#
+# Not used on purpose:
+#   iptv-epg.org epg-ge  - runs 4 hours late (local time labelled +0000)
+#   iptv-epg.org epg-us  - 61 MB for ~300 extra channels
+#   iptv-epg.org epg-gb  - 20 MB for ~40 extra channels
+
+https://www.open-epg.com/files/georgia1.xml.gz
+https://i.mjh.nz/PlutoTV/all.xml.gz
+https://i.mjh.nz/SamsungTVPlus/all.xml.gz
+https://i.mjh.nz/Plex/all.xml.gz
+https://iptv-epg.org/files/epg-es.xml.gz
+https://iptv-epg.org/files/epg-it.xml.gz

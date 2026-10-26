@@ -39,7 +39,9 @@ from __future__ import annotations
 
 import argparse
 import csv
+import gzip
 import hashlib
+import html
 import json
 import os
 import re
@@ -48,6 +50,7 @@ import subprocess
 import sys
 import unicodedata
 import urllib.parse
+import urllib.request
 from collections import Counter, defaultdict
 from concurrent.futures import ThreadPoolExecutor
 from dataclasses import dataclass, field
@@ -65,13 +68,23 @@ DEFAULT_UA = (
     "(KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36"
 )
 
-# EPG guides referenced in the playlist header (AquaPlay reads x-tvg-url).
+# EPG guides (AquaPlay reads x-tvg-url), in priority order. Overridden by
+# config/epg_sources.txt. With --epg the builder downloads them, matches channels
+# and lists only the guides that matched something.
 EPG_URLS = [
     "https://www.open-epg.com/files/georgia1.xml.gz",
     "https://i.mjh.nz/PlutoTV/all.xml.gz",
     "https://i.mjh.nz/SamsungTVPlus/all.xml.gz",
     "https://i.mjh.nz/Plex/all.xml.gz",
 ]
+
+# Extra playlists published next to the full one: file suffix -> groups.
+SUBSET_PLAYLISTS = {
+    "GEORGIA": ["Georgia", "Georgia Radio"],
+    "SPORTS": ["Sports", "Football", "Basketball", "Motorsport", "Combat Sports", "Other Sports"],
+    "GEORGIA_SPORTS": ["Georgia", "Georgia Radio", "Sports", "Football", "Basketball",
+                       "Motorsport", "Combat Sports", "Other Sports"],
+}
 
 # Hosts never published. Built from the 2026-10-21 GitHub piracy reporting
 # pack (premium restreams / pay-TV relays). Extend via --denylist file.
@@ -1192,6 +1205,7 @@ class Channel:
     tvg_name: str = ""
     logo: str = ""
     notes: list[str] = field(default_factory=list)
+    epg_source: str = ""         # guide URL that matched this channel's tvg-id
 
     @property
     def primary(self) -> Candidate:
@@ -1291,6 +1305,102 @@ def build_channels(accepted: list[Candidate], folder_rel: dict[str, float]) -> l
 
 
 # ---------------------------------------------------------------------------
+# EPG matching
+# ---------------------------------------------------------------------------
+# Georgian guides name channels in Georgian script ("იმედი", "რუსთავი 2");
+# playlists use Latin ("Imedi TV", "Rustavi 2"). Both sides are reduced to the
+# same loose Latin key before comparing.
+GE_TRANSLIT = dict(zip(
+    "აბგდევზთიკლმნოპჟრსტუფქღყშჩცძწჭხჯჰ",
+    ["a", "b", "g", "d", "e", "v", "z", "t", "i", "k", "l", "m", "n", "o", "p", "zh", "r",
+     "s", "t", "u", "p", "k", "gh", "k", "sh", "ch", "ts", "dz", "ts", "ch", "kh", "j", "h"]))
+EPG_ALIASES = {"1tv": "pirveli arkhi", "1 arkhi": "pirveli arkhi",
+               "1 arkhi sport": "pirveli arkhi sporti", "regbi": "ragbi"}
+EPG_SKIP_GROUPS = {"Radio", "Georgia Radio", "On Demand"}  # never give these a TV schedule by name
+
+
+def epg_key(name: str) -> str:
+    s = "".join(GE_TRANSLIT.get(ch, ch) for ch in fold_mtavruli(name or ""))
+    s = re.sub(r"\.[a-z]{2}$", "", s.strip(), flags=re.I)   # guide ids end in ".ge" etc.
+    k = name_key(clean_name(s)[0])
+    for a, b in (("f", "p"), ("x", "kh"), ("q", "k"), ("w", "v"), ("c", "k")):
+        k = k.replace(a, b)   # Formula/Pormula, Arxi/Arkhi, Obieqtivi/Obiektivi
+    k = " ".join(re.sub(r"\b(tv|hd|channel)\b", " ", k).split())
+    return EPG_ALIASES.get(k, k)
+
+
+def load_epg_sources(path: Path | None) -> list[str]:
+    if path and path.exists():
+        urls = [ln.split("#", 1)[0].strip() for ln in path.read_text(encoding="utf-8").splitlines()]
+        return [u for u in urls if u]
+    return list(EPG_URLS)
+
+
+def load_guides(urls: list[str]) -> list[dict]:
+    guides = []
+    for url in urls:
+        try:
+            req = urllib.request.Request(url, headers={"User-Agent": DEFAULT_UA})
+            with urllib.request.urlopen(req, timeout=180) as r:
+                data = r.read()
+            if data[:2] == b"\x1f\x8b":
+                data = gzip.decompress(data)
+            text = data.decode("utf-8", errors="replace")
+        except Exception as ex:
+            print(f"  ! EPG guide not loaded: {url} ({type(ex).__name__}: {ex})")
+            continue
+        # ids as the player sees them after XML parsing ("&amp;" -> "&")
+        ids = {html.unescape(i) for i in re.findall(r'<channel id="([^"]+)"', text)}
+        names: dict[str, set[str]] = defaultdict(set)
+        for cid, disp in re.findall(r'<channel id="([^"]+)"[^>]*>\s*<display-name[^>]*>([^<]*)<', text):
+            cid = html.unescape(cid)
+            names[epg_key(html.unescape(disp))].add(cid)
+            names[epg_key(cid)].add(cid)
+        for cid in ids:
+            names[epg_key(cid)].add(cid)
+        print(f"  EPG {len(ids):>6} channels  {len(data) / 1e6:6.1f} MB  {url}")
+        guides.append({"url": url, "ids": ids, "names": names})
+    return guides
+
+
+def match_epg(channels: list[Channel], guides: list[dict]) -> Counter:
+    """Point each channel's tvg-id at a guide that really carries it.
+    Order: exact tvg-id, tvg-id without the iptv-org '@feed' suffix, then a
+    unique loose-name match (Georgian transliterated) in a compatible guide."""
+    used = Counter()
+    for ch in channels:
+        tids = [t for t in [ch.tvg_id, *(c.tvg_id for c in ch.candidates)] if t]
+        hit = None
+        for g in guides:
+            hit = next((t for t in tids if t in g["ids"]), None)
+            if hit:
+                break
+        if not hit:
+            for g in guides:
+                hit = next((t.split("@")[0] for t in tids if t.split("@")[0] in g["ids"]), None)
+                if hit:
+                    break
+        if not hit and ch.group not in EPG_SKIP_GROUPS:
+            key = epg_key(ch.primary.display)
+            for g in guides:
+                found = g["names"].get(key) or set()
+                # a guide id like "ESPN.us" must agree with a known channel region
+                ok = [cid for cid in found if not ch.region or ch.region == "GE"
+                      or not re.search(r"\.[a-z]{2}$", cid)
+                      or cid.lower().endswith(("." + ch.region.lower(), ".ge"))]
+                if len(ok) == 1:
+                    hit = ok[0]
+                    break
+        if hit:
+            if hit != ch.tvg_id:
+                ch.notes.append(f"tvg-id set from guide (was '{ch.tvg_id}')")
+            ch.tvg_id = hit
+            ch.epg_source = g["url"]
+            used[g["url"]] += 1
+    return used
+
+
+# ---------------------------------------------------------------------------
 # Writing
 # ---------------------------------------------------------------------------
 def attr_safe(v: str) -> str:
@@ -1338,10 +1448,12 @@ def header_lines(c: Candidate) -> list[str]:
     return out
 
 
-def write_playlist(path: Path, channels: list[Channel], alternates: bool) -> int:
+def write_playlist(path: Path, channels: list[Channel], alternates: bool,
+                   epg_urls: list[str] = EPG_URLS) -> int:
     """alternates=True: every working stream, the other copies of a channel as
     "Name (alt 2)", "(alt 3)" ... right under it. False: one entry per channel."""
-    lines = [f'#EXTM3U x-tvg-url="{",".join(EPG_URLS)}" url-tvg="{",".join(EPG_URLS)}"']
+    guides = ",".join(epg_urls)
+    lines = [f'#EXTM3U x-tvg-url="{guides}" url-tvg="{guides}"' if guides else "#EXTM3U"]
     n = 0
     for ch in sorted(channels, key=lambda c: (group_sort_key(c.group), c.display.casefold())):
         for i, c in enumerate(ch.candidates if alternates else ch.candidates[:1], start=1):
@@ -1584,6 +1696,10 @@ def main():
     ap.add_argument("--export-health-data", default="",
                     help="Also write a sanitized copy of all result folders here "
                          "(credential/token/denylisted URLs removed) for the repo")
+    ap.add_argument("--epg-sources", default="config/epg_sources.txt",
+                    help="EPG guide URLs, one per line, in priority order")
+    ap.add_argument("--no-epg", action="store_true",
+                    help="Skip downloading guides; keep tvg-ids as found and list all guides")
     args = ap.parse_args()
 
     roots = [Path(p) for p in args.input]
@@ -1637,13 +1753,30 @@ def main():
                 overflow.append((ch, c))
             ch.candidates = ch.candidates[: MAX_BACKUPS + 1]
 
+    # ---------------- EPG ----------------
+    epg_urls = load_epg_sources(Path(args.epg_sources) if args.epg_sources else None)
+    epg_used: Counter = Counter()
+    if not args.no_epg:
+        print("Loading EPG guides ...")
+        guides = load_guides(epg_urls)
+        if guides:
+            epg_used = match_epg(channels, guides)
+            epg_urls = [u for u in epg_urls if epg_used[u]]  # only guides that help
+
     # ---------------- outputs ----------------
     m3u_path = out / f"{OUT_BASE}.m3u"
     if m3u_path.name in PROTECTED_FILES:
         raise SystemExit("refusing to overwrite a protected file")
-    n_entries = write_playlist(m3u_path, channels, alternates=True)
+    n_entries = write_playlist(m3u_path, channels, alternates=True, epg_urls=epg_urls)
     clean_path = out / f"{OUT_BASE}_CLEAN.m3u"
-    write_playlist(clean_path, channels, alternates=False)
+    write_playlist(clean_path, channels, alternates=False, epg_urls=epg_urls)
+    subset_paths = []
+    subset_counts = {}
+    for suffix, wanted in SUBSET_PLAYLISTS.items():
+        p = out / f"{OUT_BASE}_{suffix}.m3u"
+        subset_counts[suffix] = write_playlist(
+            p, [ch for ch in channels if ch.group in wanted], alternates=True, epg_urls=epg_urls)
+        subset_paths.append(p)
 
     def cand_info(c: Candidate) -> dict:
         return {
@@ -1667,7 +1800,7 @@ def main():
             "failure_count": p.failures, "attempts": p.attempts,
             "backup_count": len(bks),
             "backup_sources": "; ".join(sorted({f for b in bks for f in b.folders})),
-            "tvg_id": ch.tvg_id, "tvg_name": ch.tvg_name, "logo": ch.logo,
+            "tvg_id": ch.tvg_id, "epg_guide": ch.epg_source, "tvg_name": ch.tvg_name, "logo": ch.logo,
             "user_agent": p.user_agent, "referer": p.referer,
             "notes": "; ".join(ch.notes),
         })
@@ -1720,6 +1853,8 @@ def main():
     write_recheck(out / f"{OUT_BASE}_RECHECK_OFFLINE_NOW.m3u", offline)
 
     errors = validate_m3u(m3u_path) + [f"CLEAN: {e}" for e in validate_m3u(clean_path)]
+    for p in subset_paths:
+        errors += [f"{p.name}: {e}" for e in validate_m3u(p)]
 
     smoke = smoke_test(channels, args.smoke) if args.smoke > 0 else []
     if smoke:
@@ -1783,7 +1918,16 @@ def main():
     L.append(f"UNIQUE FINAL CHANNELS          {len(channels):>8}")
     L.append(f"PLAYLIST ENTRIES (main .m3u)   {n_entries:>8}   every working stream; extra copies as 'Name (alt N)'")
     L.append(f"CLEAN PLAYLIST ENTRIES         {len(channels):>8}   {OUT_BASE}_CLEAN.m3u, one per channel")
+    for suffix, n in subset_counts.items():
+        L.append(f"{(suffix + ' PLAYLIST ENTRIES'):<30} {n:>8}   {OUT_BASE}_{suffix}.m3u")
     L.append(f"CHANNELS WITH BACKUPS          {with_bk:>8}")
+    n_epg = sum(1 for ch in channels if ch.epg_source)
+    L.append(f"CHANNELS WITH TV GUIDE (EPG)   {n_epg:>8}   "
+             + ("(guides not checked: --no-epg)" if args.no_epg else f"of {len(channels)}"))
+    for u, n in epg_used.most_common():
+        L.append(f"     {n:>6}  {u}")
+    ge_total = sum(1 for ch in channels if ch.group == "Georgia")
+    L.append(f"GEORGIA CHANNELS WITH EPG      {sum(1 for ch in channels if ch.group == 'Georgia' and ch.epg_source):>8}   of {ge_total}")
     L.append(f"PRIMARY = HEALTHY              {sum(1 for ch in channels if ch.primary.status == 'HEALTHY'):>8}")
     L.append(f"PRIMARY = FLAKY (evidence)     {sum(1 for ch in channels if ch.primary.status == 'FLAKY'):>8}")
     L.append("")

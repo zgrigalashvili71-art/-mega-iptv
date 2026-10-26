@@ -1,0 +1,157 @@
+#EXTM3U x-tvg-url="https://www.open-epg.com/files/georgia1.xml.gz,https://i.mjh.nz/PlutoTV/all.xml.gz,https://i.mjh.nz/SamsungTVPlus/all.xml.gz,https://i.mjh.nz/Plex/all.xml.gz,https://iptv-epg.org/files/epg-es.xml.gz,https://iptv-epg.org/files/epg-it.xml.gz" url-tvg="https://www.open-epg.com/files/georgia1.xml.gz,https://i.mjh.nz/PlutoTV/all.xml.gz,https://i.mjh.nz/SamsungTVPlus/all.xml.gz,https://i.mjh.nz/Plex/all.xml.gz,https://iptv-epg.org/files/epg-es.xml.gz,https://iptv-epg.org/files/epg-it.xml.gz"
+#EXTINF:-1 tvg-id="პირველი არხი.ge" tvg-name="1 TV GE" tvg-logo="https://app.playlistbox.com/icon/8aNGL5kdnv361goaVXxXVmPjYb7BWK4E.png" group-title="Georgia",1 Arkhi
+http://tinyurl.com/3zje87av/gpb/tracks-v1a1/index.m3u8
+#EXTINF:-1 tvg-id="პირველი არხი სპორტი.ge" tvg-name="1 Arkhi sport" tvg-logo="https://img.ge/i/Wxk9C69.jpg" group-title="Georgia",1 Arkhi Sport
+https://tv.cdn.xsg.ge/gpb-2tv/index.m3u8
+#EXTINF:-1 tvg-id="პირველი არხი.ge" tvg-name="1TV" tvg-logo="https://i.imgur.com/FSkYLPK.png" group-title="Georgia",1TV
+https://tv.cdn.xsg.ge/gpb-1tv/index.m3u8
+#EXTINF:-1 tvg-name="Abkhaz" tvg-logo="https://static.mar.tv/logos/320/15.png" group-title="Georgia",Abkhaz
+http://tinyurl.com/3zje87av/abkhaz/tracks-v1a1/index.m3u8
+#EXTINF:-1 tvg-id="AjaraTV.ge" tvg-name="ADJARA TV" tvg-logo="https://app.playlistbox.com/icon/Bn6p4Ke1N5rV8ZWAvAxDl0bAWz7dvkJR.png" group-title="Georgia",Ajara
+http://tinyurl.com/3zje87av/adjara/tracks-v1a1/index.m3u8
+#EXTINF:-1 tvg-id="ახალი ფორმულა.ge" tvg-name="Akhali Formula" tvg-logo="http://tv.team/images/chIcons/2816.png" group-title="Georgia",Akhali Formula
+http://tinyurl.com/3zje87av/formula-new/tracks-v1a1/index.m3u8
+#EXTINF:-1 tvg-id="ApsuaTV.ge@SD" tvg-name="Apsua TV" tvg-logo="https://i.imgur.com/TJowroY.png" group-title="Georgia",Apsua TV
+https://gcmx3v3owcj.a.trbcdn.net/livemaster/ba7pu_fgej0zelpw.smil/playlist.m3u8?blstid=null
+#EXTINF:-1 tvg-id="ბათუმი ტვ.ge" tvg-name="Batumi TV" tvg-logo="http://tv.team/images/chIcons/1602.png" group-title="Georgia",Batumi TV
+http://tinyurl.com/3zje87av/batumitv/tracks-v1a1/index.m3u8
+#EXTINF:-1 tvg-id="BMG.ge" tvg-name="BMG TV" tvg-logo="https://i.imgur.com/vGLkTPA.png" group-title="Georgia",BMG TV
+https://tv.nucast.tv/lb/ge/bmg/index.m3u8
+#EXTINF:-1 tvg-id="BMG.ge" tvg-name="BMG TV" tvg-logo="https://i.imgur.com/vGLkTPA.png" group-title="Georgia",BMG TV (alt 2)
+http://tinyurl.com/3zje87av/bmg/tracks-v1a1/index.m3u8
+#EXTINF:-1 tvg-name="Comedy Arkhi" tvg-logo="http://tv.team/images/chIcons/1588.png" group-title="Georgia",Comedy Arkhi
+http://tinyurl.com/3zje87av/comedy/tracks-v1a1/index.m3u8
+#EXTINF:-1 tvg-id="ერთსულოვნება.ge" tvg-name="Ertsulovneba" tvg-logo="https://i.imgur.com/KuuODMM.png" group-title="Georgia",Ertsulovneba
+https://stream.sstv.ge/live/sstv/playlist.m3u8
+#EXTINF:-1 tvg-id="ერთსულოვნება.ge" tvg-name="Ertsulovneba" tvg-logo="https://i.imgur.com/KuuODMM.png" group-title="Georgia",Ertsulovneba (alt 2)
+http://tinyurl.com/3zje87av/ertsulovneba/tracks-v1a1/index.m3u8
+#EXTINF:-1 tvg-id="EuroNews.ge" tvg-name="EuroNews" tvg-logo="https://img.ge/ib/klaaZ85.png" group-title="Georgia",EuroNews (Georgia)
+https://live2.tvg.ge/eng/EURONEWSGEORGIA/playlist.m3u8
+#EXTINF:-1 tvg-id="Euronews Georgia.ge" tvg-name="Euronews Georgia" tvg-logo="https://i.imgur.com/VNJ4soR.png" group-title="Georgia",Euronews Georgia
+http://nue01-edge01.itdc.ge/euronewsgeorgia/mpegts
+#EXTINF:-1 tvg-id="filmebihd" tvg-name="FilmebiHD" group-title="Georgia",FilmebiHD
+https://fl1003.bozztv.com/ushba65/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-id="ფორმულა.ge" tvg-name="Formula" tvg-logo="https://i.imgur.com/fsqBn8G.png" group-title="Georgia",Formula
+https://c4635.cdn.xsg.ge/c4635/TVFormula/index.m3u8
+#EXTINF:-1 tvg-id="ფორმულა.ge" tvg-name="Formula" tvg-logo="https://i.imgur.com/fsqBn8G.png" group-title="Georgia",Formula (alt 2)
+http://c4635.cdn.xsg.ge/c4635/TVFormula/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-id="formula_alt" tvg-name="Formula (Playlist)" group-title="Georgia",Formula (Playlist)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://formula.ge/
+https://tv.cdn.xsg.ge/c4635/TVFormula/playlist.m3u8
+#EXTINF:-1 tvg-id="GDS HD.ge" tvg-name="GDS TV" tvg-logo="https://img.ge/i/FwC8E64.jpg" group-title="Georgia",GDS
+http://tinyurl.com/3zje87av/gdstv/tracks-v1a1/index.m3u8
+#EXTINF:-1 tvg-name="Georgian Times" tvg-logo="http://tv.team/images/chIcons/1616.png" group-title="Georgia",Georgian Times
+http://tinyurl.com/3zje87av/gttv/tracks-v1a1/index.m3u8
+#EXTINF:-1 tvg-name="Guriatv" tvg-logo="http://tv.team/images/chIcons/1597.png" group-title="Georgia",Guriatv
+http://tinyurl.com/3zje87av/guriatv/tracks-v1a1/index.m3u8
+#EXTINF:-1 tvg-id="იმედი.ge" tvg-name="Imedi TV" tvg-logo="https://i.imgur.com/94hNyxZ.png" group-title="Georgia",Imedi TV
+https://tv.cdn.xsg.ge/imedihd/index.m3u8
+#EXTINF:-1 tvg-id="იმედი.ge" tvg-name="Imedi TV" tvg-logo="https://i.imgur.com/94hNyxZ.png" group-title="Georgia",Imedi TV (alt 2)
+https://tv.cdn.xsg.ge/imedihd/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-id="იმედი.ge" tvg-name="Imedi TV" tvg-logo="https://i.imgur.com/94hNyxZ.png" group-title="Georgia",Imedi TV (alt 3)
+http://nue01-edge01.itdc.ge/imedihd/mpegts
+#EXTINF:-1 tvg-id="კავკასია.ge" tvg-name="Kavkasia" tvg-logo="http://tv.team/images/chIcons/1596.png" group-title="Georgia",Kavkasia
+http://tinyurl.com/3zje87av/caucasia/tracks-v1a1/index.m3u8
+#EXTINF:-1 tvg-id="mtkvarichannel" tvg-name="MtkvariChannel" tvg-logo="https://img2.tradewheel.com/uploads/images/products/5/3/myiptv-hot-sale-in-singapore-brunei-malaysia-indonesia-ip-tv-box-android-no-channel-include-iptv-m3u0-0045777001620640314.png.webp" group-title="Georgia",MtkvariChannel
+https://fl1004.bozztv.com/ushba-a2/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-name="O2" tvg-logo="http://tv.team/images/chIcons/2046.png" group-title="Georgia",O2
+http://tinyurl.com/3zje87av/o2/tracks-v1a1/index.m3u8
+#EXTINF:-1 tvg-id="ობიექტივი.ge" tvg-name="OBIEQTIVI" tvg-logo="https://app.playlistbox.com/icon/pYgKnX27GlDPdkZGpGoV6AOrqyjw9z1W.png" group-title="Georgia",Obieqtivi
+http://tinyurl.com/3zje87av/obiektivi/tracks-v1a1/index.m3u8
+#EXTINF:-1 tvg-name="Odishi" tvg-logo="http://tv.team/images/chIcons/1611.png" group-title="Georgia",Odishi
+http://tinyurl.com/3zje87av/odishi/tracks-v1a1/index.m3u8
+#EXTINF:-1 tvg-id="Palitra News.ge" tvg-name="Palitra News" tvg-logo="https://i.imgur.com/BW95PMF.png" group-title="Georgia",Palitra News
+https://live.palitranews.ge/hls/palitratv/index.m3u8
+#EXTINF:-1 tvg-id="Palitra News.ge" tvg-name="Palitra News" tvg-logo="https://i.imgur.com/BW95PMF.png" group-title="Georgia",Palitra News (alt 2)
+https://livestream.palitra.ge/hls/palitratv/index.m3u8
+#EXTINF:-1 tvg-id="TV პირველი.ge" tvg-name="TV PIRVELI" tvg-logo="https://img.ge/ib/th5Bd50.png" group-title="Georgia",Pirveli
+http://tinyurl.com/3zje87av/pirvelitv/tracks-v1a1/index.m3u8
+#EXTINF:-1 tvg-id="პირველი არხი.ge" tvg-name="Pirveli Arxi" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Pirveli_Arkhi_Logo_2022.svg/250px-Pirveli_Arkhi_Logo_2022.svg.png" group-title="Georgia",Pirveli Arxi
+http://nue01-edge01.itdc.ge/gpb/mpegts
+#EXTINF:-1 tvg-name="Pos TV" tvg-logo="https://img.ge/i/iOFpk30.jpg" group-title="Georgia",Pos TV
+http://tinyurl.com/3zje87av/postv/tracks-v1a1/index.m3u8
+#EXTINF:-1 tvg-id="qartulifilmebi" tvg-name="Qartuli Filmebi" group-title="Georgia",Qartuli Filmebi
+https://fl1003.bozztv.com/ushba51/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-id="qartulisimgerebi" tvg-name="Qartuli Simgerebi" group-title="Georgia",Qartuli Simgerebi
+https://fl1003.bozztv.com/ushba57/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-id="qartulibox" tvg-name="QartuliBox" group-title="Georgia",QartuliBox
+https://fl1004.bozztv.com/ushba-a4/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-id="რაგბი ტვ.ge" tvg-name="Regbi TV" tvg-logo="http://tv.team/images/chIcons/1614.png" group-title="Georgia",Regbi TV
+http://tinyurl.com/3zje87av/rtv/tracks-v1a1/index.m3u8
+#EXTINF:-1 tvg-id="რიონი.ge" tvg-name="Rioni" tvg-logo="http://tv.team/images/chIcons/2239.png" group-title="Georgia",Rioni
+http://tinyurl.com/3zje87av/rioni/tracks-v1a1/index.m3u8
+#EXTINF:-1 tvg-id="რუსთავი 2.ge" tvg-name="Rustavi 2" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Rustavi_2_logo.png/250px-Rustavi_2_logo.png" group-title="Georgia",Rustavi 2
+https://live8.mar.tv/1/4rd/index.m3u8
+#EXTINF:-1 tvg-id="რუსთავი 2.ge" tvg-name="Rustavi 2" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Rustavi_2_logo.png/250px-Rustavi_2_logo.png" group-title="Georgia",Rustavi 2 (alt 2)
+http://tinyurl.com/3zje87av/rustavi2hqnew/tracks-v1a1/index.m3u8
+#EXTINF:-1 tvg-id="რუსთავი 2.ge" tvg-name="Rustavi 2" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Rustavi_2_logo.png/250px-Rustavi_2_logo.png" group-title="Georgia",Rustavi 2 (alt 3)
+http://nue01-edge01.itdc.ge/rustavi2hqnew/mpegts
+#EXTINF:-1 tvg-name="Silk Documentary" tvg-logo="https://img.ge/i/m2OCJ45.png" group-title="Georgia",Silk Documentary
+http://tinyurl.com/3zje87av/silkdocumentary/tracks-v1a1/index.m3u8
+#EXTINF:-1 tvg-name="Silk Kids" tvg-logo="https://img.ge/i/PglkE45.png" group-title="Georgia",Silk Kids
+http://tinyurl.com/3zje87av/silkkids/tracks-v1a1/index.m3u8
+#EXTINF:-1 tvg-name="Silk Kino Holiwood" tvg-logo="https://img.ge/ib/7eSf071.png" group-title="Georgia",Silk Kino Holiwood
+http://tinyurl.com/3zje87av/silkhollywood/tracks-v1a1/index.m3u8
+#EXTINF:-1 tvg-name="Silk Sport 1" tvg-logo="https://img.ge/i/MUfwL45.png" group-title="Georgia",Silk Sport 1
+http://tinyurl.com/3zje87av/silksport1/tracks-v1a1/index.m3u8
+#EXTINF:-1 tvg-name="Silk Sport 2" tvg-logo="https://img.ge/i/cx6yP45.png" group-title="Georgia",Silk Sport 2
+http://tinyurl.com/3zje87av/silksport2/tracks-v1a1/index.m3u8
+#EXTINF:-1 tvg-name="Silk Sport 3" tvg-logo="https://img.ge/i/mPUQG45.png" group-title="Georgia",Silk Sport 3
+http://tinyurl.com/3zje87av/silksport3/tracks-v1a1/index.m3u8
+#EXTINF:-1 tvg-id="TV პირველი.ge" tvg-name="TV Pirveli" tvg-logo="https://i.imgur.com/cGHsM1x.png" group-title="Georgia",TV Pirveli
+http://nue01-edge01.itdc.ge/pirvelitv/mpegts
+#EXTINF:-1 tvg-name="TV Zari" tvg-logo="http://tv.team/images/chIcons/2242.png" group-title="Georgia",TV Zari
+http://tinyurl.com/3zje87av/tvzari/tracks-v1a1/index.m3u8
+#EXTINF:-1 tvg-id="TV 25.ge" tvg-name="MAESTRO" tvg-logo="http://troya.tv/images/chIcons/1210.png" group-title="Georgia",TV25
+http://tinyurl.com/3zje87av/tv25/tracks-v1a1/index.m3u8
+#EXTINF:-1 tvg-id="TVC.ge" tvg-name="TVC" tvg-logo="http://tv.team/images/chIcons/2240.png" group-title="Georgia",TVC (Georgia)
+http://tinyurl.com/3zje87av/comedytv/tracks-v1a1/index.m3u8
+#EXTINF:-1 tvg-name="მეცხრე არხი" tvg-logo="https://img2.tradewheel.com/uploads/images/products/5/3/myiptv-hot-sale-in-singapore-brunei-malaysia-indonesia-ip-tv-box-android-no-channel-include-iptv-m3u0-0045777001620640314.png.webp" group-title="Georgia",მეცხრე არხი
+http://tinyurl.com/3zje87av/nwbctv/tracks-v1a1/index.m3u8
+#EXTINF:-1 tvg-name="ქართული კინო 3" tvg-logo="https://img2.tradewheel.com/uploads/images/products/5/3/myiptv-hot-sale-in-singapore-brunei-malaysia-indonesia-ip-tv-box-android-no-channel-include-iptv-m3u0-0045777001620640314.png.webp" group-title="Georgia",ქართული კინო 3
+https://glb.bozztv.com/glb/ushba51/index.m3u8
+#EXTINF:-1 tvg-name="ავტორადიო" tvg-logo="https://static.myvideo.ge/media/cache/image/15091/3c7aa270-ba30-11e7-a38d-ed0d15f1809a_100x100.png" group-title="Georgia Radio",ავტორადიო
+http://tinyurl.com/3zje87av/fm-autoradio-95.1/index.m3u8
+#EXTINF:-1 tvg-name="ათინათი" tvg-logo="https://static.myvideo.ge/media/cache/image/15215/45555b10-2b79-11e8-a7df-ffaa16a1f883_100x100.png" group-title="Georgia Radio",ათინათი
+http://tinyurl.com/3zje87av/fm-atinati-105.9/index.m3u8
+#EXTINF:-1 tvg-name="არგო" tvg-logo="https://static.myvideo.ge/media/cache/image/15706/d77b8600-e9d6-11e9-8807-f5e12b771b46_100x100.png" group-title="Georgia Radio",არგო
+http://tinyurl.com/3zje87av/fm-argo-102/index.m3u8
+#EXTINF:-1 tvg-name="აფხაზეთის ხმა" tvg-logo="https://static.myvideo.ge/media/cache/image/15313/07da75d0-8443-11e8-9129-732a2765f5ca_100x100.png" group-title="Georgia Radio",აფხაზეთის ხმა
+http://tinyurl.com/3zje87av/fm-abkhazia-98.9/index.m3u8
+#EXTINF:-1 tvg-name="დარდიმანდი" tvg-logo="https://static.myvideo.ge/media/cache/image/15091/b9ac4780-ba31-11e7-83fe-a5f36d04b8e4_100x100.png" group-title="Georgia Radio",დარდიმანდი
+http://tinyurl.com/3zje87av/fm-dardimandi-97.1/index.m3u8
+#EXTINF:-1 tvg-name="თბილისი" tvg-logo="https://static.myvideo.ge/media/cache/image/15246/46d32810-47c3-11e8-aee2-33949b5b8352_100x100.png" group-title="Georgia Radio",თბილისი
+http://tinyurl.com/3zje87av/fm-tbilisi-93.5/index.m3u8
+#EXTINF:-1 tvg-name="თრიალეთი" tvg-logo="https://static.myvideo.ge/media/cache/image/15157/e6a3b2c0-f6c5-11e7-986d-73afab632a7b_100x100.png" group-title="Georgia Radio",თრიალეთი
+http://tinyurl.com/3zje87av/fm-trialeti-104.9/index.m3u8
+#EXTINF:-1 tvg-name="ობიექტივი" tvg-logo="https://static.myvideo.ge/media/cache/image/15102/22240830-c46b-11e7-b90b-cde310934900_100x100.png" group-title="Georgia Radio",ობიექტივი
+http://tinyurl.com/3zje87av/fm-obieqtivi-105.1/index.m3u8
+#EXTINF:-1 tvg-name="რადიო 4" tvg-logo="https://static.myvideo.ge/media/cache/image/15282/b3989ae0-6895-11e8-b6a8-3931e27bc2e1_100x100.png" group-title="Georgia Radio",რადიო 4
+http://tinyurl.com/3zje87av/fm-radio4-97.8/index.m3u8
+#EXTINF:-1 tvg-name="რადიო არ დაიდარდო" tvg-logo="https://static.myvideo.ge/media/cache/image/15091/84416320-ba31-11e7-ae12-db3c570c237d_100x100.png" group-title="Georgia Radio",რადიო არ დაიდარდო
+http://tinyurl.com/3zje87av/fm-ardaidardo-96.7/index.m3u8
+#EXTINF:-1 tvg-name="რადიო აჭარა" tvg-logo="https://static.myvideo.ge/media/cache/image/15245/42183020-46d8-11e8-87a5-8dc5c2399f89_100x100.png" group-title="Georgia Radio",რადიო აჭარა
+http://tinyurl.com/3zje87av/fm-adjara-104.5/index.m3u8
+#EXTINF:-1 tvg-name="რადიო ბათუმი" tvg-logo="https://static.myvideo.ge/media/cache/image/16003/bb692d40-f81c-11ea-a8c7-5f0cd5288bab_100x100.png" group-title="Georgia Radio",რადიო ბათუმი
+http://tinyurl.com/3zje87av/fm-batumi-93.7/index.m3u8
+#EXTINF:-1 tvg-name="რადიო პალიტრა" tvg-logo="https://static.myvideo.ge/media/cache/image/15102/b35890c0-c46a-11e7-95af-d512ec8e990d_100x100.png" group-title="Georgia Radio",რადიო პალიტრა
+http://tinyurl.com/3zje87av/fm-palitra-103.9/index.m3u8
+#EXTINF:-1 tvg-name="რადიო პოზიტივი" tvg-logo="https://static.myvideo.ge/media/cache/image/15766/5eceb020-20bd-11ea-883b-fb511f4b027d_100x100.png" group-title="Georgia Radio",რადიო პოზიტივი
+http://tinyurl.com/3zje87av/fm-radiopositive-104.3/index.m3u8
+#EXTINF:-1 tvg-name="რადიო სივრცე" tvg-logo="https://static.myvideo.ge/media/cache/image/16892/057fe300-2019-11ee-a126-69775613faa9_100x100.png" group-title="Georgia Radio",რადიო სივრცე
+http://tinyurl.com/3zje87av/fm-sivrce/index.m3u8
+#EXTINF:-1 tvg-name="რადიო უცნობი" tvg-logo="https://static.myvideo.ge/media/cache/image/15255/5619d580-4fa2-11e8-b27e-bba104116e2f_100x100.png" group-title="Georgia Radio",რადიო უცნობი
+http://tinyurl.com/3zje87av/fm-ucnobi-98.1/index.m3u8
+#EXTINF:-1 tvg-name="რადიო ციტრუსი" tvg-logo="https://static.myvideo.ge/media/cache/image/15676/2571fd20-ceea-11e9-872c-6f76f87c77c7_100x100.png" group-title="Georgia Radio",რადიო ციტრუსი
+http://tinyurl.com/3zje87av/fm-citrus-97.3/index.m3u8
+#EXTINF:-1 tvg-name="რადიო ძველი ქალაქი" tvg-logo="https://static.myvideo.ge/media/cache/image/15091/493c3020-ba34-11e7-be04-232427982941_100x100.png" group-title="Georgia Radio",რადიო ძველი ქალაქი
+http://tinyurl.com/3zje87av/fm-radiodk-107.9/index.m3u8
+#EXTINF:-1 tvg-name="რადიო ჯორჯიან თაიმსი" tvg-logo="https://static.myvideo.ge/media/cache/image/15829/7d147c70-596f-11ea-94c9-e79df396a0ec_100x100.png" group-title="Georgia Radio",რადიო ჯორჯიან თაიმსი
+http://tinyurl.com/3zje87av/fm-georgiantimes-92.3/index.m3u8
+#EXTINF:-1 tvg-name="ფორტუნა" tvg-logo="https://static.myvideo.ge/media/cache/image/15091/02acd6f0-ba34-11e7-9a4a-bd987d1757f8_100x100.png" group-title="Georgia Radio",ფორტუნა
+http://tinyurl.com/3zje87av/fm-radiofortuna-106.9/index.m3u8
+#EXTINF:-1 tvg-name="ფორტუნა პლუს" tvg-logo="https://static.myvideo.ge/media/cache/image/15736/89e9e990-0551-11ea-b6cf-77fe5c2f08ce_100x100.png" group-title="Georgia Radio",ფორტუნა პლუს
+http://tinyurl.com/3zje87av/fm-radiofortunaplus-103.4/index.m3u8
+#EXTINF:-1 tvg-name="ჰერეთი" tvg-logo="https://static.myvideo.ge/media/cache/image/15246/15b1b7a0-47c3-11e8-ba80-418158652275_100x100.png" group-title="Georgia Radio",ჰერეთი
+http://tinyurl.com/3zje87av/fm-hereti-102.8/index.m3u8

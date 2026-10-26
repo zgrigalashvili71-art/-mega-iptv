@@ -15,6 +15,10 @@ channel, the best one comes first and the other working copies follow as
 |---|---|
 | `ALL_WORKING_TV_V3.m3u` | The playlist: every working stream |
 | `ALL_WORKING_TV_V3_CLEAN.m3u` | Same channels, one entry each (best stream only) |
+| `ALL_WORKING_TV_V3_GEORGIA.m3u` | Georgian TV + Georgian radio only (fast to load) |
+| `ALL_WORKING_TV_V3_SPORTS.m3u` | All sports groups only |
+| `ALL_WORKING_TV_V3_GEORGIA_SPORTS.m3u` | Georgian TV/radio + all sports |
+| `config/epg_sources.txt` | TV guides matched against the channels (Georgian names transliterated) |
 | `ALL_WORKING_TV_V3_REPORT.txt` | Counts: statuses, groups, per-source results, validation, smoke test |
 | `ALL_WORKING_TV_V3_SOURCES.csv` / `.json` | Provenance per channel: source folders, successes, startup time, tvg-id, logo |
 | `ALL_WORKING_TV_V3_BACKUPS.json` | Ranked backup URLs per channel (for failover later) |
