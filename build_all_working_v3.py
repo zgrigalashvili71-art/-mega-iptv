@@ -428,7 +428,9 @@ def discover_folders(roots: list[Path], exclude: list[Path]) -> list[Path]:
         if not root.exists():
             print(f"! input not found: {root}")
             continue
-        for d in sorted([root, *[p for p in root.rglob("*") if p.is_dir()]]):
+        # case-insensitive order: Windows and Linux must scan folders identically
+        for d in sorted([root, *[p for p in root.rglob("*") if p.is_dir()]],
+                        key=lambda p: str(p).replace("\\", "/").casefold()):
             rd = d.resolve()
             if any(rd == e or e in rd.parents for e in excl):
                 continue
@@ -1529,7 +1531,7 @@ def export_health_data(folders: list[Path], roots: list[Path], dest: Path, denyl
         if rows:
             fields = list(rows[0].keys())
             with (target / "results.csv").open("w", encoding="utf-8-sig", newline="") as f:
-                w = csv.DictWriter(f, fieldnames=fields, extrasaction="ignore")
+                w = csv.DictWriter(f, fieldnames=fields, extrasaction="ignore", lineterminator="\n")
                 w.writeheader()
                 # full reason text: the try-count and failure class are parsed from it
                 w.writerows(kept)
@@ -1678,7 +1680,7 @@ def main():
             }
 
     with (out / f"{OUT_BASE}_SOURCES.csv").open("w", encoding="utf-8-sig", newline="") as f:
-        w = csv.DictWriter(f, fieldnames=list(rows[0].keys()))
+        w = csv.DictWriter(f, fieldnames=list(rows[0].keys()), lineterminator="\n")
         w.writeheader()
         w.writerows(rows)
     (out / f"{OUT_BASE}_SOURCES.json").write_text(
@@ -1707,7 +1709,8 @@ def main():
         })
     with (out / f"{OUT_BASE}_EXCLUDED.csv").open("w", encoding="utf-8-sig", newline="") as f:
         w = csv.DictWriter(f, fieldnames=["channel", "source", "url", "reason",
-                                          "observed_status", "http_code", "detail"])
+                                          "observed_status", "http_code", "detail"],
+                           lineterminator="\n")
         w.writeheader()
         w.writerows(excluded_rows)
 
@@ -1721,7 +1724,7 @@ def main():
     smoke = smoke_test(channels, args.smoke) if args.smoke > 0 else []
     if smoke:
         with (out / f"{OUT_BASE}_SMOKE.csv").open("w", encoding="utf-8-sig", newline="") as f:
-            w = csv.DictWriter(f, fieldnames=list(smoke[0].keys()))
+            w = csv.DictWriter(f, fieldnames=list(smoke[0].keys()), lineterminator="\n")
             w.writeheader()
             w.writerows(smoke)
 

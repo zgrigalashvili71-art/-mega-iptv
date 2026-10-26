@@ -1,6 +1,6 @@
 ALL WORKING TV V3 - CONSOLIDATED BUILD REPORT
 ==============================================
-Built (UTC): 2026-10-26 09:28
+Built (UTC): 2026-10-26 09:30
 Inputs: health_data
 
 TOTAL RESULT FOLDERS SCANNED         33
@@ -124,7 +124,6 @@ Channels by group
 
 Per result folder
   folder                               schema    records   urls     ok primary backup
-  KHW10530_full_v3                     V3             95     88      0       0      0
   ahyawahab_full_v3                    V3            343    334     20      16      4
   armadillo007_full_v3                 V3             90     90      0       0      0
   bhsyd_full_v3                        V3            514    498     70      70      0
@@ -136,6 +135,7 @@ Per result folder
   iptv_health_results                  V1            315    312    177     160     17
   judy_gotv_results                    V1             33     26      0       0      0
   judy_v3_full                         V3             35     28      0       0      0
+  KHW10530_full_v3                     V3             95     88      0       0      0
   mega_iptv_main_v3                    V3          21509  21509  12424    9885   2539
   my_main_three_sources_v3             V3           6300   6290   4386    4002    384
   nackson_v3_sample                    V3             44     44      0       0      0
