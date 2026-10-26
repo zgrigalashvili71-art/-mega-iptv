@@ -1,33 +1,33 @@
 ALL WORKING TV V3 - CONSOLIDATED BUILD REPORT
 ==============================================
-Built (UTC): 2026-10-26 09:15
-Inputs: IPTV_TEST
+Built (UTC): 2026-10-26 09:28
+Inputs: health_data
 
 TOTAL RESULT FOLDERS SCANNED         33
-TOTAL INPUT RECORDS               41019
-UNIQUE URLs                       33535
+TOTAL INPUT RECORDS               38738
+UNIQUE URLs                       31344
 
 URL-level status (one verdict per unique URL, all runs combined)
   HEALTHY (accepted)              14422
-  HEALTHY but policy-excluded        81
+  HEALTHY but policy-excluded         0
   FLAKY ACCEPTED                    568
-  FLAKY REJECTED                    112
-  RESTRICTED                       4312
-  OFFLINE_NOW                      8860
-  DRM                                28
-  DEAD                             4861
-  UNKNOWN                           290
+  FLAKY REJECTED                    107
+  RESTRICTED                       4150
+  OFFLINE_NOW                      7161
+  DRM                                26
+  DEAD                             4666
+  UNKNOWN                           244
 
 Policy exclusions (would have played, never published)
-  CREDENTIALS                         9
-  AUTH_REQUIRED                      73
+  CREDENTIALS                         0
+  AUTH_REQUIRED                       0
   DENYLIST                            0
   PAY_CHANNEL                         0
   INVALID_URL                         0
   DRM                                 0
   OTHER                               0
 
-DUPLICATE URL RECORDS MERGED       7484
+DUPLICATE URL RECORDS MERGED       7394
 DUPLICATE CHANNELS -> BACKUPS      3226
 DUPLICATES BEYOND BACKUP CAP          0
 UNIQUE FINAL CHANNELS             11764
@@ -124,73 +124,59 @@ Channels by group
 
 Per result folder
   folder                               schema    records   urls     ok primary backup
-  ahyawahab_full_v3                    V3            353    344     20      16      4
-  armadillo007_full_v3                 V3            108    108      0       0      0
-  bhsyd_full_v3                        V3            523    507     70      70      0
-  bhsyd_iptvnet_full_v3                V3            523    507     70      70      0
-  chingithub_v3                        V3             95     94     37      36      1
+  KHW10530_full_v3                     V3             95     88      0       0      0
+  ahyawahab_full_v3                    V3            343    334     20      16      4
+  armadillo007_full_v3                 V3             90     90      0       0      0
+  bhsyd_full_v3                        V3            514    498     70      70      0
+  bhsyd_iptvnet_full_v3                V3            514    498     70      70      0
+  chingithub_v3                        V3             78     77     37      36      1
   halasat_v3_full                      V3            120    120      0       0      0
-  idhanmario_full_v3                   V3            196    192      4       4      0
-  instatechhd_sports_full_v3           V3            228    228      0       0      0
-  iptv_health_results                  V1            317    314    177     160     17
+  idhanmario_full_v3                   V3            183    179      4       4      0
+  instatechhd_sports_full_v3           M3U_ONLY        0      0      0       0      0
+  iptv_health_results                  V1            315    312    177     160     17
   judy_gotv_results                    V1             33     26      0       0      0
   judy_v3_full                         V3             35     28      0       0      0
-  KHW10530_full_v3                     V3             95     88      0       0      0
-  mega_iptv_main_v3                    V3          21632  21632  12424    9885   2539
-  my_main_three_sources_v3             V3           6311   6301   4386    4002    384
-  nackson_v3_sample                    V3            100    100      0       0      0
-  nadjibmad_v3                         V3             34     34      0       0      0
-  nikhamidi_tvmidi_full_v3             V3            213    212      7       6      1
+  mega_iptv_main_v3                    V3          21509  21509  12424    9885   2539
+  my_main_three_sources_v3             V3           6300   6290   4386    4002    384
+  nackson_v3_sample                    V3             44     44      0       0      0
+  nadjibmad_v3                         M3U_ONLY        0      0      0       0      0
+  nikhamidi_tvmidi_full_v3             V3            205    204      7       6      1
   proefem_trftr_full_v3                V3            300    231      1       1      0
-  rolandosegundo_full_v3               V3            686    657     17      13      4
-  s3iptv_full_v3                       V3           1308   1143    179     164     15
-  semangat_pagi_full_v3                V3            256    242      6       6      0
-  senseigaga_full_v3                   V3            700    507    133     118     15
-  senseigaga_tv_results                V1             68     49     11       6      5
-  senseigaga_tv_results_run2           V1             68     49     11       6      5
-  senseigaga_tv_results_v2             V2             68     49     11       6      5
-  senseigaga_v3_binary                 V3             68     49     11       6      5
-  sni2007_wc2026_full_v3               V3            121    102      6       5      1
-  sonyliv_full_v3                      V3             22     22      0       0      0
-  sportlive18_combined_full_v3         V3           1500   1499      0       0      0
+  rolandosegundo_full_v3               V3            331    308     17      13      4
+  s3iptv_full_v3                       V3           1228   1081    179     164     15
+  semangat_pagi_full_v3                V3            234    221      6       6      0
+  senseigaga_full_v3                   V3            616    423    133     118     15
+  senseigaga_tv_results                V1             63     44     11       6      5
+  senseigaga_tv_results_run2           V1             63     44     11       6      5
+  senseigaga_tv_results_v2             V2             63     44     11       6      5
+  senseigaga_v3_binary                 V3             63     44     11       6      5
+  sni2007_wc2026_full_v3               V3             82     74      6       5      1
+  sonyliv_full_v3                      M3U_ONLY        0      0      0       0      0
+  sportlive18_combined_full_v3         V3           1493   1492      0       0      0
   toffee_full_v3                       V3             78     78      0       0      0
-  toptiviku_full_v3                    V3           2210   1815    191     176     15
-  winsports_full_v3                    V3           2482   2472   1685    1333    352
+  toptiviku_full_v3                    V3           1099    726    191     176     15
+  winsports_full_v3                    V3           2479   2469   1685    1333    352
   wmf2020_full_v3                      V3            168    168      0       0      0
 
 Exclusion reasons (unique URLs)
-  OFFLINE_NOW                      8860
-  DEAD                             4861
-  RESTRICTED                       4312
-  UNKNOWN                           290
-  FLAKY_REJECTED                    112
-  AUTH_REQUIRED                      73
-  DRM                                28
-  CREDENTIALS                         9
+  OFFLINE_NOW                      7161
+  DEAD                             4666
+  RESTRICTED                       4150
+  UNKNOWN                           244
+  FLAKY_REJECTED                    107
+  DRM                                26
 
 Observation classes (raw records)
-  HEALTHY                         19040
-  OFFLINE_NOW                     10343
-  DEAD                             5868
-  RESTRICTED                       4642
-  FLAKY_EVIDENCE                    645
-  UNKNOWN                           322
-  FLAKY_NO_EVIDENCE                 126
-  DRM                                33
+  HEALTHY                         18943
+  OFFLINE_NOW                      8609
+  DEAD                             5650
+  RESTRICTED                       4465
+  FLAKY_EVIDENCE                    644
+  UNKNOWN                           275
+  FLAKY_NO_EVIDENCE                 121
+  DRM                                31
 
 M3U VALIDATION: PASSED
-
-FINAL SMOKE TEST (ffprobe, this machine): 50/60 primary URLs answered
-  fail: World Poker Tour (UK) [Other Sports] - timeout
-  fail: Pluto TV Competition [Sports] - timeout
-  fail: Sport Digital [Sports] - entral-1.amazonaws.com/v1/master/81bfcafb76f9c947b24574657a9ce7fe14ad75c0/live-prod/2d9202
-  fail: Azteca Deportes Premium [Sports] - timeout
-  fail: Russian Extreme Ultra [Sports] - [tcp @ 0000025afb680a40] Connection to tcp://46.53.200.153:7777 failed: Error number -138 
-  fail: Combate Global MMA [Combat Sports] - timeout
-  fail: ESPN [Sports] - timeout
-  fail: ABC Kids [Kids] - timeout
-  fail: TV Barrandov [International | Czechia] - http://88.212.15.17/live/test_barrandov/playlist.m3u8: Server returned 404 Not Found
-  fail: Ray TV [Entertainment] - https://streaming.tvnepal.com:19360/raynewsdaily/480p.m3u8: Server returned 404 Not Found
 
 Rules
   Accepted = V3 WORKING_NOW (2/3 ffprobe+5s ffmpeg playback), V1/V2 HEALTHY,
