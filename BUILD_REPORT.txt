@@ -1,6 +1,6 @@
 MEGA IPTV V2 BUILD REPORT
 =========================
-IPTV-ORG WORLD: added=11373, duplicate_urls_skipped=0
+IPTV-ORG WORLD: added=11376, duplicate_urls_skipped=0
 FREE-TV: added=1351, duplicate_urls_skipped=696
 PUBLIC-IPTV: added=33, duplicate_urls_skipped=75
 GEORGIA EXTRA: added=53, duplicate_urls_skipped=17
@@ -13,4 +13,4 @@ TUBI LIVE TV: added=180, duplicate_urls_skipped=1
 XUMO FAST: added=435, duplicate_urls_skipped=0
 LOCAL NOW: added=447, duplicate_urls_skipped=0
 
-TOTAL UNIQUE STREAM URLS: 21724
+TOTAL UNIQUE STREAM URLS: 21727
