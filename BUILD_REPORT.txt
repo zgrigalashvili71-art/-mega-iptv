@@ -8,9 +8,9 @@ FAST TV EXTRA: added=617, duplicate_urls_skipped=1
 PLUTO TV GLOBAL: added=1478, duplicate_urls_skipped=1561
 PLEX TV GLOBAL: added=2875, duplicate_urls_skipped=0
 SAMSUNG TV PLUS GLOBAL: added=2655, duplicate_urls_skipped=10
-ROKU CHANNEL: added=255, duplicate_urls_skipped=1
-TUBI LIVE TV: added=182, duplicate_urls_skipped=1
+ROKU CHANNEL: added=250, duplicate_urls_skipped=1
+TUBI LIVE TV: added=174, duplicate_urls_skipped=1
 XUMO FAST: added=433, duplicate_urls_skipped=0
 LOCAL NOW: added=447, duplicate_urls_skipped=0
 
-TOTAL UNIQUE STREAM URLS: 21785
+TOTAL UNIQUE STREAM URLS: 21772
