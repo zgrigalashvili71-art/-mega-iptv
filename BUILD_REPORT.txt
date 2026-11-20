@@ -11,6 +11,6 @@ SAMSUNG TV PLUS GLOBAL: added=2652, duplicate_urls_skipped=9
 ROKU CHANNEL: added=257, duplicate_urls_skipped=1
 TUBI LIVE TV: added=182, duplicate_urls_skipped=1
 XUMO FAST: added=437, duplicate_urls_skipped=0
-LOCAL NOW: added=542, duplicate_urls_skipped=0
+LOCAL NOW: FAILED - <urlopen error timed out>
 
-TOTAL UNIQUE STREAM URLS: 22262
+TOTAL UNIQUE STREAM URLS: 21720
