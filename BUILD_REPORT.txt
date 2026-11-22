@@ -1,9 +1,9 @@
 MEGA IPTV V2 BUILD REPORT
 =========================
-IPTV-ORG WORLD: added=11566, duplicate_urls_skipped=0
-FREE-TV: added=1382, duplicate_urls_skipped=815
+IPTV-ORG WORLD: added=11511, duplicate_urls_skipped=0
+FREE-TV: added=1383, duplicate_urls_skipped=814
 PUBLIC-IPTV: added=35, duplicate_urls_skipped=73
-GEORGIA EXTRA: added=54, duplicate_urls_skipped=16
+GEORGIA EXTRA: added=58, duplicate_urls_skipped=12
 FAST TV EXTRA: added=617, duplicate_urls_skipped=1
 PLUTO TV GLOBAL: added=1677, duplicate_urls_skipped=1434
 PLEX TV GLOBAL: added=2890, duplicate_urls_skipped=0
@@ -13,4 +13,4 @@ TUBI LIVE TV: FAILED - HTTP Error 404: Not Found
 XUMO FAST: added=437, duplicate_urls_skipped=0
 LOCAL NOW: FAILED - <urlopen error timed out>
 
-TOTAL UNIQUE STREAM URLS: 21582
+TOTAL UNIQUE STREAM URLS: 21532
