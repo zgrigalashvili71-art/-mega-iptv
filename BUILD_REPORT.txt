@@ -8,9 +8,9 @@ FAST TV EXTRA: added=617, duplicate_urls_skipped=1
 PLUTO TV GLOBAL: added=1677, duplicate_urls_skipped=1434
 PLEX TV GLOBAL: added=2890, duplicate_urls_skipped=0
 SAMSUNG TV PLUS GLOBAL: added=2667, duplicate_urls_skipped=9
-ROKU CHANNEL: added=257, duplicate_urls_skipped=1
+ROKU CHANNEL: added=258, duplicate_urls_skipped=1
 TUBI LIVE TV: FAILED - HTTP Error 404: Not Found
 XUMO FAST: added=437, duplicate_urls_skipped=0
 LOCAL NOW: FAILED - <urlopen error timed out>
 
-TOTAL UNIQUE STREAM URLS: 21532
+TOTAL UNIQUE STREAM URLS: 21533
