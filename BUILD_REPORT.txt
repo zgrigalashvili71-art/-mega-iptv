@@ -5,12 +5,12 @@ FREE-TV: added=1391, duplicate_urls_skipped=806
 PUBLIC-IPTV: added=36, duplicate_urls_skipped=72
 GEORGIA EXTRA: added=58, duplicate_urls_skipped=12
 FAST TV EXTRA: added=617, duplicate_urls_skipped=1
-PLUTO TV GLOBAL: added=1678, duplicate_urls_skipped=1434
+PLUTO TV GLOBAL: added=1677, duplicate_urls_skipped=1434
 PLEX TV GLOBAL: added=2890, duplicate_urls_skipped=0
 SAMSUNG TV PLUS GLOBAL: added=2667, duplicate_urls_skipped=9
-ROKU CHANNEL: added=254, duplicate_urls_skipped=1
-TUBI LIVE TV: added=175, duplicate_urls_skipped=2
-XUMO FAST: added=437, duplicate_urls_skipped=0
+ROKU CHANNEL: added=256, duplicate_urls_skipped=1
+TUBI LIVE TV: added=177, duplicate_urls_skipped=2
+XUMO FAST: added=438, duplicate_urls_skipped=0
 LOCAL NOW: FAILED - <urlopen error timed out>
 
-TOTAL UNIQUE STREAM URLS: 21675
+TOTAL UNIQUE STREAM URLS: 21679
